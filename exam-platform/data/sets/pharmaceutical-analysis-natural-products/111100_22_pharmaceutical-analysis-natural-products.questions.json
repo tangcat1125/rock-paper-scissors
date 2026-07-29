@@ -1,0 +1,766 @@
+{
+  "setId": "111100_22_pharmaceutical-analysis-natural-products",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutical-analysis-natural-products",
+  "subjectTitle": "Pharmaceutical Analysis and Natural Products",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\111100_q22_pharmaceutical-analysis-natural-products.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\111100_mod22_pharmaceutical-analysis-natural-products.pdf"
+  ],
+  "questionCount": 74,
+  "answerCount": 74,
+  "parseWarnings": [
+    "Question 78: Could not parse options for question 78"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列何者不能用無水滴定法進行含量测定？",
+      "options": {
+        "A": "prednisolone",
+        "B": "L-DOPA",
+        "C": "codeine",
+        "D": "phenobarbital"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "下列何者最不適合以非水酸滴定法分析？",
+      "options": {
+        "A": "codeine",
+        "B": "chlorpromazine",
+        "C": "acetaminophen",
+        "D": "sodium benzoate"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "以酸滴定分析1.0M乙水杨酸溶液之含量時，下列何種指示劑较不適用？",
+      "options": {
+        "A": "cresol red pKa 8.3",
+        "B": "chlorophenol blue pKa 6.0",
+        "C": "methyl orange pKa 3.4",
+        "D": "phenolphthalein pKa 9.4"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "下列何者為费氏（KarlFischer）試劑之組成？",
+      "options": {
+        "A": "iodide、sulfur dioxidepyridinemethanol",
+        "B": "iodide、sulfuric acid 、imidazole、methanol",
+        "C": "iodine sulfur dioxide pyridine methanol",
+        "D": "iodine sulfuric acid imidazole methanol"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "有關檸檬酸金鹽分析之叙述，下列何者錯？",
+      "options": {
+        "A": "可將樣品織灼成金之氧化物和碳酸鹽",
+        "B": "将灼後所形成之碳酸鹽以直接滴定法测定",
+        "C": "可用過氯酸之非水滴定法测定",
+        "D": "使用非水滴定法测定不需预先將樣品灼"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "關於滴定分析法之叙述，下列何者正確？",
+      "options": {
+        "A": "標液之消耗量最好為10～20mL",
+        "B": "滴定液之當量濃度最好超過樣品溶液",
+        "C": "滴定有機酸時，以甲基紅當指示劑",
+        "D": "通常進行空白試驗校正"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "中華藥典中有關含量测定之品取量，若叙述為「精確取量約250mg」；则下列取量何者不當？",
+      "options": {
+        "A": "226.5 mg",
+        "B": "250.0 mg",
+        "C": "265.2 mg",
+        "D": "278.3 mg"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "中華藥典記載的甲氧基测定係以滴定法進行，其步包括加人氢碘酸（hydroiodic acid）煮沸生成碘甲烷",
+      "options": {
+        "A": "過锰酸钾溶液",
+        "B": "硫代硫酸钠溶液",
+        "C": "氯化钠溶液",
+        "D": "過氯酸之乙酸溶液"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "某有機酸在乙醚及水中之分配係數為4（C乙醚/C水=4），若1.5%之此有機酸水溶液100 mL以等容积乙醚萃 取，则有多少毫克的有機酸仍留在水層？",
+      "options": {
+        "A": "0.3",
+        "B": "1.2",
+        "C": "300",
+        "D": "12000"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "關於生物的分析試劑與其主成分之配對，下列何者正確？",
+      "options": {
+        "A": "Valser's reagent— mercuric chloride",
+        "B": "Wagner's reagent—- mercuric iodide",
+        "C": "Mayer's reagent-— mercuric potassium iodide",
+        "D": "Liebermann reagent — iodine solution"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "利用下列何種質譜分析儀可進行MS?之質譜分析？",
+      "options": {
+        "A": "雙聚焦磁场式（double focusing magnetic sector）",
+        "B": "離子阱（ion trap）",
+        "C": "飛行時間（timeofflight）",
+        "D": "三段式四極柱（triple quadrupole）"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "Aspirin之氢核磁共振譜如下圖；約在8.0ppm的氢訊號為下列何者？ COOH A OOCCH3 8.0 7.0 CDOH TMS 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0 ppm",
+      "options": {
+        "A": "1 180° octet",
+        "B": "2 45° doublet of septet",
+        "C": "3 90° septet",
+        "D": "4 60° H2N——CH-C-OH CH- CH3 CH3 sextet"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "關於旋光度測量之叙述，下列何者錯？",
+      "options": {
+        "A": "光源常使用纳燈",
+        "B": "使用Nicolprism做為光極化物質",
+        "C": "温度和溶劑對分析结果影響大",
+        "D": "非光學活性物質亦有極化現象"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "關於紫外光微分光譜的叙述，下列何者錯？",
+      "options": {
+        "A": "本技術懂適用於簡單的光譜分析",
+        "B": "微分的主要作用是去除underlying broad absorption band",
+        "C": "一次微分光譜的最高處位在原光譜的斜率最大處",
+        "D": "二次微分光譜的最低處是相對於原光譜的最大吸收處"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "關於UV-Vis光譜法的應用，下列何者最不適合？",
+      "options": {
+        "A": "溶離度試驗",
+        "B": "藥品主成分含量测定",
+        "C": "pKa测定",
+        "D": "官能基定"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "以UV分析相同濃度的phenylephrine時；在0.1MHCl及0.1MNaOH中测得之最大吸收處的波長分别為273、 292nm；吸光值（A）分别為110、182。在性溶液中造成之差巽係因下列何種現象產生？ OH H HO CH3",
+      "options": {
+        "A": "hyperchromic and bathochromic shifts",
+        "B": "hypochromic and hypsochromic shifts",
+        "C": "hyperchromic and hypsochromic shifts",
+        "D": "hypochromic and bathochromic shifts"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "進行抗體藥物品管時，下列質譜游離法何者最適當？",
+      "options": {
+        "A": "電子撞撃游離法（electronimpactionization,EI）",
+        "B": "正離子化學游離法（positive ion chemicalionization,PICI）",
+        "C": "常壓化學游離法（atmospheric pressure chemicalionization,APCI）",
+        "D": "電游離法（electrospray ionization,ESI）"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "有關拉曼光譜法之叙述，下列何者錯？",
+      "options": {
+        "A": "人射光與侦测光之方向相互垂直",
+        "B": "分析物须具備良好的發色基（chromophore）",
+        "C": "使用近红外光（near-IR）區光源激發可避免光干",
+        "D": "所测之訊號為散射光"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "中華藥典有關折光率测定之叙述，下列何者錯？",
+      "options": {
+        "A": "物質折光率（n）通常係指光線在空氣中與在該物質中之速度比",
+        "B": "折光率不受温度影響",
+        "C": "测定時至少量测三次，求其平均值",
+        "D": "折光率测定可用於别藥物之純度"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "下列關於近紅外光分析（near-infrared analysis,NIRA）之叙述，何者錯？",
+      "options": {
+        "A": "可测定品之颗粒大小",
+        "B": "可测藥品之拌均匀度",
+        "C": "可测定製劑中的活性成分",
+        "D": "係破壤性的藥品多形體检测法"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "有關光測定法之叙述，下列何者錯？",
+      "options": {
+        "A": "品濃度不應太高",
+        "B": "溶液含氯離子時，會降低光強度",
+        "C": "测温度與光強度有關",
+        "D": "在caffeine存在時，riboflavin的光強度會增強"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "下圖是何種儀器之装置示意圖？ Flame cell Monochromator Detector Hollowcathode lamp Sample 0.213 Readout",
+      "options": {
+        "A": "紫外光一可见光光譜儀",
+        "B": "光光譜儀",
+        "C": "原子吸收光譜儀",
+        "D": "红外光光譜儀"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "下列質譜的離子化方法中，何者最不易提供化合物之分子量？",
+      "options": {
+        "A": "chemicalionization",
+        "B": "electrospray ionization",
+        "C": "fast atom bombardment ionization",
+        "D": "electron impact ionization"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "使用固相微萃取法（solid-phase microextraction,SPME）萃取尿液中的ketamine，再用GC-MS進行定量；下列 叙述何者錯？",
+      "options": {
+        "A": "SPME的設計只適用於J顶空萃取 UPLC管柱充填物之粒径较大",
+        "B": "可以加人衍生化步增加ketamine的發性 同管柱長度下，UPLC有较大的理板數",
+        "C": "polydimethylsiloxane為常用的親脂性SPME吸附材質 UPLC系統需要较大的浦壓力",
+        "D": "SPME通常搭配热脱附法進樣於GC-MS 時，下列叙述何者錯？ UPLC具更高的工作效率"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "在分析確效（validation）中，回收率（recovery）與下列何者有關？",
+      "options": {
+        "A": "accuracy",
+        "B": "precision",
+        "C": "linearity",
+        "D": "system suitability"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "下列有關氣相層析法之叙述，何者正確？",
+      "options": {
+        "A": "具高分辨率之優點",
+        "B": "只能在常温下测量氣態物質",
+        "C": "火焰離子化测器對有機卤素化合物具有高性",
+        "D": "GC-MS適用於分析高分子化合物"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "在矽膠層析中，以二氯甲烷（A）與正己烷（B）混合溶媒為移動相；在下列何種體积比例（A：B）下，移 動相之極性最大？",
+      "options": {
+        "A": "10 : 1",
+        "B": "2 : 1",
+        "C": "1: 2",
+        "D": "1 : 10"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "C6H5CH2COOH如以離子對－逆相層析分離法進行分析定量時，移動相加人下列何者；其滞留時間最长？",
+      "options": {
+        "A": "C/H15SO3",
+        "B": "(CH3)4N+",
+        "C": "(C4H9)4N+",
+        "D": "Cr"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "於連續测活體動物腦中dopamine濃度時，結合下列何種技術最適合？",
+      "options": {
+        "A": "超臨界流體萃取",
+        "B": "微透析",
+        "C": "固相萃取",
+        "D": "液相－液相分配"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "以毛细管電泳分析法分析中性類固醇混合物時，下列何種分離條件最適合？",
+      "options": {
+        "A": "5mMpH8.0磷酸缓衡溶液",
+        "B": "5mMpH7.5磷酸缓衡溶液；内含0.05mMsodiumdodecyl sulphate",
+        "C": "5mMpH8.0硼酸缓衡溶液；内含0.01mMβ-cyclodextrin",
+        "D": "5mMpH7.5硼酸缓衡溶液；内含10%甲醇"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "在液相層析中，下列何项参數不受層析管長度影響？",
+      "options": {
+        "A": "理板數",
+        "B": "理板高（HETP）",
+        "C": "滞留時間",
+        "D": "解析度（Rs）"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "下列何者是液相層析法中，產生波峰變寬的原因？",
+      "options": {
+        "A": "在動相中，待测物的散係數愈小 2 : 1",
+        "B": "靜相颗粒愈小，形状愈规则 1 : 1",
+        "C": "静相被覆愈薄且均匀 1 : 2",
+        "D": "流速愈慢 留時間（retentiontime）最長？ 1 : 3"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "探用氣相層析法测定乙醇含量，下列叙述何者錯？",
+      "options": {
+        "A": "常用20%聚乙二醇400（PEG400）為固定相",
+        "B": "常用氮氣或氮氣為行氣體",
+        "C": "常用乙醚當做内部標品",
+        "D": "所测得之值鹰在雨種標乙醇溶液濃度之間"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "下列何種方法最適合用於發性化合物的分析？",
+      "options": {
+        "A": "高效液相層析法",
+        "B": "毛细管電泳法",
+        "C": "氯相層析法",
+        "D": "薄層層析法"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "有關supercriticalfluidextraction的特點，下列何者錯？",
+      "options": {
+        "A": "溶劑強度可藉調整萃取槽中的壓力而改變",
+        "B": "不適用於不安定化合物的萃取",
+        "C": "CO2為常用萃取溶媒",
+        "D": "萃取速度快"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "籍由離子進人磁場後產生不同偏移半径而分離之質量分析器（mass analyzer）為下列何者？",
+      "options": {
+        "A": "magnetic sector",
+        "B": "quadrupole",
+        "C": "ion trap",
+        "D": "time of flight"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "下列有關瓜爾膠（guar gum）和刺槐豆膠（locust bean gum）之叙述，何者錯？",
+      "options": {
+        "A": "二者的製造都是將種子的外胚乳磨碎而得的產物",
+        "B": "植物基原皆豆科",
+        "C": "皆增稠劑（thickener）",
+        "D": "二者皆含galactomannan"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "下列何者之主成分非heteroglycans?",
+      "options": {
+        "A": "acacia",
+        "B": "agar",
+        "C": "carrageenan",
+        "D": "potato starch"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "Digitoxin經過水解後可產生之類為下列何者？",
+      "options": {
+        "A": "6-deoxy-D-glucopyranose",
+        "B": "2,6-dideoxy-β-D-ribo-hexo-pyranose",
+        "C": "2,6-dideoxy-3-O-methyl-ribo-hexose",
+        "D": "6-deoxy-L-mannopyranose"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "下列何種糖苷於C-glycoside?",
+      "options": {
+        "A": "sennoside A",
+        "B": "aloin B",
+        "C": "glycyrrhizin",
+        "D": "prunasin"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "GlucofrangulinA（如下圖）結構中，葡萄糖基是接在苷元的那一個位置？ OH O-glc rha-O CH3",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "6",
+        "D": "9"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "下列何種生藥中所含的蒽醒苷（anthraquinone glycoside）主成分；其结構不含羧基（carboxyl）？",
+      "options": {
+        "A": "cochineal",
+        "B": "senna",
+        "C": "rhubarb",
+        "D": "cascara sagrada"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "Glycyrrhizin是於五環三類中的那一型结構？",
+      "options": {
+        "A": "α-amyrin",
+        "B": "β-amyrin",
+        "C": "lupane",
+        "D": "dammarane"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "野樱樹皮用於咳嗽製劑，其所含野樱苷（prunasin）於下列何類成分？",
+      "options": {
+        "A": "isothiocyanate glycoside",
+        "B": "cyanogenic glycoside",
+        "C": "anthraquinone glycoside",
+        "D": "flavonoid glycoside"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "下列橄油（olive oil）製品中何者具有最高酸價（acidvalue）？",
+      "options": {
+        "A": "technical oil",
+        "B": "tournant oil",
+        "C": "virgin olive oil",
+        "D": "sulfur olive oil"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "中藥栀子活性成分geniposide（结構如圖示）於下列何類化合物？ H OH HO OH 'OH OH",
+      "options": {
+        "A": "monoterpene glycoside",
+        "B": "secoiridoid glycoside",
+        "C": "sesquiterpene glycoside",
+        "D": "diterpene glycoside"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "Coleusforskohli含forskolin，其植物科别為何？",
+      "options": {
+        "A": "Apiaceae",
+        "B": "Lamiaceae",
+        "C": "Asteraceae",
+        "D": "Valerianaceae"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "何種香膠（balsam）具收敛作用，可治痔（hemorrhoids）？",
+      "options": {
+        "A": "storax",
+        "B": "Peruvian balsam",
+        "C": "Tolu balsam",
+        "D": "benzoin"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "下列藥用植物與其所科别之配對，何者錯？",
+      "options": {
+        "A": "Echinacea angustifolia—Asteraceae",
+        "B": "Silybummarianum-Labiatae",
+        "C": "Foeniculumvulgare-Apiaceae",
+        "D": "Hamamelis virginiana—Hamamelidaceae"
+      }
+    },
+    {
+      "number": 54,
+      "stem": "Lignans與neolignans為下列那一類化合物的雙聚體（dimer）？",
+      "options": {
+        "A": "coumarin",
+        "B": "gallic acid",
+        "C": "mevalonic acid",
+        "D": "phenylpropanoid"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "下列有關rutin的叙述，何者錯？",
+      "options": {
+        "A": "属於flavonoid類化合物",
+        "B": "又vitaminK",
+        "C": "可強化微血管之通透性（permeability）",
+        "D": "豆科Sophora植物含量豐富"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "秘鲁香膠（Perubalsam）基原植物Myroxylonpereirae之科别為何？",
+      "options": {
+        "A": "蔷薇科",
+        "B": "豆科",
+        "C": "形科",
+        "D": "橄榄科"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "下列何者為Betulalenta樹皮之主成分？",
+      "options": {
+        "A": "methyl salicylate",
+        "B": "pinene",
+        "C": "thymol",
+        "D": "eugenol"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "下列何者不是nicotine生合成的前物或中間體？",
+      "options": {
+        "A": "quinic acid",
+        "B": "quinolinic acid",
+        "C": "nicotinic acid",
+        "D": "ornithine"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "Stramonium成熟種子所含之主要生物為何？",
+      "options": {
+        "A": "hyoscyamine",
+        "B": "scopolamine",
+        "C": "atropine",
+        "D": "tropine"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "金雞納樹皮之水溶液加溴試液及氨試液即呈翠色；代表含有quinine及quinidine生物；此驗方法為：",
+      "options": {
+        "A": "thalleioquin test",
+        "B": "Dragendorff's test",
+        "C": "Mayer's test",
+        "D": "Fehling's test"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "下列生藥與其作用之配對，何者錯？",
+      "options": {
+        "A": "areca－",
+        "B": "pomegranate－墨",
+        "C": "lobelia－催吐",
+        "D": "pilocarpus－散瞳"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "經生合成研究證實，下列何者非caffeine所含氮原子之來源？",
+      "options": {
+        "A": "aspartic acid",
+        "B": "glutamine",
+        "C": "glycine",
+        "D": "serine"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "下列何者為colchicine生合成之前物？",
+      "options": {
+        "A": "lysine 、 aspartic acid",
+        "B": "ornithine mevalonic acid",
+        "C": "phenylalanine tyrosine",
+        "D": "tryptophan 丶 secologanin"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "下列何者與quinine之生合成無關？",
+      "options": {
+        "A": "經由monoterpenoid-tryptophanpathway",
+        "B": "secologanin為其前物之一",
+        "C": "經重排形成quinuclidinering",
+        "D": "具N-methylpyrrolinium ion之中間體"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "下列何種中藥其主成分含多類及sibiricosides？",
+      "options": {
+        "A": "大",
+        "B": "門冬",
+        "C": "知母",
+        "D": "黄精"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "下列何者於補陽類中藥且源自於真菌類？",
+      "options": {
+        "A": "天麻",
+        "B": "冬夏草",
+        "C": "肉蓉",
+        "D": "鎖陽"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "下列中藥何者之生藥拉丁名為OphiopogonisRadix？",
+      "options": {
+        "A": "門冬",
+        "B": "木通",
+        "C": "鎖陽",
+        "D": "遠志"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "下列何種中藥具有抑制立即性過敏反（immediate-type allergic reaction）與過敏性休克（anaphylatic shock） 的作用？",
+      "options": {
+        "A": "牡丹皮",
+        "B": "夏枯草",
+        "C": "何首烏",
+        "D": "山茱萸"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "中藥白芷之主成分不含下列何者？",
+      "options": {
+        "A": "volatile oils",
+        "B": "flavonoids",
+        "C": "coumarins",
+        "D": "furocoumarins"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "有關中藥何首鳥之叙述，下列何者錯？",
+      "options": {
+        "A": "基原為蓼科植物Polygonummultiflorum",
+        "B": "以塊人藥",
+        "C": "性微温，味苦、甘、涩",
+        "D": "主成分anthraquinone類，生用能潤腸通便"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "中藥知母之基原植物科别為何？",
+      "options": {
+        "A": "Labiatae",
+        "B": "Liliaceae",
+        "C": "Orchidaceae",
+        "D": "Apiaceae"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "下列中藥何者不含berberine？",
+      "options": {
+        "A": "黄柏 丹参",
+        "B": "黄耆 升麻",
+        "C": "黄連 葛根",
+        "D": "黄皮樹 柴胡"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "下列解表中藥，何者藥用部位為「完全成長之未開放的花蕾」？",
+      "options": {
+        "A": "Nepeta tenuifolia",
+        "B": "Perillafrutescens",
+        "C": "Magnolia biondi",
+        "D": "Zingiber officinale"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "下列補氣中藥；何者之活性成分於cycloartane type triterpenoid（如圖）？ HC H CH CH H CH; CH HO HCCH",
+      "options": {
+        "A": "人参",
+        "B": "山藥",
+        "C": "大",
+        "D": "黄耆"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "下列何種中藥之基原植物於形科，其藥效為辛凉解表、和解表裹？",
+      "options": {
+        "A": "麻黄",
+        "B": "柴胡",
+        "C": "葛根",
+        "D": "升麻"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "精油、基原植物與其所科别之配對，下列何者正確？",
+      "options": {
+        "A": "Cinnamonoil-Cinnamomumcassia-Lauraceae",
+        "B": "Fennel oil—Foeniculum vulgare—Araliaceae",
+        "C": "Peppermint oil—Mentha piperita—Piperaceae",
+        "D": "Turpentine oil— Pinus palustris— Taxaceae"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "活血祛瘀藥益母草（LeonuriHerba）所含生物stachydrine（結構如圖示）於下列何類结構的衍生物？ COO Stachydrine",
+      "options": {
+        "A": "quinoline",
+        "B": "pyrrolidine",
+        "C": "pyridine-piperidine",
+        "D": "purine"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "下列何者為罂粟科之中藥？",
+      "options": {
+        "A": "石斛",
+        "B": "延胡索",
+        "C": "黄柏",
+        "D": "苦参"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 15
+  },
+  "referenceGroupId": "pharmaceutical-analysis-natural-products",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-analysis-natural-products\\111100_22_pharmaceutical-analysis-natural-products.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-analysis-natural-products\\111100_22_pharmaceutical-analysis-natural-products.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

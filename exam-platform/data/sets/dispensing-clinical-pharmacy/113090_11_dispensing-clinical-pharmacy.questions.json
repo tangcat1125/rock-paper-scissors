@@ -1,0 +1,609 @@
+{
+  "setId": "113090_11_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113090_q11_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113090_mod11_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 58,
+  "answerCount": 58,
+  "parseWarnings": [
+    "Question 16: Could not parse options for question 16",
+    "Question 36: Could not parse options for question 36",
+    "Question 39: Could not parse options for question 39",
+    "Question 49: Could not parse options for question 49"
+  ],
+  "questions": [
+    {
+      "number": 2,
+      "stem": "下列何者不是藥品製劑常用之plasticizer?",
+      "options": {
+        "A": "glycerin hostcellDNA-會降解目標蛋白質",
+        "B": "triacetin virusesandprions－會造成感染",
+        "C": "titanium dioxide endotoxins-可能引[起發燒",
+        "D": "propylene glycol lipids-增加黏稠度"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "有關玻璃包材之叙述，下列何者正確？",
+      "options": {
+        "A": "為中性材質，不會出酸或，影響容器内藥品",
+        "B": "typeIglass於soda-lime-silicaglass’常用於包装注射用粉劑",
+        "C": "typeⅢglass於borosilicateglass’為最穩定的玻璃包材",
+        "D": "typeⅡglass一般不用於包装pH<7之注射製劑"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "有關suspensions之叙述，下列何者錯？",
+      "options": {
+        "A": "tragacanthnaturalpolysaccharides類的悬浮劑",
+        "B": "gelatin可用作浮劑及增稠劑",
+        "C": "不须添加防腐劑於suspensions中",
+        "D": "suspensions使用前必须振摇混匀"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "注射劑瓶身的標示有確保用藥安全之目的，下列何者不是必要项目？",
+      "options": {
+        "A": "藥品名",
+        "B": "主成分含量",
+        "C": "存條件及有效期限",
+        "D": "製造廠地址"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "外用半固體劑型之包装常探用塑膠软管，下列叙述何者錯？",
+      "options": {
+        "A": "软膏管開口较小，方便適量取用 20~25",
+        "B": "不透明的塑膠软管可降低藥品接空氯的機會，而且可以避光 <8",
+        "C": "塑膠材質包材有被染色的可能 8~15",
+        "D": "塑膠软管會出金離子，影響藥品安定性 2~8"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "若藥廠標示的有效期限仍有二年，在缺乏個别藥品或調製品之安定性資料的情况下，依照USP通则，經臨場調 製（extemporaneouscompounding）後；下列各類製劑之使用期限（beyond-use date），何者最適當？",
+      "options": {
+        "A": "口服膠囊在適當保存温度下：180天 疫苗、血液製劑應舆一般藥品放置於專用冰箱冷藏，依规定標示及保存",
+        "B": "口服液劑在室温下：60天 對於已變質或已過保存期限的藥品，應予標示明顯區隔置放",
+        "C": "無菌注射劑在冷藏下：7天 社區藥局的處方藥不得以開架式陳列",
+        "D": "不含防腐劑之外用乳劑在室温下：90天 藥品專用冷藏冰箱，其内應置温度計亚保持整潔"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "有關藥品庫存周轉率（inventory-turnoverrate，ITOR）之叙述，下列何者錯？",
+      "options": {
+        "A": "减少藥品库存可提高ITOR",
+        "B": "增加藥品使用量可提高ITOR",
+        "C": "ITOR過高，易造成病人到藥局领不到藥品",
+        "D": "ITOR愈低，進貨次愈高"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "下列缩寫何者不是外用劑型？",
+      "options": {
+        "A": "past.",
+        "B": "ung.",
+        "C": "lot.",
+        "D": "troch."
+      }
+    },
+    {
+      "number": 13,
+      "stem": "欲以45%與95%酒精配製成1，000mL之75%酒精溶液，须量取多少mL之45%酒精？",
+      "options": {
+        "A": "300",
+        "B": "400",
+        "C": "500",
+        "D": "600"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "一般血液isotonicsolution的冰點（freezingpoint）為多少℃？",
+      "options": {
+        "A": "-0.52",
+        "B": "-0.90",
+        "C": "-1.86",
+        "D": "-3.72"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "有waterforinjection（WFI）之叙述，下列何者錯？",
+      "options": {
+        "A": "是經distillation或等效於蒸的過程purified而來，能去除化學物質和微生物",
+        "B": "應以確保purity和無endotoxins的方式進行製備和存",
+        "C": "總有機碳（totalorganiccarbon，TOC）的含量≤500ppb",
+        "D": "bacteriostaticWFI可包装於50mL的容器中，含有一種或多種合適的抗菌劑"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "有關靜胍營養（PN）的供發症refeedingSyndrome，下列叙述何者錯？",
+      "options": {
+        "A": "常見臨床特微包括血清phosphate丶potassium和magnesium濃度重且迅速下降，液體滞留，以及其他 micronutrients缺乏",
+        "B": "危险因子包括先前體型過瘦、重營養不良、體重大幅下降，接受極營養補充的病人",
+        "C": "有refeedingsyndrome風的成年病人，建初始PN提供的nonproteincalories為計算需求量的25%～ 50%",
+        "D": "有refeedingsyndrome風的成年病人，建dextrose初始劑量約為100～200g/day"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "Opioid-naive的病人，其fentanylpatient-controlledanalgesia處方不建包含以下那一？",
+      "options": {
+        "A": "total volume genotoxicity",
+        "B": "maximum dose/hour carcinogenicity，teratogenicity,or developmental toxicity",
+        "C": "lockout interval reproductivetoxicityinhumans",
+        "D": "basal dose organ toxicity at high dose in humans or animals"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "有關術後patient-controlledanalgesia（PCA），下列何者是必要條件?",
+      "options": {
+        "A": "術後需要短時間（1小時内）的止痛者",
+        "B": "心智能力可以理解使用自控按者",
+        "C": "之前没有藥物用者",
+        "D": "有家照顧者"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "有關insulininjection之叙述，下列何者錯？",
+      "options": {
+        "A": "未添加防腐劑",
+        "B": "可添加於TPN中",
+        "C": "包装為vial或prefilled syringe",
+        "D": "皮下注射給與時，無须稀"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "一支7%20mLNaHCO3injection’含有多少mEq的碳酸氢根？〔NaHCOg分子量為84]",
+      "options": {
+        "A": "33.33",
+        "B": "8.33",
+        "C": "16.67",
+        "D": "24.99"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "有關靜胍營養之叙述，下列何者正確？①設定dextroseinfusionrate<4mg/kg/min可避免高血糖②開 始TPN治療之24小時内；DM病人之dextrose攝取量不可>150g③albumin之半衰期短，只有2～3天，透過 每的测可以反鹰病人之營養狀况④fatemulsion為medianchain及shortchaintriglycerides的混 合",
+      "options": {
+        "A": "②③",
+        "B": "①②④",
+        "C": "①④",
+        "D": "①②"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "有關totalparenteralnutrition（TPN）之叙述，下列何者錯?",
+      "options": {
+        "A": "調製好之TPN製劑须避光",
+        "B": "使用TPN超過雨即须测traceelements",
+        "C": "1gaminoacidnitrogen相當於6.25gprotein",
+        "D": "脂肪非所有TPN處方之必要成分"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "有關TPNnitrogenbalance之叙述，下列何者錯？",
+      "options": {
+        "A": "對於negativenitrogenbalance之病人，可以試著增加calories及protein的攝取量",
+        "B": "nitrogen balance=nitrogen intake-nitrogen losses",
+        "C": "nitrogenbalance之計算需要收集24小時之尿液",
+        "D": "經由冀便丶呼吸及皮膚排出之氮無法計算，故使用估計值每天0.5～1.8g"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "由600mL10%amino acid solution、700 mL 50% dextrose solution及250 mL 20%IVfat emulsion 調製成的TPN，其總熱量為多少kcal？",
+      "options": {
+        "A": "1,880",
+        "B": "1,930",
+        "C": "2,090",
+        "D": "2,140"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "用玻璃瓶包装注射液時，最不可能發生下列何種情况？",
+      "options": {
+        "A": "在pH值>9時會耦出抗氧化劑 没有舆常現象",
+        "B": "在pH值>10時可能剥落出玻璃颗粒 造成furosemide沉",
+        "C": "當pH值偏高時主要出物質是silicon和sodium 造成midazolam沉",
+        "D": "會吸附藥品主成分 造成midazolam氧化"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "下列何者须依臀功能調整劑量？①abiraterone②carmustine③dacarbazine④lenalidomide 5melphalan",
+      "options": {
+        "A": "①②④",
+        "B": "③④5",
+        "C": "②③④5",
+        "D": "①②③5"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "有關TPN使用之叙述，下列何者錯？",
+      "options": {
+        "A": "如使用高濃度的dextrose’應經由中央静派給藥",
+        "B": "電解質含量常用mg/mL表示",
+        "C": "長期使用的病人，應添加vitamins與minerals",
+        "D": "應注意血钠、血糖等代謝巽常問題"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "依據USP，注射劑型中所添加之抗菌劑最高濃度，下列何者錯？",
+      "options": {
+        "A": "phenylmercuric nitrate and thimerosal 0.01%",
+        "B": "benzethoniumchloride0.01%",
+        "C": "pheno1 0.01%",
+        "D": "chlorobutanol 0.5%"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "若發生细胞毒性藥品發，且不慎接到皮時，立刻以下列何頂處置最適當？",
+      "options": {
+        "A": "70%酒精消毒接到的皮 降低單次劑量",
+        "B": "水和肥皂澈底清洗接觸到的皮膚 給與naloxone100mg",
+        "C": "H202清洗接觸到的皮膚 給舆domperidone",
+        "D": "纱布覆蓋接觸到的皮膚 如何立即處理最適當？ 改用meperidine"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "下列何者於typeB的藥物不良反應？",
+      "options": {
+        "A": "ibuprofen·gastrointestinal bleeding",
+        "B": "albuterol:tachycardia",
+        "C": "penicillin:anaphylaxis",
+        "D": "clarithromycin:diarrhea"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "下列何者不在美國ISMP'slistof highalert medications in acute care settings中?",
+      "options": {
+        "A": "regular insulin",
+        "B": "amiodaronetablet",
+        "C": "20% dextrose IV",
+        "D": "rocuronium injection"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "有關醫療疏失之處置，下列叙述何者錯？",
+      "options": {
+        "A": "群细記錄醫療疏失的過程通報",
+        "B": "不须告知病人照顧團隧成員與管理者",
+        "C": "改善標作業流程（standardoperatingprocedures，SOPs）",
+        "D": "以root-causeanalysis（RCA）探讨醫療疏失發生的原因"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "依據「藥品優良調劑作業则」，醫院藥局調製藥品時探取之相關措施，不包含下列何者？",
+      "options": {
+        "A": "交叉污染之防",
+        "B": "調製人員差勤紀錄遗失之防",
+        "C": "調製錯之防",
+        "D": "調製人員之安全防護"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "藥品使用估（druguseevaluation）之主要目的為何？",
+      "options": {
+        "A": "增加藥品處方量",
+        "B": "確保藥品使用的適當性",
+        "C": "降低藥品製造成本",
+        "D": "增加病人用藥满意度"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "某醫院進行thrombolyticagents使用评估；發現tPA劑量不符合文獻建的比例過高。下列何者於human- based error reduction strategy?",
+      "options": {
+        "A": "限於特定專科醫師開方",
+        "B": "建立用藥指引",
+        "C": "設定劑量機核",
+        "D": "模组化開方"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "有關adversedrugreactions（ADRs）風因素之叙述，下列何者錯？",
+      "options": {
+        "A": "多重用藥的病人發生ADRs的風险较高",
+        "B": "narrowtherapeuticindex之藥品血中濃度與ADRs有高度相關性",
+        "C": "男性發生ADRs的風险為女性的1.5～1.7倍",
+        "D": "種族及基因差翼為發生ADRs的相關因子"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "有關adversedrugreactions（ADRs）因果關係（causality）之估，下列叙述何者錯？",
+      "options": {
+        "A": "须估ADRs與藥品使用的時序關係（temporalrelationship）",
+        "B": "须估停藥或是給舆特定的解毒劑後，ADRs是否改善",
+        "C": "typeBreaction建以rechallenge或增加劑量來確ADRs",
+        "D": "须確文獻是否有相關ADRs的報導"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "将藥品纳人醫院藥品處方集時，除了療效舆安全性外，還有那些考量因素？①藥動學特性②病人接受度 ③成本④是否已有同類藥品",
+      "options": {
+        "A": "①②",
+        "B": "仅②③④",
+        "C": "①③④",
+        "D": "①②③④"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "有關低劑量enteric-coatedaspirin，下列叙述何者正確？",
+      "options": {
+        "A": "可降低胃黏膜局部傷害，预防消化性",
+        "B": "可预防消化性溃，但不能降低胃黏膜局部傷害",
+        "C": "可降低胃黏膜局部傷害，但不能降低消化性溃",
+        "D": "尚饼服食物或牛奶，才能预防消化性及胃黏膜局部傷害"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "下列何者不建用於哺乳婦女？",
+      "options": {
+        "A": "enoxaparin",
+        "B": "ergotamine",
+        "C": "insulin",
+        "D": "warfarin"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "下列何者投舆新生兒後，易引[起unboundbilirubin上升，導致神經損傷？",
+      "options": {
+        "A": "acetaminophen",
+        "B": "gentamicin",
+        "C": "normalsaline",
+        "D": "sulfonamides"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "藥品各期臨床試驗及其目的之配對，下列叙述何者正確？",
+      "options": {
+        "A": "phase I:population pharmacokinetics",
+        "B": "phase ⅡI :drug safety and toxicology",
+        "C": "phase Ⅲ : therapeutic dose",
+        "D": "phase IV : post-marketing surveillance"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "有關兒童給藥技巧，下列叙述何者錯？",
+      "options": {
+        "A": "兒童：藥品均可使用果汁混合 ranitidine cyclophosphamide",
+        "B": "幼兒：給與咀嚼锭時，可指示像嚼糖果一樣 sucralfate methotrexate",
+        "C": "嬰幼兒：藥粉可以少量開水混合，以滴管丶藥器給藥 sodium bicarbonate dexamethasone",
+        "D": "學懿兒童：劑型允許破壤時，可在服藥前將藥锭剥半，或将膠囊内容物倒出 51.35之懷孕女性，妊娠30遇，有heartburn症狀，且躺下更加劇，下列何者最不適合使用？ omeprazole 52.35女性，有紅斑性狼，若懷孕，建於整個孕期可持續使用下列何種藥品，對胎兒造成傷害的可能性最 小？ hydroxychloroquine"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "有關溝通技巧之叙述，下列何者最正確？",
+      "options": {
+        "A": "為了表示自己有在仔细，不有無懂病人的陳述都應點頭表示",
+        "B": "要懂得聆重點，重複出現的文句可能代表重要訊息",
+        "C": "為省時間，在已經了解問題的情况下可以打病人",
+        "D": "文字是溝通的主要方式，因此只要還得清楚，眼晴不必盯著對方看"
+      }
+    },
+    {
+      "number": 54,
+      "stem": "下列問題舆查詢資料或資料庫之配對，何者錯？",
+      "options": {
+        "A": "我國健保對fomepizole之給付條件-Lexicomp doxazosin",
+        "B": "我國對furosemideinjection不純物限量之標－中華藥典；9thedition（2021） imipramine",
+        "C": "vancomycin血中濃度监測方式-AppliedClinicalPharmacokinetics，3rdedition（2014） levodopa",
+        "D": "oral antiplatelets P2Y12 receptor inhibitors寮效之network meta-analysis-The Cochrane Library midodrine"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "Acetaminophen在非成年人發燒的建劑量如下：10-15mg/kgQ4-6H；maximaldose75mg/kg/day（not toexceed4,000mg）。目前藥局備有雨種品项：syrup24mg/mL（60mL/bottle），以及500mg/tab。下列 劑量何者最不適當？",
+      "options": {
+        "A": "6個月大婴兒，6公斤：syrup3mLQ6H",
+        "B": "7崴兒童，22公斤：開方syrup13mLQ6HPRN",
+        "C": "11崴兒童，42公斤：1tabQ4-6HPRN",
+        "D": "16崴青少年，88公斤：2.5tabQ6H"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "有關inhaledcorticosteroids（ICS）的用藥指導内容，下列何者最適當？",
+      "options": {
+        "A": "ICS的使用時機為「需要時」才使用",
+        "B": "使用ICS的局部副作用包含口（thrush）及發聲障凝（dysphonia）",
+        "C": "開始使用或增加ICS劑量後，病人可立即感受到缓解效果",
+        "D": "氯喘急性恶化後，不宜加人ICS治療"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "有關戒贴片之用藥指導内容，下列叙述何者錯？",
+      "options": {
+        "A": "使用在身體上半部，如胸腹部及手臂外侧等乾燥、乾淨無毛髮處，確贴牢 應於星期四及星期五各服用2粒，之後恢復每天服用1粒，且必须供用其他避孕方法",
+        "B": "為了减少貼片造成皮局部反應，须每日變更使用部位，且1内不可再次贴到相同位置 應於星期四及星期五各服用2粒，之後恢復每天服用1粒，但不须饼用其他避孕方法",
+        "C": "洗澡、游泳前须先將其撕下，以免影響貼片的效果，結束後再貼回去 應於星期四立即服用2粒，之後恢復每天服用1粒，且必须餠用其他避孕方法",
+        "D": "黏贴處輕微刺痛感是常見的副作用，短期内症状會缓解 適當？"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "有關病人用藥指導的原则，下列何者最不適當？",
+      "options": {
+        "A": "可使用開放式及封開式問題引導病人陳述用藥相關的問題 5 mg BID",
+        "B": "以病人得懂的語言進行溝通 5 mg QD",
+        "C": "使用語言及非語言溝通技巧 2.5 mg BID",
+        "D": "詢問病人問題之技巧比倾病人陳述還重要 61.82崴王太太，BW65公斤，Scr1.2mg/dL，有nonvalvularatrialfibrillation，醫師欲處方apixaban预防 中風和全身性栓塞，下列劑量何者最適當？ 2.5 mg QD"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "病人體重50kg’以G-CSF做為primaryprophylaxis，下列處方何者正確？ A·lenograstim (Granocyte?) 100 mg SC QD started at 24 hours after chemotherapy",
+      "options": {
+        "A": "高致吐：急性预防一不需要；延猩预防一需要",
+        "B": "中致吐：急性预防一需要；延猩预防一需要",
+        "C": "低致吐：急性预防一不需要；延猩预防一需要",
+        "D": "微致吐：急性预防一需要；延猩预防一不需要"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "於進行bevacizumab2ndcycle治療前，為確蛋白尿的状况，先進行下列何查最適當？",
+      "options": {
+        "A": "bloodpressure",
+        "B": "24-hr urine creatinine",
+        "C": "“dipstick\"method",
+        "D": "microscopic urinalysis"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "Ritonavir最不易增加下列何者之生體可用率？",
+      "options": {
+        "A": "atorvastatin",
+        "B": "doxycycline",
+        "C": "ergotamine",
+        "D": "midazolam"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "下列何者與linezolid饼用時，最不會產生serotoninsyndrome？",
+      "options": {
+        "A": "citalopram",
+        "B": "diazepam",
+        "C": "paroxetine",
+        "D": "phenelzine"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "下列何者不是藥品交互作用之風因子？",
+      "options": {
+        "A": "low plasma protein binding",
+        "B": "decreasedrenalfunction",
+        "C": "narrow therapeutic range",
+        "D": "p-gp substrate"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "有關tacrolimus療劑測，下列叙述何者錯？",
+      "options": {
+        "A": "AUC與Ctrough具有相關性；床上常以Ctrough作為療效估依據 血中濃度降到目標值後，劑量改為62.5ugQ2D",
+        "B": "主要結合於erythrocytes’療劑监測時，藥品濃度需依據Hct進行轉換 心藏衰竭血中濃度目標值一般為0.5~0.9ng/mL",
+        "C": "排除半衰期不會受到臀功能的影響 劑量過高，應立即給與digoxin-specificantibody",
+        "D": "與制酸劑饼服時，血中濃度會降低，應間隔服用 69.65崴李太太有心衰竭（NYHA分級第三級），臀功能穩定；CLcr約22mL/min；醫師處方digoxin125μg QD’2後回診’digoxin serumconcentration3ng/mL’serum potassium5.2mmole/L，HR60 beats/min，下列叙述何者錯？ 應先停藥數天再抽digoxin血中濃度，據以調整"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "下列何者會缩短theophylline的半衰期？",
+      "options": {
+        "A": "marijuanasmoke diclofenac 25 mg Q6H acarbose acarbose 50 mg/tab 1 tab TID",
+        "B": "severeheartfailure cephalexin 500 mg Q6H glibenclamide bisoprolol 1.25 mg/tab 2tab QD",
+        "C": "age>65崴 famotidine 20 mg BID metformin furosemide 40 mg/tab 1 tab BID",
+        "D": "Child-pugh C liver cirrhosis 71.70王先生，長期服用amlodipine5mgBID，血壓穩定。近日因骨折受傷，醫師處方下列口服藥，治療期 間血壓控制不佳，最可能是下列何者造成？ tranexamic acid 250 mg TID 用了下列那個藥？ pioglitazone 73.50崴女性，BW68kg；肝臀功能正常，下列病人的口服藥處方中，何者最有疑義？ rosuvastatin20mg/tab2tabBID"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "下列何種情况時，藥品在體内的濃度會達到steadystate？",
+      "options": {
+        "A": "口服劑量持續增加時",
+        "B": "排除速率超過给藥速率時",
+        "C": "給藥速率等於體内排除速率時",
+        "D": "吸收速率超過代谢速率時"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "Hepaticextractionratio（ERH）是指藥品在單次通過肝時被清除的比例，下列配對何者正確？",
+      "options": {
+        "A": "低ERH：lidocaine丶valproicacid-高ERy：warfarin丶morphine",
+        "B": "低ERH：valproicacid丶phenytoin-高ERH：lidocaine丶imipramine",
+        "C": "低ERu·warfarin丶morphine－高ER：lidocaine丶phenytoin",
+        "D": "低ERH·phenytoin丶morphine－高ERH：lidocaine丶warfarin"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "關於療劑測，下列叙述何者錯？",
+      "options": {
+        "A": "calcineurininhibitors须监測whole blood concentration ③④",
+        "B": "藥品之serumconcentration與plasma concentration相當 ①②",
+        "C": "有些antiepileptics之salivaconcentration與urineconcentration相當 ①④",
+        "D": "highproteinbinding的藥品，freedrugconcentration與療效及毒性相關性较高 ①erythromycin ②ritonavir ③phenytoin ④hyperkalemia ②③"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "下列何者之plasma albumin binding最低?",
+      "options": {
+        "A": "phenytoin",
+        "B": "carbamazepine",
+        "C": "procainamide",
+        "D": "lithium"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "承上題，饼用下列何者會使該藥品之血中濃度降低？",
+      "options": {
+        "A": "angiotensinⅡantagonists",
+        "B": "thiazidediuretics",
+        "C": "NSAIDs",
+        "D": "acetazolamide"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "吸會增加那一種肝藏酵素的活性？",
+      "options": {
+        "A": "CYP1A2",
+        "B": "CYP2C9",
+        "C": "CYP2C19",
+        "D": "CYP3A4"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 15
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\113090_11_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\113090_11_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

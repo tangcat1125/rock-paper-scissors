@@ -1,0 +1,368 @@
+{
+  "setId": "105020_11_pharmacology-medicinal-chemistry",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmacology-medicinal-chemistry",
+  "subjectTitle": "Pharmacology and Medicinal Chemistry",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\105020_q11_pharmacology-medicinal-chemistry.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\105020_mod11_pharmacology-medicinal-chemistry.pdf"
+  ],
+  "questionCount": 24,
+  "answerCount": 24,
+  "parseWarnings": [
+    "Question 1: Could not parse options for question 1",
+    "Question 3: Could not parse options for question 3",
+    "Question 4: Could not parse options for question 4",
+    "Question 7: Could not parse options for question 7",
+    "Question 8: Could not parse options for question 8",
+    "Question 9: Could not parse options for question 9",
+    "Question 10: Could not parse options for question 10",
+    "Question 11: Could not parse options for question 11",
+    "Question 12: Could not parse options for question 12",
+    "Question 18: Could not parse options for question 18",
+    "Question 19: Could not parse options for question 19",
+    "Question 20: Could not parse options for question 20",
+    "Question 21: Could not parse options for question 21",
+    "Question 22: Could not parse options for question 22",
+    "Question 24: Could not parse options for question 24",
+    "Question 25: Could not parse options for question 25",
+    "Question 26: Could not parse options for question 26",
+    "Question 27: Could not parse options for question 27",
+    "Question 28: Could not parse options for question 28",
+    "Question 30: Could not parse options for question 30",
+    "Question 32: Could not parse options for question 32",
+    "Question 33: Could not parse options for question 33",
+    "Question 35: Could not parse options for question 35",
+    "Question 37: Could not parse options for question 37",
+    "Question 40: Could not parse options for question 40",
+    "Question 41: Could not parse options for question 41",
+    "Question 42: Could not parse options for question 42",
+    "Question 43: Could not parse options for question 43",
+    "Question 45: Could not parse options for question 45",
+    "Question 46: Could not parse options for question 46",
+    "Question 49: Could not parse options for question 49",
+    "Question 50: Could not parse options for question 50",
+    "Question 51: Could not parse options for question 51",
+    "Question 52: Could not parse options for question 52",
+    "Question 53: Could not parse options for question 53",
+    "Question 54: Could not parse options for question 54",
+    "Question 56: Could not parse options for question 56",
+    "Question 58: Could not parse options for question 58",
+    "Question 59: Could not parse options for question 59",
+    "Question 60: Could not parse options for question 60",
+    "Question 61: Could not parse options for question 61",
+    "Question 62: Could not parse options for question 62",
+    "Question 63: Could not parse options for question 63",
+    "Question 64: Could not parse options for question 64",
+    "Question 65: Could not parse options for question 65",
+    "Question 66: Could not parse options for question 66",
+    "Question 67: Could not parse options for question 67",
+    "Question 68: Could not parse options for question 68",
+    "Question 69: Could not parse options for question 69",
+    "Question 70: Could not parse options for question 70",
+    "Question 73: Could not parse options for question 73",
+    "Question 75: Could not parse options for question 75",
+    "Question 76: Could not parse options for question 76",
+    "Question 77: Could not parse options for question 77",
+    "Question 78: Could not parse options for question 78"
+  ],
+  "questions": [
+    {
+      "number": 2,
+      "stem": "關於部分致效劑（partial agonists ）之敘述，下列何者正確？",
+      "options": {
+        "A": "和完全致效劑（full agonists ）相比，部分致效劑即使完全占有受體也只能有較低的反應",
+        "B": "引起的劑量反應曲線和完全致效劑相同",
+        "C": "部分致效劑無法產生最大反應之因是其受體之親和力較低",
+        "D": "部分致效劑不能被拮抗劑所對抗"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 5,
+      "stem": "有關抗生素 Vancomycin 之敘述，下列何者正確？",
+      "options": {
+        "A": "屬於 β-lactam 類抗生素",
+        "B": "主要用於治療革蘭氏陰性菌（gram-negative bacteria ）造成之感染",
+        "C": "主要經由肝臟代謝使其失效",
+        "D": "必須以注射方式治療全身性感染"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 6,
+      "stem": "有關 Penicillins 之藥物動力學之敘述，下列何者正確？",
+      "options": {
+        "A": "Benzathine penicillin 可以靜脈注射方式給藥",
+        "B": "Piperacillin 可以口服方式治療細菌感染",
+        "C": "大多數 Penicillins 由肝臟代謝後再經腎臟排出",
+        "D": "腦膜炎發生時 Penicillin G 可進入腦脊髓液達有效治療濃度"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 13,
+      "stem": "有關 Mifepristone 的敘述，下列何者錯誤？",
+      "options": {
+        "A": "拮抗黃體素（progesterone ）受體",
+        "B": "拮抗糖皮質激素（glucocorticoid ）受體",
+        "C": "口服的生體可用率（bioavailability ）佳",
+        "D": "與PGI 2衍生物併用可用於懷孕前七週中止妊娠"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 14,
+      "stem": "Danazol 之主要治療用途為何？",
+      "options": {
+        "A": "避孕",
+        "B": "促進排卵",
+        "C": "良性前列腺肥大（benign prostatic hyperplasia ）",
+        "D": "子宮內膜異位（endometriosis ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 15,
+      "stem": "甲狀腺機能亢進婦女於孕後前三月期間之較佳療法為何？",
+      "options": {
+        "A": "投予 Propylthiouracil",
+        "B": "投予 Liotrix",
+        "C": "手術切除法",
+        "D": "131 I放射線療法"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 16,
+      "stem": "下列何者為毛地黃（Digitalis ）的藥理作用？",
+      "options": {
+        "A": "減少鈣離子被吸收進入肌漿的內質網",
+        "B": "增加 ATP 的合成量",
+        "C": "抑制心肌細胞上 β-受體",
+        "D": "增加收縮期心肌細胞內鈣離子濃度"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 17,
+      "stem": "下列何者為使用 enalapril 治療原發性高血壓的藥理作用機轉？",
+      "options": {
+        "A": "競爭性抑制 Angiotensin II 與受體結合",
+        "B": "減少血液中 Angiotensin II 的濃度",
+        "C": "減少血液中 Renin 的濃度",
+        "D": "減少血液中鉀離子及增加血液中鈉離子濃度"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 23,
+      "stem": "下列有關 Quinidine 藥理作用的敘述，何者錯誤？",
+      "options": {
+        "A": "在心律減慢時對動作電位去極化速率較不影響",
+        "B": "會使心電圖 P-R interval 延長",
+        "C": "心跳越快時其對動作電位延長作用越明顯",
+        "D": "大劑量時會使 QRS duration 延長"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 29,
+      "stem": "抗焦慮藥物 buspirone 是屬於下列何種受體之部分致效劑（partial agonist ）？",
+      "options": {
+        "A": "5-HT 1A",
+        "B": "5-HT 1B",
+        "C": "5-HT 1C",
+        "D": "5-HT 1D"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 31,
+      "stem": "有關抗癲癇藥物及其主要之作用機轉，下列何者錯誤？",
+      "options": {
+        "A": "Ethosuximide 抑制丘腦（thalamic ）的T-型鈣離子通道（Ca 2+ channel ）",
+        "B": "Carbamazepine 阻斷鈉離子通道而降低細胞興奮性",
+        "C": "Tiagabine 選擇性阻斷 GAT-1（GABA transporter isoform 1 ）而阻斷 GABA 在突觸前 （presynaptic ）的再吸收",
+        "D": "Gabapentin 不可逆性抑制 GABA 轉胺酶（GABA transaminase ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 34,
+      "stem": "下列何者為使用非典型抗精神病藥物 Clozapine 所產生之最嚴重的副作用？",
+      "options": {
+        "A": "類帕金森氏症症狀（Parkinsonian symptoms ）",
+        "B": "遲發性運動困難（Tardive dyskinesia ）",
+        "C": "高泌乳素症（Hyperprolactinemia ）",
+        "D": "顆粒白血球缺乏（Agranulocytosis ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 36,
+      "stem": "下列那一種生理反應，不屬於類鴉片物質停止使用後，所出現的戒斷現象（withdrawal syndromes ）？",
+      "options": {
+        "A": "流淚（lacrimation ）",
+        "B": "瞳孔縮小（miosis ）",
+        "C": "腹瀉（diarrhea ）",
+        "D": "體溫高熱（hyperpyrexia ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 38,
+      "stem": "古柯鹼濫用所面臨的問題與下列那一種藥物的濫用問題相同？",
+      "options": {
+        "A": "Heroin 濫用",
+        "B": "Amphetamine 濫用",
+        "C": "酒精濫用",
+        "D": "大麻濫用"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 39,
+      "stem": "下列有關抗癲癇用藥 Carbamazepine 與Oxcarbazepine 的敘述，何者錯誤？",
+      "options": {
+        "A": "Oxcarbazepine 所產生的肝毒性較 Carbamazepine 低",
+        "B": "Oxcarbazepine 所產生的藥物過敏性反應較 Carbamazepine 低",
+        "C": "Oxcarbazepine 所產生的作用強度（potency ）較Carbamazepine 大",
+        "D": "Oxcarbazepine 與Carbamazepine 適用於同型式的癲癇治療"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 44,
+      "stem": "藥物之親脂性可利用 logP ＝Σπ (fragments) 計算，其中 P代表分配係數，π代表 hydrophilic- lipophilic values ，則P＝？",
+      "options": {
+        "A": "[C pentanol ] / [C water ]",
+        "B": "[C hexanol ] / [C water ]",
+        "C": "[C heptanol ] / [C water ]",
+        "D": "[C octanol ] / [C water ]"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 47,
+      "stem": "下列有關 tacrine 之敘述，何者正確？",
+      "options": {
+        "A": "具有 nitroacridine 之結構，用於治療阿茲海默症（Alzheimer's disease ）",
+        "B": "主要作用於蕈毒鹼（muscarinic ）M 2 受體",
+        "C": "因具腎毒性而使其用途受限",
+        "D": "1-Hydroxy-tacrine 為活性代謝物"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 48,
+      "stem": "下列有關 triptan 類藥物之敘述，何者正確？",
+      "options": {
+        "A": "屬於 5-HT 1D antagonist",
+        "B": "Sumatriptan 具有 indole 之結構",
+        "C": "Rizatriptan 與propranolol 可一起併用，增加療效",
+        "D": "可減輕冠心病患者之症狀"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 55,
+      "stem": "下圖 losartan 結構中之取代基分別為：",
+      "options": {
+        "A": "R1＝tetrazole ，R2＝R3＝H",
+        "B": "R2＝tetrazole ，R1＝R3＝H",
+        "C": "R1＝R2＝H，R3＝tetrazole",
+        "D": "R1＝H，R2＝R3＝tetrazole"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 57,
+      "stem": "有關下圖化合物之敘述何者錯誤？",
+      "options": {
+        "A": "合成的原料為p-chlorophenol",
+        "B": "屬於離子交換樹脂",
+        "C": "具有降血脂作用",
+        "D": "易受 esterase 水解代謝"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 71,
+      "stem": "下列有關 vidarabine 的敘述，何者錯誤？",
+      "options": {
+        "A": "結構屬 adenosine nucleoside",
+        "B": "曾用作抗腫瘤藥物",
+        "C": "主要經 adenosine deaminase 代謝",
+        "D": "主要用於 AIDS 治療"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 72,
+      "stem": "下列有關 indinavir 的敘述，何者錯誤？",
+      "options": {
+        "A": "結構屬於 hexanoic acid amide 衍生物",
+        "B": "屬於 HIV protease 抑制劑",
+        "C": "與midazolam 有配伍禁忌",
+        "D": "主要經由 CYP3A4 代謝"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 79,
+      "stem": "下列化合物 ①-④具有何種作用？",
+      "options": {
+        "A": "抗癲癇",
+        "B": "抗精神病",
+        "C": "抗老年癡呆症",
+        "D": "抗帕金森氏症"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 80,
+      "stem": "承上題，那一個化合物是 GABA 轉胺酶之不可逆（irreversible ）抑制劑？",
+      "options": {
+        "A": "①",
+        "B": "②",
+        "C": "③",
+        "D": "④"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 12
+  },
+  "referenceGroupId": "pharmacology-medicinal-chemistry",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\105020_11_pharmacology-medicinal-chemistry.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\105020_11_pharmacology-medicinal-chemistry.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

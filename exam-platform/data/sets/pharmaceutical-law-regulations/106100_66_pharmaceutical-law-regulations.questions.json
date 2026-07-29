@@ -1,0 +1,624 @@
+{
+  "setId": "106100_66_pharmaceutical-law-regulations",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "pharmaceutical-law-regulations",
+  "subjectTitle": "Pharmaceutical Law and Regulations",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\106100_q66_pharmaceutical-law-regulations.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\106100_ans66_pharmaceutical-law-regulations.pdf"
+  ],
+  "questionCount": 50,
+  "answerCount": 50,
+  "parseWarnings": [],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "「食品藥物化粧品實驗室管理與認證業務之規劃及執行」係屬衛生福利部食品藥物管理署轄下何單位之掌理事 項：",
+      "options": {
+        "A": "藥品組",
+        "B": "醫療器材及化粧品組",
+        "C": "企劃及科技管理組",
+        "D": "風險管理組"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 2,
+      "stem": "日本核能電廠輻射物質外洩污染海域，對進口海鮮食品進行通關檢驗以確保進口海鮮無輻射污染問題，其權責 機關或單位為：",
+      "options": {
+        "A": "衛生福利部食品藥物管理署",
+        "B": "經濟部標準檢驗局",
+        "C": "行政院農業委員會",
+        "D": "行政院原子能委員會"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 3,
+      "stem": "動物用藥品之中央主管機關在美國為U.S. Food and Drug Administration ，在我國之主管機關則為：",
+      "options": {
+        "A": "衛生福利部食品藥物管理署",
+        "B": "經濟部標準檢驗局",
+        "C": "行政院農業委員會",
+        "D": "行政院消費者保護會"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 4,
+      "stem": "在一個 5,000 人的社區中，進行全面糖尿病的篩檢工作，篩檢結果超出正常值的有 500 人，其中 100 人是在這次 篩檢中第一次被篩檢出來，則此次篩檢糖尿病的盛行率為何？",
+      "options": {
+        "A": "2%",
+        "B": "8%",
+        "C": "10%",
+        "D": "12%"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 5,
+      "stem": "下列何種疾病不屬於近五年之十大死因之一？",
+      "options": {
+        "A": "登革熱",
+        "B": "惡性腫瘤",
+        "C": "心臟疾病",
+        "D": "腦血管疾病"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 6,
+      "stem": "下列何種犯罪不罰過失犯？",
+      "options": {
+        "A": "輸入禁藥罪",
+        "B": "醫療器材含有毒質致損人體健康罪",
+        "C": "醫療器材使診斷發生錯誤罪",
+        "D": "製造化粧品未經領有工廠登記罪"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 7,
+      "stem": "甲繳納全民健康保險費，因病至 A醫院看診，取得處方箋，至B藥局調劑取藥，B藥局再向中央健康保險署申請 藥事服務費及藥費，依據全民健康保險法之規定，下列關係何者正確？",
+      "options": {
+        "A": "甲為保險人",
+        "B": "中央健康保險署為被保險人",
+        "C": "A醫院為藥事服務費及藥費之申請支付機構",
+        "D": "B藥局為保險醫事服務機構"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 8,
+      "stem": "可將藥師移付懲戒者，下列何者錯誤？",
+      "options": {
+        "A": "藥師公會",
+        "B": "縣市政府",
+        "C": "衛生福利部",
+        "D": "內政部"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 9,
+      "stem": "依藥師法之規定，下列何者非屬藥事照護業務內容？",
+      "options": {
+        "A": "評估病人給藥流程",
+        "B": "評估病人藥物治療流程",
+        "C": "提供病人正確用藥諮詢",
+        "D": "治療病人並開給藥物處方"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 10,
+      "stem": "依藥師法之規定，有關藥師調劑藥品，下列何者錯誤？",
+      "options": {
+        "A": "應按照處方調劑，不得錯誤",
+        "B": "藥品未備或缺乏時，得通知原處方醫師，請其更換",
+        "C": "調劑藥品不得任意省略",
+        "D": "調劑藥品不得代以他藥"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 11,
+      "stem": "藥品調劑非依一定作業程序不得為之，該作業程序經衛生福利部訂定發布為：",
+      "options": {
+        "A": "藥師法",
+        "B": "藥品優良製造標準",
+        "C": "藥品優良調劑作業準則",
+        "D": "醫事人員執業登記及繼續教育辦法"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 12,
+      "stem": "有關藥師調劑，下列何者正確？",
+      "options": {
+        "A": "警語或副作用於發藥時必須口頭告知病人，藥袋上不硬性規定列印",
+        "B": "藥師調劑後應於藥袋上簽名蓋章",
+        "C": "藥品不足時可代以較低劑量相同成分藥品",
+        "D": "醫師所開處方箋，藥師調劑後應於醫師所開處方箋上簽名蓋章"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 13,
+      "stem": "藥事人員受理處方箋後，應確認處方箋之合法性、完整性與處方期限有效性。其確認項目包括下列何項？",
+      "options": {
+        "A": "藥品價格",
+        "B": "藥品儲藏方法",
+        "C": "醫療機構名稱、地址、電話",
+        "D": "藥品是否過期"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 14,
+      "stem": "有關藥師懲戒委員會之決議，下列何者正確？",
+      "options": {
+        "A": "廢止藥師證書",
+        "B": "廢止考試及格證書",
+        "C": "廢止畢業證書",
+        "D": "廢止藥局開業執照"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 15,
+      "stem": "下列敘述何者錯誤？",
+      "options": {
+        "A": "藥師執行調劑業務，非有正當理由不得拒絕調劑",
+        "B": "藥師應在作業處所標示受理調劑作業時間，不在時應有暫停受理調劑之標示",
+        "C": "標示為日夜調劑之藥局，其藥師不得拒絕夜間調劑",
+        "D": "經營藥局之藥師因出國探親而歇業超過 30 天，不必報請原發照機關備查"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 16,
+      "stem": "已核准藥品具有新醫療效能，屬藥事法第 7條所稱之何種新藥？",
+      "options": {
+        "A": "新劑型",
+        "B": "新成分",
+        "C": "新療效複方",
+        "D": "新使用途徑"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 17,
+      "stem": "依據嚴重藥物不良反應通報辦法之規定，持有藥物許可證之藥商於得知嚴重藥物不良反應之日起幾日內，應 辦理通報？",
+      "options": {
+        "A": "3",
+        "B": "7",
+        "C": "10",
+        "D": "15"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 18,
+      "stem": "依藥事法之規定，下列有關藥物廣告之敘述何者錯誤？",
+      "options": {
+        "A": "藥物廣告以登載於學術性醫療刊物為限",
+        "B": "非藥商不得為藥物廣告",
+        "C": "非藥事法所稱之藥物，不得為醫療效能之標示或宣傳",
+        "D": "藥物廣告，經中央或直轄市衛生主管機關核准者，其有效期間為1年，自核發證明文件之日起算"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 19,
+      "stem": "下列何者不適用藥物優良製造準則第三編醫療器材優良製造規範？",
+      "options": {
+        "A": "預防靜脈曲張之彈性襪",
+        "B": "醫用氣體",
+        "C": "X光機",
+        "D": "血管支架"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 20,
+      "stem": "下列何者為藥事法之不良醫療器材？",
+      "options": {
+        "A": "未經核准擅自輸入者",
+        "B": "許可證不准展延者",
+        "C": "超過有效期間或保存期限者",
+        "D": "未經核准擅自製造者"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 21,
+      "stem": "依藥品優良臨床試驗準則之規定，試驗主持人及試驗機構應妥善保管所有臨床試驗相關重要文件，至試驗藥 品於我國獲准上市後至少幾年？",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 22,
+      "stem": "依藥事法第 75 條之規定，藥物之標籤、仿單或包裝，應依核准刊載相關事項，不包括下列何者？",
+      "options": {
+        "A": "批號",
+        "B": "英文說明",
+        "C": "主治效能、性能或適應症",
+        "D": "品名及許可證字號"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 23,
+      "stem": "我國醫療器材分級管理規定為何？",
+      "options": {
+        "A": "分成三個等級，風險最高者為第三等級",
+        "B": "分成三個等級，風險最高者為第一等級",
+        "C": "分成四個等級，風險最高者為第四等級",
+        "D": "分成四個等級，風險最高者為第一等級"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 24,
+      "stem": "下列何者非屬新藥查驗登記申請應檢附之資料？",
+      "options": {
+        "A": "品質管制資料",
+        "B": "動物實驗資料",
+        "C": "臨床試驗資料",
+        "D": "藥價資料"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 25,
+      "stem": "藥品經稽查或檢驗發現有顯明變色、混濁、沉澱、潮解或已腐化分解者，係屬藥事法所稱之：",
+      "options": {
+        "A": "禁藥",
+        "B": "偽藥",
+        "C": "劣藥",
+        "D": "假藥"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 26,
+      "stem": "依藥事法之規定，下列何者錯誤？",
+      "options": {
+        "A": "所稱固有成方製劑，係指依中央衛生主管機關選定公告具有醫療效能之傳統中藥處方調製（劑）之方劑",
+        "B": "所稱成藥，係指作用緩和，無積蓄性，耐久儲存，使用簡便，並明示其效能、用量、用法，標明成藥許可證 字號，經醫師指示後，即供治療疾病之用者",
+        "C": "所稱新藥，係指經中央衛生主管機關審查認定屬新成分、新療效複方或新使用途徑製劑之藥品",
+        "D": "所稱試驗用藥物，係指醫療效能及安全尚未經證實，專供動物毒性藥理評估或臨床試驗用之藥物"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 27,
+      "stem": "下列何者未明訂於醫療器材查驗登記審查準則應檢附資料之規定？",
+      "options": {
+        "A": "醫療器材查驗登記",
+        "B": "醫療器材許可證變更",
+        "C": "醫療器材許可證安全監視",
+        "D": "醫療器材許可證有效期限之展延"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 28,
+      "stem": "下列何者應向中央衛生主管機關申請查驗登記，獲得核准後，始得製造輸入？",
+      "options": {
+        "A": "蠻牛",
+        "B": "耳溫槍",
+        "C": "洗面乳",
+        "D": "真空包裝豆乾"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 29,
+      "stem": "依藥事法之規定，西藥販賣業者及西藥製造業者，購存或售賣管制藥品及毒劇藥品，應將藥品名稱、數量， 詳列簿冊，以備檢查。此簿冊並應保存幾年？",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 30,
+      "stem": "下列何者無須依規定限期收回市售品，連同庫存品一併依法處理：",
+      "options": {
+        "A": "經依法認定為偽藥、劣藥或禁藥者",
+        "B": "藥物廣告違規經處罰鍰者",
+        "C": "製造、輸入藥物許可證未申請展延或不准展延者",
+        "D": "包裝、標籤、仿單經核准變更登記者"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 31,
+      "stem": "下列何種醫療器材之製造，不須聘請藥師駐廠監製？",
+      "options": {
+        "A": "隱形眼鏡鏡片消毒藥水",
+        "B": "隱形眼鏡鏡片消毒藥錠",
+        "C": "隱形眼鏡鏡片",
+        "D": "衛生材料"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 32,
+      "stem": "某外國生產靜脈注射劑廠，擬申請輸入許可，依規定須檢附熱原試驗成績書，然該國並未有此規定。則下列 有關之敘述，何者正確？",
+      "options": {
+        "A": "若該國屬衛生福利部核列之歐美先進國，可免檢附熱原試驗成績書",
+        "B": "若有 3國以上採用證明，衛生福利部可逕予核發輸入許可證",
+        "C": "若該廠在他國完成第三期臨床試驗，證明本產品對人體安全，可先核發 2年有效期之許可證",
+        "D": "仍需補完成熱原試驗，若檢附不實證件而涉及刑責者，移送司法機關辦理"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 33,
+      "stem": "某藥師藥局領有管制藥品登記證，其遷址未於期限內辦理變更，則下列處置方式何者錯誤？",
+      "options": {
+        "A": "依藥事法之規定處罰藥局執照未辦理變更登記",
+        "B": "依藥師法之規定處罰藥師證書未辦理變更登記",
+        "C": "依藥師法之規定處罰藥師執業執照未辦理變更登記",
+        "D": "依管制藥品管理條例之規定處罰管制藥品登記證未辦理變更登記"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 34,
+      "stem": "下列敘述何者錯誤？",
+      "options": {
+        "A": "電話號碼簿刊登藥商名稱，無須提出廣告申請",
+        "B": "電話號碼簿刊登廣告內容涉及藥物廠牌、名稱、效能時視為藥物廣告",
+        "C": "電話號碼簿刊登藥物廣告，須由藥商事先申請核准",
+        "D": "未領有藥商許可執照者可自行於電話號碼簿刊登藥物廣告"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 35,
+      "stem": "依藥品優良調劑作業準則之規定，藥品應如何存放？",
+      "options": {
+        "A": "依貯存條件",
+        "B": "依不同劑型分類",
+        "C": "依不同藥效分類",
+        "D": "依不同廠牌分類"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 36,
+      "stem": "中藥藥膠布經檢驗出含未經核准擅自添加之西藥，應屬藥事法所稱之：",
+      "options": {
+        "A": "毒劇藥品",
+        "B": "劣藥",
+        "C": "禁藥",
+        "D": "偽藥"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 37,
+      "stem": "同成分、同劑型、同劑量及同單位含量藥品，得於取得資料專屬權之新成分新藥許可證核發多久之後，提出 查驗登記申請？",
+      "options": {
+        "A": "立刻",
+        "B": "1年",
+        "C": "3年",
+        "D": "5年"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 38,
+      "stem": "有關偽劣禁藥之處分，下列敘述何者錯誤？",
+      "options": {
+        "A": "查獲之偽藥或禁藥，由直轄市或縣（市）衛生主管機關沒收銷燬之",
+        "B": "查獲之本國製造劣藥，得由直轄市或縣（市）衛生主管機關派員監督原製造廠商限期改製",
+        "C": "查獲之本國製造劣藥不能改製或屆期未改製者，由直轄市或縣（市）衛生主管機關沒入銷燬之",
+        "D": "查獲之劣藥如係核准輸入者，應即封存，並由直轄市或縣（市）衛生主管機關責令原進口商限期退運出口， 屆期未能退貨者，沒入銷燬之"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 39,
+      "stem": "依健保藥品給付規定，有關札來普隆（Zaleplon ）成分藥品，下列敘述何者正確？",
+      "options": {
+        "A": "該藥品為第四級管制藥品，屬於苯二氮平類（Benzodiazepines ）藥物",
+        "B": "使用該藥品，病歷應詳載病人發生睡眠障礙情形，惟不需作適當評估及探討可能原因",
+        "C": "非精神科醫師若開立該藥品，每日不宜超過 1顆，連續治療期間不宜超過 6個月",
+        "D": "該藥品用於治療難以入睡之失眠病人，因副作用少，對於 65 歲以上病患亦無劑量限制"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 40,
+      "stem": "社區藥局購買硝甲西泮（Nimetazepam ）錠劑調劑時，依法應辦理那些事項？①申請管制藥品登記證 ②申 請管制藥品使用執照 ③依醫師開立之管制藥品專用處方箋調劑 ④應設置簿冊詳實登載收支結存情形",
+      "options": {
+        "A": "①②③",
+        "B": "②③④",
+        "C": "①③④",
+        "D": "①②④"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 41,
+      "stem": "下列何者並非我國「毒品危害防制條例」分級列管的特性？",
+      "options": {
+        "A": "毒性",
+        "B": "成癮性",
+        "C": "濫用性",
+        "D": "社會危害性"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 42,
+      "stem": "醫師開立嗎啡專用處方箋給癌症病人，可調劑幾次？",
+      "options": {
+        "A": "1次",
+        "B": "2次",
+        "C": "視病人需要決定調劑次數",
+        "D": "癌症病人因安寧療護需要，可連續處方一個月"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 43,
+      "stem": "有關藥物、化粧品許可證有效期間及期滿展延規定，下列何者正確？",
+      "options": {
+        "A": "有效期間為5年；每次展延不得超過 5年",
+        "B": "有效期間為4年；每次展延不得超過 4年",
+        "C": "有效期間為4年；每次展延不得超過 5年",
+        "D": "有效期間為5年；藥物每次展延不得超過 5年，化粧品每次展延不得超過 4年"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 44,
+      "stem": "有關化粧品廣告之管理，下列敘述何者正確？",
+      "options": {
+        "A": "應事前申請中央或直轄市衛生主管機關核准",
+        "B": "業者須向傳播機構繳驗核准之證明文件",
+        "C": "登載宣播內容虛偽誇大，情節重大，得由原發證照機關廢止其有關營業或設廠之許可證照",
+        "D": "原核准廣告機關得令業者修正內容"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 45,
+      "stem": "依衛生福利部公告，下列何種成分禁止使用於化粧品中？",
+      "options": {
+        "A": "Quaternium-15",
+        "B": "Hexachlorophene",
+        "C": "Chlorohexidine",
+        "D": "Chlorobutanol"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 46,
+      "stem": "依罕 疾病防治及藥物法之規定，負有報告義務之醫事人員發現罕見疾病患者，應自發現之日起多少時間 內，向中央主管機關陳報？",
+      "options": {
+        "A": "24 小時",
+        "B": "3日",
+        "C": "15 日",
+        "D": "1個月"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 47,
+      "stem": "某人因正當使用合法藥物而生藥害，倘經事實認定藥害之產生應由藥物輸入業者負其責任，則藥害救濟法之 規定為何？",
+      "options": {
+        "A": "仍得申請藥害救濟",
+        "B": "不得申請藥害救濟",
+        "C": "經提起訴訟後亦得申請藥害救濟",
+        "D": "藥害救濟法並無規定"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 48,
+      "stem": "臺北市某藥商如何引進國內屬罕見疾病之藥物？",
+      "options": {
+        "A": "向臺北市政府衛生局辦理藥品查驗登記",
+        "B": "向衛生福利部辦理查驗登記",
+        "C": "向國民健康署申請藥品查驗登記",
+        "D": "直接向海關報關即可進口"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 49,
+      "stem": "下列何者並非藥害救濟法所稱之「合法藥物」？",
+      "options": {
+        "A": "領有主管機關核發含藥化粧品許可證，依法製造者",
+        "B": "領有主管機關核發藥品許可證，依法輸入者",
+        "C": "領有主管機關核發藥品許可證，依法製造者",
+        "D": "領有主管機關核發醫療器材許可證，依法製造、輸入者"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 50,
+      "stem": "依全民健康保險法之規定，下列那些項目不給付？①成藥 ②指示用藥 ③藥癮治療 ④預防接種",
+      "options": {
+        "A": "僅①",
+        "B": "僅②③",
+        "C": "僅②③④",
+        "D": "①②③④"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 7
+  },
+  "referenceGroupId": "pharmaceutical-law-regulations",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-law-regulations\\106100_66_pharmaceutical-law-regulations.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-law-regulations\\106100_66_pharmaceutical-law-regulations.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

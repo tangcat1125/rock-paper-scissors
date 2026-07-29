@@ -1,0 +1,2095 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全考 60 題</title>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --panel: #ffffff;
+      --panel-2: #fbfaf7;
+      --text: #14213d;
+      --muted: #5b6472;
+      --accent: #0f766e;
+      --accent-2: #d97706;
+      --line: #d7d3cb;
+      --shadow: 0 18px 40px rgba(20, 33, 61, .10);
+      --correct: #0f766e;
+      --wrong: #b42318;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,.12), transparent 28%),
+        radial-gradient(circle at 80% 0%, rgba(217,119,6,.12), transparent 26%),
+        linear-gradient(180deg, #f6f0e6 0%, #eef3f8 100%);
+      min-height: 100vh;
+    }
+    .shell { max-width: 1440px; margin: 0 auto; padding: 20px; }
+    .topbar, .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); }
+    .topbar {
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .brand-kicker { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .brand-title { margin: 0; font-size: 28px; }
+    .brand-copy { color: var(--muted); margin-top: 6px; line-height: 1.6; }
+    .meta-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; width: min(760px, 100%); }
+    .meta-card { border: 1px solid var(--line); border-radius: 18px; padding: 14px; background: var(--panel-2); }
+    .meta-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .meta-value { font-size: 22px; font-weight: 800; }
+    .layout { display: grid; grid-template-columns: 260px minmax(0, 1fr) 320px; gap: 16px; align-items: start; }
+    .panel { padding: 18px; }
+    .panel h2 { margin: 0 0 12px; font-size: 18px; }
+    .panel .note { color: var(--muted); line-height: 1.6; margin-bottom: 14px; }
+    .section-chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 14px; }
+    .section-chip { padding: 6px 10px; border-radius: 999px; background: rgba(15,118,110,.10); color: var(--accent); font-size: 12px; font-weight: 700; }
+    .nav-list { display: grid; gap: 8px; max-height: calc(100vh - 220px); overflow: auto; padding-right: 4px; }
+    .nav-btn {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 14px;
+      padding: 12px 14px;
+      text-align: left;
+      cursor: pointer;
+      font: inherit;
+      color: var(--text);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .nav-btn.active { border-color: var(--accent); box-shadow: inset 0 0 0 1px rgba(15,118,110,.12); }
+    .nav-btn.answered { background: rgba(15,118,110,.06); }
+    .nav-btn small { color: var(--muted); display: block; margin-top: 2px; }
+    .question-card { background: linear-gradient(180deg, #fff 0%, #fffdf9 100%); border: 1px solid var(--line); border-radius: 20px; padding: 18px; }
+    .question-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    .question-badge { background: rgba(15,118,110,.10); color: var(--accent); padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 700; }
+    .question-title { margin: 0; font-size: 22px; line-height: 1.45; white-space: pre-wrap; }
+    .citation { color: var(--muted); font-size: 14px; margin-top: 8px; }
+    .options { display: grid; gap: 10px; margin-top: 16px; }
+    .option { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: #fff; display: flex; gap: 12px; align-items: flex-start; }
+    .option input { margin-top: 4px; transform: scale(1.1); }
+    .option .letter { font-weight: 800; min-width: 22px; }
+    .option.correct { border-color: var(--correct); background: rgba(15,118,110,.07); }
+    .option.wrong { border-color: var(--wrong); background: rgba(180,35,24,.07); }
+    .option .text { line-height: 1.6; white-space: pre-wrap; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+    .btn {
+      border: 0;
+      border-radius: 14px;
+      min-height: 46px;
+      padding: 0 16px;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn.primary { background: var(--accent); color: #fff; }
+    .btn.secondary { background: #edf2f7; color: var(--text); }
+    .btn.ghost { background: transparent; color: var(--accent); border: 1px solid rgba(15,118,110,.18); }
+    .progress { margin-top: 12px; height: 10px; background: #e9eef5; border-radius: 999px; overflow: hidden; }
+    .progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), #22c55e); width: 0%; }
+    .side-list { display: grid; gap: 10px; }
+    .info-card { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: var(--panel-2); }
+    .info-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .info-value { font-size: 18px; font-weight: 800; }
+    .log { font-size: 13px; color: var(--muted); line-height: 1.6; white-space: pre-wrap; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 12px; max-height: 220px; overflow: auto; }
+    .summary { margin-top: 16px; display: none; }
+    .summary.show { display: block; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 12px; }
+    .summary-item { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: #fff; }
+    .summary-item .k { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .summary-item .v { font-size: 22px; font-weight: 800; }
+    .reference-list { display: grid; gap: 8px; }
+    .reference-list a { color: var(--accent); text-decoration: none; }
+    .mobile-actions { display: none; position: sticky; bottom: 12px; z-index: 20; margin-top: 14px; }
+    .mobile-actions .bar { display: flex; gap: 10px; padding: 12px; background: rgba(20,33,61,.96); color: #fff; border-radius: 18px; align-items: center; justify-content: space-between; box-shadow: var(--shadow); }
+    .mobile-actions .bar .btn { min-height: 42px; }
+    @media (max-width: 1200px) {
+      .layout { grid-template-columns: 1fr; }
+      .nav-list { max-height: none; }
+      .summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .meta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .mobile-actions { display: block; }
+    }
+    @media (max-width: 767px) {
+      .shell { padding: 12px; }
+      .topbar { padding: 16px; border-radius: 18px; }
+      .panel { border-radius: 18px; }
+      .meta-grid, .summary-grid { grid-template-columns: 1fr; }
+      .brand-title { font-size: 22px; }
+      .question-title { font-size: 18px; }
+      .actions .btn { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="topbar">
+      <div>
+        <div class="brand-kicker">EXEAM Diagnostic Session</div>
+        <h1 class="brand-title">全考 60 題</h1>
+        <div class="brand-copy">依序進行法規、調屬臨床、藥治三科，每科 20 題。答案會在提交前隱藏，提交後才顯示結果。</div>
+        <div class="section-chip-row" id="section-chips"></div>
+      </div>
+      <div class="meta-grid">
+        <div class="meta-card"><div class="meta-label">測驗模式</div><div class="meta-value" id="mode-value">?? 60 ?</div></div>
+        <div class="meta-card"><div class="meta-label">剩餘時間</div><div class="meta-value" id="meta-time">90:00</div></div>
+        <div class="meta-card"><div class="meta-label">已作答</div><div class="meta-value" id="meta-answered">0</div></div>
+        <div class="meta-card"><div class="meta-label">進度</div><div class="meta-value" id="meta-progress">0%</div></div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel">
+        <h2>題號導覽</h2>
+        <div class="note">點擊可以快速跳題。灰色表示尚未作答，綠色表示已作答。</div>
+        <div class="nav-list" id="nav-list"></div>
+      </aside>
+
+      <main class="panel">
+        <h2>主測試頁</h2>
+        <div class="note">請先作答，提交後才會顯示正確答案與解析摘要。</div>
+        <div class="progress"><span id="progress-bar"></span></div>
+        <div id="question-root"></div>
+        <div class="summary" id="summary-panel">
+          <h2>作答結果</h2>
+          <div class="summary-grid" id="summary-grid"></div>
+          <div class="actions" style="margin-top:14px;">
+            <a class="btn ghost" href="../index.html">回首頁</a>
+          </div>
+        </div>
+      </main>
+
+      <aside class="panel">
+        <h2>題庫說明</h2>
+        <div class="note">每題都保留單元引述與參考連結，方便提交後回頭查證。</div>
+        <div class="side-list">
+          <div class="info-card"><div class="info-label">測驗模式</div><div class="info-value" id="mode-value-side">?? 60 ?</div></div>
+          <div class="info-card"><div class="info-label">資料來源</div><div class="info-value">D:\\exeam\\question-bank</div></div>
+          <div class="info-card"><div class="info-label">紀錄狀態</div><div class="info-value" id="log-state">等待作答</div></div>
+          <div class="info-card">
+            <div class="info-label">事件記錄</div>
+            <div class="log" id="event-log">Session initialized.\nAnswers remain hidden until submission.</div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">參考連結</div>
+            <div class="reference-list" id="reference-list"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="mobile-actions">
+      <div class="bar">
+        <div>
+          <div style="font-weight:800;">測驗進行中</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.72);" id="mobile-status">答案會在提交後顯示</div>
+        </div>
+        <button class="btn primary" id="mobile-submit">提交</button>
+      </div>
+    </div>
+  </div>
+
+  <script id="session-data" type="application/json">{
+  "generatedAt": "2026-07-29T12:54:32",
+  "mode": "full",
+  "modeText": "?? 60 ?",
+  "timeLimitMinutes": 90,
+  "sections": [
+    {
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "questionCount": 20
+    },
+    {
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "questionCount": 20
+    },
+    {
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "questionCount": 20
+    }
+  ],
+  "questionCount": 60,
+  "questions": [
+    {
+      "setId": "105020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 3,
+      "stem": "我國對進口牛肉所採取「三管五卡」管制措施，其中所稱之「三管」不包括下列何項？",
+      "options": {
+        "A": "管源頭",
+        "B": "管邊境",
+        "C": "管市場",
+        "D": "管餐飲業者"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105020_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 1,
+      "sectionQuestionIndex": 1,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 23,
+      "stem": "依藥事法之規定，有關藥商僱用之推銷員，下列何者錯誤？",
+      "options": {
+        "A": "應由該藥商向當地之直轄市、縣（市）衛生主管機關登記後，方准執行推銷工作",
+        "B": "以向藥局、藥商、衛生醫療機構、醫學研究機構及經衛生主管機關准予登記為兼售藥物者 推銷其受僱藥商所製售或經銷之藥物為限",
+        "C": "得沿途推銷、設攤出售其受僱藥商所製售或經銷之藥物",
+        "D": "不得有擅將藥物拆封、改裝或非法廣告之行為"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105020_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 2,
+      "sectionQuestionIndex": 2,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 21,
+      "stem": "下列有關藥品臨床試驗之叙述，何者正確？",
+      "options": {
+        "A": "第一期臨床試驗性質療效確的福試驗 學名藥已非新藥，其生體相等性試驗不於人體試驗圍",
+        "B": "軍人受試者易受傷害族群，但可不须额外保護措施 若該學生未成年，则参與試驗前僮由本人署受試者同意書",
+        "C": "主要療效指標若發現無統計學意義，则以次要療效指標取代 生體相等性試驗設計，可為平行設計或交叉設計",
+        "D": "在臨床試驗段仍可進行製程最適化研究 若試驗中發生危及生命之重不良反應，計畫主持人须立即通報衛生福利部"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\110100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\110100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 3,
+      "sectionQuestionIndex": 3,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 14,
+      "stem": "有關藥師懲戒委員會之決議，下列何者正確？",
+      "options": {
+        "A": "廢止藥師證書",
+        "B": "廢止考試及格證書",
+        "C": "廢止畢業證書",
+        "D": "廢止藥局開業執照"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\106100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\106100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 4,
+      "sectionQuestionIndex": 4,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 44,
+      "stem": "經由專案申請許可進口之未經查驗登記罕見疾病藥物，下列敘述何者最正確？",
+      "options": {
+        "A": "必要時可依法申請藥害救濟",
+        "B": "若該藥有剩餘，可比照藥物樣品，轉賣其他醫院使用",
+        "C": "若屬管制藥品，仍須開立管制藥品專用處方箋",
+        "D": "專案許可為衛生福利部之權責"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\107020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\107020_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 5,
+      "sectionQuestionIndex": 5,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 11,
+      "stem": "下列敘述何者錯誤？",
+      "options": {
+        "A": "藥師應向中央主管機關申請執業登記",
+        "B": "藥師執業應接受繼續教育，並每6年提出完成繼續教育證明文件辦理執照更新",
+        "C": "請領藥師證書應具申請書及資格證明文件，送請中央主管機關核發之",
+        "D": "領有藥師證書得使用藥師名稱"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\106020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\106020_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 6,
+      "sectionQuestionIndex": 6,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 4,
+      "stem": "下列叙述何者正確？",
+      "options": {
+        "A": "我國西藥製劑GMP已推展至PIC/SGMP段，國產西藥可舆國際接軌",
+        "B": "第一等级醫療器材風险较低，尚未要求實施GMP，第二及第三等級醫療器材已實施GMP",
+        "C": "中藥製劑新廠應實施GMP，舊廠辅導進行中",
+        "D": "化粧品已推動強制性GMP"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\111100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\111100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 7,
+      "sectionQuestionIndex": 7,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 8,
+      "stem": "依藥師法之規定，藥師調劑交付藥劑時，應於容器或包裝記明之事項，下列何者錯誤？",
+      "options": {
+        "A": "藥品名稱、劑量、數量、用法",
+        "B": "警語或副作用",
+        "C": "作用或適應症",
+        "D": "病人姓名、性別及年齡"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 8,
+      "sectionQuestionIndex": 8,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "114090_0406_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 37,
+      "stem": "下列有關網路贩售藥品及醫療器材之叙述，何者錯？",
+      "options": {
+        "A": "百貨店、雜貨店及餐旅服務商皆可在網路贩賣油精 ISO 14971",
+        "B": "藥妆店可事前申請核准，在網路贩售第一等級醫療器材 ISO 13485",
+        "C": "衛生棉條及月亮杯，可在網路上贩賣 ISO 10993",
+        "D": "甲類成藥可在網路上贩售 下列何填國際標組織之標内容訂定？ ISO 13488"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\114090_q0406_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\114090_mod0406_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 9,
+      "sectionQuestionIndex": 9,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 22,
+      "stem": "依藥品安全視管理辦法之规定，新藥之安全視期間為何？",
+      "options": {
+        "A": "5年",
+        "B": "3年",
+        "C": "2年",
+        "D": "以藥品許可證有效期間為准"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\112020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\112020_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 10,
+      "sectionQuestionIndex": 10,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 24,
+      "stem": "下列有關醫療器材製造之敘述，何者錯誤？",
+      "options": {
+        "A": "製造工廠，應依藥物製造工廠設廠標準設立，並依工廠管理輔導法規定， 辦理工廠登記",
+        "B": "製造業者，應視其類別，聘用技術人員",
+        "C": "輸入之國外製造廠，由中央衛生主管機關定期或依實際需要赴廠檢 查之",
+        "D": "製造工廠，不得委託他廠製造或接受委託製造"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 11,
+      "sectionQuestionIndex": 11,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 1,
+      "stem": "下列何種產品之製造，不須聘請藥師駐廠監製？",
+      "options": {
+        "A": "隱形眼鏡鏡片消毒藥水",
+        "B": "衛生材料",
+        "C": "一般化粧品",
+        "D": "移植器官保存液"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 12,
+      "sectionQuestionIndex": 12,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 44,
+      "stem": "有關化粧品廣告之管理，下列敘述何者正確？",
+      "options": {
+        "A": "應事前申請中央或直轄市衛生主管機關核准",
+        "B": "業者須向傳播機構繳驗核准之證明文件",
+        "C": "登載宣播內容虛偽誇大，情節重大，得由原發證照機關廢止其有關營業或設廠之許可證照",
+        "D": "原核准廣告機關得令業者修正內容"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\106100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\106100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 13,
+      "sectionQuestionIndex": 13,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "114020_0406_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 11,
+      "stem": "依據藥品優良調劑作業则，下列何者錯？",
+      "options": {
+        "A": "可依醫師所開具之處方笺，將锭劑磨成粉劑",
+        "B": "可調製全胍營養输注液",
+        "C": "可調製核醫放射性藥品",
+        "D": "atropine有0.1%及0.5%濃度眼藥水之許可證，醫師處方為0.1%atropine眼藥水，但因院内缺 貨，可以0.5%稀耦製成"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\114020_q0406_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\114020_ans0406_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 14,
+      "sectionQuestionIndex": 14,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 12,
+      "stem": "负责主持經營藥局之藥師，應具備多少年以上實際調劑執業經驗，始得提供藥品調劑服務？",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "6"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\111100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\111100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 15,
+      "sectionQuestionIndex": 15,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "109020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 2,
+      "stem": "依食品安全衛生管理法之規定， 為加強全國食品安全事務之協調、監督及查緝，行政院應設：",
+      "options": {
+        "A": "食品安全諮議會",
+        "B": "食品安全審議委員會",
+        "C": "食品安全會報",
+        "D": "食品安全 辦公室"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\109020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\109020_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 16,
+      "sectionQuestionIndex": 16,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 23,
+      "stem": "輸入之隱形眼鏡清潔液，經主管機關抽查檢驗結果，其有效成分含量與核准不符，下列敘述何者錯誤？",
+      "options": {
+        "A": "該品 為不良醫療器材",
+        "B": "該品經檢驗後仍可改製使用者，應由直轄市或縣（市）衛生主管機關，派員監督廠商限期改製",
+        "C": "輸入該品之業者，應即通知醫療機構、藥局及藥商，並依規定限期收回市售品，連同庫存品一 併依藥事法有 關規定處理",
+        "D": "輸入該品業者所轄之主管機關應公告該業者之名稱、地址、負責人姓名、該品名稱及違反情節"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 17,
+      "sectionQuestionIndex": 17,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 2,
+      "stem": "有關醫療機構依醫學理論於人體施行新醫療技術、新藥品、新醫療器材及學名藥生體可用率、生體相等性之試 驗研究，係規定於下列何項法規？",
+      "options": {
+        "A": "藥事法",
+        "B": "醫療法",
+        "C": "人體 研究法",
+        "D": "人體生物資料庫管理條例"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108100_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 18,
+      "sectionQuestionIndex": 18,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 12,
+      "stem": "有關藥師執業之規定，下述何者錯誤？",
+      "options": {
+        "A": "須向執業所在地直轄市、縣（市）主管機關申請執業登記，領有執業執照",
+        "B": "公職藥師得利用公餘，夜間至居家附近診所兼任調劑藥師",
+        "C": "須加入所在地藥師公會",
+        "D": "須依藥師執業登記及繼續教育辦法之規定辦理"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105020_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 19,
+      "sectionQuestionIndex": 19,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 44,
+      "stem": "貿易公司老吴先生某次應酬完；隔天覺得身體不適，到附近藥局拿藥。藥師完症状描述後給他allopurinol 服用，未料發生「史蒂文生強生症候群」之藥害，下列叙述何者正確？",
+      "options": {
+        "A": "吴先生之家可申請藥害救濟 3天；28天",
+        "B": "藥師應先驗吴先生血中尿酸濃度 7天；28天",
+        "C": "吴先生應補测證明带有特定致病基因，方可申請藥害救濟 3天；30天",
+        "D": "本案非正當使用，不符合藥害救濟法规定 予一次多久時間内之用藥量？ 7天；30天"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\111020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\111020_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "法規",
+      "sectionOrder": 20,
+      "sectionQuestionIndex": 20,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 6,
+      "stem": "下列何者為經皮給藥系統（transdermal delivery system ）的特點？",
+      "options": {
+        "A": "無法達到穩定（steady-state ）血中濃度",
+        "B": "無肝臟首渡效應（first pass effect ）",
+        "C": "除去貼片後藥效立刻消失",
+        "D": "適用於半衰期長的藥品"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 21,
+      "sectionQuestionIndex": 1,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 51,
+      "stem": "下列何者為焦慮症（ anxiety disorders ）用藥？",
+      "options": {
+        "A": "buspirone",
+        "B": "Buscopan ®",
+        "C": "busulfan",
+        "D": "bupropion"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 22,
+      "sectionQuestionIndex": 2,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "109020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 65,
+      "stem": "使用 vancomycin 治療下列何種感染症時，通常 trough concentration 建議維持在 10 ～15 μg/mL ？",
+      "options": {
+        "A": "呼吸器相關肺部感染",
+        "B": "皮膚及軟組織感染",
+        "C": "腦膜炎",
+        "D": "骨髓炎"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 23,
+      "sectionQuestionIndex": 3,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 42,
+      "stem": "有關化粧品網路廣告之規定，下列敘述何者正確？",
+      "options": {
+        "A": "網路刊載經確認屬化粧品產品資訊，不需辦理廣告申請",
+        "B": "僅含藥化粧品需辦理廣告申請，一般化粧品不需辦理廣告申請",
+        "C": "不論是刊載產品資訊或實質廣告，均應事前申請核准，始得廣告",
+        "D": "全省各縣市衛生局均受理化粧品廣告申請"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\105020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\105020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 24,
+      "sectionQuestionIndex": 4,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 49,
+      "stem": "下列何者最不適合用於病人自控式止痛（ patient-controlled analgesia ）？",
+      "options": {
+        "A": "meperidine",
+        "B": "morphine",
+        "C": "hydromorphone",
+        "D": "fentanyl"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 25,
+      "sectionQuestionIndex": 5,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 15,
+      "stem": "下列何種吸人劑以1天使用1次最適合？",
+      "options": {
+        "A": "salbutamol",
+        "B": "ipratropium",
+        "C": "terbutaline",
+        "D": "olodaterol"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 26,
+      "sectionQuestionIndex": 6,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "113020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 46,
+      "stem": "下列何者最不建用於治療neonatalseizures？",
+      "options": {
+        "A": "phenobarbital",
+        "B": "valproic acid",
+        "C": "phenytoin",
+        "D": "lorazepam"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 27,
+      "sectionQuestionIndex": 7,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "114090_0404_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 58,
+      "stem": "用藥詢時，下列何者不是開放式問題？",
+      "options": {
+        "A": "請告我您現在的症狀",
+        "B": "這個症狀持續發生多久了呢",
+        "C": "頭痛時您都如何處理呢",
+        "D": "您之前有發生過相同的症狀"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\114090_q0404_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\114090_ans0404_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 28,
+      "sectionQuestionIndex": 8,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 17,
+      "stem": "接受TPN與fatemulsion時，下列叙述何者最不適當？",
+      "options": {
+        "A": "建一開始接受TPN時，须先测triglycerides數值 仅①②③",
+        "B": "输注時须經過0.22um的filter 仅①②④",
+        "C": "接受continuous infusion of lipids，血中triglycerides须<400 mg/dL ③④",
+        "D": "接受intermittent infusionoflipids，停止lipids输注後的4小時；血中triglycerides须<250mg/dL 件④病人的病房/床號/姓名/病號碼 ①②③④"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112100_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 29,
+      "sectionQuestionIndex": 9,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 4,
+      "stem": "下列何者調劑時，须提醒老年人可能出現尿滞留的現象？",
+      "options": {
+        "A": "aspirin",
+        "B": "diphenhydramine",
+        "C": "omeprazole",
+        "D": "nifedipine"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 30,
+      "sectionQuestionIndex": 10,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 35,
+      "stem": "醫師處方 carbamazepine 80 mg/day qid 給2歲的王小弟，藥師依指示添加乳糖稀釋成每包總重 200 mg 之粉劑 共8包，若以幾何稀釋法（geometric dilution ）製備，應經過幾次稀釋才完成？",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107100_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 31,
+      "sectionQuestionIndex": 11,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 8,
+      "stem": "有關臨時調製（extemporaneouscompounding）的存及管理，下列叙述何者錯？",
+      "options": {
+        "A": "不應以藥品原出廠效期為調製後的使用期限",
+        "B": "不须標示該次調製所使用的藥品批號",
+        "C": "應標示調製後藥品的含量",
+        "D": "應標示使用方法"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\110100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\110100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 32,
+      "sectionQuestionIndex": 12,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "113020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 35,
+      "stem": "有關醫院藥品管理與使用，下列流程何者正確？",
+      "options": {
+        "A": "手寫處方较方便，應鼓使用",
+        "B": "為缩短護理師取得藥品時間，将多數藥品列為可以直接取用的病房常備藥",
+        "C": "醫師開立處方後，護理師可直接給藥",
+        "D": "條碼給藥是改善護理師給藥錯的最佳方法之一"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 33,
+      "sectionQuestionIndex": 13,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "109100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 7,
+      "stem": "有關藥品玻璃包材之叙述，下列何者最不適當？",
+      "options": {
+        "A": "包材的重量造成運输成本增加",
+        "B": "避空氣及避濕之效果佳",
+        "C": "不易查其内容物",
+        "D": "價格较昂贵"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 34,
+      "sectionQuestionIndex": 14,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 68,
+      "stem": "若valproic acid穩定谷濃度為159 μg/mL，疾病控制良好；但病人有嗜睡丶颤抖丶血小板低下等症狀，下列何 種處置最適當？",
+      "options": {
+        "A": "持續使用valproic acid，更密切监测血中濃度、療效與毒性",
+        "B": "立即停止使用valproic acid；换用其他藥品",
+        "C": "調降valproicacid劑量，密切测血中濃度、療效舆毒性",
+        "D": "将valproic acid與其他藥品錯開服用，以减少藥品交互作用"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 35,
+      "sectionQuestionIndex": 15,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "113090_11_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 26,
+      "stem": "由600mL10%amino acid solution、700 mL 50% dextrose solution及250 mL 20%IVfat emulsion 調製成的TPN，其總熱量為多少kcal？",
+      "options": {
+        "A": "1,880",
+        "B": "1,930",
+        "C": "2,090",
+        "D": "2,140"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113090_q11_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113090_mod11_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 36,
+      "sectionQuestionIndex": 16,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 58,
+      "stem": "王先生，為慢性阻塞性肺病groupD，下列處方何者最不適當？",
+      "options": {
+        "A": "olodaterol",
+        "B": "tiotropium",
+        "C": "tiotropium+ olodaterol",
+        "D": "budesonide + formoterol"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\110020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\110020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 37,
+      "sectionQuestionIndex": 17,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 17,
+      "stem": "藥師常使用 Naranjo algorithm 於下列何種臨床情境？",
+      "options": {
+        "A": "預測藥品血中濃度",
+        "B": "評估藥品不良反應之因果關係",
+        "C": "計算小兒劑量",
+        "D": "查詢藥物交互作用的可能性及處理方式"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 38,
+      "sectionQuestionIndex": 18,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 30,
+      "stem": "有關臨場調製（extemporaneous compounding ）藥品之敘述，下列何者最恰當？",
+      "options": {
+        "A": "調製後之口服液劑室溫下可以存放 14 天",
+        "B": "調製後之外用乳劑，在不含防腐劑的情況下，於室溫可存放 30 天",
+        "C": "在非 ISO 5 環境下調製之注射劑，於冷藏情況下僅可存放一週",
+        "D": "臨場調製藥品之使用期限，須依各藥品物化與微生物安定性試驗而訂定"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 39,
+      "sectionQuestionIndex": 19,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 72,
+      "stem": "有關digoxin之藥品交互作用，下列叙述何者正確？",
+      "options": {
+        "A": "舆amiodarone饼用，digoxin的血中濃度會上升",
+        "B": "舆clarithromycin饼用，digoxin的血中濃度會下降",
+        "C": "舆rifampin饼用，digoxin的血中濃度會上升",
+        "D": "與verapamil供用，digoxin的血中濃度會下降"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 40,
+      "sectionQuestionIndex": 20,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 45,
+      "stem": "有關 5-fluorouracil （5-FU ）的敘述，下列何者正確？",
+      "options": {
+        "A": "5-FU 的作用機轉：continuous IV infusion 時可以嵌入 RNA ；而intermittent IV bolus 時抑制 thymidylate synthase",
+        "B": "leucovorin 與5-FU 合併使用的目的為減少 5-FU 對癌細胞的毒性",
+        "C": "capecitabine 是5-FU 的prodrug",
+        "D": "capecitabine 引起副作用之型態，比較接近 intermittent IV bolus 5-FU"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 41,
+      "sectionQuestionIndex": 1,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 41,
+      "stem": "有關過度使用藥品引[起的頭痛（medication-overuseheadache），下列叙述何者正確？",
+      "options": {
+        "A": "是一種神經結構破壤的結果",
+        "B": "起因為長期過度使用降血壓藥",
+        "C": "頭痛的型態會由陣發變成持續",
+        "D": "長期使用非處方止痛藥每不應超過4天，以预防此類頭痛"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\110020_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 42,
+      "sectionQuestionIndex": 2,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 56,
+      "stem": "Olanzapine與diphenhydramine饼用時，最不可能發生下列何種症状？",
+      "options": {
+        "A": "blurredvision",
+        "B": "confusion",
+        "C": "urinary retention",
+        "D": "extrapyramidal syndrome"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\112100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\112100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 43,
+      "sectionQuestionIndex": 3,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 40,
+      "stem": "下列何者無法预防或處理hemodialysis過程中發生之hypotension？",
+      "options": {
+        "A": "降低ultrafiltrationrate",
+        "B": "增加dialysate温度",
+        "C": "hemodialysis前给舆midodrine",
+        "D": "hemodialysis前給奥fludrocortisone"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\112100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\112100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 44,
+      "sectionQuestionIndex": 4,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108030_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 76,
+      "stem": "李先⽣ 57 歲，患有致粥瘤性⾼脂⾎症（ atherogenic dyslipidemia ），下列何種藥品治療組合最不適當？",
+      "options": {
+        "A": "niacin ＋fenofibric acid",
+        "B": "niacin ＋colesevelam",
+        "C": "rosuvatatin ＋gemfibrozil",
+        "D": "fluvastatin ＋niacin"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\108030_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\108030_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 45,
+      "sectionQuestionIndex": 5,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 14,
+      "stem": "下列何者引起腎臟毒性的機會最低？",
+      "options": {
+        "A": "foscarnet",
+        "B": "acyclovir",
+        "C": "flucytosine",
+        "D": "amphotericin B"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 46,
+      "sectionQuestionIndex": 6,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 41,
+      "stem": "下列何者可能導致乳酸中毒（lactic acidosis）？①休克②癫瘤③一氧化碳中毒④惡性瘤",
+      "options": {
+        "A": "仅①③ 等張性（isotonic） ①③ 口服ibuprofen",
+        "B": "①②④ 高張性（hypertonic） ④③ 吸人oxygen",
+        "C": "②③④ 低張性（hypotonic） ①③ 皮下注射sumatriptan",
+        "D": "①②③④ mg/dL，其低血钠於下列何種型態？ 高容性（hypervolemic） 43.70崴男性，因高血壓及慢性臀病（CKD）長期使用furosemide丶valsartan與amlodipine，臀功能穩定。今發 現血中K+5.6mmol/L（参考值3.5～5.0），但無任何不適，心電圖正常。下列何者與其血钾翼常的關連性最 低？①furosemide②valsartan③amlodipine④CKD5病人表示最近攝取较多水果舆果汁 ②④ zolmitriptan鼻喷劑"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\111100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\111100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 47,
+      "sectionQuestionIndex": 7,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "109100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 21,
+      "stem": "下列何者的半衰期最長？",
+      "options": {
+        "A": "argatroban",
+        "B": "enoxaparin",
+        "C": "unfractionated heparin",
+        "D": "warfarin"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\109100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\109100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 48,
+      "sectionQuestionIndex": 8,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108030_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 25,
+      "stem": "下列何者因含有 碘，應避免使⽤於甲狀腺功能異常病⼈？",
+      "options": {
+        "A": "propafenone",
+        "B": "amiodarone",
+        "C": "dofetilide",
+        "D": "lidocaine"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\108030_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\108030_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 49,
+      "sectionQuestionIndex": 9,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 51,
+      "stem": "下列何者降低血中三酸甘油脂（TG ）效果差，不適合用於治療 hypertriglyceridemia ？",
+      "options": {
+        "A": "fenofibrate 160 mg qd",
+        "B": "atorvastatin 20 mg qd",
+        "C": "niacin （extended-release ）2000 mg qd",
+        "D": "ezetimibe 10 mg qd"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 50,
+      "sectionQuestionIndex": 10,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "113090_22_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 38,
+      "stem": "有關acutekidneyinjury（AKI）的病因，下列何者正確？",
+      "options": {
+        "A": "renalcalculi：臀前性（prerenal）azotemia 50",
+        "B": "glomerulonephritis：臀功能性（functional）AKI 100",
+        "C": "amphotericinB：臀内因性（intrinsic）AKI 150",
+        "D": "liver cirrhosis with ascites：臀後性（postrenal）AKI 39.60崴詹小姐，163cm丶50kg’因septicshock而人住加護病房，動派血氯體（ABG）分析如下：pH7.30 PaCO232mmHg丶PaO260mmHg丶HCO316mEq/L，鹰給舆多少mEqNaHCO3’才能使其HCO3`上升至20 mEq/L? 200"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\113090_q22_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\113090_mod22_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 51,
+      "sectionQuestionIndex": 11,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 63,
+      "stem": "王老先生因退化性關節炎長期使用acetaminophen，3年前曾接受心導管支架置人手術；最近膝蓋疼痛加劇。下 列口服藥，何者最適合用於缓解其膝蓋疼痛？",
+      "options": {
+        "A": "naproxen",
+        "B": "piroxicam",
+        "C": "sulindac",
+        "D": "celecoxib"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 52,
+      "sectionQuestionIndex": 12,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 61,
+      "stem": "有關allopurinol之叙述，下列何者錯？",
+      "options": {
+        "A": "须依照臀功能調整劑量 無痛風病史之病人须極降低血液尿酸 B·如考虑使用allopurinol·鹰先测HLA-B*5801",
+        "B": "须依照肝功能調整劑量",
+        "C": "與azathioprine及mercaptopurine有重交互作用 一旦發現，應速用藥",
+        "D": "重過敏反應與其活性代謝物有關 已證實藥品治療可预防臀藏相關供發症"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 53,
+      "sectionQuestionIndex": 13,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 74,
+      "stem": "下列王先生長期使用之藥品中，何者可能使血中尿酸增加？",
+      "options": {
+        "A": "potassium supplement",
+        "B": "hydrochlorothiazide",
+        "C": "lisinopril",
+        "D": "simvastatin"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 54,
+      "sectionQuestionIndex": 14,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "113020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 18,
+      "stem": "COPD病人；其spirometry查值：FEV/FVC<70%丶FEV=85%of predicted；其呼氯氣流受阻（airflow obstruction）程度為何？",
+      "options": {
+        "A": "輕度",
+        "B": "中度",
+        "C": "重",
+        "D": "非常重"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\113020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\113020_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 55,
+      "sectionQuestionIndex": 15,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 39,
+      "stem": "關於hyperkalemia的叙述，下列何者錯？",
+      "options": {
+        "A": "可能導致心律不整而致死",
+        "B": "應速給與calciumgluconate來降低血钾",
+        "C": "captopril常造成hyperkalemia",
+        "D": "常發生於rhabdomyolysis"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\112100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\112100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 56,
+      "sectionQuestionIndex": 16,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 27,
+      "stem": "下列何者不會使心衰竭的症状加劇？",
+      "options": {
+        "A": "rofecoxib",
+        "B": "doxorubicin",
+        "C": "rosiglitazone",
+        "D": "spironolactone"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\110020_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 57,
+      "sectionQuestionIndex": 17,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 3,
+      "stem": "有關陣發性心室上心搏過速（paroxysmal supraventricular tachycardia ，PSVT ）的治療，下列何者錯誤？",
+      "options": {
+        "A": "如果症狀嚴重，可使用同步直流電心臟整律術（synchronized direct-current cardioversion ）",
+        "B": "輕微或中度症狀可使用非藥物方法，如：單側頸動脈竇按摩以增加 AV node 的迷走神經張力",
+        "C": "可使用放射頻率電流（radiofrequency current ）對PSVT 病人做經皮心臟電燒術（transcutaneous catheter ablation ）",
+        "D": "adenosine 因作用期長，為PSVT 病人的首選藥品"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\105100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\105100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 58,
+      "sectionQuestionIndex": 18,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 41,
+      "stem": "下列何者最不適合用來治療透析中的低血壓？",
+      "options": {
+        "A": "fludrocortisone",
+        "B": "midodrine",
+        "C": "sertraline",
+        "D": "dexamethasone"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\112020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\112020_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 59,
+      "sectionQuestionIndex": 19,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "113090_22_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 42,
+      "stem": "下列erythropoietin皮下注射給藥之半衰期，由短至長依序排列為何？①epoetinalfa②darbepoetin alfa③methoxy polyethylene glycol-epoetin beta",
+      "options": {
+        "A": "①②③",
+        "B": "①③②",
+        "C": "②①③",
+        "D": "③①②"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\113090_q22_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\113090_mod22_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 60,
+      "sectionQuestionIndex": 20,
+      "sectionQuestionTotal": 20
+    }
+  ]
+}</script>
+  <script>
+    const session = JSON.parse(document.getElementById('session-data').textContent);
+    const state = {
+      index: 0,
+      submitted: false,
+      startAt: Date.now(),
+      currentEnterAt: Date.now(),
+      answers: {},
+      changes: [],
+      timeByQuestion: Array(session.questions.length).fill(0),
+      firstChoiceAt: {},
+      lastChoiceAt: {},
+    };
+
+    const els = {
+      navList: document.getElementById('nav-list'),
+      questionRoot: document.getElementById('question-root'),
+      progressBar: document.getElementById('progress-bar'),
+      metaTime: document.getElementById('meta-time'),
+      metaAnswered: document.getElementById('meta-answered'),
+      metaProgress: document.getElementById('meta-progress'),
+      summaryPanel: document.getElementById('summary-panel'),
+      summaryGrid: document.getElementById('summary-grid'),
+      eventLog: document.getElementById('event-log'),
+      logState: document.getElementById('log-state'),
+      referenceList: document.getElementById('reference-list'),
+      mobileStatus: document.getElementById('mobile-status'),
+      mobileSubmit: document.getElementById('mobile-submit'),
+      sectionChips: document.getElementById('section-chips'),
+      modeValue: document.getElementById('mode-value'),
+      modeValueSide: document.getElementById('mode-value-side'),
+    };
+
+
+
+    const SECTION_LABELS = { law: '\u6cd5\u898f', dispensing: '\u8abf\u5c6c\u81e8\u5e8a', therapeutics: '\u85e5\u6cbb' };
+    const FULL_COPY = '\u4f9d\u5e8f\u9032\u884c\u6cd5\u898f\u3001\u8abf\u5c6c\u81e8\u5e8a\u3001\u85e5\u6cbb\u4e09\u79d1\uff0c\u6bcf\u79d1 20 \u984c\u3002\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u524d\u96b1\u85cf\uff0c\u63d0\u4ea4\u5f8c\u624d\u986f\u793a\u7d50\u679c\u3002';
+    function sectionLabel(key) {
+      return SECTION_LABELS[key] || key;
+    }
+    function modeTextForSession() {
+      if (session.mode === 'full') return '\u5168\u8003 60 \u984c';
+      return `${sectionLabel(session.sections[0].sectionKey)} 20 \u984c`;
+    }
+    function modeCopyForSession() {
+      if (session.mode === 'full') return FULL_COPY;
+      return `${sectionLabel(session.sections[0].sectionKey)} \u55ae\u79d1 20 \u984c\u3002\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u524d\u96b1\u85cf\uff0c\u63d0\u4ea4\u5f8c\u624d\u986f\u793a\u7d50\u679c\u3002`;
+    }
+    function applyStaticText() {
+      document.title = modeTextForSession();
+      const kicker = document.querySelector('.brand-kicker');
+      if (kicker) kicker.textContent = 'EXEAM Diagnostic Session';
+      const title = document.querySelector('.brand-title');
+      if (title) title.textContent = modeTextForSession();
+      const copy = document.querySelector('.brand-copy');
+      if (copy) copy.textContent = modeCopyForSession();
+      const labels = document.querySelectorAll('.meta-label');
+      if (labels.length >= 4) {
+        labels[0].textContent = '\u6e2c\u9a57\u6a21\u5f0f';
+        labels[1].textContent = '\u5269\u9918\u6642\u9593';
+        labels[2].textContent = '\u5df2\u4f5c\u7b54';
+        labels[3].textContent = '\u9032\u5ea6';
+      }
+      const heads = document.querySelectorAll('h2');
+      if (heads.length >= 4) {
+        heads[0].textContent = '\u984c\u865f\u5c0e\u89bd';
+        heads[1].textContent = '\u4e3b\u6e2c\u8a66\u9801';
+        heads[2].textContent = '\u4f5c\u7b54\u7d50\u679c';
+        heads[3].textContent = '\u984c\u5eab\u8aaa\u660e';
+      }
+      const notes = document.querySelectorAll('.note');
+      if (notes.length >= 3) {
+        notes[0].textContent = '\u9ede\u64ca\u53ef\u4ee5\u5feb\u901f\u8df3\u984c\u3002\u7070\u8272\u8868\u793a\u5c1a\u672a\u4f5c\u7b54\uff0c\u7da0\u8272\u8868\u793a\u5df2\u4f5c\u7b54\u3002';
+        notes[1].textContent = '\u8acb\u5148\u4f5c\u7b54\uff0c\u63d0\u4ea4\u5f8c\u624d\u6703\u986f\u793a\u6b63\u78ba\u7b54\u6848\u8207\u89e3\u6790\u6458\u8981\u3002';
+        notes[2].textContent = '\u6bcf\u984c\u90fd\u4fdd\u7559\u55ae\u5143\u5f15\u8ff0\u8207\u53c3\u8003\u9023\u7d50\uff0c\u65b9\u4fbf\u63d0\u4ea4\u5f8c\u56de\u982d\u67e5\u8b49\u3002';
+      }
+      const review = document.querySelector('#summary-panel .btn.ghost');
+      if (review) review.textContent = '\u56de\u9996\u9801';
+      const modeValue = document.getElementById('mode-value');
+      if (modeValue) modeValue.textContent = modeTextForSession();
+      const modeValueSide = document.getElementById('mode-value-side');
+      if (modeValueSide) modeValueSide.textContent = modeTextForSession();
+      const mobileStatus = document.getElementById('mobile-status');
+      if (mobileStatus) mobileStatus.textContent = '\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u5f8c\u986f\u793a';
+      const mobileSubmit = document.getElementById('mobile-submit');
+      if (mobileSubmit) mobileSubmit.textContent = '\u63d0\u4ea4';
+    }
+
+    function fmt(seconds) {
+      const s = Math.max(0, Math.floor(seconds));
+      const m = Math.floor(s / 60);
+      const r = String(s % 60).padStart(2, '0');
+      return `${m}:${r}`;
+    }
+
+    function appendLog(line) {
+      const current = els.eventLog.textContent.trim();
+      els.eventLog.textContent = current ? `${current}\n${line}` : line;
+      els.eventLog.scrollTop = els.eventLog.scrollHeight;
+    }
+
+    function questionCitation(question) {
+      if (question.unitCitation) return question.unitCitation;
+      if (question.unitTitle && question.subjectTitle) return `${question.unitTitle} / ${question.subjectTitle}`;
+      return question.subjectTitle || question.unitTitle || '';
+    }
+
+    function markTime() {
+      const now = Date.now();
+      state.timeByQuestion[state.index] += (now - state.currentEnterAt) / 1000;
+      state.currentEnterAt = now;
+    }
+
+    function goTo(index) {
+      if (index < 0 || index >= session.questions.length) return;
+      if (index !== state.index) {
+        markTime();
+        state.index = index;
+        state.currentEnterAt = Date.now();
+        render();
+        appendLog(`開啟 Q${index + 1} @ ${new Date().toLocaleTimeString()}`);
+      }
+    }
+
+    function setAnswer(questionIndex, value) {
+      const key = String(questionIndex + 1);
+      const previous = state.answers[key];
+      state.answers[key] = value;
+      const now = new Date().toISOString();
+      if (!state.firstChoiceAt[key]) state.firstChoiceAt[key] = now;
+      state.lastChoiceAt[key] = now;
+      state.changes.push({ question: key, from: previous || null, to: value, at: now });
+      appendLog(`答案變更：Q${key}: ${previous || '?'} -> ${value}`);
+      renderNav();
+      renderMeta();
+    }
+
+    function renderSectionChips() {
+      els.sectionChips.innerHTML = '';
+      session.sections.forEach(section => {
+        const chip = document.createElement('span');
+        chip.className = 'section-chip';
+        chip.textContent = `${sectionLabel(section.sectionKey)} ${section.questionCount} 題`;
+        els.sectionChips.appendChild(chip);
+      });
+    }
+
+    function renderNav() {
+      els.navList.innerHTML = '';
+      session.questions.forEach((q, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'nav-btn' + (i === state.index ? ' active' : '') + (state.answers[String(i + 1)] ? ' answered' : '');
+        btn.innerHTML = `<span><strong>Q${i + 1}</strong><small>${sectionLabel(q.sectionKey)}</small></span><span>${q.sectionQuestionIndex}/20</span>`;
+        btn.addEventListener('click', () => goTo(i));
+        els.navList.appendChild(btn);
+      });
+    }
+
+    function renderReferences(question) {
+      els.referenceList.innerHTML = '';
+      const entries = [];
+      if (question.questionPdf) entries.push({ label: '\u984c\u76ee PDF', url: question.questionPdf });
+      (question.answerPdfs || []).filter(Boolean).slice(0, 1).forEach(url => {
+        entries.push({ label: '\u7b54\u6848 PDF', url });
+      });
+      entries.forEach(link => {
+        const a = document.createElement('a');
+        a.href = link.url || '#';
+        a.textContent = `${questionCitation(question)} ? ${link.label}`;
+        a.target = '_blank';
+        a.rel = 'noreferrer';
+        els.referenceList.appendChild(a);
+      });
+      const cite = document.createElement('div');
+      cite.style.color = 'var(--muted)';
+      cite.style.fontSize = '13px';
+      cite.style.lineHeight = '1.5';
+      cite.style.marginTop = '8px';
+      cite.textContent = `${question.unitCitation}`;
+      els.referenceList.appendChild(cite);
+    }
+
+    function renderQuestion() {
+      const q = session.questions[state.index];
+      const answered = state.answers[String(state.index + 1)];
+      const options = Object.entries(q.options || {});
+      const submitted = state.submitted;
+      const optionsHtml = options.map(([letter, text]) => {
+        const selected = answered === letter;
+        const isCorrect = submitted && q.answer === letter;
+        const isWrong = submitted && selected && q.answer !== letter;
+        return `
+          <label class="option ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}">
+            <input type="radio" name="answer" value="${letter}" ${selected ? 'checked' : ''} ${submitted ? 'disabled' : ''}>
+            <span class="letter">${letter}.</span>
+            <span class="text">${text}</span>
+          </label>`;
+      }).join('');
+      const answerHint = submitted
+        ? `<div class="citation" style="color: var(--accent); font-weight:700;">正確答案：${q.answer}</div>`
+        : '<div class="citation">答案在提交前不公開</div>';
+      els.questionRoot.innerHTML = `
+        <article class="question-card">
+          <div class="question-head">
+            <div class="question-badge">? ${state.index + 1} ? / ${session.questions.length} ?</div>
+            <div class="question-badge" style="background: rgba(217,119,6,.10); color: var(--accent-2);">${sectionLabel(q.sectionKey)} ${q.sectionQuestionIndex}/20</div>
+          </div>
+          <h3 class="question-title">${q.stem}</h3>
+          <div class="citation">${q.subjectTitle} ? ${questionCitation(q)}</div>
+          <div class="options">${optionsHtml}</div>
+          ${answerHint}
+          <div class="actions">
+            <button class="btn secondary" id="prev-btn" ${state.index === 0 ? 'disabled' : ''}>上一題</button>
+            <button class="btn secondary" id="next-btn" ${state.index === session.questions.length - 1 ? 'disabled' : ''}>下一題</button>
+            <button class="btn primary" id="submit-btn">提交</button>
+          </div>
+          <div class="citation" style="margin-top:12px;">閱讀時間?${fmt(state.timeByQuestion[state.index] + ((Date.now() - state.currentEnterAt) / 1000))}</div>
+          ${submitted ? '<div class="citation" style="margin-top:8px; color: var(--accent);">結果已生成，可進入複習</div>' : ''}
+        </article>
+      `;
+      els.questionRoot.querySelectorAll('input[name="answer"]').forEach(input => {
+        input.addEventListener('change', e => setAnswer(state.index, e.target.value));
+      });
+      const prev = document.getElementById('prev-btn');
+      const next = document.getElementById('next-btn');
+      const submit = document.getElementById('submit-btn');
+      prev && prev.addEventListener('click', () => goTo(state.index - 1));
+      next && next.addEventListener('click', () => goTo(state.index + 1));
+      submit && submit.addEventListener('click', submitSession);
+      renderReferences(q);
+    }
+
+    function renderMeta() {
+      const answered = Object.keys(state.answers).length;
+      const progress = Math.round((answered / session.questions.length) * 100);
+      els.metaAnswered.textContent = String(answered);
+      els.metaProgress.textContent = `${progress}%`;
+      els.progressBar.style.width = `${progress}%`;
+      const remaining = session.timeLimitMinutes * 60 - Math.floor((Date.now() - state.startAt) / 1000);
+      els.metaTime.textContent = fmt(remaining);
+      els.modeValue.textContent = modeTextForSession();
+      els.modeValueSide.textContent = modeTextForSession();
+      els.mobileStatus.textContent = state.submitted ? '已提交' : '答案會在提交後顯示';
+      els.logState.textContent = state.submitted ? '已提交' : '作答中';
+    }
+
+    function renderSummary() {
+      const totals = session.sections.map(section => {
+        const sectionQuestions = session.questions.filter(q => q.sectionKey === section.sectionKey);
+        const correct = sectionQuestions.reduce((acc, q, idx) => {
+          const globalIndex = session.questions.findIndex(item => item === q);
+          const given = state.answers[String(globalIndex + 1)];
+          return acc + (given === q.answer ? 1 : 0);
+        }, 0);
+        const wrong = sectionQuestions.length - correct;
+        const rate = Math.round((correct / sectionQuestions.length) * 100);
+        return { label: sectionLabel(section.sectionKey), correct, wrong, rate };
+      });
+      const overallCorrect = session.questions.reduce((acc, q, idx) => acc + (state.answers[String(idx + 1)] === q.answer ? 1 : 0), 0);
+      const overallWrong = session.questions.length - overallCorrect;
+      const overallRate = Math.round((overallCorrect / session.questions.length) * 100);
+      const reading = Math.round(state.timeByQuestion.reduce((a, b) => a + b, 0));
+      const items = [
+        { k: '總正確題數', v: String(overallCorrect) },
+        { k: '總錯誤題數', v: String(overallWrong) },
+        { k: '總正確率', v: `${overallRate}%` },
+        { k: '總閱讀秒數', v: String(reading) },
+        ...totals.map(s => ({ k: `${s.label} 正確率`, v: `${s.rate}%` })),
+      ];
+      els.summaryGrid.innerHTML = items.map(item => `<div class="summary-item"><div class="k">${item.k}</div><div class="v">${item.v}</div></div>`).join('');
+    }
+
+    function render() {
+      renderSectionChips();
+      renderNav();
+      renderQuestion();
+      renderMeta();
+    }
+
+    function submitSession() {
+      if (state.submitted) return;
+      if (!confirm('要提交這次測驗嗎？提交後將顯示答案與結果。')) return;
+      markTime();
+      state.submitted = true;
+      renderSummary();
+      els.summaryPanel.classList.add('show');
+      appendLog('已提交，待查看結果');
+      render();
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    applyStaticText();
+    document.getElementById('mobile-submit').addEventListener('click', submitSession);
+    window.addEventListener('beforeunload', () => markTime());
+    setInterval(renderMeta, 1000);
+    render();
+  </script>
+  <script src="./review-hook.js"></script>
+</body>
+</html>

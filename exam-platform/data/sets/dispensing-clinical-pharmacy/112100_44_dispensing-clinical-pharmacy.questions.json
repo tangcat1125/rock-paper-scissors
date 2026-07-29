@@ -1,0 +1,679 @@
+{
+  "setId": "112100_44_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112100_q44_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112100_mod44_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 65,
+  "answerCount": 65,
+  "parseWarnings": [
+    "Question 28: Could not parse options for question 28",
+    "Question 34: Could not parse options for question 34",
+    "Question 73: Could not parse options for question 73",
+    "Question 74: Could not parse options for question 74"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列水溶性製劑，何者不具收敛作用？",
+      "options": {
+        "A": "Burow solution 1:20~1:40",
+        "B": "potassium permanganate 1:4,000~ 1:16,000",
+        "C": "silver nitrate 0.1~0.5%",
+        "D": "acetic acid 1%"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "下列何者為製備口服锭劑（tablet）之稀劑（diluent）？",
+      "options": {
+        "A": "mannitol",
+        "B": "polyvinylpyrrolidone",
+        "C": "microcrystalline cellulose",
+        "D": "modified starch"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "有關栓劑（suppository）之叙述，下列何者錯？",
+      "options": {
+        "A": "栓劑基劑對黏膜應不具刺激性",
+        "B": "可可脂基劑與體液可互溶",
+        "C": "polyethylene glycol可做為栓劑之水溶性基劑",
+        "D": "適合用於兒童和老年人"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "下列何者服用後不可立即躺下，须維持上身直立至少半小時？",
+      "options": {
+        "A": "allopurinol",
+        "B": "albuterol",
+        "C": "albendazole",
+        "D": "alendronate"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "下列何者調劑時，可不须特别提醒病人避免喝葡萄柚汁？",
+      "options": {
+        "A": "lovastatin",
+        "B": "simvastatin",
+        "C": "pravastatin",
+        "D": "atorvastatin"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "藥師若以藥廠原包装交付病人口服藥品，藥袋上不须额外標示下列那一项目？",
+      "options": {
+        "A": "藥局的名及地址",
+        "B": "病人姓名",
+        "C": "藥品批號",
+        "D": "調劑日期"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "下列何種玻璃類型最適合用於製作胰島素注射筆或卡式管，用以充填胰島素？",
+      "options": {
+        "A": "type I",
+        "B": "type II",
+        "C": "type III",
+        "D": "type IV"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "有關藥品包装之叙述，下列何者錯？",
+      "options": {
+        "A": "adalimumab prefilled syringe片unit-dose packaging 3",
+        "B": "稀carboplatin可選用含PVC的容器 7",
+        "C": "furosemide 20 mg/2 mL ampoule於multi-dose containers 10",
+        "D": "nitroglycerin SL tablet须使用light-resistant containers 用期限應設為調製後天？ 14"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "有關藥品與其antidote配對，下列何者正確？",
+      "options": {
+        "A": "lorazepam— naloxone",
+        "B": "beta-blocker— glucagon",
+        "C": "morphine — flumazenil",
+        "D": "heavy metal— calcium gluconate"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "調配某一糖如下：magnesium carbonate15g’sucrose680g’加水至1,000 mL；對於magnesium carbonate濃 度的標示，下列何者正確？",
+      "options": {
+        "A": "0.15% w/w 0.01",
+        "B": "0.15% w/v 0.3",
+        "C": "1.5% w/w 30",
+        "D": "1.5% w/v 12.30公克包装之clindamycin1%gel，每公克gel含有多少mg之clindamycin？ 10"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "有關含有舊型推進劑之吸人劑（簡舊劑型）及含有環保推進劑之吸人劑（簡新劑型），下列叙述何者正 確？",
+      "options": {
+        "A": "新劑型不含温室氯體（green-house gases）",
+        "B": "舊劑型用起來没有冰凉的感覺",
+        "C": "環保推進劑之成分主要為hydrofluoroalkanes（HFAs）",
+        "D": "舊劑型要快吸"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "某藥品對水的溶解度為1:50，對乙醇的溶解度為1:12，下列叙述何正確？",
+      "options": {
+        "A": "250mg可溶於10mL的水",
+        "B": "10mg可溶於0.6mL的水",
+        "C": "1 kg可溶於5L的乙醇",
+        "D": "0.05g可溶於0.2mL的乙醇"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "一瓶azithromycin悬液用粉，加水9mL，可配製成15mL之40mg/mL悬液劑。若要配製成20mL之30mg/mL悬 液劑，须加人多少mL的水？",
+      "options": {
+        "A": "12",
+        "B": "5",
+        "C": "7.5",
+        "D": "14"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "為避免病人產生refeeding syndrome，在接受TPN的第一，须每日测下列值；但何者除外？",
+      "options": {
+        "A": "血磷",
+        "B": "血糖",
+        "C": "血",
+        "D": "血"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "接受TPN與fatemulsion時，下列叙述何者最不適當？",
+      "options": {
+        "A": "建一開始接受TPN時，须先测triglycerides數值 仅①②③",
+        "B": "输注時须經過0.22um的filter 仅①②④",
+        "C": "接受continuous infusion of lipids，血中triglycerides须<400 mg/dL ③④",
+        "D": "接受intermittent infusionoflipids，停止lipids输注後的4小時；血中triglycerides须<250mg/dL 件④病人的病房/床號/姓名/病號碼 ①②③④"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "Multi-dose針劑包装，相较於singleuse包装，其中组成最主要多了下列何者？",
+      "options": {
+        "A": "增稠劑 decarboxylation",
+        "B": "浮劑 epimerization",
+        "C": "防腐劑 oxidation",
+        "D": "安定劑 racemization"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "有關注射化療藥品調製，下列選项何者正確？①必须使用螺旋（Luer lock）針具與器材②在至少ClassI的生 物安全（biological safetycabinet）中操作③為使藥瓶中壓力平衡；抽取液状藥品之前應打人等體积空 氣④調製完成後應密封才可出藥局，且清楚標示為化療藥品",
+      "options": {
+        "A": "②③",
+        "B": "①③",
+        "C": "①④",
+        "D": "②④"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "調製化療藥品前，所有藥品外包装都要以下列何者清潔，再置人清淨室（cleanroom）？",
+      "options": {
+        "A": "70% ethanol",
+        "B": "3% H2O2",
+        "C": "water for injection",
+        "D": "0.1% NaCIO"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "下列何者最接近等張（isotonic）溶液？",
+      "options": {
+        "A": "lactated Ringer's injection",
+        "B": "3% NaCl injection",
+        "C": "10% dextrose injection",
+        "D": "5% dextrose injection"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "注射劑型除solutions外，尚有那些種類？①dry,insoluble products②suspensions③dry,soluble products ④emulsions",
+      "options": {
+        "A": "仅①④",
+        "B": "仅②③④",
+        "C": "仅①②③",
+        "D": "①②③④"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "有關dialysis fluids之叙述，下列何者錯？",
+      "options": {
+        "A": "peritonealdialysisfluids一般包装為plasticbags",
+        "B": "haemodialysis fluids不需要sterile",
+        "C": "haemodialysis fluids不需要pyrogen-free",
+        "D": "peritonealdialysisfluids不需要在腹腔内有dwell-time"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "有關morphinePCA的叙述，下列何者錯？",
+      "options": {
+        "A": "於一級管制藥品，購人或支出一定要登载",
+        "B": "可使用D5W或0.9%NaCl稀",
+        "C": "給藥方式包含continuousinfusion及bolus",
+        "D": "建合餠diazepam以减少病人的疼痛"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "下列那一類病人不以fentanylPCA作為術後急性止痛？",
+      "options": {
+        "A": "creatinine clearance >50 mL/min",
+        "B": "有重知障",
+        "C": "肥胖",
+        "D": "曾使用過fentanyl"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "圖為垂直層流無菌操作箱，那一個點是最佳無菌製劑調配位置？",
+      "options": {
+        "A": "A點",
+        "B": "B點",
+        "C": "C點",
+        "D": "D點"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "下列何者不是全静派營養输液的成分？",
+      "options": {
+        "A": "水",
+        "B": "胺基酸",
+        "C": "電解質",
+        "D": "維素"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "Insulin製劑若不慎冰凍，應如何處置？",
+      "options": {
+        "A": "解凍後，室温下12小時内用完",
+        "B": "解凍後，室温下24小時内用完",
+        "C": "解凍後仔细觀察，若無任何沉物產生，则可於製劑原本標示期限内使用",
+        "D": "丢，不可再用"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "有關化療藥品的給藥，下列叙述何者錯？",
+      "options": {
+        "A": "化療藥品一定要經由中央静派施打",
+        "B": "化療藥品静派注射經常探用輸注浦（infusionpump）",
+        "C": "外渗（extravasation）常因針頭没有插進血管而接觸到組織",
+        "D": "給與化療藥品的護理人員應該經過完備訓"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "陳79崴；到社區藥局领藥；藥師注意到處方有indomethacin 25 mg/cap1capPRN，下列叙述何者最不適 當？",
+      "options": {
+        "A": "indomethacin是常用之止痛藥，依處方調劑",
+        "B": "须詢問陳之疼痛情形",
+        "C": "须詢問陳，醫師是否告知使用時機與總用量",
+        "D": "须评估用藥安全性問題"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "醫院藥師可以提供的臨床藥事照護包括那些项目？①療劑监測②靜服營養估③抗生素管理④藥物治 療管理（MTM）",
+      "options": {
+        "A": "仅①②",
+        "B": "①④",
+        "C": "②③④",
+        "D": "①②③④"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "下列醫療作業潜藏的問題，何者不於系統性問題？",
+      "options": {
+        "A": "作業规不明確",
+        "B": "LASA品项位未能有效區隔",
+        "C": "藥師人格特質",
+        "D": "電子醫令系統缺乏藥品極量警示功能"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "有關醫藥疏失風险管理常用之失效模式及效應分析（failure modes andeffects analysis,FMEA），下列何者正 確？",
+      "options": {
+        "A": "著重於疏失發生後因果分析",
+        "B": "可由藥局主管自己獨立完成",
+        "C": "風险優先指數（riskprioritynumbers）越高表示必须被優先處理",
+        "D": "風险優先指數（riskprioritynumbers）是事件發生率、重度與侦测率的加總"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "依據重藥物不良反應通報辦法，下列叙述何者錯？",
+      "options": {
+        "A": "重藥物不良反應包含導致病人住院或延長病人住院時間",
+        "B": "醫療機構及藥局應於得知重藥物不良反應之日起三日内，依规定辨理通報",
+        "C": "持有藥物許可證之藥商應於得知重藥物不良反應之日起十五日内，依规定辦理通報",
+        "D": "醫療機構、藥局及藥商可以以郵寄、傅真或網路方式進行通報"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "藥品與其可能導致的ADR配對，下列何者錯？",
+      "options": {
+        "A": "NSAIDs-GI ulcer",
+        "B": "statins — myalgias",
+        "C": "propylthiouracil- hepatitis",
+        "D": "thiazide diuretics —- hyperkalemia and hyperglycemia"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "那一期藥品臨床試驗主要進行pharmacokinetic、tolerability與toxicityprofile的試驗？",
+      "options": {
+        "A": "Phase I",
+        "B": "Phase II",
+        "C": "Phase III",
+        "D": "Phase IV"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "有關在病人看診時進行藥品使用估的資料集，下列叙述何者正確？",
+      "options": {
+        "A": "回溯性資料集",
+        "B": "较可能直接取得病歷上没有的資料",
+        "C": "较無法取得即時的資料",
+        "D": "较無法確處方者的處方原意"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "下列何者不是2011年美國InstituteforSafeMedicationPractices（ISMP）所定羲的高警訊藥品（high alert medications）?",
+      "options": {
+        "A": "影劑注射劑（radiocontrast agents,IV）",
+        "B": "20% dextrose",
+        "C": "0.45% NaCl",
+        "D": "total parenteral nutrition ( TPN)"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "林先生無任何藥品過敏紀錄，兩前因電腦層描查施打顯影劑，導致過敏性休克住院。此事件最符合 下列何者之定義？",
+      "options": {
+        "A": "prescribing error",
+        "B": "potential adverse drug event",
+        "C": "medication error",
+        "D": "adverse drug reaction"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "有carbamazepine引起之Stevens-Johnson syndrome，下列叙述何者正確？",
+      "options": {
+        "A": "依WHO的定羲，常見（common）不良反應（incidence：1～10%） oxidation",
+        "B": "type A reaction glucuronidation",
+        "C": "可透過基因測加以预防 sulfation",
+        "D": "與該藥的藥理作用有關 reduction"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "赋形劑與在幼兒產生副作用的配對，下列何者錯？",
+      "options": {
+        "A": "ethanol一中福神經抑制",
+        "B": "benzylalcohol一代謝性酸中毒",
+        "C": "lactose一腸胃道不適",
+        "D": "propyleneglycol－中福神經興"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "加護病房2蕨小男孩15公斤；因须氣管插管以維持足氧氣流量；而持續sedation。在給與起始劑量後；下列 接續的IVinfusion處方何者最適當？",
+      "options": {
+        "A": "morphine 30~75 μg/hr ①②③ ①②③ trihexyphenidyl",
+        "B": "fentanyl 15~45 μg/hr ④③6 ①②④ levodopa/benserazide",
+        "C": "phenobarbital 7.5～15 μg/hr ①③6 ①③④ levodopa/carbidopa/entacapone",
+        "D": "ketamine 7.5~15 μg/hr ③K+ 15~45 mg ④IV fluid 1,250 mL +fluid loss ③Na 30~60 mEq @K+ 15~45 mEq ②③④ 體組成水分比例增加，脂肪比例减少，藥品分布改變③血中albumin减少，對於albumin結合率高的藥品，可 能影響藥品分布④臀功能隨年龄增加减退，臀排除比例高的藥品排除變慢 ②③④ rasagiline"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "下列何者是bisphosphonates可能產生的不良反應？①食道溃②颚骨坏死③骨骼或關節痛④腸胃不適",
+      "options": {
+        "A": "仅①④",
+        "B": "懂②④",
+        "C": "①②③",
+        "D": "①②③④"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "有nitroglycerin sublingual tablet的用藥指導，下列何者錯？",
+      "options": {
+        "A": "若發生胸問胸痛情形，應先坐下後再使用藥品",
+        "B": "一定要放在舌下，不可吞服",
+        "C": "藥品作用開始時間約5分鐘",
+        "D": "藥品應保存在乾燥、凉爽的環境"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "有關懷孕對於藥動學的影響，下列何者正確？",
+      "options": {
+        "A": "腸胃蠕動變快，導致吸收變快 调高insulinglargine劑量",
+        "B": "血量增加以致分布體改變 續使用sliding-scale insulin lispro",
+        "C": "臀絲球過率降低，藥品排除减缓 使用NPHBID代替insulinglargine，改善fastingbloodsugar",
+        "D": "非離子性藥品较離子性藥品不易通過胎盤 只吃兩餐，不吃點心）。目前懷孕4调，HbA1c7.3%，下列調整何者最適當？ 每次insulinlispro施打劑量，须根據該餐攝取的碳水化合物更動"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "有關denosumab之叙述，下列何者正確？",
+      "options": {
+        "A": "此藥品應肌肉注射，建施打於大腿、腹部及上臂",
+        "B": "建病人每日應補充至少1,000mgcalcium及400IUvitaminD",
+        "C": "此藥品须保存於2～8℃，施打前不须回温",
+        "D": "须提醒病人denosumab應每個月施打"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "有關Anoro?Ellipta?（umeclidinium+vilanterol）之用藥指導，下列叙述何者正確？",
+      "options": {
+        "A": "此藥品含有corticosteroid，用鼻後须漱口",
+        "B": "此藥品使用前须振摇，以利藥品均匀分布",
+        "C": "使用此藥品须用嘴含住吹嘴，快速用力吸人藥品",
+        "D": "此藥品可能有心跳加速之副作用"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "杨先生到藥局詢問：「糖尿病控制不好，該吃何種糖尿病專用營養配方？」。藥師應進一步詢問下列那些 問題？①是糖尿病控制不好②飮食習惯③體能活動④血糖控制圍5病人如何服藥",
+      "options": {
+        "A": "仅②④ 先確病人希望的指導方式",
+        "B": "仅①③④ 大聲喊叫，镶病人得清楚",
+        "C": "②③5 如果病人不懂時，要再一次或寫下來給病人看",
+        "D": "①②③④5 要在明亮處，病人隨時能看到你的"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "某藥膏丽指示藥品；每公克含chlorpheniramine maleate 10 mg、lidocaine HCl30 mg丶hexachlorophene1 mg methyl salicylate 10 mg丶menthol10 mg丶camphor5 mg丶hydrophilic ointment base等成分，下列對象何者適合 自行使用此藥膏？",
+      "options": {
+        "A": "一蕨的陳小弟",
+        "B": "患有豆症的25崴王小姐",
+        "C": "没有特定疾病的58崴林先生",
+        "D": "對aspirin過敏的30崴李小姐"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "下列何者可用於哺乳婦女？",
+      "options": {
+        "A": "cyclosporine",
+        "B": "warfarin",
+        "C": "lithium",
+        "D": "ergotamine"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "下列何者不可IVbolus給藥，否则會引起重副作用？",
+      "options": {
+        "A": "paclitaxel",
+        "B": "doxorubicin",
+        "C": "vincristine",
+        "D": "fluorouracil"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "内科處方笺：周先生，55崴，60公斤，170公分；：高血壓、高血脂及冠状動服血管支架置換。藥品： aspirin 100 mg 1 cap QAM PC, bisoprolol 5 mg 1 tab QAM PC, rosuvastatin 10 mg 1 tab QAM PC, cilostazol 100 mg 1tabBIDPC。此處方主要的問题為何？",
+      "options": {
+        "A": "cilostazol不符合健保給付规",
+        "B": "bisoprolol劑量過高",
+        "C": "aspirin劑量過低",
+        "D": "rosuvastatin不符合健保给付规"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "下列藥品與適應症之配對，何者錯？",
+      "options": {
+        "A": "liraglutide一第二型糖尿病",
+        "B": "alirocumab－原發性高瞻固醇血症",
+        "C": "deferasirox一输血性血鐵質沉",
+        "D": "omalizumab－僵直性脊椎炎"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "下列何者為septic shock的首升壓劑?",
+      "options": {
+        "A": "dobutamine 诊有心衰竭，使用ARB及betablocker，開始給與digoxin0.125mgQD",
+        "B": "dopamine 诊為MRSApneumonia，给舆vancomycin1,0o0mgloadingdose",
+        "C": "epinephrine 使用phenytoin injection 100 mg Q8H IV，出現vertigo",
+        "D": "norepinephrine 65.60公斤男性病人，下列何種情况建立即测藥品血中濃度？ 接受肝藏移植後，服用第一劑tacrolimus，無不適状况"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "下列藥品與其therapeutic range之配對，何者正確？",
+      "options": {
+        "A": "phenytoin（unbound） —10～20 μg/mL",
+        "B": "carbamazepine — 4~ 12 mg/L",
+        "C": "valproic acid— 100~200 mg/mL",
+        "D": "phenobarbital—150~400 μg/mL"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "有關meningococcalmeningitis的治療；下列何者錯？",
+      "options": {
+        "A": "ampicillin與ceftriaxone皆是可選選的治療藥品",
+        "B": "血清電解質是重要的监測指標之一",
+        "C": "藥物治療若有效，在18～24小時後CSF培養結果通常可呈陰性",
+        "D": "ampicillin可能引[起biliary pseudolithiasis"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "下列何者可能降低cyclosporine之藥效？",
+      "options": {
+        "A": "diltiazem",
+        "B": "indinavir",
+        "C": "fluvoxamine",
+        "D": "ticlopidine"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "酪胺酸激酶（tyrosinekinase）抑制劑用於慢性骨髓性白血病時，療效測的参數不包括那一？",
+      "options": {
+        "A": "hematologic response",
+        "B": "cytogenetic response",
+        "C": "biochemical response",
+        "D": "molecular response"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "下列那项藥品與食品交互作用的機轉和其他選项最不同？",
+      "options": {
+        "A": "amoxicillin一益生菌（食品级）",
+        "B": "nifedipine一葡萄柚汁",
+        "C": "rosuvastatin一红",
+        "D": "warfarin－花椰菜"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "使用cisatracurium後，下列何種情形能加速該藥之排除？",
+      "options": {
+        "A": "酸中毒",
+        "B": "臀功能不全",
+        "C": "低血磷",
+        "D": "發燒"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "下列何者與clarithromycin饼用時；最易增加肌肉病變之風险？",
+      "options": {
+        "A": "atorvastatin",
+        "B": "ezetimibe",
+        "C": "niacin",
+        "D": "rosuvastatin"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "下列何者必须在吃第一口食物後服下？",
+      "options": {
+        "A": "alendronate",
+        "B": "captopril",
+        "C": "acarbose",
+        "D": "erythromycin stearate"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "下列何者最可能經由抑制CYP3A4活性，而造成藥品交互作用？",
+      "options": {
+        "A": "carbamazepine",
+        "B": "fluconazole",
+        "C": "phenytoin",
+        "D": "rifampin"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "下列何者有重複用藥的疑虑？",
+      "options": {
+        "A": "心藏衰竭饼用spironolactone與fosinopril",
+        "B": "高血壓饼用amlodipine舆irbesartan",
+        "C": "糖尿病饼用metformin奥glimepiride",
+        "D": "精神分裂症饼用quetiapine舆ziprasidone"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "用於治療acutemania時，lithium適當的血中濃度為何？",
+      "options": {
+        "A": "0.8~2 ng/mL",
+        "B": "0.8~2 nmol/L",
+        "C": "0.6~1.2 mEq/L",
+        "D": "0.6~1.2 mg/L"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "下列何種疾病或症状不會因furosemide之使用而加重？",
+      "options": {
+        "A": "diabetesmellitus",
+        "B": "goiter",
+        "C": "gout",
+        "D": "hypokalemia"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "王伯伯68崴；晚餐後同時服用bisacodyltablet5mg2 tab丶ibuprofen 400 mg1 tab丶ambroxol30 mg1 tab Iwell?（ magnesium aluminum silicate 450 mg, dihydroxyaluminum allantoinate 50 mg）1 tab，不久後發生劇烈腹 痛及匾吐，最可能的原因為何？",
+      "options": {
+        "A": "65崴以上老人不可使用ambroxol",
+        "B": "ibuprofen劑量過大",
+        "C": "ibuprofen舆bisacodyl發生交互作用",
+        "D": "Iwell與bisacodyl發生交互作用"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 15
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\112100_44_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\112100_44_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

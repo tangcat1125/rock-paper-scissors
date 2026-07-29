@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>錯題複習區</title>
+  <style>
+    :root{
+      --bg:#f4efe6;
+      --panel:#ffffff;
+      --panel-2:#fbfaf7;
+      --text:#13213c;
+      --muted:#5f6977;
+      --accent:#0f766e;
+      --accent-2:#d97706;
+      --line:#d9d4ca;
+      --shadow:0 18px 40px rgba(20,33,61,.10);
+      --good:#0f766e;
+      --warn:#b42318;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,"Microsoft JhengHei",sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,.12), transparent 26%),
+        radial-gradient(circle at 85% 0%, rgba(217,119,6,.12), transparent 24%),
+        linear-gradient(180deg, #f8f3ea 0%, #eef3f8 100%);
+      min-height:100vh;
+    }
+    a{color:inherit}
+    .shell{max-width:1600px;margin:0 auto;padding:20px}
+    .hero,.card{background:var(--panel);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}
+    .hero{
+      padding:20px;
+      display:flex;
+      justify-content:space-between;
+      gap:16px;
+      flex-wrap:wrap;
+      align-items:flex-start;
+      margin-bottom:16px;
+    }
+    .kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+    .title{margin:0;font-size:32px;line-height:1.2}
+    .copy{margin-top:8px;color:var(--muted);line-height:1.6;max-width:860px}
+    .hero-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .btn{
+      border:0;border-radius:14px;min-height:46px;padding:0 16px;
+      display:inline-flex;align-items:center;justify-content:center;
+      text-decoration:none;font:inherit;font-weight:700;cursor:pointer
+    }
+    .btn.primary{background:var(--accent);color:#fff}
+    .btn.secondary{background:#edf2f7;color:var(--text)}
+    .btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(15,118,110,.18)}
+    .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}
+    .stat{padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--panel);box-shadow:var(--shadow)}
+    .stat .k{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+    .stat .v{font-size:24px;font-weight:800}
+    .grid{display:grid;grid-template-columns:320px minmax(0,1.2fr) 380px;gap:16px;align-items:start}
+    .card{padding:18px}
+    .card h2{margin:0 0 12px;font-size:18px}
+    .note{color:var(--muted);line-height:1.6;margin-bottom:14px}
+    .list{display:grid;gap:10px}
+    .question-btn{
+      border:1px solid var(--line);border-radius:16px;background:#fff;padding:12px 14px;
+      text-align:left;cursor:pointer;font:inherit;color:var(--text)
+    }
+    .question-btn.active{border-color:var(--accent);box-shadow:inset 0 0 0 1px rgba(15,118,110,.12);background:#f8fffd}
+    .question-btn .top{display:flex;justify-content:space-between;gap:12px;align-items:center}
+    .badge{padding:5px 9px;border-radius:999px;font-size:12px;font-weight:700;background:rgba(15,118,110,.10);color:var(--accent)}
+    .badge.warn{background:rgba(180,35,24,.10);color:var(--warn)}
+    .badge.accent2{background:rgba(217,119,6,.12);color:var(--accent-2)}
+    .question-title{margin:8px 0 6px;font-weight:800;line-height:1.45}
+    .question-meta{color:var(--muted);font-size:13px;line-height:1.5}
+    .reading-card{background:linear-gradient(180deg,#fff 0%,#fffdf9 100%);border:1px solid var(--line);border-radius:20px;padding:18px}
+    .reading-head{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+    .reading-head h3{margin:0;font-size:22px;line-height:1.4}
+    .reading-copy{color:var(--muted);line-height:1.7;white-space:pre-wrap}
+    .citation{margin-top:8px;color:var(--muted);font-size:14px;line-height:1.5}
+    .options{display:grid;gap:10px;margin-top:16px}
+    .option{
+      border:1px solid var(--line);border-radius:16px;padding:14px;background:#fff;
+      display:flex;gap:12px;align-items:flex-start
+    }
+    .option .letter{font-weight:800;min-width:22px}
+    .option.correct{border-color:var(--good);background:rgba(15,118,110,.07)}
+    .option.selected{border-color:var(--accent-2);background:rgba(217,119,6,.08)}
+    .option .text{line-height:1.65;white-space:pre-wrap}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+    .field{margin-top:14px}
+    .field label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+    textarea{
+      width:100%;min-height:132px;resize:vertical;border:1px solid var(--line);border-radius:16px;
+      background:#fff;padding:12px 14px;font:inherit;line-height:1.6;color:var(--text)
+    }
+    .mini-list{display:grid;gap:10px}
+    .topic{
+      border:1px solid var(--line);border-radius:16px;padding:14px;background:var(--panel-2)
+    }
+    .topic h3{margin:0 0 6px;font-size:16px}
+    .topic p{margin:0;color:var(--muted);line-height:1.6}
+    .topic ul{margin:10px 0 0;padding-left:18px;color:var(--text);line-height:1.55}
+    .topic li{margin:4px 0}
+    .links{display:grid;gap:6px;margin-top:10px}
+    .links a{color:var(--accent);text-decoration:none}
+    .timeline{display:grid;gap:8px;max-height:240px;overflow:auto;padding-right:4px}
+    .event{border:1px solid var(--line);border-radius:14px;padding:10px 12px;background:#fff;font-size:13px;line-height:1.55;color:var(--muted)}
+    .empty{
+      border:1px dashed var(--line);border-radius:18px;padding:24px;text-align:center;color:var(--muted);
+      background:rgba(255,255,255,.75)
+    }
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    @media (max-width:1200px){
+      .grid{grid-template-columns:1fr}
+      .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media (max-width:767px){
+      .shell{padding:12px}
+      .hero,.card{border-radius:18px}
+      .stats,.split{grid-template-columns:1fr}
+      .title{font-size:24px}
+      .reading-head h3{font-size:18px}
+      .btn{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <div>
+        <div class="kicker">EXEAM 錯題複習工作台</div>
+        <h1 class="title">錯題複習區</h1>
+        <div class="copy">
+          這裡不是作答頁，而是專門給受試者閱讀、標記與筆記的工作台。
+          每一道錯題都會回到對應科目與單元，讓受試者看得懂自己到底是在哪個知識點出錯。
+        </div>
+      </div>
+      <div class="hero-actions">
+        <button class="btn primary" id="download-btn">下載閱讀紀錄</button>
+        <button class="btn secondary" id="clear-btn">清除複習資料</button>
+        <a class="btn ghost" href="./index.html">回首頁</a>
+      </div>
+    </section>
+
+    <section class="stats" id="stats"></section>
+
+    <div id="empty-state" class="empty" hidden>
+      目前沒有可用的診斷紀錄。請先完成一份試卷，再回到這裡進行錯題複習。
+    </div>
+
+    <section class="grid" id="app-shell" hidden>
+      <aside class="card">
+        <h2>錯題清單</h2>
+        <div class="note">只列出答錯題。點選後可閱讀題幹、查看對應主知識與補充來源。</div>
+        <div class="list" id="wrong-list"></div>
+      </aside>
+
+      <main class="card">
+        <div class="reading-card" id="reading-panel"></div>
+        <div class="card" style="margin-top:16px;padding:16px;">
+          <h2>閱讀紀錄</h2>
+          <div class="note">每一題都可以獨立標記已讀、加註筆記，之後可直接輸出成 HTML 閱讀紀錄。</div>
+          <div class="split">
+            <div class="field">
+              <label for="review-note">筆記</label>
+              <textarea id="review-note" placeholder="先記下你為什麼會選錯，以及這題對應的知識線索。"></textarea>
+            </div>
+            <div>
+              <div class="field">
+                <label>狀態</label>
+                <div class="actions" style="margin-top:0;">
+                  <button class="btn secondary" id="mark-read-btn">標記已讀</button>
+                  <button class="btn secondary" id="bookmark-btn">加入書籤</button>
+                </div>
+              </div>
+              <div class="field">
+                <label>變更紀錄</label>
+                <div class="timeline" id="event-timeline"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <aside class="card">
+        <h2>主知識架構</h2>
+        <div class="note">每道錯題都會先回到對應科目，再往下連到查證來源與主題節點。</div>
+        <div class="mini-list" id="knowledge-panel"></div>
+      </aside>
+    </section>
+  </div>
+
+  <script>
+    const STORAGE_KEY = 'exeam:lastSession';
+
+    const SUBJECTS = {
+      'pharmaceutical-law-regulations': {
+        title: '法規',
+        unitCitation: '第 2 類 / 藥事法規',
+        links: [
+          { label: '臺灣藥事法', url: 'https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=L0030001' },
+          { label: '臺灣管制藥品管理相關法規', url: 'https://www.mohw.gov.tw/dl-92684-89cddf4d-8d44-49d0-997f-9bbb32e2273f.html' },
+          { label: '衛福部藥事法專頁', url: 'https://www.mohw.gov.tw/np-3688-2.html' }
+        ],
+        knowledgeNodes: [
+          { title: '法規架構與主管機關', summary: '先辨識題目是在問法源、主管機關，還是在問藥事實務的適用範圍。', checklist: ['先看題幹主體', '再對照法規用語', '最後確認例外條款'] },
+          { title: '處方與調劑', summary: '常見錯誤集中在處方內容、調劑流程、交付與紀錄保存。', checklist: ['確認處方藥或非處方藥', '確認調劑者與場所', '確認有無補正程序'] },
+          { title: '管制藥品與特殊管理', summary: '聚焦於持有、調配、流向紀錄、報備與稽查責任。', checklist: ['辨識是否屬管制藥品', '確認保存與紀錄義務', '確認違規責任'] },
+          { title: '標示、廣告與警示', summary: '很多誤選來自標示義務、廣告限制與警語規範的混淆。', checklist: ['辨識宣稱內容', '確認是否需要警語', '比對禁止事項'] }
+        ]
+      },
+      'dispensing-clinical-pharmacy': {
+        title: '調劑臨床',
+        unitCitation: '第 2 類 / 調劑臨床',
+        links: [
+          { label: 'ISMP 指引與工具', url: 'https://www.ismp.org/Tools/default.aspx' },
+          { label: 'FDA 病人標示資源', url: 'https://www.fda.gov/drugs/fdas-labeling-resources-human-prescription-drugs/patient-labeling-resources' },
+          { label: 'ASHP 臨床藥學資源', url: 'https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources' }
+        ],
+        knowledgeNodes: [
+          { title: '調劑工作流程', summary: '從處方審核到交付，題目常在找你是否漏掉流程節點。', checklist: ['確認處方合法性', '確認劑量與頻次', '確認交付與衛教'] },
+          { title: '用藥安全與差錯預防', summary: '辨識高警訊藥品、名稱相似藥品與標示錯誤，是這一科的高頻概念。', checklist: ['辨識風險藥品', '檢查名稱與濃度', '確認雙重核對'] },
+          { title: '病人衛教與交付', summary: '題目常會混淆交付與衛教，要先分辨資訊層次，再看是否需回覆疑慮。', checklist: ['確認用法用量', '確認禁忌與注意事項', '確認病人是否理解'] },
+          { title: '臨床判讀與特殊族群', summary: '腎功能、肝功能、懷孕、兒科與高齡族群是常見誤選核心。', checklist: ['先看族群條件', '再看劑量是否需修正', '最後確認監測指標'] }
+        ]
+      },
+      'therapeutics': {
+        title: '藥治',
+        unitCitation: '第 2 類 / 藥治',
+        links: [
+          { label: 'ASHP 最新臨床指引', url: 'https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources/current-practice-guidelines' },
+          { label: 'NCBI 藥動學與藥效學章節', url: 'https://www.ncbi.nlm.nih.gov/books/NBK595006/' },
+          { label: 'NCBI Therapeutics Letter', url: 'https://www.ncbi.nlm.nih.gov/books/NBK598434/' }
+        ],
+        knowledgeNodes: [
+          { title: '心血管與代謝疾病', summary: '高血壓、心衰竭、糖尿病與血脂治療常對應到機轉、目標值與監測。', checklist: ['辨識疾病目標', '看治療起始條件', '確認監測指標'] },
+          { title: '感染症與抗菌治療', summary: '題目常考經驗治療、培養結果修正、療程長度與抗藥性風險。', checklist: ['辨識感染部位', '確認嚴重度', '確認抗生素選擇'] },
+          { title: '器官系統與劑量調整', summary: '腎、肝、呼吸、神經與內分泌疾病常考跨系統判讀。', checklist: ['先看器官功能', '再看藥物代謝', '最後確認監測頻率'] },
+          { title: '實證與治療目標', summary: '在藥治題裡，治療目標、第一線選擇與替代方案通常比單一藥名更重要。', checklist: ['先找治療目標', '再找首選藥物', '最後找替代路徑'] }
+        ]
+      }
+    };
+
+    function safeParse(raw) {
+      try { return JSON.parse(raw); } catch { return null; }
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function loadSession() {
+      return safeParse(localStorage.getItem(STORAGE_KEY));
+    }
+
+    function saveSession(session) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
+    }
+
+    function fmtTime(seconds) {
+      const total = Math.max(0, Math.floor(seconds || 0));
+      const minutes = Math.floor(total / 60);
+      const rest = String(total % 60).padStart(2, '0');
+      return `${minutes}:${rest}`;
+    }
+
+    function fmtDate(iso) {
+      if (!iso) return '未記錄';
+      try {
+        return new Date(iso).toLocaleString('zh-TW', { hour12: false });
+      } catch {
+        return iso;
+      }
+    }
+
+    function getWrongQuestions(session) {
+      return (session.questions || []).filter(item => !item.isCorrect);
+    }
+
+    function subjectInfo(subjectId) {
+      return SUBJECTS[subjectId] || {
+        title: '未知科目',
+        unitCitation: '未建立對照',
+        links: [],
+        knowledgeNodes: []
+      };
+    }
+
+    function updateQuestion(session, questionIndex, patch) {
+      const next = JSON.parse(JSON.stringify(session));
+      next.questions[questionIndex] = { ...next.questions[questionIndex], ...patch };
+      saveSession(next);
+      return next;
+    }
+
+    function buildExportHtml(session) {
+      const rows = getWrongQuestions(session).map(q => `
+        <section style="margin:0 0 24px;padding:16px;border:1px solid #d9d4ca;border-radius:16px;">
+          <h2 style="margin:0 0 8px;font-size:18px;">Q${q.questionIndex} · ${subjectInfo(q.subjectId).title}</h2>
+          <div style="color:#5f6977;line-height:1.6;margin-bottom:10px;">單元引述：${q.unitCitation || subjectInfo(q.subjectId).unitCitation}</div>
+          <div style="white-space:pre-wrap;line-height:1.7;margin-bottom:12px;">${escapeHtml(q.stem)}</div>
+          <div style="margin-bottom:10px;">你的選擇：${escapeHtml(q.selectedAnswer || '未作答')}　|　正確答案：${escapeHtml(q.correctAnswer)}</div>
+          <div style="margin-bottom:10px;">筆記：${escapeHtml(q.note || '（空白）')}</div>
+        </section>
+      `).join('');
+      return `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>EXEAM 閱讀紀錄</title></head><body style="font-family:Arial,'Microsoft JhengHei',sans-serif;padding:24px;max-width:980px;margin:0 auto;line-height:1.6;"><h1>EXEAM 閱讀紀錄</h1><p>模式：${escapeHtml(session.modeText || session.mode || '')}</p><p>提交時間：${fmtDate(session.completedAt || session.generatedAt)}</p><p>答對 ${session.correctCount || 0} 題，答錯 ${session.wrongCount || 0} 題，閱讀 ${fmtTime(session.readingSeconds || 0)}</p>${rows}</body></html>`;
+    }
+
+    function downloadHtml(filename, html) {
+      const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function renderStats(session) {
+      const wrongQuestions = getWrongQuestions(session);
+      const cards = [
+        { k: '模式', v: session.modeText || '診斷模式' },
+        { k: '答錯題數', v: String(wrongQuestions.length) },
+        { k: '閱讀秒數', v: fmtTime(session.readingSeconds || 0) },
+        { k: '提交時間', v: fmtDate(session.completedAt || session.generatedAt) }
+      ];
+      document.getElementById('stats').innerHTML = cards.map(card => `<div class="stat"><div class="k">${card.k}</div><div class="v">${card.v}</div></div>`).join('');
+    }
+
+    function renderWrongList(session, activeIndex) {
+      const wrongQuestions = getWrongQuestions(session);
+      const root = document.getElementById('wrong-list');
+      root.innerHTML = '';
+      if (!wrongQuestions.length) {
+        root.innerHTML = '<div class="empty">這份紀錄沒有錯題。你可以回到診斷頁再做一次練習。</div>';
+        return;
+      }
+      wrongQuestions.forEach((q, index) => {
+        const btn = document.createElement('button');
+        btn.className = 'question-btn' + (index === activeIndex ? ' active' : '');
+        btn.innerHTML = `
+          <div class="top">
+            <strong>Q${q.questionIndex}</strong>
+            <span class="badge ${q.reviewed ? '' : 'warn'}">${q.reviewed ? '已讀' : '未讀'}</span>
+          </div>
+          <div class="question-title">${subjectInfo(q.subjectId).title}</div>
+          <div class="question-meta">${q.unitCitation || subjectInfo(q.subjectId).unitCitation}</div>
+        `;
+        btn.addEventListener('click', () => {
+          state.activeIndex = index;
+          render();
+        });
+        root.appendChild(btn);
+      });
+    }
+
+    function renderKnowledgePanel(question) {
+      const subject = subjectInfo(question.subjectId);
+      const panel = document.getElementById('knowledge-panel');
+      const nodes = subject.knowledgeNodes.map(node => `
+        <div class="topic">
+          <h3>${node.title}</h3>
+          <p>${node.summary}</p>
+          <ul>${node.checklist.map(item => `<li>${item}</li>`).join('')}</ul>
+        </div>
+      `).join('');
+      const links = subject.links.map(link => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`).join('');
+      panel.innerHTML = `
+        <div class="topic">
+          <h3>${subject.title}</h3>
+          <p>${subject.unitCitation}</p>
+          <div class="links">${links}</div>
+        </div>
+        ${nodes}
+      `;
+    }
+
+    function renderTimeline(question) {
+      const events = [];
+      (question.changes || []).forEach(change => {
+        events.push(`<div class="event">Q${change.question} · ${fmtDate(change.at)}<br>從 ${escapeHtml(change.from || '空白')} 改為 ${escapeHtml(change.to)}</div>`);
+      });
+      if (question.reviewedAt) {
+        events.push(`<div class="event">已讀時間：${fmtDate(question.reviewedAt)}</div>`);
+      }
+      if (question.note) {
+        events.push(`<div class="event">最新筆記：${escapeHtml(question.note)}</div>`);
+      }
+      document.getElementById('event-timeline').innerHTML = events.length ? events.join('') : '<div class="event">目前尚未新增變更或筆記。</div>';
+    }
+
+    function renderReadingPanel(session, question) {
+      const subject = subjectInfo(question.subjectId);
+      const options = Object.entries(question.options || {});
+      document.getElementById('reading-panel').innerHTML = `
+        <div class="reading-head">
+          <div>
+            <div class="badge accent2">${subject.title}</div>
+            <h3 style="margin-top:10px;">Q${question.questionIndex} · ${question.unitCitation || subject.unitCitation}</h3>
+          </div>
+          <div class="badge ${question.isCorrect ? '' : 'warn'}">${question.isCorrect ? '答對' : '答錯'}</div>
+        </div>
+        <div class="reading-copy">${escapeHtml(question.stem)}</div>
+        <div class="citation">單元引述：${question.unitCitation || subject.unitCitation}</div>
+        <div class="citation">你的選擇：${escapeHtml(question.selectedAnswer || '未作答')} · 正確答案：${escapeHtml(question.correctAnswer)}</div>
+        <div class="options">
+          ${options.map(([letter, text]) => `
+            <div class="option ${question.correctAnswer === letter ? 'correct' : ''} ${question.selectedAnswer === letter ? 'selected' : ''}">
+              <div class="letter">${letter}.</div>
+              <div class="text">${escapeHtml(text)}</div>
+            </div>
+          `).join('')}
+        </div>
+        <div class="actions">
+          <button class="btn secondary" id="prev-btn" ${state.activeIndex === 0 ? 'disabled' : ''}>上一題</button>
+          <button class="btn secondary" id="next-btn" ${state.activeIndex === getWrongQuestions(session).length - 1 ? 'disabled' : ''}>下一題</button>
+          <button class="btn primary" id="save-read-btn">保存筆記</button>
+        </div>
+        <div class="citation">閱讀秒數：${fmtTime(question.readingSeconds || 0)} · 最後閱讀：${fmtDate(question.lastReviewedAt)}</div>
+        <div class="citation">題目 PDF：${question.questionPdf ? `<a href="${question.questionPdf}" target="_blank" rel="noreferrer">開啟</a>` : '無'}</div>
+      `;
+
+      document.getElementById('prev-btn').addEventListener('click', () => {
+        state.activeIndex = Math.max(0, state.activeIndex - 1);
+        render();
+      });
+      document.getElementById('next-btn').addEventListener('click', () => {
+        state.activeIndex = Math.min(getWrongQuestions(session).length - 1, state.activeIndex + 1);
+        render();
+      });
+      document.getElementById('save-read-btn').addEventListener('click', () => {
+        const wrongQuestions = getWrongQuestions(session);
+        const current = wrongQuestions[state.activeIndex];
+        const idx = session.questions.findIndex(item => item.questionIndex === current.questionIndex);
+        session = updateQuestion(session, idx, {
+          note: state.note.value.trim(),
+          reviewed: true,
+          reviewedAt: new Date().toISOString()
+        });
+        render();
+      });
+
+      state.note.value = question.note || '';
+      state.markRead.onclick = () => {
+        const wrongQuestions = getWrongQuestions(session);
+        const current = wrongQuestions[state.activeIndex];
+        const idx = session.questions.findIndex(item => item.questionIndex === current.questionIndex);
+        session = updateQuestion(session, idx, {
+          reviewed: true,
+          reviewedAt: new Date().toISOString()
+        });
+        render();
+      };
+      state.bookmark.onclick = () => {
+        const wrongQuestions = getWrongQuestions(session);
+        const current = wrongQuestions[state.activeIndex];
+        const idx = session.questions.findIndex(item => item.questionIndex === current.questionIndex);
+        session = updateQuestion(session, idx, {
+          bookmarked: !current.bookmarked
+        });
+        render();
+      };
+      state.note.oninput = () => {
+        const wrongQuestions = getWrongQuestions(session);
+        const current = wrongQuestions[state.activeIndex];
+        const idx = session.questions.findIndex(item => item.questionIndex === current.questionIndex);
+        session = updateQuestion(session, idx, { note: state.note.value });
+      };
+
+      renderKnowledgePanel(question);
+      renderTimeline(question);
+    }
+
+    function render() {
+      if (!session || !Array.isArray(session.questions)) {
+        document.getElementById('empty-state').hidden = false;
+        document.getElementById('app-shell').hidden = true;
+        document.getElementById('stats').innerHTML = '';
+        return;
+      }
+
+      const wrongQuestions = getWrongQuestions(session);
+      if (state.activeIndex >= wrongQuestions.length) {
+        state.activeIndex = Math.max(0, wrongQuestions.length - 1);
+      }
+
+      document.getElementById('empty-state').hidden = true;
+      document.getElementById('app-shell').hidden = false;
+      renderStats(session);
+      renderWrongList(session, state.activeIndex);
+      if (wrongQuestions.length) {
+        renderReadingPanel(session, wrongQuestions[state.activeIndex]);
+      }
+    }
+
+    const state = {
+      activeIndex: 0,
+      note: document.getElementById('review-note'),
+      markRead: document.getElementById('mark-read-btn'),
+      bookmark: document.getElementById('bookmark-btn')
+    };
+
+    document.getElementById('download-btn').addEventListener('click', () => {
+      if (!session) return;
+      const filename = `exeam-review-${new Date().toISOString().slice(0,10)}.html`;
+      downloadHtml(filename, buildExportHtml(session));
+    });
+
+    document.getElementById('clear-btn').addEventListener('click', () => {
+      if (!confirm('要清除這份複習資料嗎？這只會移除本機儲存的紀錄。')) return;
+      localStorage.removeItem(STORAGE_KEY);
+      session = null;
+      render();
+    });
+
+    let session = loadSession();
+    render();
+  </script>
+</body>
+</html>

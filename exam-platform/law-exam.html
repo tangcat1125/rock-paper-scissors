@@ -1,0 +1,1046 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>法規 20 題</title>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --panel: #ffffff;
+      --panel-2: #fbfaf7;
+      --text: #14213d;
+      --muted: #5b6472;
+      --accent: #0f766e;
+      --accent-2: #d97706;
+      --line: #d7d3cb;
+      --shadow: 0 18px 40px rgba(20, 33, 61, .10);
+      --correct: #0f766e;
+      --wrong: #b42318;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,.12), transparent 28%),
+        radial-gradient(circle at 80% 0%, rgba(217,119,6,.12), transparent 26%),
+        linear-gradient(180deg, #f6f0e6 0%, #eef3f8 100%);
+      min-height: 100vh;
+    }
+    .shell { max-width: 1440px; margin: 0 auto; padding: 20px; }
+    .topbar, .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); }
+    .topbar {
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .brand-kicker { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .brand-title { margin: 0; font-size: 28px; }
+    .brand-copy { color: var(--muted); margin-top: 6px; line-height: 1.6; }
+    .meta-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; width: min(760px, 100%); }
+    .meta-card { border: 1px solid var(--line); border-radius: 18px; padding: 14px; background: var(--panel-2); }
+    .meta-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .meta-value { font-size: 22px; font-weight: 800; }
+    .layout { display: grid; grid-template-columns: 260px minmax(0, 1fr) 320px; gap: 16px; align-items: start; }
+    .panel { padding: 18px; }
+    .panel h2 { margin: 0 0 12px; font-size: 18px; }
+    .panel .note { color: var(--muted); line-height: 1.6; margin-bottom: 14px; }
+    .section-chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 14px; }
+    .section-chip { padding: 6px 10px; border-radius: 999px; background: rgba(15,118,110,.10); color: var(--accent); font-size: 12px; font-weight: 700; }
+    .nav-list { display: grid; gap: 8px; max-height: calc(100vh - 220px); overflow: auto; padding-right: 4px; }
+    .nav-btn {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 14px;
+      padding: 12px 14px;
+      text-align: left;
+      cursor: pointer;
+      font: inherit;
+      color: var(--text);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .nav-btn.active { border-color: var(--accent); box-shadow: inset 0 0 0 1px rgba(15,118,110,.12); }
+    .nav-btn.answered { background: rgba(15,118,110,.06); }
+    .nav-btn small { color: var(--muted); display: block; margin-top: 2px; }
+    .question-card { background: linear-gradient(180deg, #fff 0%, #fffdf9 100%); border: 1px solid var(--line); border-radius: 20px; padding: 18px; }
+    .question-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    .question-badge { background: rgba(15,118,110,.10); color: var(--accent); padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 700; }
+    .question-title { margin: 0; font-size: 22px; line-height: 1.45; white-space: pre-wrap; }
+    .citation { color: var(--muted); font-size: 14px; margin-top: 8px; }
+    .options { display: grid; gap: 10px; margin-top: 16px; }
+    .option { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: #fff; display: flex; gap: 12px; align-items: flex-start; }
+    .option input { margin-top: 4px; transform: scale(1.1); }
+    .option .letter { font-weight: 800; min-width: 22px; }
+    .option.correct { border-color: var(--correct); background: rgba(15,118,110,.07); }
+    .option.wrong { border-color: var(--wrong); background: rgba(180,35,24,.07); }
+    .option .text { line-height: 1.6; white-space: pre-wrap; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+    .btn {
+      border: 0;
+      border-radius: 14px;
+      min-height: 46px;
+      padding: 0 16px;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn.primary { background: var(--accent); color: #fff; }
+    .btn.secondary { background: #edf2f7; color: var(--text); }
+    .btn.ghost { background: transparent; color: var(--accent); border: 1px solid rgba(15,118,110,.18); }
+    .progress { margin-top: 12px; height: 10px; background: #e9eef5; border-radius: 999px; overflow: hidden; }
+    .progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), #22c55e); width: 0%; }
+    .side-list { display: grid; gap: 10px; }
+    .info-card { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: var(--panel-2); }
+    .info-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .info-value { font-size: 18px; font-weight: 800; }
+    .log { font-size: 13px; color: var(--muted); line-height: 1.6; white-space: pre-wrap; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 12px; max-height: 220px; overflow: auto; }
+    .summary { margin-top: 16px; display: none; }
+    .summary.show { display: block; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 12px; }
+    .summary-item { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: #fff; }
+    .summary-item .k { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .summary-item .v { font-size: 22px; font-weight: 800; }
+    .reference-list { display: grid; gap: 8px; }
+    .reference-list a { color: var(--accent); text-decoration: none; }
+    .mobile-actions { display: none; position: sticky; bottom: 12px; z-index: 20; margin-top: 14px; }
+    .mobile-actions .bar { display: flex; gap: 10px; padding: 12px; background: rgba(20,33,61,.96); color: #fff; border-radius: 18px; align-items: center; justify-content: space-between; box-shadow: var(--shadow); }
+    .mobile-actions .bar .btn { min-height: 42px; }
+    @media (max-width: 1200px) {
+      .layout { grid-template-columns: 1fr; }
+      .nav-list { max-height: none; }
+      .summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .meta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .mobile-actions { display: block; }
+    }
+    @media (max-width: 767px) {
+      .shell { padding: 12px; }
+      .topbar { padding: 16px; border-radius: 18px; }
+      .panel { border-radius: 18px; }
+      .meta-grid, .summary-grid { grid-template-columns: 1fr; }
+      .brand-title { font-size: 22px; }
+      .question-title { font-size: 18px; }
+      .actions .btn { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="topbar">
+      <div>
+        <div class="brand-kicker">EXEAM Diagnostic Session</div>
+        <h1 class="brand-title">法規 20 題</h1>
+        <div class="brand-copy">法規單科 20 題。答案會在提交前隱藏，提交後才顯示結果，方便先作答再回頭複習。</div>
+        <div class="section-chip-row" id="section-chips"></div>
+      </div>
+      <div class="meta-grid">
+        <div class="meta-card"><div class="meta-label">測驗模式</div><div class="meta-value" id="mode-value">法規 20 題</div></div>
+        <div class="meta-card"><div class="meta-label">剩餘時間</div><div class="meta-value" id="meta-time">30:00</div></div>
+        <div class="meta-card"><div class="meta-label">已作答</div><div class="meta-value" id="meta-answered">0</div></div>
+        <div class="meta-card"><div class="meta-label">進度</div><div class="meta-value" id="meta-progress">0%</div></div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel">
+        <h2>題號導覽</h2>
+        <div class="note">點擊題號可快速跳題。灰色表示尚未作答，綠色表示已作答。</div>
+        <div class="nav-list" id="nav-list"></div>
+      </aside>
+
+      <main class="panel">
+        <h2>主測試頁</h2>
+        <div class="note">請先作答，提交後才會顯示正確答案與解析摘要。</div>
+        <div class="progress"><span id="progress-bar"></span></div>
+        <div id="question-root"></div>
+        <div class="summary" id="summary-panel">
+          <h2>作答結果</h2>
+          <div class="summary-grid" id="summary-grid"></div>
+          <div class="actions" style="margin-top:14px;">
+            <a class="btn ghost" href="../index.html">回首頁</a>
+          </div>
+        </div>
+      </main>
+
+      <aside class="panel">
+        <h2>題庫說明</h2>
+        <div class="note">每題都保留單元引述與參考連結，方便提交後回頭查證。</div>
+        <div class="side-list">
+          <div class="info-card"><div class="info-label">測驗模式</div><div class="info-value" id="mode-value-side">法規 20 題</div></div>
+          <div class="info-card"><div class="info-label">資料來源</div><div class="info-value">D:\\exeam\\question-bank</div></div>
+          <div class="info-card"><div class="info-label">紀錄狀態</div><div class="info-value" id="log-state">作答中</div></div>
+          <div class="info-card">
+            <div class="info-label">事件記錄</div>
+            <div class="log" id="event-log">Session 已初始化。答案會在提交後顯示。</div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">參考連結</div>
+            <div class="reference-list" id="reference-list"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="mobile-actions">
+      <div class="bar">
+        <div>
+          <div style="font-weight:800;">作答控制</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.72);" id="mobile-status">答案會在提交後顯示</div>
+        </div>
+        <button class="btn primary" id="mobile-submit">提交</button>
+      </div>
+    </div>
+  </div>
+
+  <script id="session-data" type="application/json">{
+  "generatedAt": "2026-07-29T05:54:31",
+  "mode": "law",
+  "modeText": "?? 20 ?",
+  "timeLimitMinutes": 30,
+  "sections": [
+    {
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "questionCount": 20
+    }
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 1,
+      "stem": "下列何種產品之製造，不須聘請藥師駐廠監製？",
+      "options": {
+        "A": "隱形眼鏡鏡片消毒藥水",
+        "B": "衛生材料",
+        "C": "一般化粧品",
+        "D": "移植器官保存液"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 1,
+      "sectionQuestionIndex": 1,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 2,
+      "stem": "依藥事法之規定，下列何者錯誤？",
+      "options": {
+        "A": "衛生主管機關於核發新藥許可證時，應公開申請人檢附之已揭露專利字號或案號",
+        "B": "新藥許可證自核發之日起 5年內，其他藥商非經許可證所有人同意，不得引據其申請資料申請查驗登記",
+        "C": "新成分新藥許可證核發之日起 5年後，其他藥商得依本法及相關法規有關藥品查驗登記審查之規定提出同成分、同劑型、同 劑量及同單位含量藥品之查驗登記申請，符合規定者，得於新成分新藥許可證核發屆滿 5年之翌日起發給藥品許可證",
+        "D": "新藥專利權不及於藥商申請查驗登記前所進行之研究、教學或試驗"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 2,
+      "sectionQuestionIndex": 2,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 3,
+      "stem": "申請製造化粧品色素查驗登記時，所應檢附之文件中不包含下列何者？",
+      "options": {
+        "A": "仿單標籤",
+        "B": "試製紀錄表",
+        "C": "檢驗規格、方法及檢驗成績書",
+        "D": "處方依據文件"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 3,
+      "sectionQuestionIndex": 3,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 5,
+      "stem": "藥品經檢驗結果所含有效成分含量與核准不符，係屬下列何者？",
+      "options": {
+        "A": "試驗用藥品",
+        "B": "禁藥",
+        "C": "劣藥",
+        "D": "偽藥"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 4,
+      "sectionQuestionIndex": 4,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 6,
+      "stem": "下列何者非屬新成分新藥上市前需審查項目？",
+      "options": {
+        "A": "藥理／毒理試驗",
+        "B": "吸收、分佈、代謝、排泄試驗",
+        "C": "生體相等性試驗",
+        "D": "臨床試驗"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 5,
+      "sectionQuestionIndex": 5,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 7,
+      "stem": "藥品人體試驗之審查及監督，係屬下列何者掌理之事項？",
+      "options": {
+        "A": "衛生福利部食品藥物管理署",
+        "B": "衛生福利部醫事司",
+        "C": "衛生福利部疾病管制署",
+        "D": "衛生福利部中央健康保險署"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 6,
+      "sectionQuestionIndex": 6,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 8,
+      "stem": "衛生福利部中醫藥司業務職掌，下列何者錯誤？",
+      "options": {
+        "A": "中藥、植物性藥材之檢驗",
+        "B": "中藥廠 GMP 制度推動、輔導事項",
+        "C": "中醫藥人力培育、發展之研擬、策劃及推動事項",
+        "D": "中藥（材）、植物性藥材之管理與品質促進政策之規劃、推動及相關法規之研訂"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 7,
+      "sectionQuestionIndex": 7,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 9,
+      "stem": "衛生福利部之次級機關及其業務，下列何者錯誤？",
+      "options": {
+        "A": "中央健康保險署：規劃及執行全民健康保險事項",
+        "B": "食品藥物管理署：規劃與執行食品、藥物與化粧品之管理、查核及檢驗事項",
+        "C": "國家中醫藥研究所：規劃與執行中醫中藥各項行政事務及研究發展工作",
+        "D": "國民健康署：規劃與執行國民健康促進及非傳染病之防治事項"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 8,
+      "sectionQuestionIndex": 8,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 10,
+      "stem": "藥商申請停、歇業，應向下列何者提出申請？",
+      "options": {
+        "A": "中央衛生主管機關",
+        "B": "食品藥物管理署",
+        "C": "當地工業主管機關",
+        "D": "當地衛生主管機關"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 9,
+      "sectionQuestionIndex": 9,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 11,
+      "stem": "下列何者不屬於藥物安全監控業務？",
+      "options": {
+        "A": "市售藥物廣告調查監測",
+        "B": "生物藥品檢驗與封緘作業",
+        "C": "活化藥品不良品通報機制",
+        "D": "中草藥不良反應通報中心"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 10,
+      "sectionQuestionIndex": 10,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 12,
+      "stem": "下列有關衛生福利部之敘述何者錯誤？",
+      "options": {
+        "A": "配合行政院組織再造，整合行政院衛生署、內政部及教育部相關單位而成",
+        "B": "為全國最高衛生及社會福利行政機關",
+        "C": "已成立國民年金局、疾病管制署及中央健康保險署等次級機關",
+        "D": "對各級地方衛生及社會福利機關有業務指導、監督和協調的責任"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 11,
+      "sectionQuestionIndex": 11,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 13,
+      "stem": "依藥師法之規定，下列何者非屬藥事照護之業務範圍？",
+      "options": {
+        "A": "在醫療機構執行藥品安全監視",
+        "B": "在護理機構執行用藥諮詢",
+        "C": "在老人福利機構執行給藥流程評估",
+        "D": "在醫院將膠囊劑中之藥粉泡入水中，提供灌食餵藥"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 12,
+      "sectionQuestionIndex": 12,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 14,
+      "stem": "為增進藥品療程之效益及生活品質，考量藥品使用情形及評估療效，係屬下列何種藥事作業？",
+      "options": {
+        "A": "藥品調劑",
+        "B": "藥事照護",
+        "C": "藥品管理",
+        "D": "確認藥品之安全及醫療效能"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 13,
+      "sectionQuestionIndex": 13,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 16,
+      "stem": "依藥品優良調劑作業準則之規定，藥事人員應於藥品容器包裝上載明事項，下列何者錯誤？",
+      "options": {
+        "A": "病患之姓名及性別",
+        "B": "醫療機構或藥局之名稱及地址",
+        "C": "病患之身分證字號",
+        "D": "藥品名稱"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 14,
+      "sectionQuestionIndex": 14,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 17,
+      "stem": "下列何者非屬藥局得兼營零售之藥物？",
+      "options": {
+        "A": "血壓計",
+        "B": "心律調節器",
+        "C": "感冒熱飲",
+        "D": "藥用酒精"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 15,
+      "sectionQuestionIndex": 15,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 18,
+      "stem": "違反藥品優良調劑作業準則之規定，應依下列何者處分？",
+      "options": {
+        "A": "依藥師法處罰鍰",
+        "B": "依藥師法處罰金",
+        "C": "依藥事法處罰鍰",
+        "D": "依藥事法處罰金"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 16,
+      "sectionQuestionIndex": 16,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 19,
+      "stem": "民眾以手寫處方箋交付，字跡潦草且無處方醫師簽章及所屬醫療機構聯絡電話，藥師將 Urosan 誤認為Urosin ，而調劑交付予民 眾，導致民眾送醫急救。下列敘述何者正確？",
+      "options": {
+        "A": "民眾係使用合法藥品而受害，故得申請藥害救濟",
+        "B": "因處方醫師字跡潦草，且無聯絡電話，藥師無法確認，始導致調劑錯誤，藥師已善盡其職責，故應由醫師負擔全部責任",
+        "C": "藥師之調劑未符合法定程序，應依藥師法之規定處分藥師",
+        "D": "醫療機構之電話非屬應確認處方之事項"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 17,
+      "sectionQuestionIndex": 17,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 20,
+      "stem": "臺北市某診所聘有一名藥師及一名藥劑生，該診所備有管制藥品但無麻醉藥品。某日其聘用之藥師臨時因病請假，下列敘述何 者正確？",
+      "options": {
+        "A": "藥師係臨時請假，故得由醫師親自調劑",
+        "B": "護理師為藥師之代理人，故得由該護理師代理執行調劑業務",
+        "C": "因藥師請假，不能調劑藥品予民眾，故診所應休診",
+        "D": "得由藥劑生執行調劑"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 18,
+      "sectionQuestionIndex": 18,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 21,
+      "stem": "依藥師法之規定，下列何者非屬社區藥局藥師之業務範圍？",
+      "options": {
+        "A": "提供用藥諮詢及藥物治療流程評估",
+        "B": "藥品販賣或管理",
+        "C": "第一等級醫療器材販賣",
+        "D": "病患用特殊營養食品之供應"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 19,
+      "sectionQuestionIndex": 19,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "105100_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 22,
+      "stem": "甲經藥師考試及格 3年後，始提出申請藥師執照，其需符合下列何者有關藥師繼續教育之規定？",
+      "options": {
+        "A": "應檢具申請日前 1年內接受繼續教育25 點以上之證明文件",
+        "B": "應檢具最近 3年內接受繼續教育達 150 點之證明文件",
+        "C": "應檢具最近 3年內接受繼續教育達 25 點之證明文件",
+        "D": "其藥師考試及格未逾 5年，得免檢具繼續教育證明文件"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\105100_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "sectionKey": "law",
+      "sectionTitle": "??",
+      "sectionOrder": 20,
+      "sectionQuestionIndex": 20,
+      "sectionQuestionTotal": 20
+    }
+  ]
+}</script>
+  <script>
+    const session = JSON.parse(document.getElementById('session-data').textContent);
+    const state = {
+      index: 0,
+      submitted: false,
+      startAt: Date.now(),
+      currentEnterAt: Date.now(),
+      answers: {},
+      changes: [],
+      timeByQuestion: Array(session.questions.length).fill(0),
+      firstChoiceAt: {},
+      lastChoiceAt: {},
+    };
+
+    const els = {
+      navList: document.getElementById('nav-list'),
+      questionRoot: document.getElementById('question-root'),
+      progressBar: document.getElementById('progress-bar'),
+      metaTime: document.getElementById('meta-time'),
+      metaAnswered: document.getElementById('meta-answered'),
+      metaProgress: document.getElementById('meta-progress'),
+      summaryPanel: document.getElementById('summary-panel'),
+      summaryGrid: document.getElementById('summary-grid'),
+      eventLog: document.getElementById('event-log'),
+      logState: document.getElementById('log-state'),
+      referenceList: document.getElementById('reference-list'),
+      mobileStatus: document.getElementById('mobile-status'),
+      mobileSubmit: document.getElementById('mobile-submit'),
+      sectionChips: document.getElementById('section-chips'),
+      modeValue: document.getElementById('mode-value'),
+      modeValueSide: document.getElementById('mode-value-side'),
+    };
+
+
+
+    const SECTION_LABELS = { law: '\u6cd5\u898f', dispensing: '\u8abf\u5c6c\u81e8\u5e8a', therapeutics: '\u85e5\u6cbb' };
+    const FULL_COPY = '\u4f9d\u5e8f\u9032\u884c\u6cd5\u898f\u3001\u8abf\u5c6c\u81e8\u5e8a\u3001\u85e5\u6cbb\u4e09\u79d1\uff0c\u6bcf\u79d1 20 \u984c\u3002\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u524d\u96b1\u85cf\uff0c\u63d0\u4ea4\u5f8c\u624d\u986f\u793a\u7d50\u679c\u3002';
+    function sectionLabel(key) {
+      return SECTION_LABELS[key] || key;
+    }
+    function modeTextForSession() {
+      if (session.mode === 'full') return '\u5168\u8003 60 \u984c';
+      return `${sectionLabel(session.sections[0].sectionKey)} 20 \u984c`;
+    }
+    function modeCopyForSession() {
+      if (session.mode === 'full') return FULL_COPY;
+      return `${sectionLabel(session.sections[0].sectionKey)} \u55ae\u79d1 20 \u984c\u3002\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u524d\u96b1\u85cf\uff0c\u63d0\u4ea4\u5f8c\u624d\u986f\u793a\u7d50\u679c\u3002`;
+    }
+    function applyStaticText() {
+      document.title = modeTextForSession();
+      const kicker = document.querySelector('.brand-kicker');
+      if (kicker) kicker.textContent = 'EXEAM Diagnostic Session';
+      const title = document.querySelector('.brand-title');
+      if (title) title.textContent = modeTextForSession();
+      const copy = document.querySelector('.brand-copy');
+      if (copy) copy.textContent = modeCopyForSession();
+      const labels = document.querySelectorAll('.meta-label');
+      if (labels.length >= 4) {
+        labels[0].textContent = '\u6e2c\u9a57\u6a21\u5f0f';
+        labels[1].textContent = '\u5269\u9918\u6642\u9593';
+        labels[2].textContent = '\u5df2\u4f5c\u7b54';
+        labels[3].textContent = '\u9032\u5ea6';
+      }
+      const heads = document.querySelectorAll('h2');
+      if (heads.length >= 4) {
+        heads[0].textContent = '\u984c\u865f\u5c0e\u89bd';
+        heads[1].textContent = '\u4e3b\u6e2c\u8a66\u9801';
+        heads[2].textContent = '\u4f5c\u7b54\u7d50\u679c';
+        heads[3].textContent = '\u984c\u5eab\u8aaa\u660e';
+      }
+      const notes = document.querySelectorAll('.note');
+      if (notes.length >= 3) {
+        notes[0].textContent = '\u9ede\u64ca\u53ef\u4ee5\u5feb\u901f\u8df3\u984c\u3002\u7070\u8272\u8868\u793a\u5c1a\u672a\u4f5c\u7b54\uff0c\u7da0\u8272\u8868\u793a\u5df2\u4f5c\u7b54\u3002';
+        notes[1].textContent = '\u8acb\u5148\u4f5c\u7b54\uff0c\u63d0\u4ea4\u5f8c\u624d\u6703\u986f\u793a\u6b63\u78ba\u7b54\u6848\u8207\u89e3\u6790\u6458\u8981\u3002';
+        notes[2].textContent = '\u6bcf\u984c\u90fd\u4fdd\u7559\u55ae\u5143\u5f15\u8ff0\u8207\u53c3\u8003\u9023\u7d50\uff0c\u65b9\u4fbf\u63d0\u4ea4\u5f8c\u56de\u982d\u67e5\u8b49\u3002';
+      }
+      const review = document.querySelector('#summary-panel .btn.ghost');
+      if (review) review.textContent = '\u56de\u9996\u9801';
+      const modeValue = document.getElementById('mode-value');
+      if (modeValue) modeValue.textContent = modeTextForSession();
+      const modeValueSide = document.getElementById('mode-value-side');
+      if (modeValueSide) modeValueSide.textContent = modeTextForSession();
+      const mobileStatus = document.getElementById('mobile-status');
+      if (mobileStatus) mobileStatus.textContent = '\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u5f8c\u986f\u793a';
+      const mobileSubmit = document.getElementById('mobile-submit');
+      if (mobileSubmit) mobileSubmit.textContent = '\u63d0\u4ea4';
+    }
+
+    function fmt(seconds) {
+      const s = Math.max(0, Math.floor(seconds));
+      const m = Math.floor(s / 60);
+      const r = String(s % 60).padStart(2, '0');
+      return `${m}:${r}`;
+    }
+
+    function appendLog(line) {
+      const current = els.eventLog.textContent.trim();
+      els.eventLog.textContent = current ? `${current}\n${line}` : line;
+      els.eventLog.scrollTop = els.eventLog.scrollHeight;
+    }
+
+    function questionCitation(question) {
+      if (question.unitCitation) return question.unitCitation;
+      if (question.unitTitle && question.subjectTitle) return `${question.unitTitle} / ${question.subjectTitle}`;
+      return question.subjectTitle || question.unitTitle || '';
+    }
+
+    function markTime() {
+      const now = Date.now();
+      state.timeByQuestion[state.index] += (now - state.currentEnterAt) / 1000;
+      state.currentEnterAt = now;
+    }
+
+    function goTo(index) {
+      if (index < 0 || index >= session.questions.length) return;
+      if (index !== state.index) {
+        markTime();
+        state.index = index;
+        state.currentEnterAt = Date.now();
+        render();
+        appendLog(`切換到 Q${index + 1} @ ${new Date().toLocaleTimeString()}`);
+      }
+    }
+
+    function setAnswer(questionIndex, value) {
+      const key = String(questionIndex + 1);
+      const previous = state.answers[key];
+      state.answers[key] = value;
+      const now = new Date().toISOString();
+      if (!state.firstChoiceAt[key]) state.firstChoiceAt[key] = now;
+      state.lastChoiceAt[key] = now;
+      state.changes.push({ question: key, from: previous || null, to: value, at: now });
+      appendLog(`答案變更：Q${key} ${previous || '未作答'} -> ${value}`);
+      renderNav();
+      renderMeta();
+    }
+
+    function renderSectionChips() {
+      els.sectionChips.innerHTML = '';
+      session.sections.forEach(section => {
+        const chip = document.createElement('span');
+        chip.className = 'section-chip';
+        chip.textContent = `${sectionLabel(section.sectionKey)} ${section.questionCount} 題`;
+        els.sectionChips.appendChild(chip);
+      });
+    }
+
+    function renderNav() {
+      els.navList.innerHTML = '';
+      session.questions.forEach((q, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'nav-btn' + (i === state.index ? ' active' : '') + (state.answers[String(i + 1)] ? ' answered' : '');
+        btn.innerHTML = `<span><strong>Q${i + 1}</strong><small>${sectionLabel(q.sectionKey)}</small></span><span>${q.sectionQuestionIndex}/20</span>`;
+        btn.addEventListener('click', () => goTo(i));
+        els.navList.appendChild(btn);
+      });
+    }
+
+    function renderReferences(question) {
+      els.referenceList.innerHTML = '';
+      const entries = [];
+      if (question.questionPdf) entries.push({ label: '\u984c\u76ee PDF', url: question.questionPdf });
+      (question.answerPdfs || []).filter(Boolean).slice(0, 1).forEach(url => {
+        entries.push({ label: '\u7b54\u6848 PDF', url });
+      });
+      entries.forEach(link => {
+        const a = document.createElement('a');
+        a.href = link.url || '#';
+        a.textContent = `${questionCitation(question)} · ${link.label}`;
+        a.target = '_blank';
+        a.rel = 'noreferrer';
+        els.referenceList.appendChild(a);
+      });
+      const cite = document.createElement('div');
+      cite.style.color = 'var(--muted)';
+      cite.style.fontSize = '13px';
+      cite.style.lineHeight = '1.5';
+      cite.style.marginTop = '8px';
+      cite.textContent = question.unitCitation || question.subjectTitle || question.unitTitle || '';
+      els.referenceList.appendChild(cite);
+    }
+
+    function renderQuestion() {
+      const q = session.questions[state.index];
+      const answered = state.answers[String(state.index + 1)];
+      const options = Object.entries(q.options || {});
+      const submitted = state.submitted;
+      const optionsHtml = options.map(([letter, text]) => {
+        const selected = answered === letter;
+        const isCorrect = submitted && q.answer === letter;
+        const isWrong = submitted && selected && q.answer !== letter;
+        return `
+          <label class="option ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}">
+            <input type="radio" name="answer" value="${letter}" ${selected ? 'checked' : ''} ${submitted ? 'disabled' : ''}>
+            <span class="letter">${letter}.</span>
+            <span class="text">${text}</span>
+          </label>`;
+      }).join('');
+      const answerHint = submitted
+        ? `<div class="citation" style="color: var(--accent); font-weight:700;">正確答案：${q.answer}</div>`
+        : '<div class="citation">答案會在提交後顯示</div>';
+      els.questionRoot.innerHTML = `
+        <article class="question-card">
+          <div class="question-head">
+            <div class="question-badge">第 ${state.index + 1} 題 / ${session.questions.length}</div>
+            <div class="question-badge" style="background: rgba(217,119,6,.10); color: var(--accent-2);">${sectionLabel(q.sectionKey)} ${q.sectionQuestionIndex}/20</div>
+          </div>
+          <h3 class="question-title">${q.stem}</h3>
+          <div class="citation">${sectionLabel(q.sectionKey)} · ${questionCitation(q)}</div>
+          <div class="options">${optionsHtml}</div>
+          ${answerHint}
+          <div class="actions">
+            <button class="btn secondary" id="prev-btn" ${state.index === 0 ? 'disabled' : ''}>上一題</button>
+            <button class="btn secondary" id="next-btn" ${state.index === session.questions.length - 1 ? 'disabled' : ''}>下一題</button>
+            <button class="btn primary" id="submit-btn">提交</button>
+          </div>
+          <div class="citation" style="margin-top:12px;">閱讀時間：${fmt(state.timeByQuestion[state.index] + ((Date.now() - state.currentEnterAt) / 1000))}</div>
+          ${submitted ? '<div class="citation" style="margin-top:8px; color: var(--accent);">已提交，答案與解析已開放。</div>' : ''}
+        </article>
+      `;
+      els.questionRoot.querySelectorAll('input[name="answer"]').forEach(input => {
+        input.addEventListener('change', e => setAnswer(state.index, e.target.value));
+      });
+      const prev = document.getElementById('prev-btn');
+      const next = document.getElementById('next-btn');
+      const submit = document.getElementById('submit-btn');
+      prev && prev.addEventListener('click', () => goTo(state.index - 1));
+      next && next.addEventListener('click', () => goTo(state.index + 1));
+      submit && submit.addEventListener('click', submitSession);
+      renderReferences(q);
+    }
+
+    function renderMeta() {
+      const answered = Object.keys(state.answers).length;
+      const progress = Math.round((answered / session.questions.length) * 100);
+      els.metaAnswered.textContent = String(answered);
+      els.metaProgress.textContent = `${progress}%`;
+      els.progressBar.style.width = `${progress}%`;
+      const remaining = session.timeLimitMinutes * 60 - Math.floor((Date.now() - state.startAt) / 1000);
+      els.metaTime.textContent = fmt(remaining);
+      els.modeValue.textContent = modeTextForSession();
+      els.modeValueSide.textContent = modeTextForSession();
+      els.mobileStatus.textContent = state.submitted ? '已提交，答案已顯示' : '答案會在提交後顯示';
+      els.logState.textContent = state.submitted ? '已提交' : '作答中';
+    }
+
+    function renderSummary() {
+      const totals = session.sections.map(section => {
+        const sectionQuestions = session.questions.filter(q => q.sectionKey === section.sectionKey);
+        const correct = sectionQuestions.reduce((acc, q, idx) => {
+          const globalIndex = session.questions.findIndex(item => item === q);
+          const given = state.answers[String(globalIndex + 1)];
+          return acc + (given === q.answer ? 1 : 0);
+        }, 0);
+        const wrong = sectionQuestions.length - correct;
+        const rate = Math.round((correct / sectionQuestions.length) * 100);
+        return { label: sectionLabel(section.sectionKey), correct, wrong, rate };
+      });
+      const overallCorrect = session.questions.reduce((acc, q, idx) => acc + (state.answers[String(idx + 1)] === q.answer ? 1 : 0), 0);
+      const overallWrong = session.questions.length - overallCorrect;
+      const overallRate = Math.round((overallCorrect / session.questions.length) * 100);
+      const reading = Math.round(state.timeByQuestion.reduce((a, b) => a + b, 0));
+      const items = [
+        { k: '答對題數', v: String(overallCorrect) },
+        { k: '答錯題數', v: String(overallWrong) },
+        { k: '總正確率', v: `${overallRate}%` },
+        { k: '閱讀秒數', v: String(reading) },
+        ...totals.map(s => ({ k: `${s.label} 正確率`, v: `${s.rate}%` })),
+      ];
+      els.summaryGrid.innerHTML = items.map(item => `<div class="summary-item"><div class="k">${item.k}</div><div class="v">${item.v}</div></div>`).join('');
+    }
+
+    function render() {
+      renderSectionChips();
+      renderNav();
+      renderQuestion();
+      renderMeta();
+    }
+
+    function submitSession() {
+      if (state.submitted) return;
+      if (!confirm('確定要提交嗎？提交後答案與解析會顯示。')) return;
+      markTime();
+      state.submitted = true;
+      renderSummary();
+      els.summaryPanel.classList.add('show');
+      appendLog('已提交，開始顯示結果與解析。');
+      render();
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    applyStaticText();
+    document.getElementById('mobile-submit').addEventListener('click', submitSession);
+    window.addEventListener('beforeunload', () => markTime());
+    setInterval(renderMeta, 1000);
+    render();
+  </script>
+  <script src="./review-hook.js"></script>
+</body>
+</html>
+

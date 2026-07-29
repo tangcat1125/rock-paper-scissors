@@ -1,0 +1,17 @@
+{
+  "setId": "115090_0401_pharmacology-medicinal-chemistry",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmacology-medicinal-chemistry",
+  "subjectTitle": "Pharmacology and Medicinal Chemistry",
+  "answers": {
+    "1": "C",
+    "2": "C"
+  },
+  "source": {
+    "answerPdfs": [
+      "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\115090_ans0401_pharmacology-medicinal-chemistry.pdf"
+    ],
+    "answerCount": 2
+  }
+}

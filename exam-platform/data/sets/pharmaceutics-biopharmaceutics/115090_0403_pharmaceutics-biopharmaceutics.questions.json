@@ -1,0 +1,671 @@
+{
+  "setId": "115090_0403_pharmaceutics-biopharmaceutics",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutics-biopharmaceutics",
+  "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\115090_q0403_pharmaceutics-biopharmaceutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\115090_ans0403_pharmaceutics-biopharmaceutics.pdf"
+  ],
+  "questionCount": 64,
+  "answerCount": 64,
+  "parseWarnings": [
+    "Question 14: Could not parse options for question 14",
+    "Question 33: Could not parse options for question 33",
+    "Question 34: Could not parse options for question 34",
+    "Question 39: Could not parse options for question 39",
+    "Question 46: Could not parse options for question 46",
+    "Question 78: Could not parse options for question 78"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "某藥品溶液劑含量為500units/mL，經過20天後含量變成300units/mL，已知該藥品之分解依循first- orderkinetics；则其半衰期（halflife）約為多少天？",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "27",
+        "D": "54"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "依中華藥典；某藥品已配製成（1→10）之藥品水溶液，则下列之水溶液體；何者相當於含200mg的藥品？",
+      "options": {
+        "A": "130μL",
+        "B": "1.3 mL",
+        "C": "2 mL",
+        "D": "3 mL"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "有關elixirs之製備，下列叙述何者正確？",
+      "options": {
+        "A": "elixirs通常比syrups更甜且更黏稠 ①>②>③",
+        "B": "elixirs由於其含水和含醇的特性，比syrups更能保持水溶性和醇溶性成分之溶解度 ②>③>① c.③>②>①",
+        "C": "因蔗糖於高酒精含量的elixirs中有良好的溶解度，故常被用於增加甜度",
+        "D": "鹰将醇溶液加人水溶液中，以防止醇溶性成分發生分離或沉殿 ①=②=③"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "有關gellingagents之叙述，下列何者正確？",
+      "options": {
+        "A": "carbomer製成之gel，在pH5.5時黏稠度最大",
+        "B": "carboxymethylcellulosesodium製成之gel，於pH4時黏稠度會明顯增加",
+        "C": "Plastibase加熱到60℃時黏稠度會大幅下降",
+        "D": "Poloxamer之水溶液在酸、存在下安定"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "有關栓劑基劑之叙述，下列何者錯？",
+      "options": {
+        "A": "glycerinatedgelatin為水溶性栓劑，故不须用水潤濕",
+        "B": "聚乙二醇栓劑置於室温保存即可",
+        "C": "可可脂较穩定的型態是β晶型",
+        "D": "phenol會降低可可脂的熔點"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "有關PEG6000之叙述，下列何者正確？",
+      "options": {
+        "A": "於室温下為液體",
+        "B": "水性聚合物",
+        "C": "6000代表黏稠度",
+        "D": "平均分子量大於PEG1000"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "有關粉體流動性之叙述，下列何者錯？",
+      "options": {
+        "A": "安息角越大者，流動性越差",
+        "B": "壓缩性指數越高者，流動性越差",
+        "C": "豪斯納比越高者，流動性越差",
+        "D": "安息角為粉體内在性質，舆测試方式無關"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "造粒後打锭所製備的锭劑，產生1amination和capping最可能之原因為何？",
+      "options": {
+        "A": "打锭機速度過快",
+        "B": "潤滑劑太少",
+        "C": "造粒不均匀",
+        "D": "稀耦劑過多"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "依中華藥典规定，供使用於身體表面之外用粉劑，其粉末粒径至少應能通過號網？",
+      "options": {
+        "A": "200",
+        "B": "100",
+        "C": "80",
+        "D": "140"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "下列何者最適合用來预估锭劑藥品之生體可用率？",
+      "options": {
+        "A": "dissolution test",
+        "B": "disintegrationtest",
+        "C": "contentuniformitytest",
+        "D": "friability test"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "有關生物技术藥品在市場占有率逐年成長，下列何者不是最主要因素？",
+      "options": {
+        "A": "增進藥品的治療功效、安全性和普遍性",
+        "B": "各單位积極訂定法规和標，鼓更多公司投人",
+        "C": "慢性病族群增加",
+        "D": "製造過程容易，產量高"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "有關眼用製劑之配方考量，下列叙述何者正確？",
+      "options": {
+        "A": "1.9%硼酸溶液對眼睛的黏膜層為等張溶液",
+        "B": "應使用街能力较強之缓街劑，對眼晴的刺激性较小",
+        "C": "通常親水性之藥品比親脂性之藥品更容易穿透吸收",
+        "D": "液劑具有不溶性藥品，因此無法應用於眼用製劑"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "有關糖骤劑添加防腐劑之叙述，下列何者錯？",
+      "options": {
+        "A": "含水率高之糖劑，须考虑添加防腐劑",
+        "B": "酒精是很好的防腐劑和溶媒，可以考虑大量使用",
+        "C": "糖劑的含糖量若達85%（w/v），可以考虑不用防腐劑",
+        "D": "benzoicacid和sorbicacid都是糖劑常用的防腐劑"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "有關w/o乳劑使用乳化劑（emulsifiers）之HLB數值圍，下列何者最適當？",
+      "options": {
+        "A": "1~3",
+        "B": "3~6",
+        "C": "7~9",
+        "D": "10~15"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "有關微乳劑（microemulsions）之叙述，下列何者最不適當？",
+      "options": {
+        "A": "相较口服固體劑型，微乳劑體内吸收更快更有效",
+        "B": "微乳劑必须透過給舆外在能量才可形成",
+        "C": "可製備為o/w或w/o等型式",
+        "D": "通常微乳劑可以經由不同給藥途径投舆"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "下列何種液化氯體推進劑（liquefiedgaspropellants）之蒸氣壓（vaporpressure）最高？",
+      "options": {
+        "A": "trichloromonofluoromethane（CFC 11)",
+        "B": "difluoroethane（HFA 152a)",
+        "C": "butane",
+        "D": "propane"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "有關喷劑之推進劑的叙述，下列何者最適當？",
+      "options": {
+        "A": "CFC的指定碼是對應他們化學式各自的原子數",
+        "B": "可使用hydrofluoroalkane（HFA）取代CFC以减少危害性",
+        "C": "部分氣體如二氧化碳、氮氣、氧氣可用做壓縮氣體使用",
+        "D": "泡沫氣劑當中CFC具有乳化劑的效果，對水有親和性"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "有關flocculation之叙述，下列何者錯？",
+      "options": {
+        "A": "添加助劑可提供網狀結構",
+        "B": "高度凝絮的悬液劑會發生粒子沉降缓慢的情况",
+        "C": "粒子形狀可影響沉降結塊的程度",
+        "D": "降低electricalbarrier之電解質可做為flocculatingagent"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "根據Stokesequation 設計理想之液劑（suspension），下列叙述何者最適當？",
+      "options": {
+        "A": "應量增加黏度，使沉降速率越小越好，最好近於0",
+        "B": "應量减低黏度，使沉降速率越大越好",
+        "C": "粒子密度應小於溶劑密度，避免沉降速率過快而影響分散",
+        "D": "粒子密度應大於溶劑密度，避免粒子漂浮不易分散"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "依據中華藥典，有關製劑之叙述，下列何者錯？",
+      "options": {
+        "A": "氣化喷劑係為加壓下包装之製劑，可供皮局部、鼻、口腔或肺使用",
+        "B": "推進劑在内相之泡沫喷劑，可喷出安定之泡沫",
+        "C": "吸人劑應置於繁密容器内贮存",
+        "D": "吸入劑係将藥品溶液，自鼻腔或口腔吸入呼吸道，优作用於局部之製劑"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "中位直径（mediandiameter）係以累积百分率（Y轴）對質粒大小（X轴）作圖；在累百分率為多少時所 得之數值？",
+      "options": {
+        "A": "100",
+        "B": "75",
+        "C": "50",
+        "D": "25"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "有關使用直腸給藥的優勢，下列何者錯？",
+      "options": {
+        "A": "避免部分first-passeffect",
+        "B": "可避免被腸胃道降解，增加藥品安定性",
+        "C": "栓劑较口服锭劑容易調整使用劑量",
+        "D": "可給與相较於口服給藥更大的劑量"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "使用下列何者可製備成two-phasegel?",
+      "options": {
+        "A": "aluminum hydroxide",
+        "B": "methylcellulose",
+        "C": "sodium alginate",
+        "D": "Carbomer 934"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "下列配方於何種膏基劑？ mineral oil 560 g white wax 120 g cetylesterswax 125 g sodium borate 5 g purified water 190 mL",
+      "options": {
+        "A": "基基劑",
+        "B": "吸收性基劑",
+        "C": "水和性基劑",
+        "D": "水溶性基劑"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "依中華藥典，下列何種软膏基劑有利於吸收皮膚病灶所流出之液狀物質？",
+      "options": {
+        "A": "油質软膏基劑",
+        "B": "吸收性基劑",
+        "C": "水和性基劑",
+        "D": "水溶性基劑"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "以熔合法製作含100mg aspirin（densityfactor forcocoabutter=1.3）之可可脂栓劑；當模具以全可 可脂製作栓劑時；栓劑之重量為2.0g；则此aspirin可可脂栓劑1個的重量為多少g？",
+      "options": {
+        "A": "1.923",
+        "B": "2.023",
+        "C": "2.077",
+        "D": "2.130"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "依中華藥典，有關生藥粉末之粗細度，下列叙迹何者正確？",
+      "options": {
+        "A": "粗粉應100%通過第8號筛網",
+        "B": "粗粉應100%通過第40號筛網",
+        "C": "中粉應100%通過第60號筛網",
+        "D": "细粉應100%通過第80號筛網"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "有閣hydroxypropylmethylcellulose作為膠囊殼之叙述，下列何者錯？",
+      "options": {
+        "A": "可供素食者使用",
+        "B": "通常不含防腐劑",
+        "C": "含水量為13～16%",
+        "D": "含水量较硬明膠膠囊殼為低"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "在發泡劑型中，使用粒對比於使用粉末的優勢為何？",
+      "options": {
+        "A": "增加溶解速率",
+        "B": "避免急劇的氣泡生成",
+        "C": "改善口感及掩蓋味道",
+        "D": "增加吸濕度"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "有關膠囊之叙述，下列何者最適當？",
+      "options": {
+        "A": "膠囊殼可以加人polyhydricalcohol",
+        "B": "膠囊殼不可加人methylparaben等抗菌劑",
+        "C": "主要以流動床法製造",
+        "D": "软膠囊内不宜充填固體粉末或锭劑"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "生物製劑對於極端温度敏感，因此在宁藏、處理及連送上，需要冷键管理。有關冷键之叙述，下列何者錯 ？",
+      "options": {
+        "A": "世界衛生组織建專供生物製劑的冰箱每天開门率不得超過4次",
+        "B": "美國NationalImmunizationProgram（NIP）建温度监控每天2次；保存10年",
+        "C": "冰箱温度圍在2～8℃",
+        "D": "冷凍應保持0℃以下，最適當的温度為-15℃"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "有關生物製劑之分子结構，下列何者不含抗體可變區片段（variablefragment）？",
+      "options": {
+        "A": "Fc-fusion protein",
+        "B": "F[ab']2",
+        "C": "Fab'",
+        "D": "Sfv"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "下列何者最不適合作為注射劑之vehicles？",
+      "options": {
+        "A": "castor oil",
+        "B": "corn oil",
+        "C": "paraffin",
+        "D": "sesame oil"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "依中華藥典，有關使用環氧乙烯减菌之叙述，下列何者錯？",
+      "options": {
+        "A": "主要用於玻璃容器之减菌",
+        "B": "微生物带水量會影響减菌效果",
+        "C": "减菌器内的温度會影響减菌效果",
+        "D": "先清除附著在容器油脂可增加减菌效果"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "依中華藥典，有關注射劑容器的要求，下列叙迹何者錯？",
+      "options": {
+        "A": "玻璃容器所检驗的重金包含砷舆铅",
+        "B": "聚乙烯或聚丙烯容器须驗细胞毒性",
+        "C": "橡膠材質彈性蓋塞所驗的重金包含砷舆铅",
+        "D": "玻璃容器與塑膠容器均须經過透光度驗"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "依中華藥典规定，眼用膏金粒子其粒径之检测基為多少μm？",
+      "options": {
+        "A": "8",
+        "B": "30",
+        "C": "50",
+        "D": "150"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "有關眼用製劑之叙述，下列何者錯？",
+      "options": {
+        "A": "通常眼用藥品製劑可在角膜上停留許久，故適合開發長效劑型 使用含水或乙二醇之效果相當",
+        "B": "親脂性樂品比親水性樂品更易進人眼睛内皮層 可将塑膠瓶装水後冷凍使用",
+        "C": "若眼用软膏為QD使用時，適合於睡前使用较不影響視覺 将疫苗製劑直接放置於coolantpack旁以確保效果",
+        "D": "藥品舆赋形劑在製程中皆须先經菌處理 何者最不適當？ 将疫苗製劑舆coolantpack以towel隔開放置"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "有關眼用膏通常使用之防腐劑（濃度），下列何者最不適當？",
+      "options": {
+        "A": "chlorobutanol (0.05%) 於無菌製劑",
+        "B": "benzethonium chloride (0.01%) 主要由DMPC和DMPG構成",
+        "C": "benzalkonium chloride (0.008%) 溶液酸值圍5～7",
+        "D": "phenylmercuric acetate (0.004%) 溶液呈現黄色透明狀熊"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "有關以包衣作為控藥品輸送系统之叙述，下列何者最不適當？",
+      "options": {
+        "A": "beeswax與glycerylmonostearate可以作為包衣的材料",
+        "B": "不宜將包衣著色作為產品識别",
+        "C": "包衣的厚度與材料種類會影響藥品放速率",
+        "D": "可以將包衣微球設計多個放組，以提供不同的持續或延長放效果"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "有關repeat-action長效劑型锭片之叙述，下列何者最不適當？",
+      "options": {
+        "A": "通常為高劑量，且吸收與排泄速率较快之藥品",
+        "B": "劑型設計為速放藥層、控膜層及核蕊藥锭",
+        "C": "Repetabs\"此類產品",
+        "D": "最適合供治療需要重複給藥的慢性疾病"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "A丶B、C丶D四位病人接受某線性一室模式抗生素治療，今分别以單次靜注射200mg’依病人分别設計給 藥間隔以每次200mg進行多次靜胍注射。其單次給藥後之血中濃度曲線下面（AUCo-infinity）及多次給藥後達 穩定狀態平均血中濃度（Css.av）之参數如圖所示。該藥品在A、B、C、D四位病人的清除率大小比较，下列何 者正確？ 1.2 1.1 B D 1 0.9 0.8 Css.avg (mg/L) 0.7 0.6 0.5 0.4 0.3 0.2 0.1 0 1 0 1 2 3 4 5 6 7 8 9 10 AUCo-infinty (mg/L*hr)",
+      "options": {
+        "A": "A>B>D",
+        "B": "B>A>C",
+        "C": "C>D>B",
+        "D": "D>C>A"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "承上題；已知此抗生素在病人D之排除半衰期為10hr，则其分布體約為多少L？",
+      "options": {
+        "A": "240",
+        "B": "360",
+        "C": "480",
+        "D": "600"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "某抗生素之體内動態遵循線性一室模式，其清除率為4.6L/hr，分布體為0.5L/kg。今以每6小時静派注 射1,000mg於一體重80kg之病人，達穩定狀熊時最高血中濃度約為多少mg/L？",
+      "options": {
+        "A": "12.5",
+        "B": "25",
+        "C": "37.5",
+        "D": "50"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "承上題，達穩定状熊之平均血中濃度約為多少mg/L？",
+      "options": {
+        "A": "24",
+        "B": "30",
+        "C": "36",
+        "D": "42"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "已知某抗生素之口服生體可用率為0.8；經口服該藥100mg後；體内血中濃度經時變化為C=45（e-.17－é 1s）該藥無flip-flop現象；则其在體内之清除率為多少？（C,：mg/L’t:hr）",
+      "options": {
+        "A": "5.67L/min",
+        "B": "5.67 mL/min",
+        "C": "0.34 L/min",
+        "D": "0.34 mL/min"
+      }
+    },
+    {
+      "number": 54,
+      "stem": "承上題，此抗生素之血中濃度曲線下總面約為多少？",
+      "options": {
+        "A": "14（mg·min）/mL 當樂品的吸收速率>排除速率",
+        "B": "14（mg·hr） /L 當藥品的吸收速率=排除速率",
+        "C": "235（mg·min）/mL 當藥品的吸收速率>代謝速率",
+        "D": "235（mg·min）/L 當藥品的吸收速率=代謝速率"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "已知一藥品於口服給舆單劑量後，在體内具有線性藥動特性，若將給與劑量减半，下列何填藥動参數也會隨 之等比例改變？",
+      "options": {
+        "A": "吸收速率常數",
+        "B": "凝似分布體",
+        "C": "排除速率常數",
+        "D": "濃度一時間曲線下面"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "某遵循一室模式線性藥動學藥品以静胍输注方式給與，分别在藥物血中濃度①達穩定狀態、②尚未達穩定狀 態時停止輸注，觀察停藥後藥品血中濃度隨時間下降的情形，下列叙述何者正確？",
+      "options": {
+        "A": "①之排除速率常數比②小",
+        "B": "①之排除速率常數比②大",
+        "C": "二者之排除速率常數大小一樣",
+        "D": "無法比较"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "某抗生素以胍输注方式給與，下列何项是决定該藥到達穩定狀態快慢的主要参數？",
+      "options": {
+        "A": "清除率",
+        "B": "输注速度",
+        "C": "凝似分布體",
+        "D": "排除半衰期"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "某藥遵循一室模式線性藥動學；靜派注射1g後，其血中藥品濃度一時間曲線下面（AUCo~）為500mg· h/L，若似分布體积為20L，此藥之排除速率常數（k）為多少h？",
+      "options": {
+        "A": "0.01 420 0.99",
+        "B": "0.1 660 0.86",
+        "C": "1 740 0.70",
+        "D": "10 24e-.（C：mg/L；t：h），则其血中藥品濃度一時間曲線下面（AUCo.∞）為多少mg·h/L？ 860 ：）（（） C:mg/L) 0.62"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "某抗生素在體内之血中濃度循一室模式，已知其平均半衰期為3.5±1小時。林先生以静胍输注給藥8小時及 24小時之血中濃度分别為5mg/L及6mg/L。該抗生素在林先生之排除半衰期約為多少小時？",
+      "options": {
+        "A": "3.1",
+        "B": "3.5",
+        "C": "4.2",
+        "D": "4.5"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "承上題，已知此抗生素在林先生之體内分布體积為10L，若林先生治療所需之血中穩定濃度調整為10mg/L 時，则其输注速率應為多少mg/h?",
+      "options": {
+        "A": "19.4 ratemethod可計算臀藏排除速率常數（ke）",
+        "B": "22.4 兩種方法均適用於零級及一級排除的藥物",
+        "C": "25.4 經由sigma-minusmethod所獲數據變巽性较大",
+        "D": "28.4 64．「Ratemethod」及「sigma-minusmethod」兩方法；都可尿中排泄數據估算排除速率常數（k），下列叙 述何者正確？ 完整收集尿液對於ratemethod影響较大"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "甲乙兩藥廠分别生產含相同成分及劑量之metformin口服锭劑，比较雨者藥動學参數之比值，下列何项情况 下可判定兩製劑具生體相等性？",
+      "options": {
+        "A": "AUC比值及排除速率常数比值皆為0.7",
+        "B": "吸收速率常數比值及Cax比值皆為0.9",
+        "C": "AUC比值及Cmax比值皆為1.2",
+        "D": "AUC比值及清除率比值皆為1.1"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "某藥以靜胍注射2mg/kg給藥後；AUCo.為60mg·h/L。當以口服锭劑（20mg/kg）及口服溶液劑（10 mg/kg）等方式給藥時；其AUCo-分别為480mg·h/L及300mg·h/L，下列叙述何者正確？",
+      "options": {
+        "A": "溶液劑之absolutebioavailability為0.9",
+        "B": "溶液劑相對於锭劑之relativebioavailability為0.9",
+        "C": "锭劑之absolutebioavailability為0.53",
+        "D": "锭劑相對於溶液劑之relativebioavailability為0.8"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "有關bioavailability及bioequivalence之叙述，下列何者適當？①針對半衰期長的藥品，探用parallel 须持續空腹4小時④眼用製劑學名藥须進行bioequivalence試驗",
+      "options": {
+        "A": "①② ①②③④",
+        "B": "①③ ①④",
+        "C": "②③ ②③",
+        "D": "②④ 仅③④"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "有關BiopharmaceuticsClassification System之叙述，下列何者正確？",
+      "options": {
+        "A": "可将藥品分成2大類",
+        "B": "是依據藥品的代謝程度來分類",
+        "C": "Class1藥品通常具體外一體内相關性",
+        "D": "是依據品舆蛋白结合能力來分類"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "某藥品製劑以3種不同體外溶離速率之配方進行體内吸收試驗後，發現此3種配方之體外平均溶離時間 （MDT）與體内平均滞留時間（MRT）具有良好之線性關係（MDT=O.1MRT）。此關係於下列何種體外一體内 相關性（IVIVC）？",
+      "options": {
+        "A": "level A",
+        "B": "level B",
+        "C": "level C",
+        "D": "level D"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "下列何者是造成levodopa在體内呈現非線性藥動學之主要原因？",
+      "options": {
+        "A": "肝藏代謝過程產生和現象",
+        "B": "血蛋白質結合產生和現象",
+        "C": "道轉運子產生和現象",
+        "D": "藥品溶解度太差"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "某抗生素在臀功能不全病人體内的分布體积為0.5L/kg’清除率為0.2L/hr，透析装置的清除率為2.0 L/hr。一位臀功能不全病人（73崴丶60kg）以單劑量靜派注射投與120mg’經24小時後，開始進行4小時 的透析療法。在4小時透析後，此抗生素在體内的血中濃度為何？（假設給藥後的分布體不變）",
+      "options": {
+        "A": "2.54 ng/mL",
+        "B": "25.4 ng/mL",
+        "C": "2.54 μg/mL",
+        "D": "25.4 μg/mL"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "氯喘病人A經以30mg/hr持續靜胍输注 aminophylline後；達到控制病情且其theophylline血中濃度為10 μg/mL。若欲將此静派输注劑量改為theophylline口服劑型；維持與靜胍输注相同之平均血中濃度，下列何 者給藥方式最適當？（aminophylline含有85%theophylline’口服theophyllineF=1)",
+      "options": {
+        "A": "150 mg TID",
+        "B": "200 mg BID",
+        "C": "300 mg BID",
+        "D": "350 mg QD"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "下列抗生素之投與劑量，何者不需依病人臀功能調整劑量？",
+      "options": {
+        "A": "cefazolin dihydropyrimidine dehydrogenase",
+        "B": "minocycline thiopurine methyltransferase",
+        "C": "vancomycin N-acetyltransferase",
+        "D": "ampicillin plasmapseudo-cholinesterase"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "下列何填CYP450代謝酵素的基因型表現，最有可能會影響人類的吸行為與戒成功機率？",
+      "options": {
+        "A": "CYP1A2",
+        "B": "CYP2A6",
+        "C": "CYP2C19",
+        "D": "CYP3A4"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "有關人體内transporter之叙述，下列何者錯？",
+      "options": {
+        "A": "分布於血腦障壁與腸道處",
+        "B": "P-glycoprotein是一種ATP-binding cassettetransporter",
+        "C": "P-glycoprotein又被為multiple drugresistantprotein 1，和vincristine和doxorubicin相關的抗 藥性有關",
+        "D": "SLCO1Bl基因會表達出OATP1B1，被歸類為solutecarriertransporter，其變翼可能會導致simvastatin 代巽常"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "某藥品的口服生體可用率F=1，總清除率為3.0L/h，原型藥由臀藏排泄的比例為0.7，其平均有效治療濃度 為1μg/mL。某55男性病人，體重60公斤，其serumcreatinine為2.2mg/dL，下列何種口服給藥設 計最接近平均治療濃度？（正常肌酸酐清除率為100mL/min）",
+      "options": {
+        "A": "12 mg Q8H warfarin",
+        "B": "24 mg Q8H clopidogrel",
+        "C": "36 mg Q12H theophylline",
+        "D": "8 mg Q12H irinotecan"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 16
+  },
+  "referenceGroupId": "pharmaceutics-biopharmaceutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\115090_0403_pharmaceutics-biopharmaceutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\115090_0403_pharmaceutics-biopharmaceutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

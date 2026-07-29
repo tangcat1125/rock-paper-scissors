@@ -1,0 +1,704 @@
+{
+  "setId": "111100_44_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111100_q44_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111100_ans44_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 68,
+  "answerCount": 68,
+  "parseWarnings": [],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "Calcium chloride inj.（diluted in normal saline）4 mg/mLsodium bicarbonate inj.1 mEq/mL經由Y-site给藥時，會 發生何種配伍禁忌？",
+      "options": {
+        "A": "物理性（physical）",
+        "B": "化學性（chemical）",
+        "C": "治療性（therapeutic）",
+        "D": "吸收性（absorption）"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "下列何者不於多類乳化劑（emulsifying agent）?",
+      "options": {
+        "A": "acacia",
+        "B": "beeswax",
+        "C": "tragacanth",
+        "D": "starch"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "下列何者不做為液體劑型之抗菌防腐劑？",
+      "options": {
+        "A": "benzalkoniumchloride",
+        "B": "chlorobutanol",
+        "C": "hydroquinone",
+        "D": "methyl paraben"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "進行用藥指導時，下列做法何者最不適當？",
+      "options": {
+        "A": "保持視線接觸",
+        "B": "鼓病人多描述",
+        "C": "事先閣讀病歷",
+        "D": "避免以開放式周句開始"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "下列處方縮寫與其代表的意義，何者錯？",
+      "options": {
+        "A": "pc代表after meals",
+        "B": "prn代表immediately",
+        "C": "pulv代表powder",
+        "D": "Sig代表write on label"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "下列藥品何者最不適合使用如圖示之閑合系統（closure system）？ Lugs Innermember One-way mated castellation Wad Tab ratchet lug Opening Closing position andnormal position",
+      "options": {
+        "A": "dipyridamole/aspirin capsule",
+        "B": "topiramate sprinkle capsule",
+        "C": "methylphenidatetablet",
+        "D": "nitroglycerin tablet"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "有關藥品包装之標，下列何者於additionallabellingrequirements？",
+      "options": {
+        "A": "expiry date",
+        "B": "date of dispensing",
+        "C": "quantity",
+        "D": "name and address of the pharmacy"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "除了藥品包装使用條碼（barcode）外，下列何者最能確保藥品給與正確的住院病人？",
+      "options": {
+        "A": "使用藥品條碼即可確保藥品給與正確的病人",
+        "B": "給藥前要描病人手環上的條碼",
+        "C": "給藥前要詢問病人的病歷號碼",
+        "D": "給藥前要三讀五對病人的姓名"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "缺乏安定性資料之非無菌調製藥品，USP所允許之最長beyond-use date（BUD），下列何者錯？",
+      "options": {
+        "A": "非液體口服製劑：於控制室温下3個月",
+        "B": "非液體外用製劑：於控制室温下6個月",
+        "C": "含水口服製劑：於控制冷藏下14天",
+        "D": "含水外用製劑：於控制室温下30天"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "下列何者不於醫院藥事委員會（pharmacy and therapeutics committee）的主要職？",
+      "options": {
+        "A": "藥品品项的選定及資訊集與估",
+        "B": "藥品不良反應的控與估",
+        "C": "个人藥歷的管理",
+        "D": "藥品管理及使用政策之制定"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "将400 mg的atropine powder以lactose稀至總量20g’atropine含量的標示；下列何者正確？",
+      "options": {
+        "A": "0.2% w/w 7 0.05",
+        "B": "0.2 mg/100 g 14 0.5",
+        "C": "2% w/w 17.5 5",
+        "D": "2 mg/100 g 配？ 35 13.0.5%ketorolac眼藥水每mL含多少mg之ketorolac？ 50"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "以量筒量取下列何種液體時，最好探用差值量取的方式（measurebydifference）？",
+      "options": {
+        "A": "glycerol",
+        "B": "ethanol",
+        "C": "distilled water",
+        "D": "normal saline"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "李先生80公斤，医師處方dopamine 200 mg in 250 mL5% dextrose IV continuous infusion at1μg/kg/min。給藥速 率應設為多少mL/hr？",
+      "options": {
+        "A": "0.6",
+        "B": "6",
+        "C": "8",
+        "D": "0.8"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "陳先生有慢性臀衰竭，定期接受血液透析，現需全静胍營養（TPN）治療，每日蛋白質之建量 （g/kg/day），下列何者最適當?",
+      "options": {
+        "A": "1.2",
+        "B": "0.6",
+        "C": "2.4",
+        "D": "1.8"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "下列何者不於使用全静派營養（TPN）病人每调例行性监测项目？",
+      "options": {
+        "A": "prealbumin",
+        "B": "uric acid",
+        "C": "triglycerides",
+        "D": "WBC count"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "有關開始使用TPN的24小時内，應給與之dextrose劑量；下列選頂何者適當？①多數病人不超過250g②DM 病人不超過150g③hyperglycemia病人不超過200g",
+      "options": {
+        "A": "仅①②",
+        "B": "②③",
+        "C": "①③",
+        "D": "①②③"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "下列何者不可做為眼藥水之防腐劑？",
+      "options": {
+        "A": "benzalkonium chloride",
+        "B": "cetyl alcohol",
+        "C": "chlorobutanol",
+        "D": "methylparaben"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "下列何者不是注射劑使用塑膠容器包装的缺點？",
+      "options": {
+        "A": "使氧氣渗透人容器",
+        "B": "重量较大",
+        "C": "抗氧化劑渗出（leaching）",
+        "D": "吸附（sorption）藥品"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "下列何者不於物理性變化？",
+      "options": {
+        "A": "氧化反應",
+        "B": "溶媒流失",
+        "C": "因pH值變化而改變溶解度",
+        "D": "蛋白質藥品聚合（aggregation）"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "調製無菌抗癌危害性藥品，有關防護衣的使用，下列何者正確？",
+      "options": {
+        "A": "必须可以重複使用 Class I",
+        "B": "必须開口在前 Class II",
+        "C": "必须為長袖 Class III",
+        "D": "必须長過膝蓋 Class IV"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "下列何種注射製劑须加人antimicrobialpreservatives？①多次使用瓶（multiple-dosevials） ②事先填充注射針 筒（prefilled syringes）③單次使用安（single-dose ampoules）",
+      "options": {
+        "A": "① 以dextrose濃度調整，如需增加水分排除量，可将一次2.5%改為1.5%",
+        "B": "①② 以dextrose濃度調整；如需增加水分排除量，可将一次1.5%改為2.5%",
+        "C": "②③ 以電解質濃度調整，如需减少水分排除量，可考虑改用低钙透析液",
+        "D": "①②③ 處方為1.5%dextrose2LBID、2.5%dextrose2LQD及4.25%dextrose2LQN。有關CAPD達ultrafiltration效果 之叙述，下列何者正確？ 以電解質濃度調整，如需减少水分排除量，可考虑改用高钙透析液"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "承上題，如醫師欲將其中一次改為icodextrinPDsolution，有關icodextrin之叙述，下列選项何者正確？①可能 影響血糖，進而影響所需insulin量②icodextrin不被腹膜吸收，因此可達到降低血糖的效果③會分解為 maltoseoligosaccharides，可能干部分血糖测試④建過夜那次透析使用5先取代白天一次，確定耐受 性",
+      "options": {
+        "A": "①②③ 不须使用basal",
+        "B": "①③④ 1",
+        "C": "①③③ 2",
+        "D": "②③④ releasetablet40mgQ12H。今人院治療gastriculcer，醫師希望可轉换為morphineIVPCA，依序回答下列3題。 下列PCA處方之basalrate為若干mg/hour最適當？（已知on demand dose=1mg’lockout interval=10minutes； oral oxycodone 15~20 mg=oral morphine 30 mg=IV morphine 10 mg) 3"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "周先生有何風险因子，易因持續使用PCA而產生呼吸抑制？",
+      "options": {
+        "A": "年龄",
+        "B": "長期使用opioid",
+        "C": "臀细胞癌第四期",
+        "D": "BMI"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "使用PCA後，周先生發生重呼吸抑制的症状，下列何者為給與naloxone0.4mg之最佳方式？",
+      "options": {
+        "A": "POSTAT",
+        "B": "POSTAT and every 2 minutesPRN",
+        "C": "IV STAT",
+        "D": "IV STAT and every 2 minutes PRN"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "陳先生180公分，70公斤，開始unfractionatedheparin治療。loading dose 80U/kg’maintenance dose18 U/kg/hr，若heparin规格為25,000U/vial，第一天至少需要個vial？",
+      "options": {
+        "A": "1 vinblastine",
+        "B": "2 etoposide",
+        "C": "3 docetaxel",
+        "D": "4 vincristine"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "調製全静胍營養的cleanroom；最適宜的温度與相對濕度（RH）為何？",
+      "options": {
+        "A": "15°C，35～45%RH",
+        "B": "20°C，35~45%RH",
+        "C": "15°C，55~65%RH",
+        "D": "20°C，55～65%RH"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "社區藥局提供那些基本藥事服務？①處方調劑②藥品收③協助民自我照護④提供美沙冬替代 療法",
+      "options": {
+        "A": "①②③",
+        "B": "①②④",
+        "C": "①③④",
+        "D": "②③④"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "有關藥品與其必须测之项目配對，下列何者最適當？",
+      "options": {
+        "A": "warfarin—INR",
+        "B": "heparin — INR",
+        "C": "NOACs-aPTT",
+        "D": "enoxaparin- aPTT"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "有關预防藥師調劑疏失，下列叙述何者最適當？",
+      "options": {
+        "B": "調劑疏失通報，將調劑疏失列為年度考指標，是预防藥師調劑疏失唯一的方法 Gout?",
+        "C": "改善調劑處所空調、照明設備，且管控人員進出，可降低藥師調劑疏失 Narcaricin?",
+        "D": "藥師持續教育訓，是藥師自己的任，也是法规要求，但無助於降低藥師調劑疏失 品，何者最可能增加medicationerrors之風险？ Uribrone?",
+        "A": "Euricon?"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "下列何者無法预防醫藥疏失？",
+      "options": {
+        "A": "建置標調劑作業程序",
+        "B": "避免將學名或商品名相似藥品放在一起",
+        "C": "将inderal10mg/tab奥inderal40mg/tab分層存放",
+        "D": "提高調劑處方藥師與發藥藥師為同一人的比例"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "有sodium-glucose transporter2（SGLT-2）inhibitors之叙述；下列何者正確？",
+      "options": {
+        "A": "用於severerenalimpairment丶ESRD或dialysis病人，無须調整劑量",
+        "B": "不會影響血中LDL濃度",
+        "C": "非典型diabeticketoacidosis（DKA）為其重的ADR",
+        "D": "其代途径與CYP450enzymes閣性很高"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "治療肺結核時，下列何者造成肝毒性的可能性最低？",
+      "options": {
+        "A": "ethambutol",
+        "B": "isoniazid",
+        "C": "pyrazinamide",
+        "D": "rifampin"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "VancomycinIVinfusion時若發生redman syndrome，鹰立即進行下列何種處置？",
+      "options": {
+        "A": "注射類固醇",
+        "B": "注射解毒劑",
+        "C": "先暂停vancomycin输注",
+        "D": "速输注完該次之vancomycin"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "承上題；接著鹰将vancomycin換成其他抗生素？",
+      "options": {
+        "A": "否，输注vancomycin前給與類固醇预防過敏即可",
+        "B": "否；降低输注流速；通常即可避免red man syndrome",
+        "C": "是，以避免後續更重之過敏反應",
+        "D": "是，因已發生藥物不良反應"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "下列何者是選藥品進行「藥品使用评估」（DUE）的條件之一？",
+      "options": {
+        "A": "高療效",
+        "B": "高價位",
+        "C": "高知名度",
+        "D": "高吸收度"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "下列何者不是藥品纳人醫院處方集（formulary）之主要考量因素？",
+      "options": {
+        "A": "療效（efficacy）",
+        "B": "安全性（safety）",
+        "C": "病人的接受度：味道、外觀及容易給藥",
+        "D": "價差"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "有關NSAIDs弓[起的胃溃，下列叙述何者正確？",
+      "options": {
+        "A": "低劑量的NSAIDs不會引|起胃溃",
+        "B": "NSAIDs弓|起的胃溃為dose-related",
+        "C": "COX-2inhibitors不會引I起胃",
+        "D": "年輕族群因工作壓力大；使用NSAIDs较易引起胃溃"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "為避免產生Reye's syndrome，兒童於下列何種情况下不應使用aspirin？①chickenpox②flulike illness ③Kawasaki disease",
+      "options": {
+        "A": "①",
+        "B": "仅①②",
+        "C": "②③",
+        "D": "①②③"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "下列藥品之婴幼兒劑量及給藥途径，何者錯？",
+      "options": {
+        "A": "phytonadione : 1 mg single dose IM at birth",
+        "B": "acetaminophen : 10~ 15 mg/kg Q4 to 6 hours PRN PO, maximum 75 mg/kg/day",
+        "C": "famotidine : 1 mg/kg/day divided QID PO",
+        "D": "metoclopramide : 0.1~0.2 mg/kg/dose QID PO"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "有關新生兒生理特性的叙述，下列何者正確？",
+      "options": {
+        "A": "gastricpH值比成年人高",
+        "B": "體内albumin含量比成年人高",
+        "C": "體脂肪比例较成年人高",
+        "D": "renal tubularsecretion较成年人佳"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "下列何者较不易引起老年人精神混？",
+      "options": {
+        "A": "NSAIDs",
+        "B": "antiparkinsonian agents",
+        "C": "first generation antihistamines",
+        "D": "tricylic antidepressants"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "下列何者最不適合用在有心衰竭的老年人？",
+      "options": {
+        "A": "atenolol",
+        "B": "bisoprolol",
+        "C": "carvedilol",
+        "D": "metoprolol"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "口服抗凝血劑之用藥指導，下列何者錯？",
+      "options": {
+        "A": "rivaroxaban须整颗吞服，不能刹開、咬碎或取出膠囊内藥粒",
+        "B": "rivaroxaban鹰随餐服用",
+        "C": "有計劃進行手術（包括牙科手術）或侵人性查前；须事先告知醫師，正在服用抗凝血劑",
+        "D": "避免飲酒，以免影響抗凝血劑的作用"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "下列何者可以提升藥師與病人間之溝通與信任？",
+      "options": {
+        "A": "budget impact analysis",
+        "B": "shared decision-making",
+        "C": "interprofessional education",
+        "D": "Clark's rule"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "吴先生因臀移植使用cyclosporine，有關其用藥指導，下列何者錯？",
+      "options": {
+        "A": "一般1天服用2次，應固定時間服藥",
+        "B": "可測血中濃度來調整藥品劑量，應注意抽血時間",
+        "C": "可能導致代謝巽常，應规律测血壓丶血糖及血脂",
+        "D": "可能導致掉髮及牙龈增生，應注意頭髮及口腔衛生"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "治療懷孕婦女的高血壓，下列何者為禁忌？",
+      "options": {
+        "A": "labetalol bupropion",
+        "B": "methyldopa fluoxetine",
+        "C": "captopril sertraline",
+        "D": "nifedipine venlafaxine"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "懷孕期間服用下列何者，最可能導致胎兒神經管缺陷（neuraltubedefects）？",
+      "options": {
+        "A": "testosterone",
+        "B": "carbamazepine",
+        "C": "valsartan",
+        "D": "paroxetine"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "有關metered-doseinhalers之用藥指導，下列何者錯？",
+      "options": {
+        "A": "使用前不须振摇",
+        "B": "可用closed-mouth或是open-mouth的方法吸人",
+        "C": "缓慢吸人後须閑氣4～10秒",
+        "D": "兩puffs間须間隔至少30～60秒"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "有關口服bisphosphonates之用藥指導，下列何者錯？",
+      "options": {
+        "A": "生體可用率不佳",
+        "B": "服用後，须維持上身直立至少30分鐘",
+        "C": "服用後，為减少腸胃刺激，可以立刻進食",
+        "D": "须配合攝取足量之calcium和vitaminD，但不可同時服用"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "使用下列何種藥品時，必须提醒病人「须防曬以避免皮膚發生光敏感」？",
+      "options": {
+        "A": "chlorpromazine",
+        "B": "penicillamine",
+        "C": "aspirin",
+        "D": "tamoxifen"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "下列何者是美國上市藥品仿單的？",
+      "options": {
+        "A": "AMA Drug Evaluation",
+        "B": "Physician's Desk Reference",
+        "C": "United States Pharmacopeia",
+        "D": "Martindale: The Complete Drug Reference"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "氯喘在规律使用藥品控制下，何者為運動前使用，预防急性發作的首藥品？",
+      "options": {
+        "A": "aminophylline",
+        "B": "inhaled corticosteroids",
+        "C": "inhaled short-acting β agonist",
+        "D": "montelukast"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "下列何處方有饼用相同藥理作用藥品的疑虑？",
+      "options": {
+        "A": "glipizide and metformin",
+        "B": "empagliflozin and linagliptin",
+        "C": "glimepiride and glyburide",
+        "D": "pioglitazone and metformin"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "下列何者可用於管灌病人？",
+      "options": {
+        "A": "Norvasc? ( amlodipine)",
+        "B": "Cardizem? Retard ( diltiazem )",
+        "C": "Madopar@ HBS ( levodopa/benserazide )",
+        "D": "Lescol xL (fluvastatin)"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "有關Helicobacter pylorieradication regimen之内容，下列何者錯？",
+      "options": {
+        "A": "clarithromycin 500 mg BID PO",
+        "B": "amoxicillin 1 g BID PO",
+        "C": "pantoprazole 40 mg TID PO",
+        "D": "esomeprazole 20 mg BID PO"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "下列何者可經口服用於治療hypertensiveurgency？",
+      "options": {
+        "A": "amlodipine",
+        "B": "losartan",
+        "C": "captopril",
+        "D": "atenolol"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "李先生55崴，有小细胞肺癌骨轉移疼痛，之前使用過acetaminophen無法控制。瘤科處方tramadol37.5mg+ acetaminophen325mg3tabQIDPC。此處方主要的問题為何？",
+      "options": {
+        "A": "藥品不符合健保給付规",
+        "B": "有禁忌症",
+        "C": "劑量過高",
+        "D": "適症不對"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "CYP2C9*3/*3的病人’phenytoin起始劑量如何建？",
+      "options": {
+        "A": "維持原建起始劑量",
+        "B": "降低25%",
+        "C": "降低50%",
+        "D": "不建使用"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "已知gentamicin靜派输注時間為30分鐘；则其峰濃度之抽血時間，下列何者最適當？",
+      "options": {
+        "A": "输注完後立即抽血",
+        "B": "输注完後1小時抽血",
+        "C": "输注開始後2小時抽血",
+        "D": "输注開始後1小時抽血"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "有關tacrolimus於移植術後之療劑测，下列何者錯？",
+      "options": {
+        "A": "主要测血中谷濃度 腸道吸收 低蛋白結合率",
+        "B": "主要經由CYP3A4/5代，须留意相關交互作用 體内分布 治療指数狭窄",
+        "C": "目標血中濃度通常為5～10μg/mL 肝代謝 分布體大",
+        "D": "须注意臀毒性的產生 臀排泄 非CYP450enzyme受質"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "下列何者會降低cisatracurium之排除而增加藥品不良反應？",
+      "options": {
+        "A": "metabolic acidosis",
+        "B": "hyperthermia",
+        "C": "hyperphosphatemia",
+        "D": "metabolic alkalosis"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "下列何者與長期吸產生之交互作用於pharmacodynamicinteractions？",
+      "options": {
+        "A": "clopidogrel",
+        "B": "diazepam",
+        "C": "olanzapine",
+        "D": "theophylline"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "下列何者最可能導CYP3A4的活性而增加代能力？",
+      "options": {
+        "A": "clarithromycin",
+        "B": "fluconazole",
+        "C": "rifampin",
+        "D": "trimethoprim-sulfamethoxazole"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "有關verapamil與digoxin之交互作用，下列叙述何者正確？",
+      "options": {
+        "A": "digoxin血中濃度降低",
+        "B": "digoxin的代謝增加",
+        "C": "verapamil抑制小腸中的P-glycoprotein",
+        "D": "digoxin在腸道的吸收降低"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "有關P-glycoprotein的叙述，下列何者正確？",
+      "options": {
+        "A": "是一個transporter，将藥品由细胞外往细胞内運送 adrenergic effects",
+        "B": "對於以高劑量在腸胃道作用的藥品影響较大 cholinergic effects",
+        "C": "對於以微小劑量經腸胃道吸收的藥品影響较大 antiadrenergic effects",
+        "D": "因P-glycoprotein受質之特翼性舆CYP2D6相近，導劑與抑制劑也都與CYP2D6相同 anticholinergic effects"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "有關ursodiol舆cholestyramine之交互作用，下列叙述何者正確？",
+      "options": {
+        "C": "雨者供用時，給藥時間须至少隔開2小時 维持原theophylline劑量，再次测血中濃度正確性",
+        "D": "将cholestyramine改為colestipol，可避免交互作用 提高theophylline劑量約25%，持續监測血中濃度",
+        "A": "将theophylline改换montelukast10mgPOQD",
+        "B": "提高theophylline劑量約50%，持續监测血中濃度"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "在lithium maintenance therapy進行療劑监測時，下列抽血時間點及建濃度圍的配對，何者最為適當？",
+      "options": {
+        "A": "正要給藥前，2～4mEq/L",
+        "B": "服藥後30分鐘；0.6～1.2mEq/L",
+        "C": "服藥後2小時；2～4mEq/L",
+        "D": "服藥後12小時，0.5～0.8mEq/L"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "下列何者可能與amikacin的troughconcentration過高有相關性？",
+      "options": {
+        "A": "血液毒性",
+        "B": "心毒性",
+        "C": "肝毒性",
+        "D": "臀毒性"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 15
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\111100_44_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\111100_44_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

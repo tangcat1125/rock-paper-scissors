@@ -1,0 +1,693 @@
+{
+  "setId": "111100_11_pharmacology-medicinal-chemistry",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmacology-medicinal-chemistry",
+  "subjectTitle": "Pharmacology and Medicinal Chemistry",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\111100_q11_pharmacology-medicinal-chemistry.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\111100_ans11_pharmacology-medicinal-chemistry.pdf"
+  ],
+  "questionCount": 66,
+  "answerCount": 66,
+  "parseWarnings": [
+    "Question 21: Could not parse options for question 21",
+    "Question 28: Could not parse options for question 28",
+    "Question 52: Could not parse options for question 52",
+    "Question 54: Could not parse options for question 54",
+    "Question 60: Could not parse options for question 60",
+    "Question 68: Could not parse options for question 68",
+    "Question 75: Could not parse options for question 75",
+    "Question 80: Could not parse options for question 80"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列藥物何者會抑制肝的代謝酵素？",
+      "options": {
+        "A": "griseofulvin",
+        "B": "ketoconazole",
+        "C": "phenytoin",
+        "D": "rifampin"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "下列藥物何者可以經由抑制phosphodiesterase，而增加细胞内cAMP？",
+      "options": {
+        "A": "parathyroid hormone",
+        "B": "milrinone",
+        "C": "corticotropin",
+        "D": "glucagon"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "下列有關藥物在人體内產生conjugation代谢反應的叙述；何者錯？",
+      "options": {
+        "A": "包括弱酸或弱之藥物",
+        "B": "胺基酸可為此反應之辅助因子",
+        "C": "不需要高能量中間體（high-energyintermediates）即可進行活化反應",
+        "D": "需要代謝酵素之存在"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "造成penicillin產生抗藥性的原因，下列何者錯？",
+      "options": {
+        "A": "β-lactamase的存在",
+        "B": "無法結合到penicillin结合蛋白",
+        "C": "增進penicillin排除",
+        "D": "在格蘭氏陽性菌株外膜因為膜孔蛋白（porin）表現量下降；使藥物不易進人"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "有關藥物引起的過敏性反應，下列叙述何者錯？",
+      "options": {
+        "A": "penicillins及cephalosporins都可能會引起藥物過敏反應",
+        "B": "若對penicillins有過敏反應，通常也會有较高的cephalosporins過敏反應風险",
+        "C": "cephalexin比cefepime较不易產生交叉性過敏反應",
+        "D": "penicillin容易與aminopenicillins產生交叉過敏反應"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "有關leucovorin在化療中的作用，下列何者正確？",
+      "options": {
+        "A": "可以促進methotrexate經由臀藏排除",
+        "B": "與5-fluorouracil合供使用可减缓5-fluorouracil的代谢",
+        "C": "可用於大腸直腸癌造成癌细胞死亡",
+        "D": "與methotrexate饼用可减低methotrexate對正常细胞的毒性"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "若非小细胞肺癌病患測出有EGFR（L858R）變翼，可使用下列何種藥物治療较適當？",
+      "options": {
+        "A": "bosutinib",
+        "B": "sunitinib",
+        "C": "erlotinib",
+        "D": "carfilzomib"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "下列藥物中何者之主要作用细胞，與其它藥物作用之细胞不同？",
+      "options": {
+        "A": "alefacept",
+        "B": "basiliximab",
+        "C": "afatinib",
+        "D": "nivolumab"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "Chloroquine用於治療Plasmodiumvivax及Plasmodiumovale弓[起之疾時，需供用下列何者才可以殺死肝内之 瘤原休眠體（liverhypnozoites），以利根除感染？",
+      "options": {
+        "A": "artesunate",
+        "B": "metronidazole",
+        "C": "sulfamethoxazole",
+        "D": "primaquine"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "有關抗凝血藥物（anticoagulants）heparin之副作用；下列叙述何者錯？",
+      "options": {
+        "A": "出血 （bleeding）",
+        "B": "血小板减少症（thrombocytopenia）",
+        "C": "表皮壤死（cutaneousnecrosis）",
+        "D": "骨質疏及骨折（osteoporosis andspontaneousfractures）"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "下列生物製劑或藥物何者無法促進骨髓造血功能？",
+      "options": {
+        "A": "erythropoietin",
+        "B": "granulocyte colony-stimulating factor (G-CSF)",
+        "C": "abciximab",
+        "D": "romiplostim"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "下列藥物何者之作用機轉為抑制calcineurin之活性？",
+      "options": {
+        "A": "atorvastatin",
+        "B": "ethambutol",
+        "C": "tacrolimus",
+        "D": "desipramine"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "下列於corticosteroids製劑臨床用途的叙述，何者正確？",
+      "options": {
+        "A": "cortisone主要作為皮質固醇不足（aldosteroneinsufficiency）病人之補充用藥",
+        "B": "fludrocortisone具最強效抗發炎的能力，常用於治療重感染",
+        "C": "prednisolone可長期用於治療發炎及自體免疫性疾病",
+        "D": "dexamethasone最常用以促進胎兒肺功能成熟"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "下列關於mifepristone之叙述，何者錯？",
+      "options": {
+        "A": "可拮抗子宫之progesterone受體",
+        "B": "可當作性行為後避孕藥",
+        "C": "只能在懷孕七内產生胎效果",
+        "D": "常和PGI2製劑合饼使用以增強障胎效果"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "下列口服降血糖藥物，何者可以抑制dipeptidylpeptidase 4，使内生性之glucagon-like peptide-1作用時間延長， 而增加胰insulin耦放量？",
+      "options": {
+        "A": "canagliflozin",
+        "B": "exenatide",
+        "C": "glimepiride",
+        "D": "saxagliptin"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "下列何者為somatostatin同類物，可用来治療肢端肥大症（acromegaly）?",
+      "options": {
+        "A": "bromocriptine furosemide",
+        "B": "desmopressin acetazolamide",
+        "C": "leuprolide thiazide",
+        "D": "octreotide （hyperammonemia）及肝腦病（hepaticencephalopathy）饼發症？ triamterene"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "NSAIDs類藥物（例如indomethacin）可能會影響nephrotic syndrome或hepatic cirrhosis病人服用furosemide的利 尿作用，其影響的機制為何？",
+      "options": {
+        "A": "抑制PGE2生成 B·抑制Na/K+/2CI transporter propranolol 作用缓和，藥效持久長達48小時",
+        "C": "抑制COX-1 propafenone 减少低血壓之副作用",
+        "D": "抑制尿酸排除 procainamide （）（） 减少反射性心搏過速",
+        "B": "sotalol 避開肝藏代謝之首渡效應"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "同時含有ezetimibe及statins的降血脂複方藥中，ezetimibe的藥理機制為何？",
+      "options": {
+        "A": "bile acid binding resins",
+        "B": "intestinal sterol absorption inhibitor",
+        "C": "Apo B synthesis inhibitor",
+        "D": "HMG-CoA reductase inhibitor"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "下列何種藥物最適用於心绞痛之急性發作（acuteepisode）？",
+      "options": {
+        "A": "diltiazem",
+        "B": "nifedipine",
+        "C": "nitroglycerin",
+        "D": "propranolol"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "下列有關digoxin副作用的叙述，何者錯？",
+      "options": {
+        "A": "會引起便秘 pralidoxime",
+        "B": "會刺激chemoreceptor trigger zone而引|起匾吐 atropine",
+        "C": "會使老年人迷失方向感 diacetylmonoxime",
+        "D": "會引起視幻覺 carbachol"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "兒茶酚胺（catecholamine）再回收抑制劑臨床鹰用廣泛，下列叙述何者錯？",
+      "options": {
+        "A": "reboxetine可用於治療重度豪",
+        "B": "sibutramine可降低食欲",
+        "C": "milnacipran可治療肌維疼痛",
+        "D": "atomoxetine可用來治療姿熊性低血壓"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "臀上腺素性受體可有alpha及beta兩種亞型，下列凝交感神經作用劑在有藥理作用劑量時，何者對於臀上腺素 性beta亚型受體親和力较大？",
+      "options": {
+        "A": "methoxamine",
+        "B": "clonidine",
+        "C": "dobutamine",
+        "D": "phenylephrine"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "當慢性阻塞性肺病病人有急性發作時，常使用何種藥物？",
+      "options": {
+        "A": "albuterol",
+        "B": "indacaterol",
+        "C": "salmeterol",
+        "D": "tiotropium"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "有關proton pump inhibitors的叙述；下列何者錯？",
+      "options": {
+        "A": "须在空腹時使用",
+        "B": "不具耐酸性，以腸衣锭口服後在小腸吸收",
+        "C": "為prodrug，以不可逆性抑制protonpump",
+        "D": "為具脂溶性的弱酸藥物"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "下列何者可抑制xanthineoxidase，用在痛風治療？",
+      "options": {
+        "A": "allopurinol",
+        "B": "colchicine",
+        "C": "sulfinpyrazone",
+        "D": "indomethacin"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "長期使用下列何種抗發炎藥物容易造成骨質疏之副作用？",
+      "options": {
+        "A": "aspirin",
+        "B": "dexamethasone",
+        "C": "indomethacin",
+        "D": "ibuprofen"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "關於抗夏郁藥物venlafaxine的藥理機制叙述，下列何者正確？",
+      "options": {
+        "A": "選選性正臀上腺素致效劑",
+        "B": "選性正臀上腺素及血清素再回收抑制劑",
+        "C": "選性多巴胺再回收抑制劑",
+        "D": "選性乙瞻再回收抑制劑"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "下列關於可以治療上皺紋之肉毒悍菌毒素（botulinum toxin）的叙述；何者錯？",
+      "options": {
+        "A": "有多種免疫性各的毒素，如BoNTs-A,B,C,D,E,F,G",
+        "B": "可以引[起化學性去神經作用（chemodenervation）",
+        "C": "具切ACh之酵素活性",
+        "D": "可减少ACh的放"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "下列關於治療帕金森氏症（Parkinson's disease）藥物的叙述，何者錯？",
+      "options": {
+        "A": "levodopa和carbidopa凝膠劑型；經由持久的胃造瘘給藥，以治療患帕金森氏症的重症病人 benzodiazepines较不會影響肝藏酵素 context-sensitivehalf-time數字越大，藥物移除速率越快",
+        "B": "Rytary是一長效劑型，减少藥物血中濃度之燮動（fluctuation） flumazenil可以做為benzodiazepines解毒劑 藥物排除速率顺序（快到慢）：thiopental>midazolam>propofol",
+        "C": "selegiline的藥理機制是抑制dopamine D2受體 benzodiazepines不會產生藥物依賴性",
+        "D": "levodopa和carbidopa合供使用是為了减少周levodopa轉變成dopamine barbiturates會引起致死性的中福神經抑制作用 藥物排除速率顺序（快到慢）：thiopental>propofol>midazolam"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "下列那些抗癫瘤藥物可用於治療失神性癫瘤（absence seizures）？①phenytoin②valproate ③ethosuximide④gabapentin",
+      "options": {
+        "A": "①②",
+        "B": "②③",
+        "C": "③④",
+        "D": "①④"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "下列何者可以作為有機磷（organophosphate）之解毒劑？",
+      "options": {
+        "A": "deferoxamine",
+        "B": "pralidoxime",
+        "C": "succimer",
+        "D": "dimercaprol"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "下列何者需肌肉給藥，用於治療汞丶铅及砷中毒？",
+      "options": {
+        "A": "succimer",
+        "B": "deferoxamine",
+        "C": "dimercaprol",
+        "D": "penicillamine"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "下列有關antibody-drug conjugates（ADC）設計通则之叙述；何者正確？",
+      "options": {
+        "A": "高專一性抗體搭配高细胞毒性的小分子藥物",
+        "B": "高專一性抗體搭配低细胞毒性的小分子藥物",
+        "C": "低專一性抗體搭配高细胞毒性的小分子藥物",
+        "D": "低專一性抗體搭配低细胞毒性的小分子藥物"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "下列藥品何者的pKa值最小？",
+      "options": {
+        "A": "acetaminophen",
+        "B": "diclofenac",
+        "C": "morphine",
+        "D": "lorazepam"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "在結構中加人下列何種基團，可使藥物分子的logP增加0.5？",
+      "options": {
+        "A": "phenyl",
+        "B": "methyl",
+        "C": "hydroxyl",
+        "D": "amino"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "Glutathione由下列那三個胺基酸组成？",
+      "options": {
+        "A": "Glu’Ser，Gly",
+        "B": "Lys ′Ser′ Gly",
+        "C": "Glu,Cys ,Gly",
+        "D": "Lys ，Cys ’ Gly"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "Ephedrine巽構物（結構如下圖）立體组態為？ OH NHCH 2 CH3",
+      "options": {
+        "A": "1S’2R",
+        "B": "1R，2S",
+        "C": "1R，2R",
+        "D": "1S，2S"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "下列何者不於cocaine之水解產物？",
+      "options": {
+        "A": "tropic acid",
+        "B": "benzoic acid",
+        "C": "ecgonine",
+        "D": "methanol"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "下列何種麻醉藥可經代謝產生o-toluidine，可能造成高鐵血紅蛋白血症（methemoglobinemia）？",
+      "options": {
+        "A": "procaine",
+        "B": "dibucaine",
+        "C": "articaine",
+        "D": "prilocaine"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "下列何種血清胺（serotonin）受體作用藥物，其結構不含tropane環？",
+      "options": {
+        "A": "bemesetron",
+        "B": "itasetron",
+        "C": "tropisetron",
+        "D": "ondansetron"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "Leu-enkephalin是由種不同胺基酸組成？",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "下列何種藥物無法同時抑制5-HT及NE的再回收（reuptake）?",
+      "options": {
+        "A": "doxepine",
+        "B": "tapentadol",
+        "C": "amitriptyline",
+        "D": "duloxetine"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "下列何者是麻醉辅助藥也是抗癫瘤藥，在pH<3時會催化主環結構開環；而增加水溶性？",
+      "options": {
+        "A": "diazepam",
+        "B": "midazolam",
+        "C": "flurazepam",
+        "D": "zolpidem"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "下列神經肌肉疾病與使用藥物的配對，何者錯？",
+      "options": {
+        "A": "Duchenne muscular dystrophy : interferon β-1a",
+        "B": "multiple sclerosis: dimethyl fumarate",
+        "C": "spinal muscular atrophy : nusinersen",
+        "D": "amyotrophic lateral sclerosis:riluzole"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "下列何者為開發糖尿病治療藥；而意外發現具抗癫瘤效果？",
+      "options": {
+        "A": "brivaracetam",
+        "B": "perampanel",
+        "C": "topiramate",
+        "D": "afinitor"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "下圖化合物的X為何種取代基時，其鎮靜安眠藥效最強？ H N CI",
+      "options": {
+        "A": "OCH3",
+        "B": "NH2",
+        "C": "C1",
+        "D": "CH3"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "下列有關lomitapide之叙述，何者錯？",
+      "options": {
+        "A": "具高水溶性與高生體可用率",
+        "B": "可降低VLDL生成",
+        "C": "服藥時，宜避免飲用葡萄柚汁",
+        "D": "可抑制microsomal triglyceride transport protein"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "下列有關protamine的叙述，何者錯？",
+      "options": {
+        "A": "會與heparin競爭antithrombinIⅢI结合區",
+        "B": "會舆fibrinogen、血小板產生交互作用",
+        "C": "為富含arginine的蛋白質",
+        "D": "副作用可能引起anaphylaxis"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "下列有關rivaroxaban（結構如下圖）的叙述，何者錯？ CI",
+      "options": {
+        "A": "以benzene取代thiophene，會導致活性下降",
+        "B": "morpholinone會factorXa座生hydrophobicinteraction",
+        "C": "chlorothiophene carboxamide會奥factorXa產生氢键",
+        "D": "CYP3A4/2J2负责oxazolidine的hydroxylation代谢"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "下列ACE抑制劑的作用，何者不需經過bioactivation？",
+      "options": {
+        "A": "enalapril",
+        "B": "fosinopril",
+        "C": "perindopril",
+        "D": "lisinopril"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "降血壓藥losartan於體内可轉換成活性代謝物，該代謝物具有下列何種基團？",
+      "options": {
+        "A": "carboxylic acid",
+        "B": "phenol",
+        "C": "furan",
+        "D": "oxazole"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "下列何者為clopidogrel（结構如下圖）之抗凝集作用機制？",
+      "options": {
+        "A": "可逆抑制環氧酶",
+        "B": "不可逆抑制環氧酶",
+        "C": "可逆拮抗P2Y12受體",
+        "D": "不可逆拮抗P2Y12受體"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "Fluticasone結構中具有個氟原子？",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "Saxagliptin结構中cyano基團，可與DPP-IV酵素的何種胺基酸残基结合？",
+      "options": {
+        "A": "methionine",
+        "B": "cysteine",
+        "C": "serine",
+        "D": "threonine"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "下列何種DPP-IV抑制劑，具有最高的口服生體可用率？",
+      "options": {
+        "A": "saxagliptin",
+        "B": "sitagliptin",
+        "C": "alogliptin",
+        "D": "linagliptin"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "一般合成之norprogesterone藥；是移除progesterone结構中那個位置的甲基而得？",
+      "options": {
+        "A": "17",
+        "B": "18",
+        "C": "19",
+        "D": "21"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "Promethazine代謝物的生成，主要是經由下列何種代謝酵素？",
+      "options": {
+        "A": "CYP2D6",
+        "B": "CYP3A4",
+        "C": "MAO-A",
+        "D": "MAO-B"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "Lansoprazole主要代謝物的生成；最主要是經由下列何種代酵素？",
+      "options": {
+        "A": "MAO-A",
+        "B": "MAO-B",
+        "C": "CYP2C19",
+        "D": "CYP3A4"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "下列有關esomeprazole之立體組熊叙述，何者正確？",
+      "options": {
+        "A": "结構不具有手性中心（chiralcenter）",
+        "B": "為單一(S)-form立體構物",
+        "C": "為單一(R)-form立體構物",
+        "D": "為消旋（racemic）混合物"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "下列那些非固醇抗炎藥物於前藥？①diclofenac②sulindac③nabumetone ④fenoprofen",
+      "options": {
+        "A": "①③",
+        "B": "②④",
+        "C": "①④",
+        "D": "②③"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "Venetoclax结構中，下列何種基團最可能與BCL-2蛋白質Arg103残基的陽離子結合？ NO2 CHs CHg SOg Venetoclax",
+      "options": {
+        "A": "sulfonylbenzamide",
+        "B": "p-chlorophenyl",
+        "C": "dimethylcyclohexene",
+        "D": "1H-pyrrolo[2,3-b]pyridine"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "下列chloramphenicol（結構如下圖）巽構物組態，何者具有著抗菌活性？ OH CH2OH Cl2CH-C-N H 2 H OH NO2",
+      "options": {
+        "A": "1R，2R",
+        "B": "1R，2S",
+        "C": "1S，2S",
+        "D": "1S’2R"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "下列何者為抗HIV藥delavirdine（结構式如下圖）的作用機制？ CH(CH3)2 O HN ! H HC-S-N O =O C-N",
+      "options": {
+        "A": "entry inhibition",
+        "B": "reverse transcriptase（RT）inhibition",
+        "C": "integrase inhibition",
+        "D": "protease inhibition"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "下列何者為抗病毒藥foscarnet sodium之作用標的？",
+      "options": {
+        "A": "RNA polymerase",
+        "B": "DNA polymerase",
+        "C": "thymidine kinase",
+        "D": "thymidylate synthase"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "下列何者為cisplatin最常见之毒性？",
+      "options": {
+        "A": "cardiotoxicity",
+        "B": "peripheral neuropathy",
+        "C": "stomatitis",
+        "D": "renal damage"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "下列何者為teniposide最主要之代谢反應？",
+      "options": {
+        "A": "hydrolysis",
+        "B": "esterification",
+        "C": "demethylation",
+        "D": "reduction"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 19
+  },
+  "referenceGroupId": "pharmacology-medicinal-chemistry",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\111100_11_pharmacology-medicinal-chemistry.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\111100_11_pharmacology-medicinal-chemistry.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

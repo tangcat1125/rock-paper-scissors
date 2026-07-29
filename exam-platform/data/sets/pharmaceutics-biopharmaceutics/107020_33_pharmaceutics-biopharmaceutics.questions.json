@@ -1,0 +1,962 @@
+{
+  "setId": "107020_33_pharmaceutics-biopharmaceutics",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutics-biopharmaceutics",
+  "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\107020_q33_pharmaceutics-biopharmaceutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\107020_mod33_pharmaceutics-biopharmaceutics.pdf"
+  ],
+  "questionCount": 78,
+  "answerCount": 78,
+  "parseWarnings": [
+    "Question 78: Could not parse options for question 78"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "有關藥品有效期限之決定，下列那一類藥品是不採安定性試驗數據？",
+      "options": {
+        "A": "antibiotics",
+        "B": "allergenic extracts",
+        "C": "antihistamines",
+        "D": "diuretic drugs"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 2,
+      "stem": "下列何者可降低藥物的溶離速率？",
+      "options": {
+        "A": "增加藥物的表面積",
+        "B": "增加溶離媒液的攪拌速度",
+        "C": "增加藥物粒子的粒徑",
+        "D": "增加藥物在擴散層（diffusion layer ）的濃度"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 3,
+      "stem": "若使用乙醇來作為糖漿劑（65% w/v ，50 mL ）的抑菌劑，假設所需乙醇為18% ，則所需乙醇的量最接近多少 mL ？",
+      "options": {
+        "A": "0.5",
+        "B": "1.7",
+        "C": "5",
+        "D": "8"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 4,
+      "stem": "下列化合物做為糖漿劑的保存劑（preservatives ）時，何者所需濃度最低？",
+      "options": {
+        "A": "butylparaben",
+        "B": "benzoic acid",
+        "C": "methylparaben",
+        "D": "sorbic acid"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 5,
+      "stem": "下列氯化合物中，何者之水溶解度最差？",
+      "options": {
+        "A": "BaCl 2",
+        "B": "MgCl 2",
+        "C": "HgCl",
+        "D": "HgCl 2"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 6,
+      "stem": "中華藥典中有關甜橙皮糖漿（orange syrup ）中可加入下列何者，因其具有分散及助濾作用？",
+      "options": {
+        "A": "滑石粉（talc ）",
+        "B": "酒精（alcohol ）",
+        "C": "檸檬酸（citric acid ）",
+        "D": "碳酸鎂（magnesium carbonate ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 7,
+      "stem": "下列粒徑大小何者不屬於膠體範圍？",
+      "options": {
+        "A": "0.01 mm",
+        "B": "10 -6 m",
+        "C": "0.01 µm",
+        "D": "10 -5 cm"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 8,
+      "stem": "疏水性藥物製成下列何種製劑時會使水的蒸氣壓下降最大？",
+      "options": {
+        "A": "微膠粒水溶液",
+        "B": "w/o 乳劑",
+        "C": "水質懸液劑",
+        "D": "o/w 乳劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 9,
+      "stem": "甲乙兩液體均是牛頓流體，今混合 100 mL 液體甲（黏度 =1.0 cP ）與400 mL 液體乙（黏度 =4.0 cP ），則均勻 混合液的黏度值為多少 cP ？",
+      "options": {
+        "A": "1.0",
+        "B": "2.5",
+        "C": "3.5",
+        "D": "4.0"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 10,
+      "stem": "皂土乳漿（bentonite magma ）靜置後形成 gel ，使用時需搖晃，此為下列何種現象？",
+      "options": {
+        "A": "cold flow",
+        "B": "dilatant",
+        "C": "Newtonian",
+        "D": "thixotropy"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 11,
+      "stem": "利用下列何種染劑可以從顯微鏡下觀察 W/O 乳劑的外相？",
+      "options": {
+        "A": "Congo Red",
+        "B": "fluorescein isothiocyanate",
+        "C": "methylene blue",
+        "D": "Orange II"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 12,
+      "stem": "一般製備乳劑時，應選擇下列何種 mortar ？",
+      "options": {
+        "A": "Wedgwood mortar",
+        "B": "glass mortar",
+        "C": "Mica mortar",
+        "D": "plastic mortar"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 13,
+      "stem": "一懸浮液塗抹於皮膚表面上如下圖所示，此流體特性為何？",
+      "options": {
+        "A": "dilatant",
+        "B": "elastic",
+        "C": "pseudoplastic",
+        "D": "Newtonian"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 14,
+      "stem": "Carbopol （carbomer ）於下列何種 pH 時一定無法形成 gel ？",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 15,
+      "stem": "利用 HLB ＝8與12 之二種界面活性劑混合調配 HLB 值為9之溶液時，其比例為何？",
+      "options": {
+        "A": "1：2",
+        "B": "1：1",
+        "C": "2：1",
+        "D": "3：1"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 16,
+      "stem": "有關利用 polyoxyethylate 材質製備溫控型藥物貼片之敘述，下列何者正確？",
+      "options": {
+        "A": "利用溫度上升，該材質產生吸熱與脫水，進而釋放藥物",
+        "B": "利用溫度上升，該材質產生放熱與脫水，進而釋放藥物",
+        "C": "利用溫度下降，該材質產生吸熱與脫水，進而釋放藥物",
+        "D": "利用溫度下降，該材質產生放熱與脫水，進而釋放藥物"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 17,
+      "stem": "下列有效成分的栓劑， 何者主要作用於局部？",
+      "options": {
+        "A": "chlorpromazine",
+        "B": "indomethacin",
+        "C": "morphine",
+        "D": "miconazole"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 18,
+      "stem": "下列何者屬於水和性軟膏基劑？",
+      "options": {
+        "A": "親水軟膏",
+        "B": "聚乙二醇軟膏",
+        "C": "羊毛脂",
+        "D": "單軟膏"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 19,
+      "stem": "有關親水軟膏（hydrophilic ointment ）的敘述，下列何者錯誤？",
+      "options": {
+        "A": "關於此軟膏的製備，首先須將油相加溫至約 75 ℃",
+        "B": "此軟膏可以用水稀釋",
+        "C": "此軟膏的油相主要是由 stearyl alcohol 和yellow petrolatum 所組成",
+        "D": "由於此軟膏含水，在製備過程中需添加 methylparaben 和propylparaben 做為防腐保存劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 20,
+      "stem": "藥物經由皮膚吸收之被動擴散效應最主要是遵循：",
+      "options": {
+        "A": "Beer-Lambert law",
+        "B": "Fick's law",
+        "C": "Stokes' law",
+        "D": "Moore's law"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 21,
+      "stem": "下列何種可可脂之晶型在室溫不能固化，且屬亞穩定晶型，需放置數日才能轉變為穩定晶型？",
+      "options": {
+        "A": "alpha",
+        "B": "beta",
+        "C": "gamma",
+        "D": "delta"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 22,
+      "stem": "下列何者不屬於 hydrocarbons 類之軟膏基劑？",
+      "options": {
+        "A": "liquid paraffins",
+        "B": "propylene glycol",
+        "C": "white petrolatum",
+        "D": "microcrystalline wax"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 23,
+      "stem": "Petrolatum 基劑作為眼用製劑時，其滅菌溫度與所需時間為何？",
+      "options": {
+        "A": "145 ℃、1小時",
+        "B": "175 ℃、1小時",
+        "C": "145 ℃、2小時",
+        "D": "175 ℃、2小時"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 24,
+      "stem": "下列何種裝置，常用於藥物經皮吸收的研究？",
+      "options": {
+        "A": "Coulter Counter",
+        "B": "disintegration testing apparatus",
+        "C": "Franz diffusion cell",
+        "D": "friabilator"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 25,
+      "stem": "紅黴素延遲性釋放膠囊（erythromycin delayed-release capsules ）的劑型設計之主要目的為何？",
+      "options": {
+        "A": "降低紅黴素對胃部的刺激",
+        "B": "保護紅黴素不受胃酸降解",
+        "C": "加速排空增加紅黴素吸收",
+        "D": "提高抑制大腸細菌的毒性"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 26,
+      "stem": "下列何者最適合作為咀嚼錠的稀釋劑？",
+      "options": {
+        "A": "avicel",
+        "B": "dibasic calcium phosphate",
+        "C": "lactose",
+        "D": "xylitol"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 27,
+      "stem": "下列何者比較適合用來當作製備固醇類錠劑時的稀釋劑？",
+      "options": {
+        "A": "calcium sulfate",
+        "B": "lactose",
+        "C": "sorbitol",
+        "D": "starch"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 28,
+      "stem": "壓錠時需要部分細粉充填在顆粒間，以減少顆粒間之空隙，通常細粉量約占多少量較為理想？",
+      "options": {
+        "A": "＜5%",
+        "B": "5～8%",
+        "C": "10 ～20%",
+        "D": "25 ～30%"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 29,
+      "stem": "下列何種賦形劑最適用於直接壓錠？",
+      "options": {
+        "A": "lactose",
+        "B": "microcrystalline cellulose",
+        "C": "hydroxyl propylmethylcellulose （HPMC ）",
+        "D": "starch"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 30,
+      "stem": "當一個藥物具有極長的血漿半衰期，下列何者是其最方便的劑型設計？",
+      "options": {
+        "A": "速放型（immediate-release ）",
+        "B": "長效型（extended-release ）",
+        "C": "腸溶型（enteric-release ）",
+        "D": "黏著型（adhesive-release ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 31,
+      "stem": "Colorcon 公司所出產的Surelease ，是含有下列何種包覆材料的水性分散液？",
+      "options": {
+        "A": "纖維素醋酸酯（cellulose acetate ）",
+        "B": "巴西棕櫚蠟（carnauba wax ）",
+        "C": "蟲膠（shellac ）",
+        "D": "乙基纖維素（ethylcellulose ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 32,
+      "stem": "以噴霧乾燥法進行藥物乾燥時偶遇藥物會發生降解之情況，下列藥物何者最容易降解？",
+      "options": {
+        "A": "epinephrine",
+        "B": "insulin",
+        "C": "pepsin",
+        "D": "vitamin A and D"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 33,
+      "stem": "明膠膠囊殼內若添加了二氧化鈦之成分，其目的通常是欲使囊殼呈現何種效用？",
+      "options": {
+        "A": "具抗氧化作用",
+        "B": "具彈性",
+        "C": "具阻光性",
+        "D": "使其內所含之不溶性成分能均勻分散"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 34,
+      "stem": "散劑中若混合有不同粒徑之粉末時，在自動裝填過程中有時會發生粉末分離（segregation ）的現象，為降低 此缺失，下列敘述何者較適當？",
+      "options": {
+        "A": "增加粉末混合時之攪拌時間",
+        "B": "減少操作過程中粉塵之產出",
+        "C": "增加粉末貯料斗（hopper ）之長度及流動時程",
+        "D": "若粉末流動時有靜電產生，則粉末流動性會增加"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 35,
+      "stem": "自動化生產硬膠囊劑時，有時為了增加藥物粉末流動性，可添加下列何種物質來改善？",
+      "options": {
+        "A": "lactose",
+        "B": "fumed silicon dioxide",
+        "C": "magnesium oxide",
+        "D": "titanium dioxide"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 36,
+      "stem": "某藥廠研發以下的直接打錠片處方，初步結果發現錠片之硬度不足，下列何者可以最簡單的解決問題？",
+      "options": {
+        "A": "調整提高壓錠力量",
+        "B": "降低壓錠顆粒粒徑",
+        "C": "增加硬脂酸鎂用量",
+        "D": "改以濕式造粒製備"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 37,
+      "stem": "有關注射用水（water for injection, USP ）之敘述，下列何者最正確？",
+      "options": {
+        "A": "必須是無菌的",
+        "B": "沒要求需具備無熱原反應（pyrogen free ）",
+        "C": "儲存於一般容器即可",
+        "D": "一般是在收集後 24 小時內使用"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 38,
+      "stem": "以環氧乙烯進行滅菌時，下列敘述何者最正確？",
+      "options": {
+        "A": "不需受專門訓練人員亦可操作",
+        "B": "橡膠或塑膠物質滅菌後可立即使用",
+        "C": "環氧乙烯具有毒性",
+        "D": "環氧乙烯很安定，在空氣中不具爆炸性"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 39,
+      "stem": "有關執行熱原試驗之敘述，下列何者最正確？",
+      "options": {
+        "A": "給與之劑量是每公斤體重使用檢品 5毫升",
+        "B": "注射的時間不得超過 10 分鐘",
+        "C": "動物無一隻超過 0.3 ℃即視為無熱原",
+        "D": "試驗動物如已供熱原試驗使用，但並無熱原反應者，則應經 24 小時以上的休養方可再使用"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 40,
+      "stem": "在醫院或藥局內調配靜脈營養溶液（parenteral nutrition solutions ）是屬於何種程度的風險？",
+      "options": {
+        "A": "無風險",
+        "B": "低度風險",
+        "C": "中度風險",
+        "D": "高度風險"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 41,
+      "stem": "Paraffin 較適合以下列何種滅菌法進行滅菌？",
+      "options": {
+        "A": "steam",
+        "B": "dry heat",
+        "C": "filtration",
+        "D": "ionizing radiation"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 42,
+      "stem": "下列生物技術產品何者不屬於蛋白質藥物？",
+      "options": {
+        "A": "epoetin alpha （Epogen ）",
+        "B": "fomivirsen （Vitravene ）",
+        "C": "interferon a-2b （Intron A ）",
+        "D": "trastuzumab （Herceptin ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 43,
+      "stem": "酒石酸腎上腺素注射溶液之 pH 值宜為若干？",
+      "options": {
+        "A": "3.5",
+        "B": "5.7",
+        "C": "7.4",
+        "D": "8.0"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 44,
+      "stem": "琥珀色的玻璃容器上，易溶出何種重金屬會催化氧化反應之進行？",
+      "options": {
+        "A": "鉀",
+        "B": "鉛",
+        "C": "鐵",
+        "D": "鋁"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 45,
+      "stem": "依中華藥典第七版，下列何藥之注射劑係使用無水酒精製成的滅菌溶液？",
+      "options": {
+        "A": "alprostadil",
+        "B": "digoxin",
+        "C": "haloperidol",
+        "D": "ondansetron"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 46,
+      "stem": "硝酸鹽藥品多劑量眼藥水不適合加入下列那一項作為抑菌劑？",
+      "options": {
+        "A": "0.5% 氯丁醇",
+        "B": "0.5% 苯乙醇",
+        "C": "0.01% 氯化苯甲烴銨",
+        "D": "0.002% 乙酸苯基汞"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 47,
+      "stem": "下列何者屬於無菌製劑？",
+      "options": {
+        "A": "舌下錠",
+        "B": "眼用製劑",
+        "C": "口服錠劑",
+        "D": "外用軟膏製劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 48,
+      "stem": "下列滅菌法中，何者不適合於滅菌操作時加入 biological indicator 作為滅菌效果確認之用？",
+      "options": {
+        "A": "氣體滅菌法",
+        "B": "過濾滅菌法",
+        "C": "乾熱滅菌法",
+        "D": "高壓蒸汽滅菌法"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 49,
+      "stem": "下列何者對細胞膜上運輸蛋白 P-glycoprotein 的敘述最正確？",
+      "options": {
+        "A": "主要外排親水性的毒性分子",
+        "B": "在迴腸與結腸的表現量高",
+        "C": "被證實與造成抗癌藥耐藥性的相關性小",
+        "D": "腸腔上皮細胞膜中表現量高時，會造成投藥後體內藥物濃度增加"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 50,
+      "stem": "下列何者屬於 solute carrier transporters ？",
+      "options": {
+        "A": "P-醣蛋白（P-glycoprotein ）",
+        "B": "乳腺癌耐藥蛋白（breast cancer resistance protein ）",
+        "C": "有機陰離子運送蛋白（organic anion transporter protein ）",
+        "D": "多重耐藥蛋白 2（multidrug resistance-associated protein 2 ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 51,
+      "stem": "某藥品之體內動態遵循線性一室模式。依文獻數值投與病人單次劑量後，其藥動圖形如圖中虛線所示，而正 常人的藥動圖形如圖中實線。若病人與正常人的血中療效濃度一致，有關劑量調整的藥動原則下列敘述何者 正確？",
+      "options": {
+        "A": "病人之擬似分布體積為正常人的 2倍，應將速效劑量調為2倍",
+        "B": "病人之擬似分布體積為正常人的 1/2 倍，應將速效劑量調為一半",
+        "C": "病人之半衰期不變，維持劑量不變",
+        "D": "病人清除率為正常人的一半，維持劑量為正常人的一半"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 52,
+      "stem": "下列何者屬於 phase I 代謝反應？",
+      "options": {
+        "A": "methylation",
+        "B": "sulfoxidation",
+        "C": "acetylation",
+        "D": "mercapturic acid synthesis"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 53,
+      "stem": "某藥經口服吸收，已知 ka大於 k，則當 ka增加而 k維持不變，下列敘述何者最正確？",
+      "options": {
+        "A": "Tmax 增加",
+        "B": "Cmax 增加",
+        "C": "AUC 增加",
+        "D": "Cl 降低"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 54,
+      "stem": "靜脈注射某藥品 50 mg 後之血中濃度 -時間關係圖如圖中實線所示（圖中虛線為利用殘差法解析之結果），則 中央室體積（Vp）為何？",
+      "options": {
+        "A": "12.5 mL",
+        "B": "50 mL",
+        "C": "10 L",
+        "D": "50 L"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 55,
+      "stem": "有關藥品的尿中排除速率常數（ke）之敘述，下列何者最正確？",
+      "options": {
+        "A": "不一定需要經由收集尿液來得到",
+        "B": "可使用 excretion rate method 計算得到",
+        "C": "須使用 Wagner-Nelson method 才能計算得到",
+        "D": "須使用 method of residuals 才能計算得到"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 56,
+      "stem": "某藥品遵循線性藥動學模式，以靜脈快速注射單劑量 50 mg 後，其0小時到 3小時之血中濃度曲線下面積 （AUC 3h ）為20 mg ．h/L ，而整個血中濃度曲線下面積（AUC ∞）為40 mg ．h/L ，該藥品一天內由尿液以原 型排泄之總藥量為10 mg 。則此藥品由腎臟排泄分率（fe）為何？",
+      "options": {
+        "A": "0.1",
+        "B": "0.2",
+        "C": "0.25",
+        "D": "0.5"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 57,
+      "stem": "某藥每8小時口服給與 200 mg ，持續給與兩週後，已知該藥之生體可用率為0.5 ，清除率為5 L/h ，則其到達 穩定狀態時的平均血中藥物濃度是多少 µg/mL ？",
+      "options": {
+        "A": "2.5",
+        "B": "5.0",
+        "C": "7.5",
+        "D": "15"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 58,
+      "stem": "某藥遵循一階次藥動學性質，其半衰期為6小時，經給與 400 mg 快速靜脈注射，在24 小時中有多少百分比藥 量被排除？",
+      "options": {
+        "A": "87.5",
+        "B": "90",
+        "C": "93.75",
+        "D": "95"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 59,
+      "stem": "靜脈注射後呈現二室性動力學，藥物的血中濃度與時間作圖，具有下列何種特性？",
+      "options": {
+        "A": "方格紙上呈現一條直線",
+        "B": "方格紙上呈現二段直線",
+        "C": "半對數紙上呈現一條直線",
+        "D": "半對數紙上呈現一轉折曲線"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 60,
+      "stem": "鹽酸四環黴素以 250 mg/cap 每6小時給藥 1次，已知病人體重 70 kg ，藥物吸收率為72.5% ，半衰期為10 小 時，分布體積為體重 50% ，若治療疾病的 MIC 為25 mg/L ，則此病人每次應投藥若干粒膠囊？",
+      "options": {
+        "A": "0.5",
+        "B": "1.0",
+        "C": "1.5",
+        "D": "2.0"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 61,
+      "stem": "下列有關生體可用率（BA ）或生體相等性（BE ）的敘述何者最正確？",
+      "options": {
+        "A": "腸道吸收是影響生體可用率最重要的因素",
+        "B": "原料藥在劑量範圍內的藥動性質為線性，才能正確評估其 BA 或BE 性質",
+        "C": "原料藥經由尿液排泄的速率可作為評估任何藥品 BE 的方式",
+        "D": "AUC 與吸收速率有密切關係"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 62,
+      "stem": "有關評估藥品生體相等性之試驗設計，下列何者正確？①交叉試驗設計可降低因個體差異所造成的不同 ② 平行試驗設計適合評估半衰期較長的藥物 ③平行試驗設計適合評估具有高度個體差異的藥物 ④多劑量試 驗設計適合用於分辨藥品吸收速率的不同",
+      "options": {
+        "A": "①②",
+        "B": "①④",
+        "C": "②④",
+        "D": "③④"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 63,
+      "stem": "藥品體外溶離速率可以藉由 Noyes-Whitney equation 來探討，下列敘述何者正確？①增加攪拌速率可增加擴 散速率常數 ②增加攪拌速率可降低停滯層（stagnant layer ）的厚度 ③增加攪拌速率可增加藥物粒子表面 積 ④藥物在停滯層的濃度與溶解度有關",
+      "options": {
+        "A": "①②",
+        "B": "②④",
+        "C": "①③",
+        "D": "③④"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 64,
+      "stem": "下列何種藥物不會影響 P-glycoprotein 及digoxin 的生體可用率？",
+      "options": {
+        "A": "amiodarone",
+        "B": "fenofibrate",
+        "C": "quinidine",
+        "D": "verapamil"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 65,
+      "stem": "有關藥物多晶型態（polymorphism ）及非結晶型態（amorphous forms ）之敘述，下列何者正確？",
+      "options": {
+        "A": "多晶型藥物其不同結晶型態之溶解速率均相同",
+        "B": "多晶型藥物其不同結晶型態之安定性均相同",
+        "C": "非結晶型藥物其安定性較結晶型藥物為佳",
+        "D": "非結晶型藥物其溶解速率通常較結晶型藥物為快"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 66,
+      "stem": "下列何種溶離設備，適用於軟膏及乳膏等半固體劑型經皮穿透能力評估時使用？",
+      "options": {
+        "A": "rotating basket",
+        "B": "paddle",
+        "C": "flow cell",
+        "D": "Franz diffusion cell"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 67,
+      "stem": "Erythromycin 製成不溶性鹽類主要目的是：",
+      "options": {
+        "A": "遮蔽不良氣味，以增加服藥依順性",
+        "B": "增加於胃中安定性",
+        "C": "增加藥物的溶離速率",
+        "D": "增加藥物的吸收速率"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 68,
+      "stem": "當使用 codeine 為止痛劑時，病人具有下列何種代謝 酶多型性時較不易產生止痛作用？",
+      "options": {
+        "A": "CYP2C19 之extensive metabolizer",
+        "B": "CYP2C19 之poor metabolizer",
+        "C": "CYP2D6 之extensive metabolizer",
+        "D": "CYP2D6 之poor metabolizer"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 69,
+      "stem": "Gentamicin 之成人半衰期為2.5 小時，新生兒的半衰期為5小時，成人之用法用量為每8小時靜脈注射 1.7 mg/kg ，估算體重 4 kg 新生兒之用法用量為何？",
+      "options": {
+        "A": "每8小時注射 6.8 mg",
+        "B": "每8小時注射 3.4 mg",
+        "C": "每12 小時注射 6.8 mg",
+        "D": "每12 小時注射 3.4 mg"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 70,
+      "stem": "根據 2003 年美國 FDA 產業指導原則，下列何者目前未列在肝臟功能的標識物（marker ）測試？",
+      "options": {
+        "A": "indocyanine green",
+        "B": "Evan blue",
+        "C": "galactose",
+        "D": "antipyrine"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 71,
+      "stem": "下列那一個代謝酵素基因型與 omeprazole 及diazepam 療效有關？",
+      "options": {
+        "A": "CYP3A4",
+        "B": "CYP2C19",
+        "C": "CYP2C9",
+        "D": "CYP1A2"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 72,
+      "stem": "一位癲癇病人分別接受 150 mg/day 與300 mg/day 的phenytoin 後，其血中穩定狀態濃度分別為9 mg/L 與25 mg/L ，該病人 phenytoin 代謝的親合常數（KM）值為何？",
+      "options": {
+        "A": "32.1 mg/mL",
+        "B": "32.1 mg/L",
+        "C": "23.1 mg/mL",
+        "D": "23.1 mg/L"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 73,
+      "stem": "有關 diazepam 因併服cimetidine 所產生的藥動學參數變化，下列何者錯誤？",
+      "options": {
+        "A": "最高血中藥物濃度增加",
+        "B": "曲線下面積增加",
+        "C": "分布體積減小",
+        "D": "代謝清除率減小"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 74,
+      "stem": "已知某藥物主要經由 CYP2C9 代謝，在治療濃度範圍內其代謝為非線性。此藥在 CYP2C9 poor metabolizers （PMs ）體內代謝的 KM與Vmax 分別為27 mg/L 與600 mg/day 。為使該藥物於 CYP2C9 PMs 的血中濃度可達 9 mg/L ，則每天給藥量多少 mg ？",
+      "options": {
+        "A": "125",
+        "B": "150",
+        "C": "175",
+        "D": "200"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 75,
+      "stem": "下列何種治療方式有可能會縮短 aspirin 在體內之半衰期？",
+      "options": {
+        "A": "口服 sodium carbonate",
+        "B": "靜脈注射 sodium bicarbonate",
+        "C": "口服 calcium carbonate",
+        "D": "靜脈注射 ascorbic acid"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 76,
+      "stem": "某藥品之排除速率常數為0.116 h -1，分別以靜脈注射 2 mg 、口服糖漿劑 10 mg 及錠劑 20 mg ，於三種方式給 藥後均收集 48 小時尿液，測得尿液中累積藥品量分別為0.3 mg 、0.8 mg 及1.2 mg ，則該藥品錠劑之絕對生體 可用率為若干？",
+      "options": {
+        "A": "0.25",
+        "B": "0.40",
+        "C": "0.65",
+        "D": "0.80"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 77,
+      "stem": "承上題，該藥品之糖漿劑相對於錠劑之相對生體可用率為若干？",
+      "options": {
+        "A": "0.67",
+        "B": "0.83",
+        "C": "1.33",
+        "D": "1.67"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 1,
+      "stem": "張先生的 creatinine clearance 為多少 mL/min ？",
+      "options": {
+        "A": "25.0",
+        "B": "44.6",
+        "C": "68.9",
+        "D": "86.4 79. 2. 張先生之 digoxin clearance 經估算為130 mL/min ，今欲達到的目標治療濃度為1.2 ng/mL ，則靜脈注射給藥 之維持劑量約為多少 µg/day ？"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 13
+  },
+  "referenceGroupId": "pharmaceutics-biopharmaceutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\107020_33_pharmaceutics-biopharmaceutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\107020_33_pharmaceutics-biopharmaceutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

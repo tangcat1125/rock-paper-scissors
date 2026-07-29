@@ -1,0 +1,666 @@
+{
+  "setId": "112100_33_pharmaceutics-biopharmaceutics",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutics-biopharmaceutics",
+  "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\112100_q33_pharmaceutics-biopharmaceutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\112100_mod33_pharmaceutics-biopharmaceutics.pdf"
+  ],
+  "questionCount": 64,
+  "answerCount": 64,
+  "parseWarnings": [
+    "Question 40: Could not parse options for question 40"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "有關藥物產品的架期，下列叙述何者錯？",
+      "options": {
+        "A": "架期可做為藥品之品管指標 0.154",
+        "B": "過了架期；就能確效價不足 1.54",
+        "C": "架期是由藥物安定性試驗所推定 15.38",
+        "D": "於藥品容器標上所规定之存條件下，才能確保其架期 2.0.9%NaCl溶液，當量濃度為若干mEq/L？（NaCl分子量58.5） 153.8"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "依中華藥典對阿片酊（opium tincture）舆阿片樟腦配（camphoratedopium tincture）之叙述，下列何者正確？",
+      "options": {
+        "A": "雨者之配方均以切细之阿片直接作為製備原料",
+        "B": "阿片酊所含morphine濃度；较阿片樟腦酊高",
+        "C": "阿片酊為口服之配劑，阿片樟腦配為局部外用配劑",
+        "D": "雨者均需置於密蓋阻光容器中，於冷暗處保存"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "有關各種不同溶液劑之叙述，下列何者錯？",
+      "options": {
+        "A": "劑與芳香水劑均為含有芳香性或發性物質之溶液",
+        "B": "配劑與流浸膏劑之主要活性成分均由植物抽提而得",
+        "C": "糖劑與劑均為含有甜味劑之溶液",
+        "D": "流浸膏劑與劑均為含有乙醇之溶液"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "當藥品溶於下列溶液中，何者所需防腐劑之添加量最少？",
+      "options": {
+        "A": "85%sucrose溶液",
+        "B": "50%sorbitol溶液",
+        "C": "30% glycerin溶液",
+        "D": "10% alcohol溶液"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "有關轉化糖之叙述，下列何者正確？",
+      "options": {
+        "A": "较蔗糖易發酵",
+        "B": "甜味较蔗糖低",
+        "C": "呈右旋光性",
+        "D": "较蔗糖不易生焦化現象"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "Calamineliniment以下列何種方法製備？",
+      "options": {
+        "A": "dry gum method",
+        "B": "wet gum method",
+        "C": "in situ soap method",
+        "D": "continental method"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "有關微乳劑之叙述，下列何者錯？",
+      "options": {
+        "A": "外觀澄清",
+        "B": "可製備為o/w或w/o等型式",
+        "C": "可增加藥品之口服生體可用率",
+        "D": "與乳劑相比，液滴易凝集安定性差"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "依中華藥典之规定，吸人氣化喷劑中，投藥粒子之平均大小直径應控制在若干um以下為適當？",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "1",
+        "D": "0.1"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "使用propellant 12作為氣化喷雾劑之推動劑；propellant12係指：",
+      "options": {
+        "A": "trichloromonofluoromethane",
+        "B": "dichlorodifluoromethane",
+        "C": "dichlorotetrafluoroethane",
+        "D": "monochlorodifluoromethane"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "若粒子之比重均大於水及甘油，下列何者沉降速率最慢？",
+      "options": {
+        "A": "2.5μm粒子在水中",
+        "B": "0.25μm粒子在水中",
+        "C": "2.5μm粒子在甘油中",
+        "D": "0.25μm粒子在甘油中"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "依赋形劑用途，下列何者不是常用之助劑？",
+      "options": {
+        "A": "dextrin",
+        "B": "glycerin",
+        "C": "carbomer",
+        "D": "guar gum"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "Methyleneblue主要分布於w/o乳劑中的那一相？",
+      "options": {
+        "A": "水相",
+        "B": "油相",
+        "C": "水相舆油相",
+        "D": "無法分布"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "次硝酸浮液配方含有甲基維素、Tween80與磷酸钾等；於此配方下列叙述何者正確？",
+      "options": {
+        "A": "甲基維素為凝絮化劑",
+        "B": "Tween80為濕潤劑",
+        "C": "磷酸钾為網架式媒液",
+        "D": "磷酸钾可增加zeta電位"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "以熔合法製作栓劑時，下列何者不是常用的栓劑模具材質？",
+      "options": {
+        "A": "不锈鋼",
+        "B": "黄铜",
+        "C": "玻璃",
+        "D": "塑膠"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "有關凝膠劑（gel），下列叙述何者錯？",
+      "options": {
+        "A": "為半固體製劑",
+        "B": "由無機小粒子或有機大分子所組成",
+        "C": "可能具有摇變性（thixotropy）",
+        "D": "供局部外用"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "依中華藥典，下列何者為單软膏之主要成分？",
+      "options": {
+        "A": "白",
+        "B": "白软石",
+        "C": "黄",
+        "D": "羊毛脂"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "有關以fusion法製備膏劑之叙述，下列何者最適當？",
+      "options": {
+        "A": "對熱不穩定的物質應在最後才加人",
+        "B": "發性物質應在一開始製備時便加人",
+        "C": "若含有蜂（beeswax），则不適用",
+        "D": "添加物質之顺序應依照溶解度高低依序加人"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "下列何者不於吸收性基劑（absorption bases）?",
+      "options": {
+        "A": "羊毛脂",
+        "B": "無水羊毛脂",
+        "C": "親水软石",
+        "D": "親水软膏"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "依中華藥典對膏基劑之叙述，下列何者適用於聚乙二醇软膏？",
+      "options": {
+        "A": "效用主在滋潤，不易洗去 平均重量（淨重）不得低於標重量。如標重量為60克以下，各容器内之藥品淨重不得低於標重量之 90% 之85% 均含有white petrolatum",
+        "B": "常做為冷霜之软膏基劑 均含有界面活性劑",
+        "C": "水和性基劑，通常為乳質膏 初次測不符合规定時，可另以三十個品重行試驗，在全部四十個品中，各品内容物之平均重量不得 低於標重量。 均容易以水皮膚洗除",
+        "D": "水溶性基劑，不油腻 初次测不符合规定時，不可再取品重行試驗。 均可舆水溶液研合"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "若某批生藥粉末可完全通過40號標准試驗，且30%可通過80號標試驗時，是於中華藥典所列何種粉 末粗细度？",
+      "options": {
+        "A": "極粗粉 96",
+        "B": "粗粉 48",
+        "C": "中粉 17",
+        "D": "细粉 品，则碳酸氢钠應取若干g？ 34"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "明膠膠囊殼内，添加二氧化钛之主要目的為何？",
+      "options": {
+        "A": "具彈性",
+        "B": "抗氧化",
+        "C": "防潮性",
+        "D": "遮光性"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "有關發泡颗粒之叙述，下列何者錯？",
+      "options": {
+        "A": "單獨使用檸檬酸易成黏稠混合物，致難以造粒",
+        "B": "單獨使用酒石酸時，其颗粒易失去固性而易碎",
+        "C": "以融合法製備時，為利用檸檬酸的結晶水作為黏合劑",
+        "D": "以濕式法製備時，须添加碳酸氢钠為黏合劑"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "依中華藥典，充填液體之膠囊劑，其單位劑量均一度的测試方法為何？",
+      "options": {
+        "A": "崩散度試驗",
+        "B": "脆度試驗",
+        "C": "重量差巽試驗",
+        "D": "溶離度試"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "下列何者最適合做為腸溶锭之包衣材料？",
+      "options": {
+        "A": "carboxymethyl cellulose",
+        "B": "cellulose acetate phthalate",
+        "C": "ethylcellulose",
+        "D": "hydroxypropyl methylcellulose"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "下列锭劑中，何者硬度相對较大？",
+      "options": {
+        "A": "rapidly disintegrating tablets",
+        "B": "effervescent tablets",
+        "C": "chewable tablets",
+        "D": "molded tablets"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "有關Adalat OROs?之叙述，下列何者最不適當？",
+      "options": {
+        "A": "外層為不溶性的半透膜 均在低温生產，產品较穩定",
+        "B": "利用雷射形成藥孔 喷造粒可獲得最大表面，以利進行冷凍乾燥",
+        "C": "籍由渗透壓推動藥物耦出 冷凍乾燥可獲得最大表面，以利進行喷造粒",
+        "D": "該製劑可完全崩散被人體吸收 冷凍乾燥抽真空，助喷造粒時脱水的過程"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "有關散劑之特性，下列叙述何者最適當？",
+      "options": {
+        "A": "係供内服之一種製劑",
+        "B": "對易降解之藥物而言，散劑通常比锭劑來得安定",
+        "C": "宜用廣口且能繁密關閑之容器存，以避免空氣之影響及發性成分之散失",
+        "D": "極易溶解，且對腸胃道刺激性较大之藥品，通常膠囊劑比散劑更易引起心、吐"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "下列何者不於acquiredimmunity？",
+      "options": {
+        "A": "active immunity",
+        "B": "antibodies transmitted from mother to baby",
+        "C": "species immunity",
+        "D": "vaccination"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "有關生物製劑之叙述，下列何者錯？",
+      "options": {
+        "A": "antisensetherapy之藥物，可以是單股DNA或雙股RNA的结構",
+        "B": "vitravene為第一個成功上市之gene therapy藥物",
+        "C": "monoclonalantibody相對於多株抗體，具有更高的一致性和重複性",
+        "D": "recombinantDNA可用於生產許多蛋白質或DNA類生物製劑"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "通常注射y-免疫球蛋白（IgG）可提供人體那一種免疫力？",
+      "options": {
+        "A": "acquired active immunity",
+        "B": "acquired passive immunity",
+        "C": "natural passive immunity",
+        "D": "natural active immunity"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "對於须維持冷键（coldchain）宁藏之疫苗，下列叙述何者錯？",
+      "options": {
+        "A": "宁藏設備必须定期测温度",
+        "B": "疫苗排列間距量寬",
+        "C": "避免時常開启盱藏门",
+        "D": "負责收受、處理與運輸應為同一人"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "下列注射途径中，何者可容許之注射體积最少？",
+      "options": {
+        "A": "静胍注射",
+        "B": "肌肉注射",
+        "C": "皮下注射",
+        "D": "皮内注射"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "依规定進行容器内注射液容量之测定，下列何者最適當？",
+      "options": {
+        "A": "單劑量容器標容量≥10mL者；取≥1個作測",
+        "B": "單劑量容器標容量≤3 mL者；取≥3個作测",
+        "C": "多劑量容器標容量≥10mL者；取≥2个作測",
+        "D": "多劑量容器標容量≤3mL者；取≥3個作检測"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "有關注射劑選用非水性媒液特性之叙述，下列何者錯？",
+      "options": {
+        "A": "沸點必须高，而得以進行加熱减菌",
+        "B": "玉米油、棉子油、花生油和芝麻油是注射劑常使用之不發性油",
+        "C": "用的媒液可具藥理活性，以增強藥效",
+        "D": "此類油性注射劑供肌肉注射"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "下列何種注射劑不可直接使用LAL（Limulus amebocyte lysate）方法测定内毒素？①meperidine HCL ②oxacillin sodium③sulfisoxazole e④vancomycin HCL",
+      "options": {
+        "A": "仅①②",
+        "B": "③④",
+        "C": "①②③",
+        "D": "①②③④"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "依中華藥典，有關眼用软膏金粒子查法之原理，下列叙述何者正確？",
+      "options": {
+        "A": "使用顯微鏡，利用金粒子光反射特性進行测 0.22",
+        "B": "於層流中，依光阻法原理，自動测金粒子大小 0.33",
+        "C": "将软膏溶於正文规定之溶劑中，利用分光光度計加以测 0.44",
+        "D": "將软膏溶於正文规定之溶劑中，利用折光率原理，測金粒子大小 43.2%ephedrine sulfate溶液50mL须加人若干公克氯化钠才會形成等張溶液？（假設1公克ephedrine sulfate相當於 氯化0.23公克） 0.55"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "依中崋藥典，注射劑中「熱原試驗」和「细菌内毒素試驗」之叙述，下列何者錯？",
+      "options": {
+        "A": "熱原試驗為测家免發熱反應",
+        "B": "所有的注射劑皆可用熱原試驗證明完全無熱原",
+        "C": "细菌内毒素試是用Limulusamebocytelysate（LAL）測",
+        "D": "Limulus amebocyte lysate（LAL）試驗较靈敏且是定量性的方法"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "下列何者不是長效性劑型最主要的優點？",
+      "options": {
+        "A": "提高用藥的方便性及病人服藥顺性",
+        "B": "减少血中濃度高低波動的情形",
+        "C": "减少藥物對身體造成的不良反應",
+        "D": "提高藥物最高血中濃度以獲得较大療效"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "有關inertplasticmatrix缓系統，下列叙述何者最不適當？",
+      "options": {
+        "A": "惰性塑化材料可為聚乙烯",
+        "B": "锭片間質無法完全溶解於胃腸道，會随冀便排出",
+        "C": "必须舆速放性锭片共服",
+        "D": "主要出機制為藥物廣散"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "下列藥品包衣材料，何者最不具腸溶延猩放特性？",
+      "options": {
+        "A": "shellac 膜層控耦/腸溶控 16.5 20",
+        "B": "hydroxypropyl cellulose 速放/渗透壓控耦 20 60",
+        "C": "cellulose acetate phthalate 速放/腸溶控 33 80",
+        "D": "hydroxypropyl methylcellulose phthalate 勢，對於其有「第一波峰／第二波峰」出現之出機制，下列何者正確？ 膜層控／腸肝循環 熊之平均藥品血中濃度（mg/L）為若干？ 40 射一次；则最適當的給藥劑量（mg）為若干？（e-0.693=0.5,e-0.924=0.4) 100"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "一室模式某藥品900mg’以靜派输注給與病人；輸注時間6hr。在停止输注後6hr及12hr其血中濃度分别為9 mg/L及2.25mg/L。若該藥以300mg/h之速率，持續輸注至穩定状態，则此穩定狀態血中濃度（mg/L）為若 干？",
+      "options": {
+        "A": "24",
+        "B": "48",
+        "C": "72",
+        "D": "96"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "承上題，若欲於給藥後；立即達到此穩定血中濃度，则需同時給與單次静服快速注射之劑量（mg）約若干？",
+      "options": {
+        "A": "650",
+        "B": "975",
+        "C": "1,300",
+        "D": "1,950"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "下列藥動参數之估算，何者最不會受到藥物是否具flip-flop特性之影響？",
+      "options": {
+        "A": "AUC",
+        "B": "Tmax",
+        "C": "Cmin",
+        "D": "Cmax"
+      }
+    },
+    {
+      "number": 54,
+      "stem": "口服投與具dose-independent特性的藥品後，因病况改變使得藥物排除速率常數變小，吸收速率常數未受影 響，则下列藥動参數的變化何者最適當？",
+      "options": {
+        "A": "清除率變大",
+        "B": "分布體變小",
+        "C": "達最高血中濃度的時間缩短",
+        "D": "最高血中濃度變大"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "某藥物的吸收與排除皆依循一次動力學特性，下列何者會直接影響其達到最高藥物血中濃度所需時間之估 算?①D。②ka③k ④VD③F",
+      "options": {
+        "A": "①②③ 0.5 mg/h ，15.3 hr",
+        "B": "③④ 30 mg/h’7.6 hr",
+        "C": "②③ 30 mg/min ′ 15.3 hr",
+        "D": "①④③ 當以派輸注給藥時，其所需之输注速率及到達至少99%穩定狀態濃度的時間，分别應為多少？ 0.5 mg/min ′ 15.3 hr"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "某新藥臨床試驗；受試者平均體重為75kg；以4mg/kg單一劑量靜赈投與；其藥物血中濃度－時間關係式為 C= 40e-0.25t，则此藥之分布體（L）為若干？（C：μg/mL；t:hr)",
+      "options": {
+        "A": "7.5",
+        "B": "5.5",
+        "C": "3.7",
+        "D": "2.8"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "某具線性藥動學特性之藥品，以静胍注射100mg可維持在最低有效濃度以上達6小時。當以静服注射投與200 mg後，其維持最低有效濃度之時間可延長為10小時，则此藥的半衰期為若干小時？",
+      "options": {
+        "A": "6 5 15",
+        "B": "4 9.09 20",
+        "C": "10 10 30",
+        "D": "8 除率（L/h）為若干？（C：mg/L；t：hr） 90.9 hr），若劑量加倍時；则最高血中濃度（μg/mL）為若干？ 40"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "某藥物遵循二室開放模式及一隋次排除藥動特性；今以静派输注給藥；欲達到穩定狀態血中濃度（Css）。下 列何者可使血中濃度於給藥後全程皆可與Css相同？",
+      "options": {
+        "A": "加人速效劑量(DL），DL=(VD)ssCss",
+        "B": "加人速效劑量(DL），DL=(VD)βCss",
+        "C": "加人速效劑量(DL），DL=(VD)expCss",
+        "D": "加人速效劑量也不可能全程皆達Css"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "某藥具二室分布特性；估算其在體内的四種凝似分布體（V，丶Vss丶Vexp及Vg）大小顺序為何（假設此藥為 高清除率藥物）？",
+      "options": {
+        "A": "Vexp >VB>Vp>Vss",
+        "B": "Vβ >Vexp >Vp >Vss",
+        "C": "Vβ >Vexp >Vss >Vp",
+        "D": "Vexp >Vβ >Vss >Vp"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "下列何者最易增加胃排空速率？",
+      "options": {
+        "A": "酒",
+        "B": "蛋白",
+        "C": "肥猪肉",
+        "D": "蘇打餠乾"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "下列何者適用於計算二室藥動模式藥物之口服吸收速率常數？",
+      "options": {
+        "A": "steady-state method 0.60",
+        "B": "Loo-Riegelman method 0.75",
+        "C": "Wagner-Nelson method 0.80",
+        "D": "sigma-minus method 後；其血中濃度經時夔化為C=56（e-0.2t-e-0.6t）；尿中原形藥物排出總量為720 mg；则此藥之對可用率 約為若干？（t：hr；C：mg/L） 0.85"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "有關以血中濃度為估標的，進行多次劑量給藥之生體相等性試驗，下列叙述何者錯？",
+      "options": {
+        "A": "探随機、交叉實驗設計，洗除期間為10個排除半衰期",
+        "B": "须測定三次波谷濃度，以確定多次給藥已達穩定狀態",
+        "C": "可利用巽数分析經對數轉換的Cmax與AUC",
+        "D": "以90%信賴區間，需在對照品的75~120%間始具生體相等性"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "下列選頂為erythromycin口服製劑在胃中1小時的溶離率，何者對鹰之生體可用率最高？",
+      "options": {
+        "A": "100%",
+        "B": "80%",
+        "C": "60%",
+        "D": "40%"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "下列何者無法有效提升口服藥物生體可用率？",
+      "options": {
+        "A": "改善赋形劑组成，提升藥品在腸道吸收 崩散作用",
+        "B": "减少臀排除以减缓血中藥物濃度的下降 溶離放",
+        "C": "抑制腸道代谢酵素及轉運蛋白 腸壁通透",
+        "D": "降低肝藏首渡代謝 首渡效"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "下列藥品與其代謝CYP之配對，何者錯？",
+      "options": {
+        "A": "desipramine-CYP2D6",
+        "B": "midazolam- CYP3A4",
+        "C": "repaglinide- CYP2C8",
+        "D": "warfarin-CYP1A2"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "某藥物Km=0.8mg/L，Vmax為10 mg/day，現以2 mg/day劑量投奥病人，则可逹穩定血中濃度（mg/L）為若 干？",
+      "options": {
+        "A": "0.08",
+        "B": "0.1",
+        "C": "0.16",
+        "D": "0.2"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "某藥遵循非線性藥動學，Km為20mg/L，當每天投藥200mg可得穩定狀熊血中濃度為10mg/L，若改以每天投 藥400mg可得穩定状熊血中濃度（mg/L）為若干？",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "40",
+        "D": "50"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "張女士68崴、60公斤、serumcreatinine=2.0mg/dL接受某藥物治療；已知該藥品之分布體為4L，在體内 經由臀排泄分率為60%。若在臀功能正常之病人以12mg/h速率给藥，可達1mg/L之穩定治療濃度。張女士 在維持相同之治療濃度且分布體與代謝比例維持不變；其最適當之输注速率為若干mg/h？（假設臀功能正 常之GFR=100mL/min）",
+      "options": {
+        "A": "7.2",
+        "B": "6.7",
+        "C": "3.9",
+        "D": "5.6"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "尿毒病人施行血液透析；當給藥100mg後；流人透析装置（流速為50mL/min）之穩定血中濃度為25 μg/mL，流出之血中濃度為10μg/mL；若透析時仍要維持原穩定濃度；则其投與劑量（mg）在透析前應調整 為若干？（病人本身對藥物之清除率仍有10mL/min）",
+      "options": {
+        "A": "200",
+        "B": "300",
+        "C": "400",
+        "D": "500"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "身高5英尺10英时的40崴男性，血清中creatinine濃度為2.5mg/dL，若依其LBW使用Cockcroft-Gault method言計 算creatinine清除率，则约為正常值的若干%？（假設正常男性的creatinine清除率為100mL/min）",
+      "options": {
+        "A": "20",
+        "B": "40",
+        "C": "60",
+        "D": "80"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "有關ABCB1基因多型性與藥物之關聯性，下列叙述何者錯？",
+      "options": {
+        "A": "與paclitaxel之療效有關",
+        "B": "與口服digoxin之吸收有關",
+        "C": "與etoposide之抗藥性有關",
+        "D": "舆simvastatin之myopathy副作用有關"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "下列何者對带有CYP2C9*2基因者，會使其藥物血中濃度升高而易產生副作用？",
+      "options": {
+        "A": "phenytoin",
+        "B": "codeine",
+        "C": "cisapride",
+        "D": "clopidogrel"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "下列何者非於ABCtransporter?",
+      "options": {
+        "A": "OATP",
+        "B": "P-gP",
+        "C": "BCRP",
+        "D": "MRPs"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "某65崴男性病人；體重75kg；因臀功能丧失须接受透析治療。若以單劑量靜服注射1g抗生素；48小時後才進 行8小時的透析，未進行透析前此抗生素半衰期是16小時，透析期間此抗生素的半衰期是4小時。已知此抗生 素分布體為0.5L/kg；在8小時透析期間；有若干mg抗生素被排除？（e-2.08=0.125；e-1.386=0.25；e 0.3465=0.707)",
+      "options": {
+        "A": "124.9 2.5",
+        "B": "93.7 3",
+        "C": "62.5 4",
+        "D": "31.2 L/kg、排除半衰期2.31hr丶經尿液排泄分率為60%。若處方為每4小時；口服給與此藥480mg連續七天；则此 藥之平均穩定狀態濃度（mg/L）為何？ 5"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 15
+  },
+  "referenceGroupId": "pharmaceutics-biopharmaceutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\112100_33_pharmaceutics-biopharmaceutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\112100_33_pharmaceutics-biopharmaceutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

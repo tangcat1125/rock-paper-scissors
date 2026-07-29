@@ -1,0 +1,477 @@
+{
+  "setId": "105100_55_therapeutics",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "therapeutics",
+  "subjectTitle": "Therapeutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\105100_q55_therapeutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\therapeutics\\105100_mod55_therapeutics.pdf"
+  ],
+  "questionCount": 34,
+  "answerCount": 34,
+  "parseWarnings": [
+    "Question 2: Could not parse options for question 2",
+    "Question 4: Could not parse options for question 4",
+    "Question 7: Could not parse options for question 7",
+    "Question 10: Could not parse options for question 10",
+    "Question 13: Could not parse options for question 13",
+    "Question 14: Could not parse options for question 14",
+    "Question 16: Could not parse options for question 16",
+    "Question 17: Could not parse options for question 17",
+    "Question 18: Could not parse options for question 18",
+    "Question 21: Could not parse options for question 21",
+    "Question 25: Could not parse options for question 25",
+    "Question 27: Could not parse options for question 27",
+    "Question 31: Could not parse options for question 31",
+    "Question 34: Could not parse options for question 34",
+    "Question 35: Could not parse options for question 35",
+    "Question 36: Could not parse options for question 36",
+    "Question 38: Could not parse options for question 38",
+    "Question 39: Could not parse options for question 39",
+    "Question 40: Could not parse options for question 40",
+    "Question 42: Could not parse options for question 42",
+    "Question 43: Could not parse options for question 43",
+    "Question 44: Could not parse options for question 44",
+    "Question 45: Could not parse options for question 45",
+    "Question 46: Could not parse options for question 46",
+    "Question 51: Could not parse options for question 51",
+    "Question 52: Could not parse options for question 52",
+    "Question 58: Could not parse options for question 58",
+    "Question 59: Could not parse options for question 59",
+    "Question 60: Could not parse options for question 60",
+    "Question 63: Could not parse options for question 63",
+    "Question 64: Could not parse options for question 64",
+    "Question 65: Could not parse options for question 65",
+    "Question 66: Could not parse options for question 66",
+    "Question 67: Could not parse options for question 67",
+    "Question 69: Could not parse options for question 69",
+    "Question 71: Could not parse options for question 71",
+    "Question 72: Could not parse options for question 72",
+    "Question 73: Could not parse options for question 73",
+    "Question 74: Could not parse options for question 74",
+    "Question 76: Could not parse options for question 76",
+    "Question 77: Could not parse options for question 77",
+    "Question 78: Could not parse options for question 78",
+    "Question 79: Could not parse options for question 79",
+    "Question 80: Could not parse options for question 80"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "陳先生以 spirometry 檢測肺功能，數據如下：FEV 1/FVC ：63% ；FEV 1：40% 。依據 2013 GOLD guidelines 分級標準，其慢性 阻塞性肺疾（COPD ）嚴重度為：",
+      "options": {
+        "A": "stage Ⅰ：mild",
+        "B": "stage Ⅱ：moderate",
+        "C": "stage Ⅲ：severe",
+        "D": "stage Ⅳ：very severe"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 3,
+      "stem": "有關陣發性心室上心搏過速（paroxysmal supraventricular tachycardia ，PSVT ）的治療，下列何者錯誤？",
+      "options": {
+        "A": "如果症狀嚴重，可使用同步直流電心臟整律術（synchronized direct-current cardioversion ）",
+        "B": "輕微或中度症狀可使用非藥物方法，如：單側頸動脈竇按摩以增加 AV node 的迷走神經張力",
+        "C": "可使用放射頻率電流（radiofrequency current ）對PSVT 病人做經皮心臟電燒術（transcutaneous catheter ablation ）",
+        "D": "adenosine 因作用期長，為PSVT 病人的首選藥品"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 5,
+      "stem": "根除 Helicobacter pylori 感染之最佳 PPI-based 三合一療法之組合為何？",
+      "options": {
+        "A": "omeprazole 20 mg qd ＋clarithromycin 500 mg bid ＋amoxicillin 1 g bid",
+        "B": "lansoprazole 30 mg qd ＋clarithromycin 500 mg bid ＋amoxicillin 500 mg bid",
+        "C": "pantoprazole 40 mg qd ＋clarithromycin 500 mg bid ＋amoxicillin 500 mg bid",
+        "D": "esomeprazole 40 mg qd ＋clarithromycin 500 mg bid ＋amoxicillin 1 g bid"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 6,
+      "stem": "有關 aprepitant 之敘述，下列何者正確？",
+      "options": {
+        "A": "與docetaxel 併用時，血中 docetaxel 濃度會降低",
+        "B": "與warfarin 併用時，病人 INR 值會升高",
+        "C": "與dexamethasone 合併用於止吐時，dexamethasone 的口服劑量須減少",
+        "D": "可用於孩童"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 8,
+      "stem": "有關 Crohn's disease 的敘述，下列何者錯誤？",
+      "options": {
+        "A": "病灶通常只侷限於大腸及直腸的部分",
+        "B": "常伴隨有血便的情況",
+        "C": "NSAIDs 的使用常會使病況惡化",
+        "D": "aminosalicylates 可用於治療 Crohn's disease"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 9,
+      "stem": "下列性病與致病微生物之配對，何者正確？",
+      "options": {
+        "A": "梅毒－Trichomonas vaginalis",
+        "B": "淋病－Treponema pallidum",
+        "C": "菜花（尖形濕疣）－ human papillomavirus",
+        "D": "陰道滴蟲症－Neisseria gonorrhoeae"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 11,
+      "stem": "病人使用抗結核藥品 isoniazid ＋rifampin ＋pyrazinamide ＋ethambutol 治療中，出現高尿酸血症（hyperuricemia ）的副作用， 下列敘述何者錯誤？",
+      "options": {
+        "A": "最有可能引起此副作用的藥物是 pyrazinamide",
+        "B": "若病人血清中尿酸濃度在 13 mg/dL 以下，且沒有關節炎症狀時，不需給與降尿酸藥品",
+        "C": "抗結核藥品引起高尿酸血症的機轉是增加體內尿酸的生成",
+        "D": "若病人有疼痛症狀，可考慮給與一般 NSAIDs 緩解症狀"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 12,
+      "stem": "有關愛滋病患者的結核病治療，下列敘述何者錯誤？",
+      "options": {
+        "A": "若服用含 protease inhibitors 的抗愛滋病毒藥品，抗結核藥品應避免使用 rifampin",
+        "B": "結核病治療藥品之選擇，原則上與免疫功能正常者相似",
+        "C": "抗結核病藥品應避免使用含 rifampin 或rifabutin 的組合，因易與抗愛滋病毒藥品發生藥品交互作用",
+        "D": "結核病藥品治療期程通常建議延長為9個月"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 15,
+      "stem": "林小姐 28 歲，患有二尖瓣閉鎖不全伴隨有血液迴流現象，且對 penicillins 過敏。今天進行拔除臼齒手術，下列何種處置最適 宜？",
+      "options": {
+        "A": "拔牙前 30 分鐘口服 amoxicillin 2 g 一個劑量",
+        "B": "拔牙前 30 分鐘口服 clindamycin 600 mg 一個劑量",
+        "C": "拔牙後 30 分鐘口服 cephalexin 2 g 一個劑量",
+        "D": "拔牙後口服 clindamycin 600 mg q6h ，持續 3天"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 19,
+      "stem": "成人經驗性使用短效吸入型 β 2-agonists 緩解氣喘急性發作，第一小時內應間隔多久再給下一個劑量？",
+      "options": {
+        "A": "1分鐘",
+        "B": "3分鐘",
+        "C": "20 分鐘",
+        "D": "60 分鐘"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 20,
+      "stem": "有關藥品與藥理分類的配對，下列何者正確？",
+      "options": {
+        "A": "bivalirudin －direct thrombin inhibitor",
+        "B": "tirofiban －low molecular weight heparin",
+        "C": "abciximab －unfractionated heparin",
+        "D": "argatroban －antiplatelet"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 22,
+      "stem": "林先生 65 歲，因急性心肌梗塞住院診療，有關出院後的建議事項，下列何者錯誤？",
+      "options": {
+        "A": "控制血壓、血糖及血色素等三高問題",
+        "B": "每年都應接受流感疫苗的預防接種",
+        "C": "身體質量指數（BMI ）控制在 18.5 ～24.9 之間",
+        "D": "每天至少快步走30 分鐘，每星期至少 5天"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 23,
+      "stem": "高血壓病人有何種共病症時，可加 spironolactone 於高血壓標準治療中，以降低心臟血管事件？",
+      "options": {
+        "A": "心衰竭且心輸出量降低",
+        "B": "糖尿病且發生視網膜病變",
+        "C": "腎衰竭且出現蛋白尿",
+        "D": "心肌梗塞且進行冠狀動脈繞道手術"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 24,
+      "stem": "Digoxin 用於治療心衰竭（heart failure ）之建議血中濃度範圍為多少？",
+      "options": {
+        "A": "0.8 ～2.0 mg/dL",
+        "B": "0.5 ～1.0 ng/mL",
+        "C": "1.0 ～2.0 µg/mL",
+        "D": "1.2 ～3.0 ng/L"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 26,
+      "stem": "陳太太 70 歲，有高血壓病史，現因連續幾天有心悸的現象，經診斷為心房纖維顫動（atrial fibrillation ），須施行心臟復律 （cardioversion ）。有關心臟復律後之藥物治療，下列敘述何者正確？",
+      "options": {
+        "A": "應繼續以 aspirin 治療 4週，預防心肌梗塞",
+        "B": "應繼續以 aspirin 治療 6週，預防心肌梗塞",
+        "C": "應繼續以 warfarin 治療 4週，預防中風",
+        "D": "應繼續以 warfarin 治療 6週，預防中風"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 28,
+      "stem": "李先生 58 歲，初診斷有慢性穩定性心絞痛，下列敘述何者最不適當？",
+      "options": {
+        "A": "需隨身攜帶nitroglycerin SL tablet ，胸悶時可立即緩解",
+        "B": "Imdur ®與vardenafil 之服用時間間隔 8小時即可",
+        "C": "只要沒有氣喘等呼吸道疾病，應優先選擇 β-blocker 來改善心肌氧氣供應及耗用的平衡",
+        "D": "aspirin 除每日服用外，也可於急性冠心症（acute coronary syndrome ）時嚼碎服用，降低心肌梗塞的風險 29. 62 歲女性，高血壓合併心臟衰竭（heart failure ）， 1個月前因急性心肌梗塞住院。目前服用 furosemide 40 mg bid 、enalapril 20 mg bid 。若考慮須加入另一降血壓藥，則下列何者最適合？ A.hydrochlorothiazide B.valsartan C.nicardipine D.carvedilol"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 30,
+      "stem": "有關瀉劑使用之敘述，下列何者正確？",
+      "options": {
+        "A": "stimulant laxatives 不可用於使用 morphine 的癌症病人",
+        "B": "lactulose 不可用於有高氨血症（hyperammonemia ）的病人",
+        "C": "含phosphate 的口服瀉劑不可用於肝衰竭的病人",
+        "D": "bulk-forming agent 不可用於腸阻塞、吞嚥困難或限水的病人"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 32,
+      "stem": "有關慢性腎臟病（chronic kidney disease, CKD ）的敘述，下列何者錯誤？",
+      "options": {
+        "A": "effective glomerular filtration rate （eGFR ）是CKD 分期的主要指標，其中 eGFR 30 ～59 mL/min/1.73 m 2者屬於 stage 3 CKD",
+        "B": "eGFR ＜15 mL/min/1.73 m 2者屬於 stage 5 CKD ，即end-stage renal disease （ESRD ），且需要透析",
+        "C": "糖尿病、高血壓及腎絲球腎炎是最常見 CKD 的起始因子（initiation factors ）",
+        "D": "除了糖尿病、高血壓及蛋白尿之外，吸菸及肥胖也是 CKD 的進展因子（progression factors ）"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 33,
+      "stem": "慢性腎臟病（CKD ）的病人常有貧血的問題，下列敘述何者正確？",
+      "options": {
+        "A": "主要原因為隨著腎功能變差，腎臟排除 erythropoietin 的能力上升",
+        "B": "治療目標為hemoglobin 提升至 ≧13 g/dL ，以降低發生心血管疾病的風險及死亡率",
+        "C": "給與足夠的erythropoietic-stimulating agents ，是治療 CKD 病人貧血的有效方法之一",
+        "D": "接受 erythropoietic-stimulating agents 的病人，其體內鐵質含量目標為transferrin saturation ＜10% 以及 ferritin ＜100 ng/mL"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 37,
+      "stem": "為了胎兒神經系統發育正常，懷孕期間使用 folic acid 之建議日劑量為何？",
+      "options": {
+        "A": "50 ～100 µg",
+        "B": "400 ～800 µg",
+        "C": "50 ～100 mg",
+        "D": "400 ～800 mg"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 41,
+      "stem": "有關 ramelteon 的敘述，下列何者正確？",
+      "options": {
+        "A": "屬於 melatonin receptor 1 and 2 選擇性拮抗劑",
+        "B": "FDA 核可用於治療難入睡型（difficulty falling asleep ）失眠症",
+        "C": "主要經由 CYP3A4 代謝",
+        "D": "fluvoxamine 會降低其血中濃度"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 47,
+      "stem": "王小姐 45 歲，2年前診斷有 hypothyroidism ，以levothyroxine （L-thyroxine ）150 µg PO qd 控制良好。近來因膽固醇過高、貧 血及十二指腸潰瘍，併用①lovastatin 、②ferrous sulfate 、③sucralfate 。最近抽血檢查free T 4 0.5 ng/dL (normal, 0.7 ～1.9) ， TSH 22 microunits/mL (normal, 0.4 ～4.0) ，那些併用藥品會造成上述檢查數值的異常？",
+      "options": {
+        "A": "①②③",
+        "B": "僅②③",
+        "C": "僅①②",
+        "D": "僅①③"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 48,
+      "stem": "Orlistat 透過下列何種作用方式達到減肥的效果？",
+      "options": {
+        "A": "提高基礎代謝率",
+        "B": "提高蛋白質分解",
+        "C": "降低油脂吸收",
+        "D": "降低糖分吸收"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 49,
+      "stem": "完整的肥胖治療不一定要包括下列那一個項目？",
+      "options": {
+        "A": "建立飲食計畫",
+        "B": "建立運動計畫",
+        "C": "行為治療",
+        "D": "藥物治療"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 50,
+      "stem": "有關 fenofibrate 的作用，下列敘述何者錯誤？",
+      "options": {
+        "A": "降低 LDL-C",
+        "B": "降低 VLDL-C",
+        "C": "降低 HDL-C",
+        "D": "降低 TG"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 53,
+      "stem": "下列各項 insulin 製劑之作用時間，由短到長依序排列為何？①NPH insulin ②insulin glulisine ③insulin glargine ④regular insulin",
+      "options": {
+        "A": "④②①③",
+        "B": "③①④②",
+        "C": "①③②④",
+        "D": "②④①③"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 54,
+      "stem": "有關糖尿病及其治療，下列敘述何者正確？",
+      "options": {
+        "A": "第一型糖尿病的治療以注射 insulin 為主，規律運動對其疾病控制並無幫助",
+        "B": "第二型糖尿病具家族史，如果父母有糖尿病，子女罹患糖尿病的機率較高",
+        "C": "第一型及第二型糖尿病均與肥胖有很大關連性",
+        "D": "不論第一型或第二型糖尿病病人，其體內分泌的 insulin 均偏低 55. 32 歲女性，3天前因青春痘就診，目前使用 benzoyl peroxide 5% gel bid ，感覺皮膚刺激及乾燥，下列建議何者錯誤？"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 56,
+      "stem": "有關外用製劑，下列敘述何者正確？",
+      "options": {
+        "A": "ointment 比lotion 適合塗抹於毛髮部位",
+        "B": "塗抹後不須洗手，以免浪費藥品",
+        "C": "依患部及病灶嚴重程度，選擇適當的成分及劑型",
+        "D": "因內含防腐劑，開封後可以使用至有效期限為止"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 57,
+      "stem": "有關 anakinra 之敘述，下列何者正確？",
+      "options": {
+        "A": "屬於 interleukin-1 receptor antagonist",
+        "B": "是口服用藥",
+        "C": "是治療骨關節炎（osteoarthritis ）的第一線用藥",
+        "D": "須根據體表面積計算劑量"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 61,
+      "stem": "有關使用 thalidomide 與lenalidomide 治療多發性骨髓瘤（multiple myeloma ）時之副作用與注意事項，下列何者正確？",
+      "options": {
+        "A": "thalidomide 具致畸胎性、須避孕，lenalidomide 則無此問題",
+        "B": "thalidomide 與lenalidomide 均可能造成周邊神經病變，使用 thalidomide 時須定期進行神經學檢查",
+        "C": "thalidomide 與lenalidomide 均可能造成便秘，使用 lenalidomide 時須使用 MgO 避免便秘",
+        "D": "thalidomide 與lenalidomide 均可能造成靜脈血栓栓塞（VTE ），但一般而言 VTE 不需要預防"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 62,
+      "stem": "下列何者最適合以注射方式補充鐵質？",
+      "options": {
+        "A": "老年病人",
+        "B": "早產兒",
+        "C": "不願輸血之大量失血者",
+        "D": "懷孕婦女"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 68,
+      "stem": "鍾老太太因為脊柱壓迫神經造成尿液滯留，需要長期使用尿液導管。在尿液培養中長出念珠菌，目前並無任何發燒或感染症 狀。下列何者為鍾老太太罹患念珠菌膀胱炎（candidal cystitis ）的危險因子？",
+      "options": {
+        "A": "年紀",
+        "B": "脊柱壓迫",
+        "C": "尿液滯留",
+        "D": "尿液導管"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 70,
+      "stem": "林先生 45 歲，長年有嚴重持續性氣喘，每日使用 inhaled beclomethasone 兩次及 inhaled albuterol 四次，依序回答下列三題。 下列何者為inhaled albuterol 之不良反應？",
+      "options": {
+        "A": "月亮臉、水牛肩",
+        "B": "血糖降低、胰島素分泌升高",
+        "C": "嗜睡",
+        "D": "血鉀下降"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 75,
+      "stem": "林先生應該接受那些治療？①限鹽 ②限水 ③立即給與 3% NaCl 溶液靜脈輸注 ④長期給與口服 demeclocycline ⑤長期口 服furosemide",
+      "options": {
+        "A": "①②③",
+        "B": "③④⑤",
+        "C": "①②⑤",
+        "D": "②③④"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 8
+  },
+  "referenceGroupId": "therapeutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\105100_55_therapeutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\105100_55_therapeutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

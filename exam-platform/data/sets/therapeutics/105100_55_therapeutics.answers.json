@@ -1,0 +1,49 @@
+{
+  "setId": "105100_55_therapeutics",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "therapeutics",
+  "subjectTitle": "Therapeutics",
+  "answers": {
+    "1": "C",
+    "2": "D",
+    "3": "D",
+    "4": "C",
+    "5": "D",
+    "6": "C",
+    "7": "A",
+    "8": "C",
+    "9": "C",
+    "10": "C",
+    "11": "C",
+    "12": "B",
+    "13": "C",
+    "14": "B",
+    "15": "D",
+    "16": "C",
+    "17": "D",
+    "18": "C",
+    "19": "A",
+    "20": "D",
+    "21": "A",
+    "22": "A",
+    "23": "B",
+    "24": "B",
+    "25": "C",
+    "26": "A",
+    "27": "B",
+    "28": "D",
+    "29": "D",
+    "30": "B",
+    "31": "C",
+    "32": "D",
+    "33": "D",
+    "34": "C"
+  },
+  "source": {
+    "answerPdfs": [
+      "D:\\exeam\\question-bank\\unit2\\therapeutics\\105100_mod55_therapeutics.pdf"
+    ],
+    "answerCount": 34
+  }
+}

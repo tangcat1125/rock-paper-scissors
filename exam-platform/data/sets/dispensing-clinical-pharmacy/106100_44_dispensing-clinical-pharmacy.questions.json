@@ -1,0 +1,984 @@
+{
+  "setId": "106100_44_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_q44_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_ans44_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 80,
+  "answerCount": 80,
+  "parseWarnings": [],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列何者之藥袋標示不須加註「可能造成尿液變色」之警語？",
+      "options": {
+        "A": "chlorpheniramine",
+        "B": "rifampicin",
+        "C": "L-dopa",
+        "D": "phenolphthalein"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 2,
+      "stem": "供吸入（inhalations ）使用之懸浮劑型，會以下列何種固體粉末吸附揮發性成分，以確保藥品在懸浮劑型中均 勻分散？",
+      "options": {
+        "A": "calamine",
+        "B": "zinc oxide",
+        "C": "light kaolin",
+        "D": "sulphur"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 3,
+      "stem": "配製 2% （w/v ）chlorhexidine 200 mL ，應取原濃度為10% （w/v ）多少 mL 稀釋？",
+      "options": {
+        "A": "40",
+        "B": "20",
+        "C": "10",
+        "D": "30"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 4,
+      "stem": "依據我國藥品優良調劑作業準則，下列敘述何者錯誤？",
+      "options": {
+        "A": "處方藥不得以開架式陳列，應專設櫥櫃加鎖貯藏",
+        "B": "藥師應佩戴執業執照",
+        "C": "管制藥品專用處方箋應保存五年",
+        "D": "調劑處所應與其他作業處所有適當區隔"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 5,
+      "stem": "欲使用每瓶含200,000 units penicillin G 之粉末，調製為每mL 含40,000 units penicillin G 之注射液，應加水至 多少 mL ？",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "0.5",
+        "D": "0.2"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 6,
+      "stem": "某藥品之成人劑量為250 mg ，依Fried's rule 計算六個月嬰兒的劑量為多少 mg ？",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "15",
+        "D": "30"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 7,
+      "stem": "有關 intrathecal used methotrexate 之敘述，下列何者錯誤？",
+      "options": {
+        "A": "該製劑應該要 isotonic ，故用 normal saline 稀釋",
+        "B": "methotrexate 可穩定放置室溫7天，故可以預先調配",
+        "C": "此製劑不可以含防腐劑",
+        "D": "配製後為黃色的溶液"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 8,
+      "stem": "下列何者通常不會做為patient-controlled analgesia （PCA ）之建議用藥？",
+      "options": {
+        "A": "fentanyl",
+        "B": "hydromorphone",
+        "C": "meperidine",
+        "D": "morphine"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 9,
+      "stem": "有關熱原的敘述，下列何者正確？",
+      "options": {
+        "A": "可用 0.22 µm濾紙過濾移除熱原",
+        "B": "只有葛蘭氏陽性菌才會產生熱原",
+        "C": "熱原會引起血小板凝集現象",
+        "D": "最常見的熱原是 exotoxin"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 10,
+      "stem": "Lipid emulsion 不可加於下列何種材質的軟袋中，因其較容易釋放出塑化劑（plasticizers ）？",
+      "options": {
+        "A": "polyvinyl chloride （PVC ）",
+        "B": "polystyrene （PS ）",
+        "C": "polypropylene （PP ）",
+        "D": "low-density polyethylene （LDPE ）"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 11,
+      "stem": "調製 TPN 的laminar airflow hood 及clean room （清淨室）至少須符合下列何種規定？",
+      "options": {
+        "A": "前者為Class 100 ，後者為Class 10,000",
+        "B": "前者為Class 10,000 ，後者為Class 100",
+        "C": "皆為Class 100",
+        "D": "皆為Class 10,000"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 12,
+      "stem": "再度餵食症候群（refeeding syndrome ）會出現何種檢驗數值異常？",
+      "options": {
+        "A": "鈣",
+        "B": "磷",
+        "C": "鈉",
+        "D": "鋁"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 13,
+      "stem": "有關 Phase II trials 的敘述，下列何者錯誤？",
+      "options": {
+        "A": "受試者約 100 ～300 個病人",
+        "B": "決定該藥的理想劑量",
+        "C": "此期試驗決定初步的適應症",
+        "D": "目的是確立該藥的安全性（safety ）"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 14,
+      "stem": "根據美國 Institute for Safe Medication Practices （ISMP ）的定義，下列何者不屬於 high alert medications ？",
+      "options": {
+        "A": "oral chemotherapeutic agents",
+        "B": "oral hypoglycemics",
+        "C": "total parenteral nutrition",
+        "D": "diuretic agents"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 15,
+      "stem": "有關糖尿病用藥之敘述，下列何者錯誤？",
+      "options": {
+        "A": "repaglinide 可能導致低血糖",
+        "B": "當serum creatinine 為3.5 mg/dL 時，不宜使用 metformin",
+        "C": "rosiglitazone 可能導致水腫和體重增加現象",
+        "D": "單獨使用 acarbose 易發生低血糖"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 16,
+      "stem": "使用 clozapine 治療精神疾病時，應定期監測下列何項檢驗值，以避免發生嚴重副作用？",
+      "options": {
+        "A": "白血球",
+        "B": "紅血球",
+        "C": "血小板",
+        "D": "肌酸酐"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 17,
+      "stem": "陳先生 75 歲，住在護理之家，診斷有 active TB 。有關藥物治療的選擇，下列何者正確？",
+      "options": {
+        "A": "與其他年齡層病人治療原則相同",
+        "B": "因屬老年人，isoniazid 及rifampin 劑量宜減半",
+        "C": "因屬老年人，生理功能衰退，不宜使用 pyrazinamide 及ethambutol",
+        "D": "因屬老年人，治療期間須延長為18 個月"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 18,
+      "stem": "有關 aerosol inhalers 使用之敘述，下列何者正確？",
+      "options": {
+        "A": "nebulizer 給藥之適用對象包括呼吸型態短淺者（shallow breathing ）",
+        "B": "部分 dry powder inhaler 內含乳糖之主要目的，在幫助病人辨別藥品是否已吸入",
+        "C": "為方便病人之記憶與配合，可教導其於用畢含類固醇之吸入劑後喝口水即可",
+        "D": "使用 metered dose inhaler 時宜快速用力深吸氣，以助藥品迅速達肺部發揮療效"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 19,
+      "stem": "王先生 25 歲，為緩解鼻塞至藥局購藥，他根據電視廣告選購含有 xylometazoline 的鼻噴劑。下列用藥指導何者 錯誤？",
+      "options": {
+        "A": "xylometazoline 不宜長期使用，以免造成反彈性鼻充血（rebound congestion ）",
+        "B": "使用鼻噴劑時，可能造成鼻、喉部位有灼熱感，可於用藥後漱口減輕不適",
+        "C": "藉由生理食鹽水及 xylometazoline 交替使用，以降低 xylometazoline 使用量",
+        "D": "xylometazoline 為短效性藥品，應每6小時使用一次"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 20,
+      "stem": "下列何種藥品會影響胎兒葉酸代謝，而有致畸胎作用？",
+      "options": {
+        "A": "methyldopa",
+        "B": "valproic acid",
+        "C": "nifedipine",
+        "D": "propranolol"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 21,
+      "stem": "藥師對病人用藥指導時，下列何者屬於 emotional barriers ？",
+      "options": {
+        "A": "sensory abnormalities",
+        "B": "language differences",
+        "C": "patient's concerns",
+        "D": "level of education"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 22,
+      "stem": "陳先生 75 歲，有糖尿病多年，腎功能明顯退化，最近出現肝功能異常。為控制其血糖，建議使用下列何項藥 品？",
+      "options": {
+        "A": "insulin",
+        "B": "acarbose",
+        "C": "metformin",
+        "D": "chlorpropamide"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 23,
+      "stem": "Phenytoin 主要由下列何種肝臟酵素代謝？",
+      "options": {
+        "A": "CYP1A2",
+        "B": "CYP2C9",
+        "C": "CYP2D6",
+        "D": "CYP3A4"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 24,
+      "stem": "Carbamazepine 與erythromycin 合併使用時，出現頭暈、嘔吐、複視等問題，其機轉為何？",
+      "options": {
+        "A": "erythromycin 為CYP3A4 抑制劑，導致 carbamazepine 濃度上升",
+        "B": "erythromycin 為CYP2C19 抑制劑，導致 carbamazepine 濃度上升",
+        "C": "carbamazepine 為CYP3A4 抑制劑，導致 erythromycin 濃度上升",
+        "D": "carbamazepine 為CYP2C19 抑制劑，導致 erythromycin 濃度上升"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 25,
+      "stem": "有關藥品與 warfarin 之交互作用，下列何者錯誤？",
+      "options": {
+        "A": "cefamandole 會加強warfarin 之抗凝血作用",
+        "B": "colestipol 會減少 warfarin 之吸收",
+        "C": "phenobarbital 會減少 warfarin 之代謝",
+        "D": "glutethimide 會促進 warfarin 代謝"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 26,
+      "stem": "下列何種情況可能導致 codeine 無法發揮療效？",
+      "options": {
+        "A": "CYP2C19 rapid metabolizer",
+        "B": "CYP2D6 rapid metabolizer",
+        "C": "CYP2C19 poor metabolizer",
+        "D": "CYP2D6 poor metabolizer"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 27,
+      "stem": "有關口頰給藥（buccal route ）之敘述，下列何者錯誤？",
+      "options": {
+        "A": "舌下投與（sublingual route ）較口頰給藥作用時間長",
+        "B": "起始作用時間（onset of action ）較口服快",
+        "C": "避免首渡效應（first pass effect ）",
+        "D": "可用於意識不清的病人"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 28,
+      "stem": "下列何項藥品必須經過回溶（reconstitution ）才可供使用？",
+      "options": {
+        "A": "Adalat ® OROS ®",
+        "B": "Rinderon ® injection",
+        "C": "Augmentin ® syrup",
+        "D": "Voltaren ® suppository"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 29,
+      "stem": "調製 90 mL 含有 calamine 5% （w/v ）、 ZnO 5% （w/v ）、 almond oil 50% （v/v ）之乳劑 ，若以 acacia 為乳化 劑，應使用多少公克之 acacia ？",
+      "options": {
+        "A": "27.02",
+        "B": "22.56",
+        "C": "13.50",
+        "D": "11.25"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 30,
+      "stem": "有關臨場調製（extemporaneous compounding ）藥品之敘述，下列何者最恰當？",
+      "options": {
+        "A": "調製後之口服液劑室溫下可以存放 14 天",
+        "B": "調製後之外用乳劑，在不含防腐劑的情況下，於室溫可存放 30 天",
+        "C": "在非 ISO 5 環境下調製之注射劑，於冷藏情況下僅可存放一週",
+        "D": "臨場調製藥品之使用期限，須依各藥品物化與微生物安定性試驗而訂定"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 31,
+      "stem": "下列何種藥品包裝不屬於 primary packaging ？",
+      "options": {
+        "A": "strip packs",
+        "B": "blister packs",
+        "C": "dust cap of glass vial",
+        "D": "eye drop bottles"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 32,
+      "stem": "有關玻璃材質容器的敘述，下列何者錯誤？",
+      "options": {
+        "A": "Type Ⅰ玻璃屬於硼矽玻璃（borosilicate glass ），為藥用之玻璃材質容器中，最安定的一類",
+        "B": "Type Ⅱ玻璃屬於鈉鈣矽玻璃（soda-lime-silica glass ），可用於裝眼用溶液與耳滴劑",
+        "C": "Type Ⅲ玻璃屬於鈉鈣矽玻璃（soda-lime-silica glass ），但較 Type Ⅱ玻璃含有較多之易溶出氧化物 （leachable oxides ）",
+        "D": "小體積注射劑之玻璃容器，一般使用 Type Ⅲ玻璃製成"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 33,
+      "stem": "張小弟 1歲體重 12 公斤，醫師處方 ibuprofen 30 mg/kg/day tid pc ，若給予 ibuprofen children's suspension （100 mg/5 mL ），下列敘述何者錯誤？",
+      "options": {
+        "A": "張小弟每次應服用 5 mL",
+        "B": "三天份藥量之總體積為54 mL",
+        "C": "每次服用劑量為120 mg",
+        "D": "此藥物使用方式為一天三次，飯後服用"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 34,
+      "stem": "高太太，體重 60 公斤，醫師處方 insulin glargine 1,000 IU/10 mL/inj. ，0.5 IU/kg/day ，每日注射量應為多少 mL ？",
+      "options": {
+        "A": "0.5",
+        "B": "0.3",
+        "C": "2.5",
+        "D": "3"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 35,
+      "stem": "有關化療注射劑調製所使用的生物安全櫃，下列敘述何者正確？",
+      "options": {
+        "A": "進氣端一定要有濾網，排氣端不需有濾網",
+        "B": "可選擇水平式之操作櫃",
+        "C": "內部空氣品質，應符合 ≧0.5 µm顆粒不超過 100 顆/m3",
+        "D": "應直接排氣到建築物外，不可在室內循環"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 36,
+      "stem": "周邊血管最高可以承受營養輸液之滲透壓為多少 mOsm/L ？",
+      "options": {
+        "A": "100",
+        "B": "300",
+        "C": "900",
+        "D": "1,800"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 37,
+      "stem": "下列何種化療藥品屬於 DNA-binding vesicants ，外滲會對局部組織造成嚴重傷害？",
+      "options": {
+        "A": "cyclophosphamide",
+        "B": "carmustine",
+        "C": "daunorubicin",
+        "D": "mitoxantrone"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 38,
+      "stem": "有關影響靜脈營養輸液中鈣磷相容性的因子，下列敘述何者正確？",
+      "options": {
+        "A": "選擇 calcium gluconate 比calcium chloride 較不易產生沉澱",
+        "B": "靜脈營養輸液的 pH 值愈高愈不容易產生沉澱",
+        "C": "胺基酸的濃度越低越不容易產生沉澱",
+        "D": "溫度越高越不容易產生沉澱"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 39,
+      "stem": "有關全靜脈營養（TPN ）的調配環境，下列敘述何者正確？",
+      "options": {
+        "A": "負壓環境，避免清淨室外之污染物進入清淨室內",
+        "B": "正壓環境，避免清淨室內之污染物進入清淨室外",
+        "C": "負壓環境，避免清淨室內之污染物進入清淨室外",
+        "D": "正壓環境，避免清淨室外之污染物進入清淨室內"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 40,
+      "stem": "有關全靜脈營養（TPN ）配方中所添加之電解質濃度，下列何者不適當？",
+      "options": {
+        "A": "sodium ：1～2 mmol/kg/day",
+        "B": "chloride ：0.1 ～0.2 mmol/kg/day",
+        "C": "calcium ：0.1 ～0.15 mmol/kg/day",
+        "D": "phosphate ：0.5 ～0.7 mmol/kg/day"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 41,
+      "stem": "有關無菌調製中 primary engineer controls （PECs ）與personal protective equipment （PPE ），下列敘述何 者正確？",
+      "options": {
+        "A": "PECs 之目的在於控制藥師調製的流程，確保調製產品的正確性",
+        "B": "PPE 之目的在於運用硬體設備管控氣流，以達到無菌的狀況",
+        "C": "PECs 包含清潔、無菌技術等",
+        "D": "PPE 包含隔離衣、髮罩、外科手術口罩、鞋套等"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 42,
+      "stem": "腎衰竭之病人接受 TPN 治療時，宜用含何種胺基酸較高之處方？",
+      "options": {
+        "A": "aromatic amino acids",
+        "B": "branched-chain amino acids",
+        "C": "essential amino acids",
+        "D": "nonessential amino acids"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 43,
+      "stem": "民眾因急性腹瀉自行使用 loperamide 2 mg cap ，建議使用期間不要超過幾天？",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 44,
+      "stem": "有關 clopidogrel 之敘述，下列何者正確？",
+      "options": {
+        "A": "常用劑量為75 mg qd",
+        "B": "與omeprazole 併用，療效會增加",
+        "C": "與aspirin 併用，療效會降低",
+        "D": "用於治療消化性潰瘍（peptic ulcer ）"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 45,
+      "stem": "依美國 FDA 規定，若藥品經評估須進行藥品風險評估暨管控計畫（risk evaluation and mitigation strategy, REMS ），廠商接獲通知後幾天內須完成送件？",
+      "options": {
+        "A": "180",
+        "B": "120",
+        "C": "90",
+        "D": "60"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 46,
+      "stem": "Heparin 注射劑因原料污染問題須進行回收，下列相關作業之敘述何者錯誤？",
+      "options": {
+        "A": "與廠商確認回收訊息及主管機關公告內容，並依機構內之規範及流程擬定回收計畫",
+        "B": "公告周知各用藥單位",
+        "C": "完成機構內回收作業，並將回收藥品集中管理",
+        "D": "為避免流用，確認回收量與紀錄無誤後即進行銷毀"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 47,
+      "stem": "下列針對形音相似（look-alike, sound-alike ）藥品的防誤措施，何者效果較差？",
+      "options": {
+        "A": "使用“TALL MAN”方式標示藥名，例如：NIFEdipine 與NiCARdipine",
+        "B": "將藥品於調劑臺上區隔存放，並加註警語",
+        "C": "改用縮寫",
+        "D": "在藥名後面加註適應症"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 48,
+      "stem": "有關以「失效模式和效應分析（failure mode and effects analysis ）」用於醫藥疏失風險管理，下敘述列何者 較正確？",
+      "options": {
+        "A": "主要目的在釐清醫藥疏失中人員的責任歸屬",
+        "B": "著重在疏失發生後的因果分析",
+        "C": "對於可能發生的疏失進行風險程度的分析與排序",
+        "D": "又稱為「根本原因分析（root cause analysis, RCA ）」"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 49,
+      "stem": "有關藥品不良反應（adverse drug reactions, ADRs ）的危險因子，下列敘述何者錯誤？",
+      "options": {
+        "A": "年幼及老年族群較一般成年人容易發生 ADRs",
+        "B": "治療指數狹窄（narrow therapeutic index ）之藥品容易發生 ADRs",
+        "C": "男性發生 ADRs 之風險為女性的 1.5 ～1.7 倍",
+        "D": "種族與基因也是發生 ADRs 的相關危險因子"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 50,
+      "stem": "下列何者最易造成肺臟毒性，嚴重時會導致肺纖維化？",
+      "options": {
+        "A": "epirubicin",
+        "B": "bleomycin",
+        "C": "fluorouracil",
+        "D": "paclitaxel"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 51,
+      "stem": "Haloperidol-induced malignant hyperthermia 屬於那一類型的 adverse drug reaction ？",
+      "options": {
+        "A": "type A",
+        "B": "type B",
+        "C": "type C",
+        "D": "type D"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 52,
+      "stem": "有關 NSAIDs 之過敏反應，下列敘述何者錯誤？",
+      "options": {
+        "A": "對aspirin 過敏者，通常可以使用 acetaminophen",
+        "B": "aspirin 過敏的病人，80% 會出現血管性水腫（angioedema ）",
+        "C": "出現呼吸道過敏反應之病人，常為氣喘或鼻息肉（nasal polyps ）之族群",
+        "D": "對傳統 NSAIDs 過敏者，使用 COX2-selective NSAIDs 仍可能出現過敏反應"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 53,
+      "stem": "判定某藥品是否造成不良反應的評估中，下列那一個問題與 dechallenge 有關？",
+      "options": {
+        "A": "此種不良反應是否發生於服藥之後",
+        "B": "有沒有其他原因（此藥品以外）可以引起同樣之不良反應",
+        "C": "當停藥或服用此藥之解藥，不良反應是否減輕",
+        "D": "停藥一段時間再重新服用此藥，同樣的不良反應是否再度發生"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 54,
+      "stem": "下列那種方法不能減少 radiocontrast media 引起的急性腎小管壞死（acute tubular necrosis ）？",
+      "options": {
+        "A": "使用顯影劑前後使用利尿劑",
+        "B": "使用顯影劑前後使用 0.45% 或0.9% NaCl 靜脈輸液",
+        "C": "使用顯影劑前使用 acetylcystein",
+        "D": "使用顯影劑前停用 captopril"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 55,
+      "stem": "有關孩童用藥指導的基本原則，下列何者不適當？",
+      "options": {
+        "A": "因孩童認知有限，藥師應直接指導其父母",
+        "B": "孩童得到正確的用藥資訊，可以避免因誤用藥品而中毒",
+        "C": "應包含藥品的一般用法、錯誤用法與他們所服用藥品的相關資訊",
+        "D": "可以教導小學一年級的孩童，漂亮的藥品顏色不代表比較有效"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 56,
+      "stem": "有關藥品資訊服務，下列敘述何者錯誤？",
+      "options": {
+        "A": "藥品資訊服務應有標準作業流程，以維持服務品質",
+        "B": "藥品資訊服務的內容與過程須記錄，並進行品質管理查核",
+        "C": "藥品資訊服務紀錄應包括完整的資訊檢索、取得過程及引用資料來源，俾利未來可以重新快速取得相關資訊",
+        "D": "為避免法律和道德問題，藥品資訊服務紀錄宜簡略"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 57,
+      "stem": "下列那項藥品配對為不同成分？",
+      "options": {
+        "A": "isoprenaline －isoproterenol",
+        "B": "benzhexol －benzbromarone",
+        "C": "paracetamol －acetaminophen",
+        "D": "hyoscine HBr －scopolamine HBr"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 58,
+      "stem": "有關 amoxicillin/clavulanate 口服懸液用粉劑的衛教，下列何者正確？",
+      "options": {
+        "A": "為確保劑量正確，應直接將水加到刻度位置，搖震均勻即可使用",
+        "B": "泡製好的藥液在室溫下可保存 7天",
+        "C": "為增加口感，可將運動飲料加入藥粉泡製成懸浮液劑",
+        "D": "未泡製的口服懸液用粉劑可貯存於室溫"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 59,
+      "stem": "陳先生 53 歲，服用下列藥品：nitroglycerin (NTG) 0.6 mg/tab 1 tab SL prn ；isosorbide dinitrate 10 mg/tab 1 tab tid ；metoprolol 50 mg/tab 1 tab tid 。有關用藥指導，下列何者正確？",
+      "options": {
+        "A": "服用 NTG 24 小時後，就可以安全的使用 vardenafil",
+        "B": "應提醒病人避免服用 sildenafil",
+        "C": "應提醒病人若發生頭痛的副作用要立即請醫師改藥",
+        "D": "為確保療效，isosorbide dinitrate 和metoprolol 一定要照時間服藥，一天三次，三餐飯後服用"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 60,
+      "stem": "有關胰島素針劑的用藥指導，下列何者正確？",
+      "options": {
+        "A": "肥胖的病人比較適合採用與皮膚呈 45 度角方式插入針頭注射，以減少脂肪組織增生（lipohypertrophy ）的風 險",
+        "B": "內含NPH insulin 的筆針，使用前應放在手掌間滾動",
+        "C": "注射後浸泡熱水澡不會影響藥效",
+        "D": "手臂外側的吸收速率最快、也最方便操作"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 61,
+      "stem": "王小姐出現產後憂鬱症，但仍希望哺餵母乳。下列那一個抗憂鬱劑較適合？",
+      "options": {
+        "A": "doxepine",
+        "B": "fluoxetine",
+        "C": "sertraline",
+        "D": "escitalopram"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 62,
+      "stem": "使用 diuretics 時，無須例行監測：",
+      "options": {
+        "A": "serum uric acid",
+        "B": "blood sugar",
+        "C": "serum potassium",
+        "D": "serum phosphate"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 63,
+      "stem": "有關 gentamicin 之療劑監測，下列敘述何者錯誤？",
+      "options": {
+        "A": "gentamicin 的輸注時間為30 分鐘",
+        "B": "peak concentration 的取樣時間為輸注開始後的 30 分鐘",
+        "C": "trough concentration < 2 mg/L 是為了減少毒性的風險",
+        "D": "當once-daily dosing 時，適當的 trough concentration 為 < 1 mg/L"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 64,
+      "stem": "治療 methicillin-resistant Staphylococcus aureus 之肺炎感染時，vancomycin 建議濃度為何？",
+      "options": {
+        "A": "trough 濃度 5～10 mg/L",
+        "B": "trough 濃度 15 ～20 mg/L",
+        "C": "peak 濃度 5～10 mg/L",
+        "D": "peak 濃度 15 ～20 mg/L"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 65,
+      "stem": "所有的 tyrosine kinase inhibitors （-nib ）都會與下列何者產生藥品交互作用？",
+      "options": {
+        "A": "CYP3A4 酵素誘導劑或抑制劑",
+        "B": "任何提高胃 pH 之藥品",
+        "C": "P-glycoprotein 誘導劑或抑制劑",
+        "D": "warfarin"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 66,
+      "stem": "Valproic acid 與phenytoin 併用時，透過何種機制產生交互作用？",
+      "options": {
+        "A": "抑制腎臟的排除",
+        "B": "改變腸胃道的菌叢",
+        "C": "血漿蛋白結合的置換",
+        "D": "改變尿液的酸鹼值"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 67,
+      "stem": "有關 tacrolimus 的敘述，下列何者錯誤？",
+      "options": {
+        "A": "避免服用葡萄柚汁",
+        "B": "會有血鉀增加的風險",
+        "C": "須監測藥品血中濃度",
+        "D": "會引起多毛症"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 68,
+      "stem": "醫囑“KCl 40 mEq in 1 L normal saline （NS ）, IV infusion at 0.5 mEq/min”，則這瓶點滴可供輸注多少分 鐘？",
+      "options": {
+        "A": "100",
+        "B": "20",
+        "C": "500",
+        "D": "80"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 69,
+      "stem": "承上題，主治醫師將上述 KCl solution （40 mEq/L in NS ）劑量改為2 mEq/h ，則KCl 輸注速率應改為多少 mL/min ？",
+      "options": {
+        "A": "50",
+        "B": "8",
+        "C": "1.3",
+        "D": "0.8"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 70,
+      "stem": "化療處方內容為「Trastuzumab 8 mg/kg give 480 mg in 0.9% NaCl 250 mL IV infusion over 90 minutes 」， 依序回答下列三題。 若只有 Herceptin ®（trastuzumab ）440 mg/vial ，有關備藥與處理剩藥之敘述，下列何者正確？",
+      "options": {
+        "A": "備Herceptin ® 2 vials ，各加 normal saline 20 mL/vial 1 vial 回溶（reconstitute ），剩下的 400 mg 寫上：放冰 箱冷藏 28 天",
+        "B": "備Herceptin ® 2 vials ，各以原盒所附的注射用水 20 mL/amp 回溶，剩下的 400 mg 寫上：放冰箱冷藏 24 小時",
+        "C": "若之前還有足量使用期限內回溶的剩藥，備Herceptin ® 1 vial ，以原盒所附的注射用水 20 mL/amp 回溶，沒 有剩藥的問題要處理",
+        "D": "若之前還有足量使用期限內回溶的剩藥，備Herceptin ® 1 vial ，加上 normal saline 20 mL/vial 1 vial 回溶，沒 有剩藥的問題要處理"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 71,
+      "stem": "有關調製 trastuzumab 的敘述，下列何者錯誤？",
+      "options": {
+        "A": "抽取 20 mL 溶劑至針筒內",
+        "B": "將針筒內溶劑沿玻璃瓶內壁緩緩注入",
+        "C": "溫和轉動 vial ，協助溶解",
+        "D": "抽取藥品，注入 250 mL normal saline ，加以上下左右搖晃後完成"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 72,
+      "stem": "如果不小心將回溶的 trastuzumab 溶液注入 5% dextrose solution 中稀釋後，藥師覆核時發現，該如何處理？",
+      "options": {
+        "A": "廢棄整袋藥品，因為藥品可能已經凝集",
+        "B": "廢棄整袋藥品，因為藥品可能已經分解",
+        "C": "放入冰箱當中，等下一張以 5% dextrose solution 稀釋的處方，即可發藥",
+        "D": "請醫師將處方改為以5% dextrose solution 稀釋，即可發藥"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 73,
+      "stem": "李小姐懷孕 24 週後診斷有妊娠糖尿病（gestational diabetes mellitus, GDM ），下列何者為GDM 之風險因子？",
+      "options": {
+        "A": "肥胖",
+        "B": "懷孕年齡 24 歲以下",
+        "C": "高血壓",
+        "D": "腎臟病"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 74,
+      "stem": "承上題，下列何者為GDM 之首選用藥？",
+      "options": {
+        "A": "metformin",
+        "B": "glyburide",
+        "C": "insulin",
+        "D": "nateglinide"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 75,
+      "stem": "王小姐因 Rickettsia 感染須使用四環黴素治療，下列何者最適合？",
+      "options": {
+        "A": "chlortetracycline",
+        "B": "demeclocycline",
+        "C": "doxycycline",
+        "D": "minocycline"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 76,
+      "stem": "承上題，藥師應給予什麼用藥指導？",
+      "options": {
+        "A": "先喝一杯牛奶，再吃四環黴素",
+        "B": "先吃一顆 Strocain ®，再吃四環黴素",
+        "C": "可不吃藥，採用補充水分、電解質之支持性療法",
+        "D": "四環黴素可隨餐服用"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 77,
+      "stem": "下列何者可與 cidofovir 併用，做為cidofovir 之輔助治療？",
+      "options": {
+        "A": "amitriptyline",
+        "B": "benztropine mesylate",
+        "C": "penicillin",
+        "D": "probenecid"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 78,
+      "stem": "承上題，此種合併治療之目的為何？",
+      "options": {
+        "A": "減少口乾、視力模糊之副作用",
+        "B": "減少腎臟損傷之副作用",
+        "C": "減少錐體徑外副作用",
+        "D": "減少抗藥性發生機率"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 79,
+      "stem": "陳先生 71 歲、體重 58 kg 、serum creatinine 1.0 mg/dL ，因心衰竭症狀控制不佳，醫師欲處方 digoxin 治療。以 陳先生目前情況，較適當的 digoxin 日劑量為：",
+      "options": {
+        "A": "250 ng",
+        "B": "125 µg",
+        "C": "250 µg",
+        "D": "125 mg"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 80,
+      "stem": "承上題，陳先生在 2週後回診，digoxin 血中濃度為1.74 ng/mL ，並未抱怨任何不適。digoxin 之劑量應如何調 整？",
+      "options": {
+        "A": "劑量調降為原來的 25%",
+        "B": "劑量調降為原來的 50%",
+        "C": "維持原劑量即可",
+        "D": "劑量調增為原來的 125%"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 12
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\106100_44_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\106100_44_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

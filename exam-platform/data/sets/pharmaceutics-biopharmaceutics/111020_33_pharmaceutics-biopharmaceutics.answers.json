@@ -1,0 +1,17 @@
+{
+  "setId": "111020_33_pharmaceutics-biopharmaceutics",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutics-biopharmaceutics",
+  "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+  "answers": {
+    "1": "D",
+    "2": "D"
+  },
+  "source": {
+    "answerPdfs": [
+      "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\111020_mod33_pharmaceutics-biopharmaceutics.pdf"
+    ],
+    "answerCount": 2
+  }
+}

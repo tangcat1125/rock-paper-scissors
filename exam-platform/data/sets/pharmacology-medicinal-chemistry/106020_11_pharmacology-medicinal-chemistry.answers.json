@@ -1,0 +1,45 @@
+{
+  "setId": "106020_11_pharmacology-medicinal-chemistry",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmacology-medicinal-chemistry",
+  "subjectTitle": "Pharmacology and Medicinal Chemistry",
+  "answers": {
+    "1": "C",
+    "2": "A",
+    "3": "D",
+    "4": "D",
+    "5": "D",
+    "6": "D",
+    "7": "C",
+    "8": "C",
+    "9": "C",
+    "10": "D",
+    "11": "B",
+    "12": "C",
+    "13": "A",
+    "14": "D",
+    "15": "B",
+    "16": "A",
+    "17": "D",
+    "18": "B",
+    "19": "D",
+    "20": "A",
+    "21": "D",
+    "22": "C",
+    "23": "A",
+    "24": "C",
+    "25": "A",
+    "26": "C",
+    "27": "D",
+    "28": "A",
+    "29": "B",
+    "30": "C"
+  },
+  "source": {
+    "answerPdfs": [
+      "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\106020_ans11_pharmacology-medicinal-chemistry.pdf"
+    ],
+    "answerCount": 30
+  }
+}

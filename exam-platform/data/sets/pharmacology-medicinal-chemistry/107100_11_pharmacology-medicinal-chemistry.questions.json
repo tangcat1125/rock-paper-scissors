@@ -1,0 +1,952 @@
+{
+  "setId": "107100_11_pharmacology-medicinal-chemistry",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmacology-medicinal-chemistry",
+  "subjectTitle": "Pharmacology and Medicinal Chemistry",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\107100_q11_pharmacology-medicinal-chemistry.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\107100_mod11_pharmacology-medicinal-chemistry.pdf"
+  ],
+  "questionCount": 77,
+  "answerCount": 77,
+  "parseWarnings": [
+    "Question 58: Could not parse options for question 58",
+    "Question 65: Could not parse options for question 65",
+    "Question 77: Could not parse options for question 77"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列藥物在血中，何者主要會與 α1-acid glycoprotein 結合？",
+      "options": {
+        "A": "amphotericin B",
+        "B": "barbiturates",
+        "C": "prazosin",
+        "D": "tetracycline"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 2,
+      "stem": "下列有關 gene transfer 所用之 Adenovirus 載體（vector ）之敘述，何者錯誤？",
+      "options": {
+        "A": "相較於 Retrovirus vector ，Adenovirus vector 有較久之 DNA 表現（expression ）作用",
+        "B": "優點為高效率之 DNA transfer",
+        "C": "可轉殖到不分裂之細胞",
+        "D": "容易產生免疫反應"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 3,
+      "stem": "NH 4Cl 可以加速下列各藥物之腎臟清除率，惟何者除外？",
+      "options": {
+        "A": "Phenobarbital",
+        "B": "Amphetamine",
+        "C": "Mecamylamine",
+        "D": "Quinine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 4,
+      "stem": "下列何項因素不會降低服用藥物在血漿之濃度？",
+      "options": {
+        "A": "代謝性轉化",
+        "B": "腎小管再吸收",
+        "C": "血漿蛋白之結合",
+        "D": "腎小管主動分泌"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 5,
+      "stem": "藥物在人體內之氧化反應，通常與下列何種因子無關？",
+      "options": {
+        "A": "Esterase",
+        "B": "Cytochrome P450 protein",
+        "C": "NADH or NADPH cofactors",
+        "D": "O2"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 6,
+      "stem": "下列那一組抗生素併用可產生抑菌協同作用的原因是：(a) 藥物可以減少 (b) 藥物被細菌所產生的酵素破壞？",
+      "options": {
+        "A": "(a) Sulbactam ；(b) Ampicillin",
+        "B": "(a) Ticarcillin ；(b) Kanamycin",
+        "C": "(a) Imipenem ；(b) Cilastatin",
+        "D": "(a) Amphotericin B ；(b) Flucytocine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 7,
+      "stem": "有關 Aminoglycosides 類抗生素之敘述，下列何者正確？",
+      "options": {
+        "A": "若和利尿劑 Furosemide 併用時可能加重其腎毒性",
+        "B": "主要以口服方式給藥治療全身性感染",
+        "C": "可以和 Ticarcillin 合併用於治療綠膿桿菌之感染",
+        "D": "主要由肝臟代謝使其失去藥效"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 8,
+      "stem": "下列化學治療藥物，何者抑制骨髓的副作用最小？",
+      "options": {
+        "A": "Idarubicin",
+        "B": "Paclitaxel",
+        "C": "Vincristine",
+        "D": "Bleomycin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 9,
+      "stem": "下列 Sulfonamides 中，何者最適合局部使用於燒燙傷傷口以預防燒燙傷病人之感染？",
+      "options": {
+        "A": "Sulfisoxazole",
+        "B": "Silver sulfadiazine",
+        "C": "Sulfamethoxazole",
+        "D": "Sulfacetamide"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 10,
+      "stem": "有關孕婦避免使用抗生素之敘述，下列何者正確？",
+      "options": {
+        "A": "Sulfonamides 可能使 glucose-6-phosphate dehydrogenase （G6PD ）缺乏之新生兒發生溶血現象",
+        "B": "Tetracyclines 可能造成胎兒第八對腦神經受損而影響聽力",
+        "C": "Chloramphenicol 會抑制胎兒骨頭生長",
+        "D": "Aminoglycosides 會造成灰嬰症候群（gray baby syndrome ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 11,
+      "stem": "下列何種藥物不適用於治療 Legionella pneumonia 之感染？",
+      "options": {
+        "A": "Erythromycin",
+        "B": "Rifampin",
+        "C": "Gentamicin",
+        "D": "Ciprofloxacin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 12,
+      "stem": "下列何種降血脂藥物可用於處理毛地黃毒性？",
+      "options": {
+        "A": "Fenofibrate",
+        "B": "Rosuvastatin",
+        "C": "Niacin",
+        "D": "Colestipol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 13,
+      "stem": "下列各項藥物與其副作用之配對中，何者錯誤？",
+      "options": {
+        "A": "Erythropoietin ：低血壓",
+        "B": "Ferrous sulfate ：上胃部不舒服",
+        "C": "Filgrastim ：骨痛",
+        "D": "Oprelvekin ：貧血"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 14,
+      "stem": "下列何者是使用 Propranolol 輔助治療甲狀腺中毒症狀的藥理作用？",
+      "options": {
+        "A": "減少甲狀腺素的濃度",
+        "B": "抑制甲狀腺素增加 β-受體的反應",
+        "C": "抑制前列腺素的濃度",
+        "D": "抑制碘離子的吸收"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 15,
+      "stem": "下列何種 β-adrenoceptor antagonist 對於 insulin 依賴型之糖尿病患者應小心使用？",
+      "options": {
+        "A": "Atenolol",
+        "B": "Propranolol",
+        "C": "Metoprolol",
+        "D": "Esmolol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 16,
+      "stem": "下列何種血中離子減少會增強Digoxin 的毒性副作用？",
+      "options": {
+        "A": "鈣離子",
+        "B": "鈉離子",
+        "C": "鉀離子",
+        "D": "氯離子"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 17,
+      "stem": "患者服用下列何種藥物常有直立性低血壓的副作用？",
+      "options": {
+        "A": "抗組織胺作用劑",
+        "B": "β1-受體拮抗劑",
+        "C": "α-受體拮抗劑",
+        "D": "ACE 抑制劑"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 18,
+      "stem": "下列何者是治療高山症併發的急性青光眼之首選藥物？",
+      "options": {
+        "A": "Amiloride",
+        "B": "Ethacrynic acid",
+        "C": "Acetazolamide",
+        "D": "Metolazone"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 19,
+      "stem": "Sildenafil 除了抑制第五型磷酸雙酯酶（PDE5 ）外，還會抑制那一型磷酸雙酯酶而引起視覺障礙？",
+      "options": {
+        "A": "PDE3",
+        "B": "PDE2",
+        "C": "PDE4",
+        "D": "PDE6"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 20,
+      "stem": "下列降壓藥物中，何者會有血脂肪降低效果？",
+      "options": {
+        "A": "Verapamil",
+        "B": "Terazosin",
+        "C": "Carteolol",
+        "D": "Nadolol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 21,
+      "stem": "下列何藥物主要會抑制圖中位置 7之H2O再吸收？",
+      "options": {
+        "A": "Spironolactone",
+        "B": "ADH （antidiuretic hormone ）antagonist",
+        "C": "Amiloride",
+        "D": "Chlorthalidone"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 22,
+      "stem": "下列何種利尿劑易使肝硬化病人造成昏迷？",
+      "options": {
+        "A": "Amiloride",
+        "B": "Acetazolamide",
+        "C": "Furosemide",
+        "D": "Hydrochlorothiazide"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 23,
+      "stem": "Pralidoxime 可做為下列何種化合物中毒之解毒劑？",
+      "options": {
+        "A": "Atropine",
+        "B": "Organophosphate",
+        "C": "Nicotine",
+        "D": "Benzodiazepines"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 24,
+      "stem": "Phenylephrine 在活體引起的心搏徐緩（bradycardia ），可以下列何種藥物預處理而消失？",
+      "options": {
+        "A": "Propranolol",
+        "B": "Atenolol",
+        "C": "Trimethaphan",
+        "D": "Esmolol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 25,
+      "stem": "下列何者不是 β-adrenoceptor antagonist 的治療用途？",
+      "options": {
+        "A": "高血壓",
+        "B": "心絞痛",
+        "C": "睫狀肌麻痺（cycloplegia ）",
+        "D": "偏頭痛"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 26,
+      "stem": "下列何者不適合用於治療急性胃潰瘍？",
+      "options": {
+        "A": "Omeprazole",
+        "B": "Sodium bicarbonate",
+        "C": "Ibuprofen",
+        "D": "Rabeprazole"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 27,
+      "stem": "下列何藥用於治療食道靜脈曲張之出血？",
+      "options": {
+        "A": "Ergotamine",
+        "B": "Lactulose",
+        "C": "Octreotide",
+        "D": "Ursodiol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 28,
+      "stem": "下列何種痛風治療藥物具有促進尿酸排除作用？",
+      "options": {
+        "A": "indomethacin",
+        "B": "allopurinol",
+        "C": "colchicine",
+        "D": "sulfinpyrazone"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 29,
+      "stem": "Buspirone 為新型抗焦慮藥物，其作用機轉為何？",
+      "options": {
+        "A": "5-HT 1A 受體之部分致效劑",
+        "B": "GABA A受體拮抗劑",
+        "C": "鈉離子通道抑制劑",
+        "D": "正腎上腺素 /多巴胺再吸收抑制劑（norepinephrine-dopamine reuptake inhibitor ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 30,
+      "stem": "下列何種藥物不適用於失眠？",
+      "options": {
+        "A": "Melatonin",
+        "B": "Antihistamines",
+        "C": "Benzodiazepine",
+        "D": "Buspirone"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 31,
+      "stem": "成癮藥物的獎賞（reward ）和增強作用（reinforcement ）與中樞神經系統的那一種神經傳遞物質最相關？",
+      "options": {
+        "A": "Acetylcholine",
+        "B": "Norepinephrine",
+        "C": "Glycine",
+        "D": "Dopamine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 32,
+      "stem": "一位心臟功能不良的年長病人，將接受膽囊切除手術，麻醉醫師最可能給予對心臟具有興奮作用的靜脈麻醉 劑為何？",
+      "options": {
+        "A": "Propofol",
+        "B": "Thiopental",
+        "C": "Ketamine",
+        "D": "Midazolam"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 33,
+      "stem": "下列何者是脊髓 interneurons 中最主要的抑制性神經傳遞物質？",
+      "options": {
+        "A": "Glycine",
+        "B": "GABA",
+        "C": "Serotonin",
+        "D": "Substance P"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 34,
+      "stem": "下列有關三環類抗憂鬱藥物的敘述，何者錯誤？",
+      "options": {
+        "A": "大部分的三環類抗憂鬱藥物都具有阻斷多巴胺（Dopamine ）再回收的作用",
+        "B": "三環類抗憂鬱藥物大多具有高度的首渡效應（First-pass effect ）",
+        "C": "三環類抗憂鬱藥物可以用來改善小孩遺尿（Enuresis ）的現象",
+        "D": "使用三環類抗憂鬱藥物會發生直立性低血壓（Orthostatic hypotension ）的副作用"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 35,
+      "stem": "長期使用 phenytoin 時會產生軟骨症（Osteomalacia ），此係由於下列那一種維生素代謝異常所造成的？",
+      "options": {
+        "A": "Vitamin D",
+        "B": "Vitamin B 6",
+        "C": "Vitamin B 12",
+        "D": "Vitamin E"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 36,
+      "stem": "下列那一種藥物為典型 GABA A受體的正向異位性調節者（positive allosteric modulator ）？",
+      "options": {
+        "A": "Flumazenil",
+        "B": "Diazepam",
+        "C": "GABA",
+        "D": "Picrotoxin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 37,
+      "stem": "下列何者不是長期使用 haloperidol 所造成的多巴胺神經性的副作用？",
+      "options": {
+        "A": "帕金森氏症",
+        "B": "Tonic-clonic seizure",
+        "C": "高泌乳症",
+        "D": "Tardive dyskinesia"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 38,
+      "stem": "下列那一種維生素會增加週邊組織對於 Levodopa 的代謝作用？",
+      "options": {
+        "A": "Vitamin B 6",
+        "B": "Vitamin B 12",
+        "C": "Vitamin D",
+        "D": "Vitamin E"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 39,
+      "stem": "帕金森氏症的發生主要係下列那兩種神經傳遞物質的平衡失調所造成的？",
+      "options": {
+        "A": "Glutamate/GABA",
+        "B": "Serotonin/Dopamine",
+        "C": "Norepinephrine/Epinephrine",
+        "D": "Dopamine/Acetylcholine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 40,
+      "stem": "Tacrolimus 可抑制 IL-2和IFN-γ的基因轉錄，其作用機轉為何？",
+      "options": {
+        "A": "抑制 B淋巴細胞的增生",
+        "B": "抑制 T淋巴細胞之 calcineurin 活性",
+        "C": "與cyclophilin 結合",
+        "D": "增加抗原的呈現"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 41,
+      "stem": "葡萄柚汁成分 naringin 具有抑制 CYP3A4 酵素作用，其基本結構為何？",
+      "options": {
+        "A": "chalcone",
+        "B": "isoflavone",
+        "C": "quinone",
+        "D": "flavanone"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 42,
+      "stem": "下列有關 cilostazol 之敘述，何者正確？",
+      "options": {
+        "A": "屬於 selective PDE4 inhibitor",
+        "B": "具有 pyrimidopyrimidine 之結構",
+        "C": "可減少細胞中 cGMP 之量",
+        "D": "可用於治療間歇性跛行（intermittent claudication ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 43,
+      "stem": "下列何者不是 clorazepate 的代謝途徑？",
+      "options": {
+        "A": "decarboxylation",
+        "B": "N-demethylation",
+        "C": "glucuronidation",
+        "D": "3-hydroxylation"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 44,
+      "stem": "Dantrolene 的毒性與抑制下列那一種離子之釋出有關？",
+      "options": {
+        "A": "Ca 2+",
+        "B": "Na +",
+        "C": "K+",
+        "D": "Zn 2+"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 45,
+      "stem": "下列何者屬於 benzomorphan 結構之鎮痛劑：",
+      "options": {
+        "A": "methadone",
+        "B": "pentazocine",
+        "C": "meperidine",
+        "D": "fentanyl"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 46,
+      "stem": "下圖是 digitoxigenin 的基本結構，那一個取代基是 OH 基？",
+      "options": {
+        "A": "R1",
+        "B": "R2",
+        "C": "R3",
+        "D": "R4"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 47,
+      "stem": "Methyldopa 的最終活性代謝物，與下列何藥的作用機制最相似？",
+      "options": {
+        "A": "clonidine",
+        "B": "prazosin",
+        "C": "propranolol",
+        "D": "guanethidine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 48,
+      "stem": "下列何者經 CYP3A4 作用後的代謝產物為fexofenadine ？",
+      "options": {
+        "A": "loratadine",
+        "B": "terfenadine",
+        "C": "hydroxyzine",
+        "D": "acrivastine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 49,
+      "stem": "下列何者為質子泵（proton pump ）H+/K +-ATPase 抑制劑？",
+      "options": {
+        "A": "nizatidine",
+        "B": "aripiprazole",
+        "C": "famotidine",
+        "D": "lansoprazole"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 50,
+      "stem": "抗結核藥 capreomycin 是由幾個 cyclic polypeptide 組成的混合物？",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 51,
+      "stem": "下列有關 cisplatin 的敘述，何者錯誤？",
+      "options": {
+        "A": "為結構最簡單的含鉑抗癌藥",
+        "B": "其monoaquo form 及diaquo form 均為活性型",
+        "C": "Saline 或mannitol 利尿劑可加速藥物的排泄",
+        "D": "使用 sodium thiosulfate 無法減少其腎毒性"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 52,
+      "stem": "Erythromycin 結構中的 C-6 hydroxy 基團以 methyl ether 取代後的產物為：",
+      "options": {
+        "A": "azithromycin",
+        "B": "clarithromycin",
+        "C": "dirithromycin",
+        "D": "telithromycin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 53,
+      "stem": "下列何者在體內會形成鐵氧複合物（iron-oxygen complex ）？",
+      "options": {
+        "A": "bleomycin",
+        "B": "dactinomycin",
+        "C": "mitoxantrone",
+        "D": "mitomycin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 54,
+      "stem": "下列抗癌抗生素中，屬於配醣體者為：",
+      "options": {
+        "A": "mitoxantrone",
+        "B": "daunorubicin",
+        "C": "dactinomycin",
+        "D": "mitomycin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 55,
+      "stem": "下列何者結構的甲基置換成碘基後即為idoxuridine ？",
+      "options": {
+        "A": "adenosine",
+        "B": "cytidine",
+        "C": "guanosine",
+        "D": "thymidine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 56,
+      "stem": "下列何種藥物具有 carbamate 基團？",
+      "options": {
+        "A": "chlorambucil",
+        "B": "cyclophosphamide",
+        "C": "estramustine",
+        "D": "melphalan"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 57,
+      "stem": "改變 gonadotropin-releasing hormone （GnRH ）的C-terminus ，並以 D-amino acid 置換結構中那個胺基酸可 得到 GnRH superagonist ？",
+      "options": {
+        "A": "Tyr 5",
+        "B": "Gly 6",
+        "C": "Pro 9",
+        "D": "Gly 19"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 59,
+      "stem": "生物製劑因溫度劇變而變質，源自下列何種 instability ？",
+      "options": {
+        "A": "chemical instability",
+        "B": "physical instability",
+        "C": "photoinstability",
+        "D": "genetic instability"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 60,
+      "stem": "圖中化合物立體中心（1,2 ）的絕對組態分別為何？",
+      "options": {
+        "A": "R,R",
+        "B": "S,R",
+        "C": "S,S",
+        "D": "R,S"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 61,
+      "stem": "第一個用於治療病毒性感染的反義（antisense ）藥物 fomivirsen 是由幾個核 苷酸（nucleotide ）組成？",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "21"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 62,
+      "stem": "下列何種局部麻醉劑因結構中含有 thiophene 環，而使其易於穿透細胞膜？",
+      "options": {
+        "A": "articaine",
+        "B": "bupivacaine",
+        "C": "mepivacaine",
+        "D": "ropivacaine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 63,
+      "stem": "下列何種骨骼肌鬆弛劑適用於肝腎疾病之患者？",
+      "options": {
+        "A": "atracurium",
+        "B": "doxacurium",
+        "C": "pancuronium",
+        "D": "vecuronium"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 64,
+      "stem": "下列有關 cevimeline 之敘述，何者錯誤？",
+      "options": {
+        "A": "含quinuclidine 之結構",
+        "B": "可作用於中樞及上皮組織之 M1受體",
+        "C": "其sulfoxide 之代謝物不具活性",
+        "D": "可治療 Sjögren 徵候群所產生之口乾症"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 66,
+      "stem": "下列何者為下圖化合物排出人體外的最主要型態？",
+      "options": {
+        "A": "原形",
+        "B": "glucuronide 代謝物",
+        "C": "N-acetylated 代謝物",
+        "D": "N-methylated 代謝物"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 67,
+      "stem": "下列全身麻醉劑中，何者在體內代謝的百分比最高？",
+      "options": {
+        "A": "CHCl 2CF 2OCH 3",
+        "B": "CF 3CHClOCHF 2",
+        "C": "CF 3CHFOCHF 2",
+        "D": "CF 3CHBrCl"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 68,
+      "stem": "下列有關下圖化合物構效關係的敘述，何者錯誤？",
+      "options": {
+        "A": "在末端的氮上加入一個甲基可增加 amphetamine-like 作用",
+        "B": "S-(+)-異構物的 amphetamine-like 作用比 R-(−)-異構物強",
+        "C": "1號位置的取代基由甲基改為丙基時，amphetamine-like 作用減弱",
+        "D": "將2號位置的 -CH 2-改為-CO-時，amphetamine-like 作用減弱"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 69,
+      "stem": "下列止痛劑中，何者不具 4-phenylpiperidine 骨架？",
+      "options": {
+        "A": "meperidine",
+        "B": "hydromorphone",
+        "C": "fentanyl",
+        "D": "butorphanol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 70,
+      "stem": "下列有關 prazosin 結構的描述，何者錯誤？",
+      "options": {
+        "A": "含有 4-amino-6,7-dimethoxyquinazoline",
+        "B": "quinazoline 直接與 piperazine 連接",
+        "C": "piperazine 以酮基連接 furan",
+        "D": "以tetrahydrofuran 取代 furan 時，則為doxazosin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 71,
+      "stem": "下列血管收縮素拮抗劑（angiotensin II receptor antagonists ）中，何者之結構有二個 benzimidazole 環，故 脂溶性最高，藥效最長？",
+      "options": {
+        "A": "candesartan",
+        "B": "irbesartan",
+        "C": "telmisartan",
+        "D": "valsartan"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 72,
+      "stem": "Verapamil 之結構，屬於下列何種 calcium channel blocker 的分類？",
+      "options": {
+        "A": "benzothiazepine",
+        "B": "1,4-dihydropyridine",
+        "C": "diaminopropanol ether",
+        "D": "aralkyl amine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 73,
+      "stem": "下列何項利尿劑具有 phthalimidine 結構，且可開環形成 benzophenone 衍生物？",
+      "options": {
+        "A": "metolazone",
+        "B": "indapamide",
+        "C": "chlorthalidone",
+        "D": "quinethazone"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 74,
+      "stem": "Methimazole 與propylthiouracil 具有何種共同結構？",
+      "options": {
+        "A": "amide",
+        "B": "ester",
+        "C": "carboxylic acid",
+        "D": "thioamide"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 75,
+      "stem": "在hydrocortisone 之結構式中，導入下列何者取代基，會增加其鈉離子滯留效果？",
+      "options": {
+        "A": "9α-fluoro",
+        "B": "16 α-methyl",
+        "C": "16 β-methyl",
+        "D": "17 α-hydroxy"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 76,
+      "stem": "下列有關 hydrocortisone 的結構修飾，何者不會顯著提高其 glucocorticoid 之活性？",
+      "options": {
+        "A": "修飾成 ∆1-cortisone",
+        "B": "導入 11 α-OH",
+        "C": "導入 9α-F",
+        "D": "導入 16 α-CH 3"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 78,
+      "stem": "下列何者為sulfasalazine 進行活化代謝的主要部位？",
+      "options": {
+        "A": "胃",
+        "B": "小腸",
+        "C": "大腸",
+        "D": "肝臟"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 79,
+      "stem": "下列那個非固醇類抗發炎藥物對 COX-2之選擇性最高？",
+      "options": {
+        "A": "diclofenac",
+        "B": "celecoxib",
+        "C": "meloxicam",
+        "D": "rofecoxib"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 80,
+      "stem": "下列抗黴菌藥中，何者不屬於 squalene epoxidase 抑制劑？",
+      "options": {
+        "A": "amorolfine",
+        "B": "butenafine",
+        "C": "naftifine",
+        "D": "tolnaftate"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 14
+  },
+  "referenceGroupId": "pharmacology-medicinal-chemistry",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\107100_11_pharmacology-medicinal-chemistry.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\107100_11_pharmacology-medicinal-chemistry.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

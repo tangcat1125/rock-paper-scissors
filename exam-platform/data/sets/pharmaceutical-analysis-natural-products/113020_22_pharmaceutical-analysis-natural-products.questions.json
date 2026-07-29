@@ -1,0 +1,717 @@
+{
+  "setId": "113020_22_pharmaceutical-analysis-natural-products",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutical-analysis-natural-products",
+  "subjectTitle": "Pharmaceutical Analysis and Natural Products",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\113020_q22_pharmaceutical-analysis-natural-products.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\113020_mod22_pharmaceutical-analysis-natural-products.pdf"
+  ],
+  "questionCount": 69,
+  "answerCount": 69,
+  "parseWarnings": [
+    "Question 2: Could not parse options for question 2",
+    "Question 59: Could not parse options for question 59"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列何者非中華藥典中收载之水分测定法？",
+      "options": {
+        "A": "KarlFischer滴定法",
+        "B": "甲苯蒸法",
+        "C": "核磁共振法",
+        "D": "重量分析法"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "關於非水滴定法中甲醇钠試劑之叙述，下列何者錯？",
+      "options": {
+        "A": "係氢氧化纳之甲醇溶液",
+        "B": "常搭配使用之指示劑為偶氮紫（azoviolet）",
+        "C": "接二氧化碳或水分時會產生混",
+        "D": "可用苯甲酸测定其力價"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "下列何者最不適合用於测定颠茄葉所含的水分？",
+      "options": {
+        "A": "重量法",
+        "B": "甲苯蒸法",
+        "C": "费氏滴定法",
+        "D": "乾燥减重法"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "關於非水酸滴定法的叙述，下列何錯？",
+      "options": {
+        "A": "當以酸鹽或氢溴酸存在時，於滴定前不需要先去除相對離子（counterion）",
+        "B": "典型的滴定劑是無水過氯酸的乙酸溶液",
+        "C": "滴定劑之配置過程中，加人乙酸酐的目的是去除過氯酸的水",
+        "D": "结晶紫為此類滴定的常用指示劑"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "在铅查法中，铅離子在何種pH值下可與二苯硫踪（dithizone）結合成安定的整合物？",
+      "options": {
+        "A": "2",
+        "B": "10",
+        "C": "13",
+        "D": "7"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "下列何者是電化學電池的電位差計算公式？",
+      "options": {
+        "A": "Ecel1 = Eo - log[(Ecathode + Eanode)/2]",
+        "B": "Ecell = Eo + log[(Ecathode + Eanode)/Eanode]",
+        "C": "Ecell = Eanode - Ecathode",
+        "D": "Ecell = Ecathode - Eanode"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "相较於specific-gravitybottle，下列何者為Geissler pycnometer装置之優點?",
+      "options": {
+        "A": "可讀取容器中心温度",
+        "B": "内建秤量装置",
+        "C": "较不易產生氣泡",
+        "D": "所需樣品较少"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "關於脂質性質的叙述，下列何者錯？",
+      "options": {
+        "A": "酯價和脂肪酸甘油酯含量成反比",
+        "B": "酸價如超過上限值，多數情形下是經由水解反應所造成",
+        "C": "皂化價可用於判是否添加不可皂化物",
+        "D": "同時参照碘價和皂化價可用於值测橄榄油是否掺假"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "有關凱氏氮定量法（Kjeldahlmethod）之叙述，下列何者錯？",
+      "options": {
+        "A": "测定含硝酸鹽或亞硝酸鹽品時，必须先以氢氧化钙固定之",
+        "B": "加人硫酸钾是為了提高消化温度",
+        "C": "加人硫酸铜可缩短消化時間",
+        "D": "测定出的氮含量乘以6.25即可計算出食物中粗蛋白質含量"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "下列何者無法用於判藥物的晶體多形性（polymorph）？",
+      "options": {
+        "A": "diffusion spectroscopy (NMR) 4.12 ppm；16.2 Hz",
+        "B": "solid-state NMR 4.08 ppm;10.8 Hz",
+        "C": "attenuated total reflectance (IR) 4.10 ppm;5.4 Hz",
+        "D": "diffuse reflectance (IR) ppm；該質子之化學位移與偶合常數分别為何？ 4.10 ppm ;8.1 Hz"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "下列何種核磁共振譜可辨識化合物中的三級碳訊號？",
+      "options": {
+        "A": "COSY CHs-C(=O)-CHs的雨組甲基氢之性為enantiotopic",
+        "B": "DEPT-90 CHBr的三個氢之性為homotopic",
+        "C": "TOCSY CH3-CH2-CHBr(C1)的-CH2-上雨个氢之性為diastereotopic",
+        "D": "NOESY CH3-CH2-CHBr(C1)的-CHs上三個氢之性為homotopic"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "於某纯光學活性化合物中混人其镜像巽構物，造成其[α]值减少5%，则兩者之含量比例為多少？",
+      "options": {
+        "A": "90: 10",
+        "B": "92.5:7.5",
+        "C": "95 : 5",
+        "D": "97.5: 2.5"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "紫外光光譜分析法不適用於下列何者？",
+      "options": {
+        "A": "藥品别試驗",
+        "B": "测定固體粉末晶型",
+        "C": "监测藥品降解的反應動力學",
+        "D": "测定藥物含量"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "電游離（ESI）源常與下列何種質量分析器結合而獲得最多分子結構資訊？",
+      "options": {
+        "A": "雙聚焦磁場式（doublefocusing magnetic sector）",
+        "B": "四極柱（quadrupole）",
+        "C": "飛行時間（timeofflight）",
+        "D": "三段式四極柱（triplequadrupole）"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "有關拉曼光譜的叙述，下列何者錯？",
+      "options": {
+        "A": "各種散射效鹰的強弱顺序為：Rayleigh>Raman>Tyndall",
+        "B": "一般在中紅外光區吸收较弱的官能基，會有较強的拉曼吸收",
+        "C": "FT-Raman技術可鹰用於藥品之定量分析",
+        "D": "Raman技术可應用於固體藥品中多形體的测"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "有關原子吸收光譜测定法之叙述，下列何者錯？",
+      "options": {
+        "A": "燃料氣體為乙炔及助燃氣體",
+        "B": "充满於中空陰極管的氯體為氮氯",
+        "C": "阻器快速旋轉是為了取得背景訊號強度",
+        "D": "主要是测定金元素"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "下列光譜分析法及其光源之配對，何者錯？",
+      "options": {
+        "A": "UV—deuterium lamp",
+        "B": "visible—sodium lamp",
+        "C": "fluorescence-xenon lamp",
+        "D": "IR-metal oxide filament"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "下列光譜法與其常用的测定光径長度配對，何者錯？",
+      "options": {
+        "A": "IR:1 cm H-O",
+        "B": "UV-Vis :1 cm C=0",
+        "C": "fluorescence :1 cm C=C",
+        "D": "旋光度：1cm或1dm C=N"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "下列波長何者於紫外光圍？",
+      "options": {
+        "A": "0.5 nm APCI/TOFMS 利用相互為直角的直流與射频振動電場",
+        "B": "220 nm APCI/quadrupoleMS 訊號是由離子撞撃四極柱時所產生",
+        "C": "500 nm ESI/TOFMS 維護较容易",
+        "D": "2200 nm pressure chemical ionization，APCI;time of flight ，TOF;electrospray ionization,ESI) ESI/quadrupoleMS 無法提供高解析質譜"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "關於光的叙述，下列何者錯？",
+      "options": {
+        "A": "蜜光的強度與激發光的強度有 squalanecolumn bupivacaine",
+        "B": "蜜光光譜與激發光譜具對性 silicone OV-1column pentycaine",
+        "C": "肇光之波長比激發光長 BPX-5column prilocaine",
+        "D": "蜜光強度與濃度大小無關 可提供较好的解析度與選選性？ carbowax column procaine"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "下列何者無法提高使用二氧化矽毛细管（fused-silicacapillary）於電泳操作時之電渗流（electro- osmotic flow）?",
+      "options": {
+        "A": "将電泳液酸性提高到中性",
+        "B": "提高背景電解質之濃度",
+        "C": "提高電場",
+        "D": "提高系統温度"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "下列關於氣相層析所使用的開口式（wall-coated）及充填式（support-coated）兩種毛细管管柱之叙述， 何者正確？",
+      "options": {
+        "A": "漩冯廣散係數（eddydiffusioncoefficient）不影響開口式管狀毛细管之峰带加寬",
+        "B": "向散係數（longitudinaldiffusioncoefficient）较大，使得充填式管柱之分離效率较低",
+        "C": "開口式管狀毛细管内径愈小，其效率愈低",
+        "D": "質量轉移阻力的影響比液相層析大"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "以高效液相層析法分析acetaminophen中的不純物時，提高下列参數之數值後，何者無法增加分離解析度 （resolution）?",
+      "options": {
+        "A": "理板數（theoreticalplatenumber）",
+        "B": "理板高（theoreticalplateheight）",
+        "C": "選性（selectivityfactor）",
+        "D": "容因子（capacityfactor）"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "關於液/液相萃取法之叙述，下列何者錯？",
+      "options": {
+        "A": "利用分配（partition）原理",
+        "B": "所用的溶劑體积一般比固相萃取法少",
+        "C": "所用的溶劑须不互溶",
+        "D": "可能會有乳化（emulsion）現象"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "在下列VanDeemterequation中，何種参數與静相特性關係最大？ A B H = n\"+ n++ 1 + Cm/u/2 n",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "Cm",
+        "D": "Cs"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "下列方程式何者用於計算液相層析圖中二波峰之分離解析度（resolution，Rg）？（t丶W、W(o.5)分别代 表：滞留時間、波峰底部寬、波峰半高寬)",
+      "options": {
+        "A": "R=2（t2-t1）/（W2—W)",
+        "B": "Rs=2 (t2+t1) / (W2-W1)",
+        "C": "Rs=1.18 (t2+ t1) / (W2(0.5) + W1(0.5))",
+        "D": "R=1.18 (t2-t1) / (W2(0.5)+ W1(0.5))"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "以HILIC層析管（性質類似正相管柱）分析下列五種胺基酸，其層析圖（如下）中波峰D是何種胺基酸？ NH2 100 A CH2-CH-COOH 100 NH2 B HOCHCH-COOH OH Serine Tyrosine 相封豐度 100 C NH2 NH2 HOCHCH-COOH CH2-CH-COOH 100 D CH3 Threonine Phenylalanine 100 E NH NH2 5 10 15 HN-C-NH-CHCHCH2-CH-COOH 0 20 25 30 分 Arginine",
+      "options": {
+        "A": "serine",
+        "B": "tyrosine",
+        "C": "threonine",
+        "D": "phenylalanine"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "利用液相層析質譜儀進行某蛋白質之分析得到質譜圖如下，则其分子量最接近下列何者？ 680.8 720.8 Relative abundance 645 765.7 816.8875 612.8 942.2 1020.5 1122.3 500 600 700 800 900 1000 1100 m/z",
+      "options": {
+        "A": "8000 Da",
+        "B": "12000 Da",
+        "C": "16000 Da",
+        "D": "20000 Da"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "以陽離子交换樹脂萃取管進行樣品前處理時，下列何種水溶液最適合做為注人樣品前的冲洗液？",
+      "options": {
+        "A": "NaCl",
+        "B": "CaCl2",
+        "C": "MgBr2",
+        "D": "CuSO4"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "下列何者不適合以離子對一層析分離法（ion-pairingchromatography）進行分析定量？ ①CH3CH2CH2CH2NH2 ②CH3CH2CH2COOH C③CH3CH2CH2CH2OH ④(CH3CH2)4N+Br",
+      "options": {
+        "A": "①",
+        "B": "②",
+        "C": "③",
+        "D": "④"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "下列何種呈色試劑，一般不適用於薄層層析之顯色？",
+      "options": {
+        "A": "20～50% sulfuric acid in ethanol",
+        "B": "10%hydrochloricacid",
+        "C": "ninhydrinsolution",
+        "D": "anisaldehydesolution"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "以HPLC分析hydrocortisoneacetatecream；為减少高脂溶性赋形劑對層析管柱的傷害，考量回收率與干 物，下列前處理之萃取流程何者最適當？",
+      "options": {
+        "A": "以稀硫酸萃取",
+        "B": "以稀氨水萃取",
+        "C": "以甲醇／己烷分配，取甲醇層",
+        "D": "以甲醇／己烷分配，取己烷層"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "下列何者不於karayagum的用途？",
+      "options": {
+        "A": "製锭時製粒過程（granulation）中的binder",
+        "B": "乳化劑（emulsifying agent）",
+        "C": "膨性劑（bulklaxative）",
+        "D": "牙用黏合劑（dentaladhesive）"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "Inulin於下列何者？",
+      "options": {
+        "A": "arabin",
+        "B": "fructan",
+        "C": "galactan",
+        "D": "glucan"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "下列俗名與學名之配對，何者正確？",
+      "options": {
+        "A": "bitteralmond-Prunusarmeniaca",
+        "B": "wild cherry-Brassica nigra",
+        "C": "Americanginseng-Panaxquinquefolius",
+        "D": "cascara sagrada-Rhamnus frangula"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "固醇類藥物會增加強心苷（cardiacglycoside）之毒性；主要是與细胞内何種離子濃度變化有關？",
+      "options": {
+        "A": "纳離子濃度增加",
+        "B": "離子濃度减少",
+        "C": "钙離子濃度增加",
+        "D": "钠離子濃度减少"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "下列強心苷（cardiacglycoside）何者在臨床上具有较高之安全性？",
+      "options": {
+        "A": "digitoxin",
+        "B": "convallatoxin",
+        "C": "digoxin",
+        "D": "cymarin"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "下列生藥之主要苷成分，何者同時具有C-及O-glycoside結構？",
+      "options": {
+        "A": "frangula",
+        "B": "cascara sagrada",
+        "C": "rhubarb",
+        "D": "chrysarobin"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "下列生藥與其藥效成分化學分類之配對，何者錯？",
+      "options": {
+        "A": "senna-anthraquinone glycoside",
+        "B": "aloe-anthraquinone glycoside",
+        "C": "vanilla—aldehyde glycoside",
+        "D": "mustard—phenol glycoside"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "下列何種配體；其水解後之產物不含glucose？",
+      "options": {
+        "A": "amygdalin",
+        "B": "frangulin A",
+        "C": "sennoside A",
+        "D": "salicin"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "下列有關生藥及其功用與使用部位的配對，何者錯？",
+      "options": {
+        "A": "大黄（rheum）－劑－根和根",
+        "B": "苦杏仁（apricotpits）－鎮咳一種仁",
+        "C": "毛地黄（digitalis）－強心一根部",
+        "D": "熊果（uvaursi）－收敛－葉部"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "關於theobromaoil之叙述，下列何者錯？",
+      "options": {
+        "A": "基原植物之科名為Sterculiaceae",
+        "B": "於20～25℃熔化",
+        "C": "可作為栓劑基質（base）",
+        "D": "theobroma源自希文；意為「神的食物」"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "下列發油與其主成分之配對，何者錯？",
+      "options": {
+        "A": "clove oil-eugenol",
+        "B": "nutmeg oil—terpinene",
+        "C": "peppermint oil—menthol",
+        "D": "cassia oil-cinnamic aldehyde"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "印度楝（Azadirachtaindica）所含azadirachtin之主要用途為何？",
+      "options": {
+        "A": "photo-protection",
+        "B": "anti-hypertension",
+        "C": "insect anti-feeding",
+        "D": "anti-hyperglycemic"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "下列關於樟腦（camphor）之叙述，何者錯？",
+      "options": {
+        "A": "為醇類化合物 khellin-furochromone",
+        "B": "天然產者為右旋性 dicumarol-bishyhroxycoumarin",
+        "C": "pinene可為合成camphor之原料 methoxsalen-flavonolignan",
+        "D": "為局部止劑 podophyllotoxin-lignan"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "有關milkthistle之叙述，下列何者錯？",
+      "options": {
+        "A": "其植物科别為Asteraceae",
+        "B": "所含silybin具保肝作用",
+        "C": "基原植物為Silybummarianum",
+        "D": "silymarin於bislignan類"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "有關etoposide之化學結構叙述，下列何者錯？",
+      "options": {
+        "A": "具有反式内酯環 C-2",
+        "B": "含有酚基 C-3",
+        "C": "由二個C6-C3單元組成 C-5",
+        "D": "含有鼠李糖基 個碳原子上進行經基化反應（hydroxylation）後衍生而來？ CH3 5 H3C CH2 (-)- (4S)- limonene C-6"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "Storax之基原植物科别為何？",
+      "options": {
+        "A": "金梅科（Hamamelidaceae）",
+        "B": "豆科（Fabaceae）",
+        "C": "芸香科（Rutaceae）",
+        "D": "樟科（Lauraceae）"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "下列化合物，何者具有酚基（phenolicgroup）?",
+      "options": {
+        "A": "morphine",
+        "B": "codeine",
+        "C": "heroin",
+        "D": "thebaine"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "有關生藥之别名配對，下列何者錯？",
+      "options": {
+        "A": "physostigma—ordeal bean",
+        "B": "hydrastis-goldenseal",
+        "C": "stramonium—jaborandi",
+        "D": "sanguinaria-bloodroot"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "下列生藥與其基原植物所科别之配對，何者正確？",
+      "options": {
+        "A": "belladonna-Solanaceae",
+        "B": "cinchona-Rutaceae",
+        "C": "nux vomica—Apocynaceae",
+        "D": "veratrum viride-Rubiaceae"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "有關古柯（cocaine）的叙述，下列何者錯？",
+      "options": {
+        "A": "其骨架於tropane類",
+        "B": "具有雙酯結構（diester）",
+        "C": "有局部麻醉作用",
+        "D": "benzaldehyde為其水解產物之一"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "生藥藜（veratrum）藥效成分於何種生物？",
+      "options": {
+        "A": "steroidal",
+        "B": "diterpenoid",
+        "C": "piperidine",
+        "D": "pyrrolidine"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "下列生藥何者過量使用會造成視障？",
+      "options": {
+        "A": "cinchona",
+        "B": "coca",
+        "C": "stramonium",
+        "D": "hydrastis"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "下列何者非於果實類中藥材？",
+      "options": {
+        "A": "耳子",
+        "B": "車前子",
+        "C": "枸杞子",
+        "D": "子"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "下列何者為中藥車前子之正確基原植物？",
+      "options": {
+        "A": "Plantago ovata",
+        "B": "Plantago psyllium",
+        "C": "Plantagolanceolata",
+        "D": "Plantagoasiatica"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "下列何者不是中藥葛根成分puerarin之功效？",
+      "options": {
+        "A": "抑制心搏過速",
+        "B": "抑制血管新生",
+        "C": "降血壓",
+        "D": "降瞻固醇"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "下列何者為中藥知母之功用主治？",
+      "options": {
+        "A": "温病血痢",
+        "B": "黄疽酒毒",
+        "C": "傷寒熱",
+        "D": "瘤骨蒸"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "牡丹皮新鮮時含有苷質paeonolide，經酶水解後所產生之苷元為何？",
+      "options": {
+        "A": "oxypaeoniflorin",
+        "B": "paeoniflorin",
+        "C": "paeonol",
+        "D": "lactiflorin"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "下列中藥與其拉丁生藥名之配對，何者正確？",
+      "options": {
+        "A": "桔梗-BupleuriRadix",
+        "B": "甘草-Glycyrrhizae Radix",
+        "C": "人参一Notoginseng Radix",
+        "D": "黄芩-Scutellariae Radix"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "中藥夏枯草之使用部位為何？",
+      "options": {
+        "A": "萃梗",
+        "B": "葉部",
+        "C": "根部",
+        "D": "花序或果穗"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "中藥白术具止作用；其功效為何？",
+      "options": {
+        "A": "補臀",
+        "B": "温中",
+        "C": "燥濕",
+        "D": "涩腸"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "下列何者為中藥沉香之使用部位？",
+      "options": {
+        "A": "folium",
+        "B": "lignum",
+        "C": "radix",
+        "D": "stigma"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "下列有關中藥覆盆子之叙述，何者錯？",
+      "options": {
+        "A": "基原植物科别為Rosaceae",
+        "B": "使用部位為果實",
+        "C": "主成分為hinesol",
+        "D": "具固精缩尿作用"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "下列有關中藥陳皮之叙述，何者錯？",
+      "options": {
+        "A": "具燥濕化痰作用",
+        "B": "為二陳湯组成中藥之一",
+        "C": "主要作用成分為脂質",
+        "D": "為芸香科植物"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "下列何者不是中藥當歸的主要成分？",
+      "options": {
+        "A": "n-butyl benzoate",
+        "B": "ligustilide",
+        "C": "ferulic acid",
+        "D": "butylidene phthalide"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "於豆科植物具補臀温脾、固精縮尿之中藥為何？",
+      "options": {
+        "A": "續断",
+        "B": "鎖陽",
+        "C": "補骨脂",
+        "D": "淫羊藿"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "中藥枸杞子（LyciiFructus）所含生物kukoamineA具有下列何種藥理作用？",
+      "options": {
+        "A": "降血糖",
+        "B": "降血壓",
+        "C": "刺激排卵",
+        "D": "预防化學性肝損傷"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "有關生物I-tetrahydropalmatine（如下圖）之叙述，下列何者錯？ MeO MeO DMe /-Tetrahydropalmatine OMe",
+      "options": {
+        "A": "為中藥延胡索（CorydalisRhizoma）之活性成分",
+        "B": "具isoquinoline骨架",
+        "C": "不具中福作用",
+        "D": "具有镇痛作用"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 16
+  },
+  "referenceGroupId": "pharmaceutical-analysis-natural-products",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-analysis-natural-products\\113020_22_pharmaceutical-analysis-natural-products.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-analysis-natural-products\\113020_22_pharmaceutical-analysis-natural-products.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

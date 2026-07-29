@@ -1,0 +1,708 @@
+{
+  "setId": "113090_33_pharmaceutics-biopharmaceutics",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutics-biopharmaceutics",
+  "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\113090_q33_pharmaceutics-biopharmaceutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\113090_mod33_pharmaceutics-biopharmaceutics.pdf"
+  ],
+  "questionCount": 68,
+  "answerCount": 68,
+  "parseWarnings": [
+    "Question 16: Could not parse options for question 16",
+    "Question 41: Could not parse options for question 41",
+    "Question 48: Could not parse options for question 48"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "針對改善藥品安定性之策略，下列何者最不適當？",
+      "options": {
+        "A": "添加抗氧化劑",
+        "B": "添加缓衡物質",
+        "C": "添加螯合劑",
+        "D": "劑型改為水溶液"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "有關藥物安定性試驗之叙述，下列何者錯？",
+      "options": {
+        "A": "温度越高，反應速率常數越大，會缩短有效期",
+        "B": "當反應速率不受反應物濃度影響，代表這個反應是一級反應",
+        "C": "Arrheniusequation為反應速率常數與温度之間的關係式",
+        "D": "反應速率在藥學中比较常見的是零級和一级反應"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "下列何者之極性最大？",
+      "options": {
+        "A": "hydrogen peroxide",
+        "B": "mineral oil",
+        "C": "acetone",
+        "D": "benzene"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "依中華藥典，下列何劑型最需要满置宁存？",
+      "options": {
+        "A": "tincture",
+        "B": "emulsion",
+        "C": "suspension",
+        "D": "syrup"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "有關布朗運動之叙述，下列何者正確？",
+      "options": {
+        "A": "與重力方向一致 51",
+        "B": "由高濃度往低濃度運動 45",
+        "C": "往高渗透壓方向運動 40",
+        "D": "無方向性 dyne/cm，若界面活性劑濃度增加為原本的1.5倍時，则混合液的界面張力為多少dyne/cm？ 22"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "有關明膠之叙述，下列何者最不適當？",
+      "options": {
+        "A": "可形成o/w型乳劑",
+        "B": "蛋白質類衍生物",
+        "C": "依其HLB值適合當作助溶劑",
+        "D": "所形成的乳劑久置易液化"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "下列何者不於天然乳化劑？",
+      "options": {
+        "A": "acacia",
+        "B": "tragacanth",
+        "C": "chondrus",
+        "D": "sorbitan monopalmitate"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "下列何者比重较水為小，常用於三相氣化喷雾劑作為推動劑？",
+      "options": {
+        "A": "dichlorodifluoromethane",
+        "B": "dichlorotetrafluoroethane",
+        "C": "heptafluoropropane",
+        "D": "dimethyl ether"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "根據Stokesequation，有關液劑中粒子的沉降速率，下列叙述何者錯？",
+      "options": {
+        "A": "和颗粒平均半径成正比 蘇丹III水溶解度",
+        "B": "和重力加速度成正比 蘇丹III表面超量",
+        "C": "和分散媒介的黏度成反比 渗透壓",
+        "D": "和粒舆分散媒介間的密度差成正比 列何種數值？ 臨界微膠濃度"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "利用oil：H20：acacia調配乳劑初乳時，其比例為：",
+      "options": {
+        "A": "1:2:4",
+        "B": "2:4:1",
+        "C": "4:1:2",
+        "D": "4:2:1"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "以下圖形為何種流變學性質？ Rate of Shear（切變速率） ShearingStress（切鹰力）",
+      "options": {
+        "A": "Newtonian",
+        "B": "elastic",
+        "C": "dilatant",
+        "D": "pseudoplastic"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "界面活性劑作為濕潤劑時，其最適當之HLB值為下列何圍？",
+      "options": {
+        "A": "1~3",
+        "B": "4~6",
+        "C": "7~9",
+        "D": "10~18"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "下列何者於可與水混溶之栓劑基劑？",
+      "options": {
+        "A": "Polybase",
+        "B": "Suppocire OSI",
+        "C": "Wecobee W",
+        "D": "Witepsol H15"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "依中華藥典，下列何種装置最適合用於栓劑之溶離試驗？",
+      "options": {
+        "A": "装置II",
+        "B": "装置IV",
+        "C": "装置V",
+        "D": "装置VI"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "下列何種劑型非供局部外用（topicalapplication）?",
+      "options": {
+        "A": "plaster",
+        "B": "paste",
+        "C": "poultice",
+        "D": "pastille"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "欲將水性藥品溶液研人软膏基劑，製備成具有潤虞作用、對傷口無刺激感、可吸收傷口渗出之液及容易以 水洗除性質之软膏，下列何種软膏基劑最適合？",
+      "options": {
+        "A": "whiteointment",
+        "B": "hydrophilicpetrolatum",
+        "C": "hydrophilicointment",
+        "D": "polyethylene glycol ointment"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "有關laurocapram（Azone）與dimethylsulfoxide（DMSO）促進藥物穿皮吸收之叙述，下列何者錯？",
+      "options": {
+        "A": "Azone不溶於水，DMSO可與水互溶",
+        "B": "雨者主要作用都是降低角質層障蔽對藥物廣散之阻力",
+        "C": "一般作為促進穿透所使用之濃度，Azone比DMSO高",
+        "D": "單次施用下，Azone在角質層存留之時間比DMSO長"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "有關親水软石（HydrophilicPetrolatum，USP）之叙述，下列何者正確?",
+      "options": {
+        "A": "製備過程，需要先將油相加熱融化",
+        "B": "可與水溶液研合，形成o/w乳劑",
+        "C": "含有水分，不適合應用於對水分敏感之藥物",
+        "D": "含有丙二醇（propyleneglycol）；作為保濕劑"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "聚乙二醇软膏與藥品水溶液混合時，可添加下列何者以增加软膏的硬度？",
+      "options": {
+        "A": "liquid paraffin",
+        "B": "polyethylene glycol 400",
+        "C": "propylene glycol",
+        "D": "stearyl alcohol"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "一般乾粉吸人劑之粉末，其粒径圍以下列何者最適當？",
+      "options": {
+        "A": "<1μm",
+        "B": ">15 μm",
+        "C": "7~15 μm",
+        "D": "1~6 μm"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "有關hammermills之原理；下列叙述何者最適當？",
+      "options": {
+        "A": "籍由高速氣流產生之切力，造成粒彼此互相撞撃以粉碎粒子",
+        "B": "籍由槌或葉片快速撞撃粉碎粒子，通過筛網得到適當大小之粒子",
+        "C": "藉由不鋼球的摩擦撞撃粉碎颗粒，配合震温装置以提高效率",
+        "D": "籍由旋轉上之刀片，對物質進行剪切以降低粒子大小"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "現場調製充填小數量膠囊時，下列何者最適合使用punchmethod？",
+      "options": {
+        "A": "悬浮性藥品",
+        "B": "颗粒性藥品",
+        "C": "油溶性藥品",
+        "D": "粉末性藥品"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "有關發泡粒劑（effervescentgranules）之製備方法，下列叙述何者最適當？",
+      "options": {
+        "A": "乾法是以酒精作為黏合劑，濕法则是以水作為黏合劑",
+        "B": "在粉末混合物形成软塊之過程中，乾法需經過適當之加熱",
+        "C": "乾法是以無水檸檬酸進行颗粒製備，濕法是以含結晶水檸檬酸製備之",
+        "D": "雨種方法製得之粒，以65℃温度烘乾後，须立即放人密蓄容器中存"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "以「直接加壓打锭法」打锭時；其细粉之含量以下列何者最適當？",
+      "options": {
+        "A": "5~10%",
+        "B": "10~20%",
+        "C": "20~30%",
+        "D": "30~40%"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "测定锭劑承受機械鹰力之能力，及其對碎屑與表面磨耗抗性之試驗為下列何者？",
+      "options": {
+        "A": "崩散度测試",
+        "B": "脆度試驗",
+        "C": "力試驗",
+        "D": "破碎力测試"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "打锭時，若要調整锭劑硬度，最應調整下列何项裝置？",
+      "options": {
+        "A": "upper punch",
+        "B": "lower punch",
+        "C": "die",
+        "D": "feed shoe"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "打锭發生頂裂（capping）時，可經由下列何種方式改善最適當？",
+      "options": {
+        "A": "添加细粉",
+        "B": "添加崩散劑",
+        "C": "减低人料速度",
+        "D": "加快打锭速度"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "當A和B二種固體化合物混合後，若於其相圖上（binaryphasediagram）呈現簡單型共融混合物（simple eutecticmixture）時，下列叙述何者錯？",
+      "options": {
+        "A": "混合A和B後，有時於常温即會呈液化狀態",
+        "B": "若改變A和B混合比例時，将随即影響化合物A之熔點",
+        "C": "若加人第三種物質C時，则可能會延缓A和B間之液化現象或可吸附其共融物",
+        "D": "液化現象较常發生於分子間吸引力较強的化合物"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "有關「硬膠囊劑」常用之赋形劑，下列何者不具崩散劑作用？",
+      "options": {
+        "A": "pregelatinizedstarch",
+        "B": "croscarmellose",
+        "C": "sodium starch glycolate",
+        "D": "stearic acid"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "通常利用何種動物以製備抗毒素或治療蛇毒的免疫血清（immunesera）？",
+      "options": {
+        "A": "猪",
+        "B": "牛",
+        "C": "馬",
+        "D": "小鼠"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "下列何種方法可减少疫苗之副作用，且同時增強有效性？",
+      "options": {
+        "A": "餠用兩種不同廠牌的疫苗",
+        "B": "可透過微脂體送",
+        "C": "卡介苗使用之佐劑",
+        "D": "使用前先加熱回温"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "下列何者為凝人化（humanized）的單株抗體？",
+      "options": {
+        "A": "basiliximab",
+        "B": "ibritumomab",
+        "C": "bevacizumab",
+        "D": "adalimumab"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "下列何種途径之注射劑必须為單劑量包装？",
+      "options": {
+        "A": "肌肉注射",
+        "B": "静胍注射",
+        "C": "皮下注射",
+        "D": "皮内注射"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "有關注射用水（WaterforInjection）之叙述，下列何者正確？",
+      "options": {
+        "A": "必须無菌",
+        "B": "必须無熱原",
+        "C": "可添加抑菌劑",
+        "D": "可添加等渗劑"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "有關steamsterilization之叙述，下列何者正確?",
+      "options": {
+        "A": "籍由微生物细胞脱水造成死亡",
+        "B": "可設定温度為121.5℃，减菌時間20分鐘",
+        "C": "適合石油類產品如石（petrolatum）的减菌",
+        "D": "使用减菌壓力越大，减菌時間越長"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "依中華藥典，有關執行熱原試之叙述，下列何者最適當？",
+      "options": {
+        "A": "家兔每公斤體重注射機品1毫升",
+        "B": "品注射時間不得超逼20分鐘",
+        "C": "注射後的1至5小時，每隔30分鐘記錄一次體温",
+        "D": "家兔無任一隽體温升高0.5℃或以上，產品即視為無熱原"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "有關减菌法之叙述，下列何者錯？",
+      "options": {
+        "A": "高壓蒸氣减菌法最主要菌機制，是使细菌蛋白質發生變性反應",
+        "B": "乾熱减菌法最主要减菌機制，是將细菌蛋白質還原",
+        "C": "B．subtilis為常用於高壓蒸氣减菌法之biologicalindicator",
+        "D": "B.atrophaeus為常用於乾熱减菌法之biologicalindicator"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "眼用溶液添加下列何種防腐劑時，其對抗悍菌（Pseudomonasaeruginosa）之效果不佳？",
+      "options": {
+        "A": "benzalkonium chloride（0.01%）和 polymyxin B sulfate（1,000 USP U/mL)",
+        "B": "chlorobutanol（0.5%）和 phenylethyl alcohol（0.5%)",
+        "C": "phenylmercuric acetate（0.004%）和 sodium metabisulfite（0.01%)",
+        "D": "benzalkonium chloride（0.01%）和 disodium ethylenediaminetetraacetate（0.1%)"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "當溶質增加越多，下列藥物溶液之colligativeproperties變化，何者錯？",
+      "options": {
+        "A": "蒸氣壓下降越多",
+        "B": "冰點下降越多",
+        "C": "沸點下降越多",
+        "D": "渗透壓上升越多"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "依USP藥典规定，下列何者不可用於補充體液、營養或電解質的大體积注射液（largevolume injections）?",
+      "options": {
+        "A": "phosphoric acid salts",
+        "B": "sodium metabisulfite",
+        "C": "benzalkoniumchloride",
+        "D": "ethylenediaminetetraacetic acid"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "Pyrogen主要為下列何類物質？",
+      "options": {
+        "A": "endonucleases",
+        "B": "lipopolysaccharides",
+        "C": "phospholipids",
+        "D": "toxoids"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "依下列藥品仿單所提供的資訊，此藥品最可能於下列何種控耦劑型？ Dexilant60mgcapsule：主成分為dexlansoprazole；在中性及性環境下比在酸性環境更為穩定。此",
+      "options": {
+        "A": "coatedbeads`enteric-coatedcapsules",
+        "B": "ion-exchangeresin systemextendedreleasecapsules",
+        "C": "microencapsulated drug^delayed-release capsules",
+        "D": "osmotic pump system^extended release capsules"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "下列何者最不適合做為包覆性圆粒（coatedbeads）缓耦劑型之包覆材料？",
+      "options": {
+        "A": "beeswax",
+        "B": "glycerylmonostearate",
+        "C": "hydroxypropyl methylcellulose",
+        "D": "ethylcellulose"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "連續多次口服給藥後，藥物之累半衰期（accumulationt1/2）與下列何組参數最相關？",
+      "options": {
+        "A": "ka' k",
+        "B": "Do' k",
+        "C": "DL't",
+        "D": "k,VD"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "某藥品之體内動態遵循一室模式，其原型藥由尿液排泄的分率為0.5。當該藥以静服速（400mg/h）持續 输注給與一病人後；在14hr以及穩定狀態之血中濃度分别為15mg/L及20mg/L。则此藥品之分布體积（L) 約為若干？",
+      "options": {
+        "A": "20",
+        "B": "40",
+        "C": "100",
+        "D": "200"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "承上題，若欲将穩定狀態之血中濃度迅速調升至30mg/L，则有關靜派速效劑量（D：mg）與陋速输注速率 （Rin·mg/h）之給藥設計，下列何者最適當？",
+      "options": {
+        "A": "DL : 600 ; Rin:1,200",
+        "B": "DL·1,200 ; Rin : 900",
+        "C": "DL : 2,000 ; Rin : 600",
+        "D": "DL : 3,000 ; Rin : 500"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "有關口服藥物之吸收速率常數（ka）不燮；當排除速率常數（k）增加時；對血中濃度變化之影響；下列何 者正確？①曲線下面（AUC）下降②到達血中最高濃度的時間（tmax）不燮③血中最高濃度（Cmax）下 降④血中最高濃度（Cmax）不燮",
+      "options": {
+        "A": "②④ 0.5",
+        "B": "①②④ 1",
+        "C": "①③ 2",
+        "D": "①②③ 0.17te-1.5t）；依此抗生素在體内之半衰期約為若干小時？（C：mg/L；t：hr） 4"
+      }
+    },
+    {
+      "number": 54,
+      "stem": "承上題，此抗生素在體内之分布體积約為若干L？",
+      "options": {
+        "A": "2.0 20",
+        "B": "2.5 60",
+        "C": "0.2 90",
+        "D": "0.5 除。则此藥品之分布體积（L）約為若干？（C：mg/L；t：hr） 270"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "承上题；则此藥品之清除率（L/h）約為若干？",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "18",
+        "D": "54"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "某抗生素經單次服注射100mg後；血中濃度變化曲線為C=25e-0.2t，若改以静胍输注給藥；而欲達血中 治療濃度為10mg/L時，则其所需之输注速率（mg/min）為若干？（C：mg/L；t：hr）",
+      "options": {
+        "A": "0.13 ①②5 8",
+        "B": "0.33 ①③5 6",
+        "C": "8 ③④ 10",
+        "D": "33.3 藥達穩定狀態，下列何者正確？①若穩定狀態下的治療濃度相同，则所需的輸注速率雨者相同②達到穩定 狀態所需的時間A藥比B藥長③達到穩定狀態所需的時間B藥比A藥长④若以同樣輸注速率给藥，则穩定狀 態下A藥的濃度比B藥低5若A藥與B藥的输注速率分别為4mg/h與2mg/h，其穩定狀熊濃度分别為1mg/L舆 0.5mg /L ①② μg/mL，则最應於若干小時後再次投藥以維持其療效？（C：μg/mL；t：hr；log2=0.301） 12"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "某藥物具線性藥物動力學特性，其半衰期為3小時。當此藥物以25mg/kg快速靜胍注射投舆時；其療效可",
+      "options": {
+        "A": "12 20 尿中排泄速率對血中濃度作圖（dDu/dtvs．Cp) 10",
+        "B": "6 30 單位時間尿中累排泄量對血中濃度曲線下面作圖（Du(O-t）VS．AUCo-t) 27.8",
+        "C": "9 70 單位時間平均尿中排泄量與時間中點之血中濃度的比值（Du(O-t)/(timexCp(midpoint))） D·尿中待排泄剩餘量對時間作圖（（Du²°－Du）vs．time） hr）‘當以静胍注射給藥50 mg’则此藥之凝似分布體（Vp）ss為多少L？ 55.6",
+        "D": "8 時；若經肝代的速率常數為0.2h-1，则3天後約有若干百分比的甲藥可在尿中收集得到？ 80 100"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "下列何者可推估口服藥物之吸收速率常數？",
+      "options": {
+        "A": "以Loo-Riegelman法用於一室藥動模式藥物",
+        "B": "以Wagner-Nelson法利用藥物被吸收分率數值對時間作圖",
+        "C": "以Wagner-Nelson法先推算出藥物分布速率常數後計算推估",
+        "D": "以尿藥數據計算藥物未吸收分率之對數值對時間作圖推估"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "某口服藥品之主成分具結晶多型性，最可能因下列何项性質之影響，使其製劑须進行生體相等性评估？",
+      "options": {
+        "A": "藥物腸吸收機轉",
+        "B": "肝藏代謝速率",
+        "C": "胃中安定性",
+        "D": "水溶解度"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "下表為某藥以不同劑型或給藥途径在體内所獲得之血中濃度曲線下面（AUC），依此推測影響該藥口服生 體可用率的最主要因素為何？ 劑型 給藥途径 劑量（mg） AUC (μg·h/mL) 锭劑 口服 100 39.8 溶液劑 口服 100 41.2 溶液劑 静胍注射 50 51.7 溶液劑 腹腔注射 50 24.6",
+      "options": {
+        "A": "藥品的崩散及溶離",
+        "B": "腸道吸收過程的代謝",
+        "C": "肝藏首渡代謝",
+        "D": "總體清除率的改變"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "某藥經口服給與；血中濃度曲線下面（AUC）與劑量相關性如下圖所示，下列叙述何者正確？ AUC Dose",
+      "options": {
+        "A": "劑量增加將活化體内的代謝酵素",
+        "B": "此現象可能與口服吸收達到和有關",
+        "C": "排除速率可能隨劑量增加而達到定值",
+        "D": "清除率為定值不隨劑量改變"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "有關藥品生體相等性（bioequivalence）試驗設計之考量，下列何者最適當？",
+      "options": {
+        "A": "空腹試時，受試者需空腹8小時，給藥後1小時始可進食",
+        "B": "可探拉丁方格交叉設計，洗除期間為10個排除半衰期",
+        "C": "须測定三次波峰濃度，以確定多次給藥已達穩定狀態",
+        "D": "以臨床終點定療效，一般须為交叉試驗設計"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "根據Noyes-Whitney方程式，增加動（agitation）次數為藉由下列何種原因加速固熊藥物的溶離速率？",
+      "options": {
+        "A": "增加廣散速率常數",
+        "B": "减少滞留層（stagnantlayer）厚度",
+        "C": "增加粒接觸表面",
+        "D": "加大媒液及滞留層（stagnantlayer）的濃度差"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "下列何種赋形劑可提高口服藥品的吸收速率？",
+      "options": {
+        "A": "disintegrants",
+        "B": "lubricants",
+        "C": "enteric coat",
+        "D": "coating agent"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "下列何種情况最容易造成藥品與血蛋白的結合呈和現象？",
+      "options": {
+        "A": "藥品與血蛋白的親和力较高",
+        "B": "藥品濃度舆血蛋白濃度相當",
+        "C": "藥品之血蛋白未結合分率较低",
+        "D": "血蛋白的濃度较高"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "某藥具非線性藥動學特性；當血中濃度大於10μg/mL時，其排除為零級過程；排除速率為0.25 μg/mL/h。若血中濃度為20μg/mL時，需經停藥若干小時其血中濃度可降至10μg/mL?",
+      "options": {
+        "A": "24",
+        "B": "36",
+        "C": "40",
+        "D": "48"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "某藥經由臀排除20%原型藥物；欲以靜派注射投與肝清除率降為一半的慢性肝炎病人，若其臀排除未改變， 则應如何調整給藥最適當？",
+      "options": {
+        "A": "給藥間隔時間缩短一半，劑量調整為原量的70%",
+        "B": "給藥間隔時間缩短一半，維持原劑量",
+        "C": "給藥間隔時間不變，劑量調整為原量的60%",
+        "D": "給藥間隔時間與劑量均調整為原量的60%"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "某藥口服50mg（F=0.7）後血中濃度曲線下面為35μg·h/mL。若穩定状態之平均血中濃度凝達7 μg/mL，则每6小時應口服給與若干mg？",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "40",
+        "D": "60"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "進行臀功能估時，測定creatinine血清中濃度，下列何者對其數值之影響最小？",
+      "options": {
+        "A": "肥胖",
+        "B": "性别",
+        "C": "年龄",
+        "D": "人種"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "使用Cockcroft-Gaultmethod言計算creatinine之清除率，下列何者非為必要資訊？",
+      "options": {
+        "A": "血清中creatinine濃度",
+        "B": "年龄",
+        "C": "體重",
+        "D": "藥物臀排除分率"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "在治療劑量的圍中，下列何種藥物之代谢一般多於dose-dependent？",
+      "options": {
+        "A": "phenytoin",
+        "B": "methotrexate",
+        "C": "omeprazole",
+        "D": "L-dopa"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "在一般常用劑量，下列何者不具有time-dependentpharmacokinetics之特性？",
+      "options": {
+        "A": "acetaminophen",
+        "B": "carbamazepine",
+        "C": "cisplatin",
+        "D": "heparin"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "當病人臀與肝功能不良時；將會影響下列何者，因而需要調整劑量？①藥品血蛋白結合率②藥品清 除率③凝似分布體积",
+      "options": {
+        "A": "②",
+        "B": "仅①③",
+        "C": "②③",
+        "D": "①②③"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "藥物具有那些特性時，在肝藏損傷的病人相對不調整劑量？①藥物完全由臀藏排除②藥物肝藏代謝比例 極低（<20%），且療效圍很寬③氣體或發性藥品，及原型藥與其活性代謝物主要藉由肺藏排除",
+      "options": {
+        "A": "①",
+        "B": "僮②",
+        "C": "③",
+        "D": "①②③"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 15
+  },
+  "referenceGroupId": "pharmaceutics-biopharmaceutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\113090_33_pharmaceutics-biopharmaceutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\113090_33_pharmaceutics-biopharmaceutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

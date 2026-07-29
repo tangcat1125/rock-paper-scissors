@@ -1,0 +1,699 @@
+{
+  "setId": "110100_55_therapeutics",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "therapeutics",
+  "subjectTitle": "Therapeutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_q55_therapeutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_mod55_therapeutics.pdf"
+  ],
+  "questionCount": 67,
+  "answerCount": 67,
+  "parseWarnings": [
+    "Question 19: Could not parse options for question 19",
+    "Question 45: Could not parse options for question 45",
+    "Question 55: Could not parse options for question 55",
+    "Question 65: Could not parse options for question 65"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "男童5崴，身高115公分，體重20公斤，有急性中耳炎，醫師欲處方amoxicillin/clavulanatesyrup，仿單標示 泡製後的含量為每mL含有80mg amoxicillin/11.4mgclavulanic acid，建用於中耳炎的劑量依amoxicillin成分計 算為80～90mg/kg/dayin2doses。下列劑量何者最適當？",
+      "options": {
+        "A": "20 mL Q12H",
+        "B": "10 mL Q12H",
+        "C": "15 mL Q12H",
+        "D": "24 mL Q12H"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "多重抗藥性結核病（multidrug-resistanttuberculosis,MDR-TB）是指至少對下列那二種藥品產生抗藥性？",
+      "options": {
+        "A": "isoniazid、pyrazinamide",
+        "B": "isoniazidrifampin",
+        "C": "isoniazid、ethambutol",
+        "D": "rifampin、pyrazinamide"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "肺囊肺炎（Pneumocystis jirovecii（carinii）pneumonia,PJP）治療首藥品為何？",
+      "options": {
+        "A": "azithromycin",
+        "B": "trimethoprim/sulfamethoxazole",
+        "C": "ciprofloxacin",
+        "D": "ceftriaxone"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "暴露愛滋病毒前预防性投藥（pre-exposureprophylaxis,PrEP），是使用下列何種藥品來预防被病毒感染的可 能？",
+      "options": {
+        "A": "darunavir+ritonavir",
+        "B": "tenofovir+emtricitabine",
+        "C": "dolutegravir + abacavir",
+        "D": "zidovudine + efavirenz"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "下列何種疾病復發時，没有症状的性伴侣通常必须一起接受治療？①淋病（gonorrhea）②滴蠢陰道炎 （trichomoniasis）③念珠菌陰道炎（vulvovaginalcandidiasis）",
+      "options": {
+        "A": "①③",
+        "B": "懂②③",
+        "C": "①②",
+        "D": "①②③"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "若病人無腸阻塞（ileus）情况，下列何者為治療其Clostridiumdifficile重感染之首選？",
+      "options": {
+        "A": "口服metronidazole",
+        "B": "口服vancomycin",
+        "C": "静派输注metronidazole",
+        "D": "静派输注vancomycin"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "有關壤死性筋膜炎（necrotizingfasciitis）之叙述，下列何者最不適當？",
+      "options": {
+        "A": "若抗生素治療效果不佳時，再由外科醫師清創傷口",
+        "B": "初始抗生素使用piperacillin/tazobactam+vancomycin",
+        "C": "若加上clindamycin治療可籍由抑制蛋白合成减少细菌毒素生成",
+        "D": "须給與極输液補充（fluidresuscitation）"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "下列叙述何者正確？",
+      "options": {
+        "A": "女性常因憋尿或性行為後感染複雜性膀胱炎",
+        "B": "懷孕婦女虽易感染膀胱炎，但多非複雜性膀胱炎，只要以口服抗生素治療3天即可",
+        "C": "fosfomycin3g singledose可治療成年女性急性非複雜性膀胱炎",
+        "D": "急性攝護腺炎，因與膀胱炎的病原菌不同，所以通常要選選第二線抗生素治療"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "下列那個cephalosporin類藥品進人腦脊髓液的比例最低？",
+      "options": {
+        "A": "cefazolin",
+        "B": "cefuroxime",
+        "C": "cefotaxime",
+        "D": "cefepime"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "有關febrileneutropenia病人經驗性口服抗生素之選選，下列何者錯？",
+      "options": {
+        "A": "建以clarithromycin做為起始治療",
+        "B": "低風险的病人才可使用口服抗生素治療",
+        "C": "最常使用ciprofloxacin+amoxicillin/clavulanate",
+        "D": "β-lactam過敏的病人可以選選ciprofloxacin+clindamycin"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "幼年時期若有下列何種情况，未來罹患氯喘的風最低？",
+      "options": {
+        "A": "多次受到呼吸道融合病毒（respiratory syncytialvirus）感染 5~10mm",
+        "B": "接、狗等動物的機會较多 1~5 μm",
+        "C": "經常使用抗生素治療细菌感染 1~5 nm",
+        "D": "可能减少與其他同年龄兒童接觸的機會 6~10 nm"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "下列何者為5-lipoxygenase inhibitor?",
+      "options": {
+        "A": "zafirlukast",
+        "B": "zidovudine",
+        "C": "zileuton",
+        "D": "zolpidem"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "有關omalizumab之叙述，下列何者錯？",
+      "options": {
+        "A": "投與方式為静派注射，每2或4一次 需要時使用吸人型短效β2-agonist",
+        "B": "為一種recombinant anti-IgE antibody 固定使用吸人型短效β2-agonist",
+        "C": "用於口服或吸人性類固醇無法控制之過敏性氣喘 固定使用吸人型類固醇及長效β2-agonist複方製劑",
+        "D": "給藥後過敏性休克（anaphylaxis）之發生率约0.2% 固定使用吸人型長效β2-agonist"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "下列何者用於過敏性鼻炎打喷嚏之效果最好？",
+      "options": {
+        "A": "鼻用azelastine",
+        "B": "鼻用cromolyn",
+        "C": "服pseudoephedrine",
+        "D": "口服montelukast"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "下列何者不是细菌性中耳炎（otitismedia）常见致病菌？",
+      "options": {
+        "A": "Streptococcuspneumoniae",
+        "B": "Haemophilus influenzae",
+        "C": "Moraxella catarrhalis",
+        "D": "Pseudomonas aeruginosa"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "有關angiotensin receptor-neprilysin inhibitor（ARNI）之叙述；下列何者正確？",
+      "options": {
+        "A": "可與captopril供用，以增加療效",
+        "B": "活化renin-angiontensin-aldosterone系统",
+        "C": "须注意血管性水（angioedema）之副作用",
+        "D": "sacubitril%angiotensin receptor inhibitor"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "下列何者因减少静止心率（restingheartrate）的效果不佳，故不適用於治療穩定型心绞痛（stable angina）的 病人？",
+      "options": {
+        "A": "atenolol",
+        "B": "carvedilol",
+        "C": "metoprolol",
+        "D": "pindolol"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "下列何種病人最不適合接受extended duration之dual antiplatelet therapy（DAPT）？[注：經皮冠状動胍介人治 療（PCI）；冠状動派道手術（CABG）]",
+      "options": {
+        "A": "穩定性心绞痛，接受PCI且放置金支架",
+        "B": "穩定性心绞痛，接受PCI且放置塗藥支架",
+        "C": "急性冠心症，接受PCI",
+        "D": "急性冠心症，接受CABG"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "下列藥品與常見不良反應的配對，何者錯？",
+      "options": {
+        "A": "nitroglycerin一心悸",
+        "B": "nifedipine一部潮红",
+        "C": "metoprolol－血钾過低",
+        "D": "verapamil－便秘"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "有關sublingualnitroglycerintablet之叙述，下列何者錯？",
+      "options": {
+        "A": "易受熱、潮濕和光線的影響而分解失效",
+        "B": "使用特殊的安全瓶蓋（safetycap）以防止兒童接藥品",
+        "C": "藥瓶中的棉塞常不易移除，應在首次收到藥品時即丢",
+        "D": "藥瓶開封6～12個月後，即使藥锭没有使用過也應丢"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "下列何者是長期预防無症状心肌梗塞（silentmyocardialinfarction）起始治療之首選？",
+      "options": {
+        "A": "calcium channelblockers",
+        "B": "a-receptor antagonists",
+        "C": "β-receptor antagonists",
+        "D": "long-acting nitrates"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "下列叙述何者正確？",
+      "options": {
+        "A": "dabigatran會導致胃痛與灼熱感",
+        "B": "rivaroxaban不须依據臀功能調整劑量",
+        "C": "apixaban定期监测international normalizedratio（INR）评估療效",
+        "D": "warfarin服用後60～120分鐘即吸收，發抗凝血效果"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "有關合饼症與高血壓治療首之配對，下列何者正確？",
+      "options": {
+        "A": "糖尿病（DM）－felodipine",
+        "B": "上心室心搏過速（PSVT）－losartan",
+        "C": "冠状動胍心藏疾病（CAD）－metoprolol",
+        "D": "慢性臀疾病（CKD）－diltiazem"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "下列何者最不可能是amiodarone造成之副作用？",
+      "options": {
+        "A": "hypothyroidism",
+        "B": "pulmonary fibrosis",
+        "C": "abnormalliverfunction",
+        "D": "hypokalemia"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "下列何種H.pylori之驗；须經内視镜探取體？",
+      "options": {
+        "A": "抗體值侧（antibody detection）",
+        "B": "微生物培養（culture）",
+        "C": "冀便抗原試驗（fecalantigentest）",
+        "D": "尿素呼氣試（ureabreath test）"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "下列何者之活性成分不於aminosalicylates？",
+      "options": {
+        "A": "azathioprine",
+        "B": "balsalazide",
+        "C": "mesalamine",
+        "D": "sulfasalazine"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "下列何者引起肝損傷時，最常伴随皮膚過敏症候群？",
+      "options": {
+        "A": "acetaminophen",
+        "B": "allopurinol",
+        "C": "diclofenac",
+        "D": "isoniazid"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "有關下列4種neurokinin1（NK1）receptor antagonists特性之叙述；下列何者正確？①aprepitant ②fosaprepitant③netupitantrolapitant",
+      "options": {
+        "A": "與NK1受器的结合力排序：③>②>④>①",
+        "B": "排除半衰期：④>③>②=①",
+        "C": "预防化療引起的匾吐之給藥频率：①單次給藥，②單次給藥，③單次給藥，④每日一次",
+        "D": "抑制肝藏酵素CYP3A4的能力：①>②=③=④"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "下列何者會增加aminoglycoside相關急性臀衰竭的風？①慢性臀病②较高的峰濃度③饼用 vancomycin once daily dosing",
+      "options": {
+        "A": "①② 60",
+        "B": "①③ 120",
+        "C": "②④ 180",
+        "D": "③④ 應給舆多少mEq之NaHCO3？ 240"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "下列何者最不可能造成臀性尿崩症（nephrogenic diabetes insipidus）?",
+      "options": {
+        "A": "cidofovir",
+        "B": "foscarnet",
+        "C": "hydrochlorothiazide",
+        "D": "lithium"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "下列何者主要不是經由臀後阻塞（postrenalobstruction）造成臀毒性？",
+      "options": {
+        "A": "co-trimoxazole",
+        "B": "acyclovir",
+        "C": "tobramycin",
+        "D": "methotrexate"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "有關carbamazepine之叙述，下列何者正確？",
+      "options": {
+        "A": "不會造成視覺常（visualdisturbance）",
+        "B": "亚洲人初次使用前，建检查HLA-B*1052基因型",
+        "C": "不經過肝代謝",
+        "D": "可能會造成白血球低下"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "下列何者無法有效治療運動困難（dyskinesias）?",
+      "options": {
+        "A": "amantadine",
+        "B": "trihexyphenidyl",
+        "C": "减少levodopa每次使用劑量加上rasagiline",
+        "D": "减少levodopa每次使用劑量加上entacapone"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "有關血栓溶解劑之叙述，下列何者錯？",
+      "options": {
+        "A": "alteplase是一種plasminogen活化劑",
+        "B": "使用於缺血性腦中風急性治療，建於症状發生之12小時内開始使用",
+        "C": "使用前须確無内出血（ICH）",
+        "D": "懷孕婦女不建使用"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "有關疼痛治療之叙述，下列何者錯？",
+      "options": {
+        "A": "ketorolac用於術後疼痛治療時不應多於5天，以免造成腸胃道出血",
+        "B": "procaine作用持續時間较bupivacaine長，较適合做為阻知覺神經傳導的麻醉止痛劑",
+        "C": "經由蜘蛛膜下腔（subarachnoid）投與opioid，可和少量epinephrine同時投與，以减少opioid經由腦脊髓液流 失",
+        "D": "morphine脂溶性较差；硬膜外（epidural）持續注射；止痛效果可较持久"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "下列何者適用於控制Parkinson'sdisease之tremor症状，對bradykinesia及rigidity较無助？",
+      "options": {
+        "A": "amantadine",
+        "B": "biperiden",
+        "C": "selegiline",
+        "D": "rasagiline"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "下列何者可预防偏頭痛的發作？",
+      "options": {
+        "A": "ergotamine estazolam在服用30分鐘内發生作用，可改善人睡困難的問題",
+        "B": "amitriptyline estazolam可降低無法睡好覺的焦虑，减少失眠對心的負面影響",
+        "C": "prochlorperazine 使用estazolam可能有昏沈的感覺",
+        "D": "sumatriptan 42.42女性有心肌梗塞病史，失眠持續6以上，人睡困難，睡眠持續度不佳，有早醒的困。她心一旦吃了 醫師開給她的estazolam，會依賴及成瘾。下列用藥指導内容何者最不適當？ 若使用超過四调，會對estazolam產生依賴性；若突然停藥，可能使失眠恶化"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "有關锂之叙述，下列何者錯？",
+      "options": {
+        "A": "治療急性躁症的作用時間快是優點之一",
+        "B": "可测血中濃度，在躁症急性期所须的濃度通常较維持期高",
+        "C": "可能造成tremor，持續使用通常可以改善",
+        "D": "可能增加胎兒心血管常的風，懷孕期間使用應密切测"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "下列何者最容易造成代谢症候群（metabolic syndrome）？",
+      "options": {
+        "A": "asenapine",
+        "B": "lurasidone",
+        "C": "olanzapine",
+        "D": "ziprasidone"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "有關naloxone之叙述，下列何者錯？",
+      "options": {
+        "A": "opioid competitive antagonist",
+        "B": "用於治療opioid中毒",
+        "C": "IVinjection起始劑量可為0.2～0.4mg",
+        "D": "用於治療methadone戒反鹰"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "下列何種藥品不適合用於跨時區旅行者調整時差？",
+      "options": {
+        "A": "zolpidem aspartame",
+        "B": "triazolam benzalkonium chloride",
+        "C": "diphenhydramine diethylhexylphthalate",
+        "D": "zaleplon tartrazine"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "下列何者最可能造成甲状腺功能低下的副作用？",
+      "options": {
+        "A": "amiodarone",
+        "B": "amlodipine",
+        "C": "azathioprine",
+        "D": "ampicillin"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "有關甲状腺風暴（thyroid storm）的治療，下列何者正確？",
+      "options": {
+        "A": "须先给與iodide，至少一小時後再使用thioamides",
+        "B": "须使用高劑量注射劑型的thioamides",
+        "C": "類固醇會惡化甲状腺風暴，應避免使用",
+        "D": "使用propranolol可改善心跳過快，抑制周的T4轉為T3"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "有關statins類藥品造成肌肉疼痛症状之叙述，下列何者正確？",
+      "options": {
+        "A": "一旦懷疑症状為藥品造成，建之後避免使用statins",
+        "B": "肌肉病變傷害為永久性，停藥後症状大多無法完全改善",
+        "C": "理上親水性statins與親脂性statins相比，前者有较少機會發生肌肉病變",
+        "D": "肌肉疼痛發生機率與所使用的藥品劑量無"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "肥胖是下列疾病的風险因子，何者除外？",
+      "options": {
+        "A": "高血壓",
+        "B": "胃食道逆流",
+        "C": "骨關節炎",
+        "D": "骨質疏症"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "下列何者最不可能使體重增加？",
+      "options": {
+        "A": "bupropion",
+        "B": "clozapine",
+        "C": "risperidone",
+        "D": "corticosteroids"
+      }
+    },
+    {
+      "number": 54,
+      "stem": "有下列情况之婦女，不建使用combinationoralcontraceptives避孕，何者除外？",
+      "options": {
+        "A": "大於35崴，每日吸一包",
+        "B": "骨質疏",
+        "C": "乳癌",
+        "D": "哺乳"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "下列何種胰島素製劑作用時間最短？",
+      "options": {
+        "A": "insulin lispro",
+        "B": "insulin glargine",
+        "C": "insulin detemir",
+        "D": "insulin degludec"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "下列何者引|發之SJS/TEN（Stevens-Johnson syndrome/toxic epidermal necrolysis）舆HLA-B*1502基因有關？",
+      "options": {
+        "A": "abacavir",
+        "B": "carbamazepine",
+        "C": "allopurinol",
+        "D": "diclofenac"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "有關raloxifene之叙述，下列何者錯？",
+      "options": {
+        "A": "高蛋白結合率",
+        "B": "主要由冀便排除",
+        "C": "食物會顯著影響其吸收",
+        "D": "經代谢形成glucuronideconjugates"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "有關vitaminD之叙述，下列何者錯？",
+      "options": {
+        "A": "會刺激钙在小腸的吸收",
+        "B": "與磷的吸收無關",
+        "C": "蛋黄中富含vitaminD",
+        "D": "脂溶性維生素"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "有關足癣（tineapedis）治療之叙述，下列何者錯？",
+      "options": {
+        "A": "外用抗徽菌藥品中，乳膏之療效通常较粉末好",
+        "B": "外用clotrimazole乳膏之療程為至少1",
+        "C": "若為急性發炎期，可用鹽做為收敛劑",
+        "D": "若感染至趾甲，口服抗菌藥品效果较佳"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "有關allopurinol之叙述，下列何者錯？",
+      "options": {
+        "A": "须依照臀功能調整劑量 無痛風病史之病人须極降低血液尿酸 B·如考虑使用allopurinol·鹰先测HLA-B*5801",
+        "B": "须依照肝功能調整劑量",
+        "C": "與azathioprine及mercaptopurine有重交互作用 一旦發現，應速用藥",
+        "D": "重過敏反應與其活性代謝物有關 已證實藥品治療可预防臀藏相關供發症"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "王老先生因退化性關節炎長期使用acetaminophen，3年前曾接受心導管支架置人手術；最近膝蓋疼痛加劇。下 列口服藥，何者最適合用於缓解其膝蓋疼痛？",
+      "options": {
+        "A": "naproxen",
+        "B": "piroxicam",
+        "C": "sulindac",
+        "D": "celecoxib"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "下列NSAIDs中，何者须經肝藏代謝後始具活性？",
+      "options": {
+        "A": "fenoprofen",
+        "B": "meloxicam",
+        "C": "nabumetone",
+        "D": "naproxen"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "下列何者為長效白血球生長刺激素？",
+      "options": {
+        "A": "filgrastim",
+        "B": "lenograstim",
+        "C": "sargramostim",
+        "D": "pegfilgrastim"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "下列何者不是用於晚期大腸直腸癌的VEGF/VEGFR系統抑制劑？",
+      "options": {
+        "A": "regorafenib",
+        "B": "ramucirumab",
+        "C": "ziv-aflibercept",
+        "D": "trifluridine/tipiracil"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "有關小兒急性淋巴性白血病（acutelymphoblasticleukemia）治療之叙述，下列何者正確？",
+      "options": {
+        "A": "最強的预後因子是對於治療反應的速度與完成inductionthearpy時的minimalresidualdisease（MRD）",
+        "B": "只有在高風的族群，中福神經预防性治療才有意義",
+        "C": "induction之目的是清除無法探测到的恶性细胞，確保缓解（remission）的成果",
+        "D": "maintenance之目的是快達到臨床與骨髓的缓解（remission）"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "有關慢性骨髓性白血病（CML）之叙述，下列何者錯？",
+      "options": {
+        "A": "主要致病的染色體變化為第9與第22對染色體轉位，又Philadelphiachromosome，導致BCR-ABL融合蛋白 表現增加",
+        "B": "可使用tyrosinekinase inhibitors做為第一線治療，如ibrutinib",
+        "C": "韩细胞移植為治愈CML的最佳方式，但因其饼發症極多，非第一線療法",
+        "D": "可依BCR-ABLPCR機驗值追治療反應，依其變化或基因突變選選治療藥品"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "下列何者之治療濃度（therapeuticconcentration）最高？",
+      "options": {
+        "A": "cyclosporine oxacillin-resistant Staphylococci : daptomycin",
+        "B": "everolimus oxacillin-susceptible Staphylococci : clindamycin",
+        "C": "tacrolimus Enterococci : ampicillin + ceftriaxone",
+        "D": "sirolimus 71.37崴男性静胍注射藥瘾者，發燒39℃至急診，心藏超音波發現三尖瓣有生物（vegetation），初步驗為革 蘭氏陽性菌，下列細菌與抗生素選選，何者最不適當？"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "承上题，若病人確診為心内膜炎且接受vancomycin治療，下列處置何者最不適當？",
+      "options": {
+        "A": "vancomycin劑量须依實際體重計算 amiodarone",
+        "B": "建vancomycin血中谷濃度5～12mg/L adenosine",
+        "C": "輸注時間须大於1小時 mexiletine",
+        "D": "若治療過程中發生急性臀損傷；可更换為daptomycin 73.60崴女性，160公分，50公斤，有甲状腺機能亢進與高血壓；因心房維颤動（atrialfibrillation）人院，肝臀 功能正常。下列何者是其心律不整藥品的首選？ metoprolol"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "承上題，應如何预防此病人中風的叙述，何者正確？",
+      "options": {
+        "A": "不须用藥",
+        "B": "aspirin 100 mg QD",
+        "C": "aspirin 100 mg QD + clopidogrel 75 mg QD",
+        "D": "apixaban 5 mg BID"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "病人有下列何種共病時，應避免使用pegylatedinterferon（PegIFN）治療B型肝炎？",
+      "options": {
+        "A": "重度郁症",
+        "B": "末期臀病",
+        "C": "多毛症",
+        "D": "心肌梗塞"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "承上題，若病人初次使用PegIFN後2小時，有發熱及心匾吐等症狀時，應如何處置最適當？",
+      "options": {
+        "A": "停藥不再使用PegIFN amlodipine 5 mg QD",
+        "B": "給舆acetaminophen，續使用PegIFN captopril 25 mg QD",
+        "C": "給與類固醇；亚續使用PegIFN furosemide 40 mg QD",
+        "D": "停藥一後，再次給與PegIFN 77.68崴女性，有高血壓丶糖尿病與第五期慢性臀病；長期服用下列藥品。其血钾6.0mEq/L（體無溶血），無 臨床症狀，心電圖正常。其高血钾可能與下列何者有關？ metformin 500 mg QD"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "承上題，病人空腹血糖值205mg/dL，HbA1c8.8%，其降血糖藥鹰如何調整？",
+      "options": {
+        "A": "停用metformin，密切測血糖",
+        "B": "停用metformin，改為linagliptin5mgQD",
+        "C": "續用metformin，加上insulinglargineSCQD",
+        "D": "續用metformin，加上linagliptin5mgQD"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "許先生67崴，近日常情不穩丶虚弱、雙刺麻感、舌頭疼痛；Hgb8.4g/dL丶Hct26%、reticulocyte0.4% MCV 115 μm²丶MCH 38 pg丶serum iron 90 μg/dL丶TIBC 350 g/dL丶serum ferritin 140 ng/mL，若要確定其質血 之原因，還需要下列查結果，但何者除外？",
+      "options": {
+        "A": "Coombs test",
+        "B": "RBC folate",
+        "C": "serum vitamin B12",
+        "D": "intrinsic factor antibody"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "承上題，許先生開始接受藥品治療箕血，因為紅血球大量製造，下列何種離子可能不足’必须補充？",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "钙"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 12
+  },
+  "referenceGroupId": "therapeutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\110100_55_therapeutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\110100_55_therapeutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

@@ -1,0 +1,1045 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>藥治 20 題</title>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --panel: #ffffff;
+      --panel-2: #fbfaf7;
+      --text: #14213d;
+      --muted: #5b6472;
+      --accent: #0f766e;
+      --accent-2: #d97706;
+      --line: #d7d3cb;
+      --shadow: 0 18px 40px rgba(20, 33, 61, .10);
+      --correct: #0f766e;
+      --wrong: #b42318;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,.12), transparent 28%),
+        radial-gradient(circle at 80% 0%, rgba(217,119,6,.12), transparent 26%),
+        linear-gradient(180deg, #f6f0e6 0%, #eef3f8 100%);
+      min-height: 100vh;
+    }
+    .shell { max-width: 1440px; margin: 0 auto; padding: 20px; }
+    .topbar, .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); }
+    .topbar {
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .brand-kicker { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .brand-title { margin: 0; font-size: 28px; }
+    .brand-copy { color: var(--muted); margin-top: 6px; line-height: 1.6; }
+    .meta-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; width: min(760px, 100%); }
+    .meta-card { border: 1px solid var(--line); border-radius: 18px; padding: 14px; background: var(--panel-2); }
+    .meta-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .meta-value { font-size: 22px; font-weight: 800; }
+    .layout { display: grid; grid-template-columns: 260px minmax(0, 1fr) 320px; gap: 16px; align-items: start; }
+    .panel { padding: 18px; }
+    .panel h2 { margin: 0 0 12px; font-size: 18px; }
+    .panel .note { color: var(--muted); line-height: 1.6; margin-bottom: 14px; }
+    .section-chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 14px; }
+    .section-chip { padding: 6px 10px; border-radius: 999px; background: rgba(15,118,110,.10); color: var(--accent); font-size: 12px; font-weight: 700; }
+    .nav-list { display: grid; gap: 8px; max-height: calc(100vh - 220px); overflow: auto; padding-right: 4px; }
+    .nav-btn {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 14px;
+      padding: 12px 14px;
+      text-align: left;
+      cursor: pointer;
+      font: inherit;
+      color: var(--text);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .nav-btn.active { border-color: var(--accent); box-shadow: inset 0 0 0 1px rgba(15,118,110,.12); }
+    .nav-btn.answered { background: rgba(15,118,110,.06); }
+    .nav-btn small { color: var(--muted); display: block; margin-top: 2px; }
+    .question-card { background: linear-gradient(180deg, #fff 0%, #fffdf9 100%); border: 1px solid var(--line); border-radius: 20px; padding: 18px; }
+    .question-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    .question-badge { background: rgba(15,118,110,.10); color: var(--accent); padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 700; }
+    .question-title { margin: 0; font-size: 22px; line-height: 1.45; white-space: pre-wrap; }
+    .citation { color: var(--muted); font-size: 14px; margin-top: 8px; }
+    .options { display: grid; gap: 10px; margin-top: 16px; }
+    .option { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: #fff; display: flex; gap: 12px; align-items: flex-start; }
+    .option input { margin-top: 4px; transform: scale(1.1); }
+    .option .letter { font-weight: 800; min-width: 22px; }
+    .option.correct { border-color: var(--correct); background: rgba(15,118,110,.07); }
+    .option.wrong { border-color: var(--wrong); background: rgba(180,35,24,.07); }
+    .option .text { line-height: 1.6; white-space: pre-wrap; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+    .btn {
+      border: 0;
+      border-radius: 14px;
+      min-height: 46px;
+      padding: 0 16px;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn.primary { background: var(--accent); color: #fff; }
+    .btn.secondary { background: #edf2f7; color: var(--text); }
+    .btn.ghost { background: transparent; color: var(--accent); border: 1px solid rgba(15,118,110,.18); }
+    .progress { margin-top: 12px; height: 10px; background: #e9eef5; border-radius: 999px; overflow: hidden; }
+    .progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), #22c55e); width: 0%; }
+    .side-list { display: grid; gap: 10px; }
+    .info-card { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: var(--panel-2); }
+    .info-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .info-value { font-size: 18px; font-weight: 800; }
+    .log { font-size: 13px; color: var(--muted); line-height: 1.6; white-space: pre-wrap; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 12px; max-height: 220px; overflow: auto; }
+    .summary { margin-top: 16px; display: none; }
+    .summary.show { display: block; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 12px; }
+    .summary-item { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: #fff; }
+    .summary-item .k { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .summary-item .v { font-size: 22px; font-weight: 800; }
+    .reference-list { display: grid; gap: 8px; }
+    .reference-list a { color: var(--accent); text-decoration: none; }
+    .mobile-actions { display: none; position: sticky; bottom: 12px; z-index: 20; margin-top: 14px; }
+    .mobile-actions .bar { display: flex; gap: 10px; padding: 12px; background: rgba(20,33,61,.96); color: #fff; border-radius: 18px; align-items: center; justify-content: space-between; box-shadow: var(--shadow); }
+    .mobile-actions .bar .btn { min-height: 42px; }
+    @media (max-width: 1200px) {
+      .layout { grid-template-columns: 1fr; }
+      .nav-list { max-height: none; }
+      .summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .meta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .mobile-actions { display: block; }
+    }
+    @media (max-width: 767px) {
+      .shell { padding: 12px; }
+      .topbar { padding: 16px; border-radius: 18px; }
+      .panel { border-radius: 18px; }
+      .meta-grid, .summary-grid { grid-template-columns: 1fr; }
+      .brand-title { font-size: 22px; }
+      .question-title { font-size: 18px; }
+      .actions .btn { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="topbar">
+      <div>
+        <div class="brand-kicker">EXEAM Diagnostic Session</div>
+        <h1 class="brand-title">藥治 20 題</h1>
+        <div class="brand-copy">單獨測藥治第一科 20 題。答案會在提交前隱藏，提交後才顯示結果。</div>
+        <div class="section-chip-row" id="section-chips"></div>
+      </div>
+      <div class="meta-grid">
+        <div class="meta-card"><div class="meta-label">測驗模式</div><div class="meta-value" id="mode-value">藥治 20 ?</div></div>
+        <div class="meta-card"><div class="meta-label">剩餘時間</div><div class="meta-value" id="meta-time">30:00</div></div>
+        <div class="meta-card"><div class="meta-label">已作答</div><div class="meta-value" id="meta-answered">0</div></div>
+        <div class="meta-card"><div class="meta-label">進度</div><div class="meta-value" id="meta-progress">0%</div></div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel">
+        <h2>題號導覽</h2>
+        <div class="note">點擊可以快速跳題。灰色表示尚未作答，綠色表示已作答。</div>
+        <div class="nav-list" id="nav-list"></div>
+      </aside>
+
+      <main class="panel">
+        <h2>主測試頁</h2>
+        <div class="note">請先作答，提交後才會顯示正確答案與解析摘要。</div>
+        <div class="progress"><span id="progress-bar"></span></div>
+        <div id="question-root"></div>
+        <div class="summary" id="summary-panel">
+          <h2>作答結果</h2>
+          <div class="summary-grid" id="summary-grid"></div>
+          <div class="actions" style="margin-top:14px;">
+            <a class="btn ghost" href="../index.html">回首頁</a>
+          </div>
+        </div>
+      </main>
+
+      <aside class="panel">
+        <h2>題庫說明</h2>
+        <div class="note">每題都保留單元引述與參考連結，方便提交後回頭查證。</div>
+        <div class="side-list">
+          <div class="info-card"><div class="info-label">測驗模式</div><div class="info-value" id="mode-value-side">藥治 20 ?</div></div>
+          <div class="info-card"><div class="info-label">資料來源</div><div class="info-value">D:\\exeam\\question-bank</div></div>
+          <div class="info-card"><div class="info-label">紀錄狀態</div><div class="info-value" id="log-state">等待作答</div></div>
+          <div class="info-card">
+            <div class="info-label">事件記錄</div>
+            <div class="log" id="event-log">Session initialized.\nAnswers remain hidden until submission.</div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">參考連結</div>
+            <div class="reference-list" id="reference-list"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="mobile-actions">
+      <div class="bar">
+        <div>
+          <div style="font-weight:800;">測驗進行中</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.72);" id="mobile-status">答案會在提交後顯示</div>
+        </div>
+        <button class="btn primary" id="mobile-submit">提交</button>
+      </div>
+    </div>
+  </div>
+
+  <script id="session-data" type="application/json">{
+  "generatedAt": "2026-07-29T12:54:32",
+  "mode": "therapeutics",
+  "modeText": "藥治 20 ?",
+  "timeLimitMinutes": 30,
+  "sections": [
+    {
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "questionCount": 20
+    }
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "setId": "107100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 25,
+      "stem": "下列何者最常有腹瀉之副作用？",
+      "options": {
+        "A": "clonidine",
+        "B": "irinotecan",
+        "C": "prochlorperazine",
+        "D": "trihexyphenidyl"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 1,
+      "sectionQuestionIndex": 1,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "113020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 36,
+      "stem": "醫師處方loperamide2mg/cap治療急性腹漓，成人每日極量為多少caps？",
+      "options": {
+        "A": "2",
+        "B": "16",
+        "C": "4",
+        "D": "8"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\113020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\113020_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 2,
+      "sectionQuestionIndex": 2,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "114090_0405_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 6,
+      "stem": "下列有關genital warts與human papillomavirus（HPV）的敘述，何者正確？",
+      "options": {
+        "A": "尖形濕疣俗稱菜花，主要由HPV 第9 型及第18 型引起",
+        "B": "HPV 疫苗在有性行為以前施打，可得到最大保護效力，建議施打年齡為16～45 歲",
+        "C": "HPV 與生殖器部位以及口咽部位的癌症相關",
+        "D": "治療應以藥品優先，如效果不彰，再以冷凍治療或手術移除"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\114090_q0405_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\114090_ans0405_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 3,
+      "sectionQuestionIndex": 3,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "109100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 34,
+      "stem": "有關phenytoininjection臨床使用之叙述，下列何者正確？",
+      "options": {
+        "A": "藥品半衰期會隨給藥劑量而",
+        "B": "製劑一般内含cremophor助溶劑",
+        "C": "理想療劑圍血中濃度為10～20μg/L",
+        "D": "應以5%dextroseinwater稀稗後给藥"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\109100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\109100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 4,
+      "sectionQuestionIndex": 4,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 26,
+      "stem": "有關合饼症與高血壓治療首之配對，下列何者正確？",
+      "options": {
+        "A": "糖尿病（DM）－felodipine",
+        "B": "上心室心搏過速（PSVT）－losartan",
+        "C": "冠状動胍心藏疾病（CAD）－metoprolol",
+        "D": "慢性臀疾病（CKD）－diltiazem"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 5,
+      "sectionQuestionIndex": 5,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "115090_0405_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 31,
+      "stem": "承上題，張先生出院後使用atenolol及hydrochlorothiazide治療高血壓。使用hydrochlorothiazide之病 人應定期測那些项目？①甲状腺功能②尿酸值③血脂④血糖",
+      "options": {
+        "A": "①②③",
+        "B": "②③④",
+        "C": "①③④",
+        "D": "①②④"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\115090_q0405_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\115090_ans0405_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 6,
+      "sectionQuestionIndex": 6,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "109100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 29,
+      "stem": "有關inflammatoryboweldisease用藥之叙述，下列何者正確？",
+      "options": {
+        "A": "olsalazine可用於sulfonamide過敏的病人",
+        "B": "sulfasalazine的有效成分是sulfapyridine",
+        "C": "mesalamine是balsalazide的prodrug",
+        "D": "mesalamine在结腸部位經由细菌裂解成olsalazine"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\109100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\109100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 7,
+      "sectionQuestionIndex": 7,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 7,
+      "stem": "有關瞻道發炎時的經驗性抗生素治療之叙述，下列何者錯？",
+      "options": {
+        "A": "應優先選選能針對革蘭氏陰性菌如E.coli及K.pneumoniae有作用的廣效性抗生素",
+        "B": "如有院内感染的可能，應考虑供用對悍菌（P.aeruginosa）及methicillin-resistantS.aureus（MRSA）有 效的廣效性抗生素",
+        "C": "若是老人或小孩，應考虑餠用抗徽菌用藥",
+        "D": "aminoglycosides的效果不佳，且毒性较高，不建例行性使用"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\110020_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 8,
+      "sectionQuestionIndex": 8,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 37,
+      "stem": "下列何者可用於治療H.pylori引|起之pepticulcer？",
+      "options": {
+        "A": "aripiprazole",
+        "B": "posaconazole",
+        "C": "rabeprazole",
+        "D": "voriconazole"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\112020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\112020_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 9,
+      "sectionQuestionIndex": 9,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "115020_0405_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 35,
+      "stem": "下列何者是腸内菌分解sulfasalazine產生的有效成分？",
+      "options": {
+        "A": "balsalazide",
+        "B": "olsalazine",
+        "C": "mesalamine",
+        "D": "sulfapyridine"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\115020_q0405_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\115020_ans0405_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 10,
+      "sectionQuestionIndex": 10,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "113020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 46,
+      "stem": "下列何者不是治療absenceseizure的常用藥品？",
+      "options": {
+        "A": "carbamazepine",
+        "B": "ethosuximide",
+        "C": "lamotrigine",
+        "D": "valproate"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\113020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\113020_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 11,
+      "sectionQuestionIndex": 11,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 50,
+      "stem": "下列何者長期使用會增加體重？",
+      "options": {
+        "A": "insulin",
+        "B": "phentermine",
+        "C": "dextroamphetamine",
+        "D": "verapamil"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 12,
+      "sectionQuestionIndex": 12,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 60,
+      "stem": "有關足癣（tineapedis）治療之叙述，下列何者錯？",
+      "options": {
+        "A": "外用抗徽菌藥品中，乳膏之療效通常较粉末好",
+        "B": "外用clotrimazole乳膏之療程為至少1",
+        "C": "若為急性發炎期，可用鹽做為收敛劑",
+        "D": "若感染至趾甲，口服抗菌藥品效果较佳"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\110100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 13,
+      "sectionQuestionIndex": 13,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "115090_0405_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 7,
+      "stem": "有關cholangitis的叙述，下列何者錯？",
+      "options": {
+        "A": "發燒、黄疽、左上腹部疼痛是常見的臨床症状 primary prophylaxis",
+        "B": "Pseudomonasaeruginosa是致病菌之一 secondaryprophylaxis",
+        "C": "相较於cholecystitis’cholangitis更容易引I起菌血症 therapeutic use",
+        "D": "處理cholangitis時；應先抽血做血液培養，再给予經驗性抗生素治療 8.76崴女性，罹患第三期乳癌，已經neoadjuvantchemotherapy舆手術切除乳房；7天前開始化學治療： docetaxel 100 mg/m²（doxorubicin and cyclophosphamide followed by docetaxel） 。因 febrile neutropenia人院，經驗性給與ceftazidime+gentamicin，同時給與lenograstim10oμgSCQD。依序回 答下列三题。 此時的1enograstim目的為何？ stem cell mobilization"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\115090_q0405_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\115090_ans0405_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 14,
+      "sectionQuestionIndex": 14,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110020_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 59,
+      "stem": "有selective estrogen receptormodulators（SERMs）之叙述，下列何者錯？",
+      "options": {
+        "A": "所有的SERMs皆可用於治療骨質疏症及乳癌",
+        "B": "raloxifene在骨骼中作用為estrogen agonist",
+        "C": "raloxifene在乳房組織中作用為estrogen antagonist",
+        "D": "tamoxifen用於治療乳癌"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\110020_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\110020_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 15,
+      "sectionQuestionIndex": 15,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 28,
+      "stem": "Clopidogrel與下列何藥品的交互作用證據最明確？",
+      "options": {
+        "A": "rabeprazole",
+        "B": "lansoprazole",
+        "C": "omeprazole",
+        "D": "pantoprazole"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\111100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\111100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 16,
+      "sectionQuestionIndex": 16,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "109100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 21,
+      "stem": "下列何者的半衰期最長？",
+      "options": {
+        "A": "argatroban",
+        "B": "enoxaparin",
+        "C": "unfractionated heparin",
+        "D": "warfarin"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\109100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\109100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 17,
+      "sectionQuestionIndex": 17,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 26,
+      "stem": "楊女士患有高血壓、糖尿病 20 年，冠狀動脈心臟病、高血脂 6年，使用 insulin 控制血糖。最近尿量變少，兩天 前門診檢查BUN 63 mg/dL 、SCr 5.8 mg/dL ，下列近一個月的用藥，何者最可能引起急性腎衰竭？",
+      "options": {
+        "A": "hydrochlorothiazide 25 mg qd",
+        "B": "lisinopril 5 mg qd",
+        "C": "atorvastatin 10 mg qd",
+        "D": "aspirin 100 mg qd"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_mod55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 18,
+      "sectionQuestionIndex": 18,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "114090_0405_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 76,
+      "stem": "有關惡性腫瘤的病理發展機制與藥品作用標的，下列配對何者正確？",
+      "options": {
+        "A": "cell cycle：B cell lymphoma 2（BCL-2）",
+        "B": "apoptosis：programmed death-1（PD-1）",
+        "C": "immune evasion：cyclin-dependent kinase（CDK）",
+        "D": "angiogenesis：vascular endothelial growth factor receptor（VEGFR）"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\114090_q0405_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\114090_ans0405_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 19,
+      "sectionQuestionIndex": 19,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 67,
+      "stem": "適合林伯伯之焦慮症用藥，一般建議之每日劑量為多少 mg ？",
+      "options": {
+        "A": "1",
+        "B": "30",
+        "C": "100",
+        "D": "300"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_ans55_therapeutics.pdf"
+      ],
+      "sectionKey": "therapeutics",
+      "sectionTitle": "藥治",
+      "sectionOrder": 20,
+      "sectionQuestionIndex": 20,
+      "sectionQuestionTotal": 20
+    }
+  ]
+}</script>
+  <script>
+    const session = JSON.parse(document.getElementById('session-data').textContent);
+    const state = {
+      index: 0,
+      submitted: false,
+      startAt: Date.now(),
+      currentEnterAt: Date.now(),
+      answers: {},
+      changes: [],
+      timeByQuestion: Array(session.questions.length).fill(0),
+      firstChoiceAt: {},
+      lastChoiceAt: {},
+    };
+
+    const els = {
+      navList: document.getElementById('nav-list'),
+      questionRoot: document.getElementById('question-root'),
+      progressBar: document.getElementById('progress-bar'),
+      metaTime: document.getElementById('meta-time'),
+      metaAnswered: document.getElementById('meta-answered'),
+      metaProgress: document.getElementById('meta-progress'),
+      summaryPanel: document.getElementById('summary-panel'),
+      summaryGrid: document.getElementById('summary-grid'),
+      eventLog: document.getElementById('event-log'),
+      logState: document.getElementById('log-state'),
+      referenceList: document.getElementById('reference-list'),
+      mobileStatus: document.getElementById('mobile-status'),
+      mobileSubmit: document.getElementById('mobile-submit'),
+      sectionChips: document.getElementById('section-chips'),
+      modeValue: document.getElementById('mode-value'),
+      modeValueSide: document.getElementById('mode-value-side'),
+    };
+
+
+
+    const SECTION_LABELS = { law: '\u6cd5\u898f', dispensing: '\u8abf\u5c6c\u81e8\u5e8a', therapeutics: '\u85e5\u6cbb' };
+    const FULL_COPY = '\u4f9d\u5e8f\u9032\u884c\u6cd5\u898f\u3001\u8abf\u5c6c\u81e8\u5e8a\u3001\u85e5\u6cbb\u4e09\u79d1\uff0c\u6bcf\u79d1 20 \u984c\u3002\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u524d\u96b1\u85cf\uff0c\u63d0\u4ea4\u5f8c\u624d\u986f\u793a\u7d50\u679c\u3002';
+    function sectionLabel(key) {
+      return SECTION_LABELS[key] || key;
+    }
+    function modeTextForSession() {
+      if (session.mode === 'full') return '\u5168\u8003 60 \u984c';
+      return `${sectionLabel(session.sections[0].sectionKey)} 20 \u984c`;
+    }
+    function modeCopyForSession() {
+      if (session.mode === 'full') return FULL_COPY;
+      return `${sectionLabel(session.sections[0].sectionKey)} \u55ae\u79d1 20 \u984c\u3002\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u524d\u96b1\u85cf\uff0c\u63d0\u4ea4\u5f8c\u624d\u986f\u793a\u7d50\u679c\u3002`;
+    }
+    function applyStaticText() {
+      document.title = modeTextForSession();
+      const kicker = document.querySelector('.brand-kicker');
+      if (kicker) kicker.textContent = 'EXEAM Diagnostic Session';
+      const title = document.querySelector('.brand-title');
+      if (title) title.textContent = modeTextForSession();
+      const copy = document.querySelector('.brand-copy');
+      if (copy) copy.textContent = modeCopyForSession();
+      const labels = document.querySelectorAll('.meta-label');
+      if (labels.length >= 4) {
+        labels[0].textContent = '\u6e2c\u9a57\u6a21\u5f0f';
+        labels[1].textContent = '\u5269\u9918\u6642\u9593';
+        labels[2].textContent = '\u5df2\u4f5c\u7b54';
+        labels[3].textContent = '\u9032\u5ea6';
+      }
+      const heads = document.querySelectorAll('h2');
+      if (heads.length >= 4) {
+        heads[0].textContent = '\u984c\u865f\u5c0e\u89bd';
+        heads[1].textContent = '\u4e3b\u6e2c\u8a66\u9801';
+        heads[2].textContent = '\u4f5c\u7b54\u7d50\u679c';
+        heads[3].textContent = '\u984c\u5eab\u8aaa\u660e';
+      }
+      const notes = document.querySelectorAll('.note');
+      if (notes.length >= 3) {
+        notes[0].textContent = '\u9ede\u64ca\u53ef\u4ee5\u5feb\u901f\u8df3\u984c\u3002\u7070\u8272\u8868\u793a\u5c1a\u672a\u4f5c\u7b54\uff0c\u7da0\u8272\u8868\u793a\u5df2\u4f5c\u7b54\u3002';
+        notes[1].textContent = '\u8acb\u5148\u4f5c\u7b54\uff0c\u63d0\u4ea4\u5f8c\u624d\u6703\u986f\u793a\u6b63\u78ba\u7b54\u6848\u8207\u89e3\u6790\u6458\u8981\u3002';
+        notes[2].textContent = '\u6bcf\u984c\u90fd\u4fdd\u7559\u55ae\u5143\u5f15\u8ff0\u8207\u53c3\u8003\u9023\u7d50\uff0c\u65b9\u4fbf\u63d0\u4ea4\u5f8c\u56de\u982d\u67e5\u8b49\u3002';
+      }
+      const review = document.querySelector('#summary-panel .btn.ghost');
+      if (review) review.textContent = '\u56de\u9996\u9801';
+      const modeValue = document.getElementById('mode-value');
+      if (modeValue) modeValue.textContent = modeTextForSession();
+      const modeValueSide = document.getElementById('mode-value-side');
+      if (modeValueSide) modeValueSide.textContent = modeTextForSession();
+      const mobileStatus = document.getElementById('mobile-status');
+      if (mobileStatus) mobileStatus.textContent = '\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u5f8c\u986f\u793a';
+      const mobileSubmit = document.getElementById('mobile-submit');
+      if (mobileSubmit) mobileSubmit.textContent = '\u63d0\u4ea4';
+    }
+
+    function fmt(seconds) {
+      const s = Math.max(0, Math.floor(seconds));
+      const m = Math.floor(s / 60);
+      const r = String(s % 60).padStart(2, '0');
+      return `${m}:${r}`;
+    }
+
+    function appendLog(line) {
+      const current = els.eventLog.textContent.trim();
+      els.eventLog.textContent = current ? `${current}\n${line}` : line;
+      els.eventLog.scrollTop = els.eventLog.scrollHeight;
+    }
+
+    function questionCitation(question) {
+      if (question.unitCitation) return question.unitCitation;
+      if (question.unitTitle && question.subjectTitle) return `${question.unitTitle} / ${question.subjectTitle}`;
+      return question.subjectTitle || question.unitTitle || '';
+    }
+
+    function markTime() {
+      const now = Date.now();
+      state.timeByQuestion[state.index] += (now - state.currentEnterAt) / 1000;
+      state.currentEnterAt = now;
+    }
+
+    function goTo(index) {
+      if (index < 0 || index >= session.questions.length) return;
+      if (index !== state.index) {
+        markTime();
+        state.index = index;
+        state.currentEnterAt = Date.now();
+        render();
+        appendLog(`開啟 Q${index + 1} @ ${new Date().toLocaleTimeString()}`);
+      }
+    }
+
+    function setAnswer(questionIndex, value) {
+      const key = String(questionIndex + 1);
+      const previous = state.answers[key];
+      state.answers[key] = value;
+      const now = new Date().toISOString();
+      if (!state.firstChoiceAt[key]) state.firstChoiceAt[key] = now;
+      state.lastChoiceAt[key] = now;
+      state.changes.push({ question: key, from: previous || null, to: value, at: now });
+      appendLog(`答案變更：Q${key}: ${previous || '?'} -> ${value}`);
+      renderNav();
+      renderMeta();
+    }
+
+    function renderSectionChips() {
+      els.sectionChips.innerHTML = '';
+      session.sections.forEach(section => {
+        const chip = document.createElement('span');
+        chip.className = 'section-chip';
+        chip.textContent = `${sectionLabel(section.sectionKey)} ${section.questionCount} 題`;
+        els.sectionChips.appendChild(chip);
+      });
+    }
+
+    function renderNav() {
+      els.navList.innerHTML = '';
+      session.questions.forEach((q, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'nav-btn' + (i === state.index ? ' active' : '') + (state.answers[String(i + 1)] ? ' answered' : '');
+        btn.innerHTML = `<span><strong>Q${i + 1}</strong><small>${sectionLabel(q.sectionKey)}</small></span><span>${q.sectionQuestionIndex}/20</span>`;
+        btn.addEventListener('click', () => goTo(i));
+        els.navList.appendChild(btn);
+      });
+    }
+
+    function renderReferences(question) {
+      els.referenceList.innerHTML = '';
+      const entries = [];
+      if (question.questionPdf) entries.push({ label: '\u984c\u76ee PDF', url: question.questionPdf });
+      (question.answerPdfs || []).filter(Boolean).slice(0, 1).forEach(url => {
+        entries.push({ label: '\u7b54\u6848 PDF', url });
+      });
+      entries.forEach(link => {
+        const a = document.createElement('a');
+        a.href = link.url || '#';
+        a.textContent = `${questionCitation(question)} ? ${link.label}`;
+        a.target = '_blank';
+        a.rel = 'noreferrer';
+        els.referenceList.appendChild(a);
+      });
+      const cite = document.createElement('div');
+      cite.style.color = 'var(--muted)';
+      cite.style.fontSize = '13px';
+      cite.style.lineHeight = '1.5';
+      cite.style.marginTop = '8px';
+      cite.textContent = `${question.unitCitation}`;
+      els.referenceList.appendChild(cite);
+    }
+
+    function renderQuestion() {
+      const q = session.questions[state.index];
+      const answered = state.answers[String(state.index + 1)];
+      const options = Object.entries(q.options || {});
+      const submitted = state.submitted;
+      const optionsHtml = options.map(([letter, text]) => {
+        const selected = answered === letter;
+        const isCorrect = submitted && q.answer === letter;
+        const isWrong = submitted && selected && q.answer !== letter;
+        return `
+          <label class="option ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}">
+            <input type="radio" name="answer" value="${letter}" ${selected ? 'checked' : ''} ${submitted ? 'disabled' : ''}>
+            <span class="letter">${letter}.</span>
+            <span class="text">${text}</span>
+          </label>`;
+      }).join('');
+      const answerHint = submitted
+        ? `<div class="citation" style="color: var(--accent); font-weight:700;">正確答案：${q.answer}</div>`
+        : '<div class="citation">答案在提交前不公開</div>';
+      els.questionRoot.innerHTML = `
+        <article class="question-card">
+          <div class="question-head">
+            <div class="question-badge">? ${state.index + 1} ? / ${session.questions.length} ?</div>
+            <div class="question-badge" style="background: rgba(217,119,6,.10); color: var(--accent-2);">${sectionLabel(q.sectionKey)} ${q.sectionQuestionIndex}/20</div>
+          </div>
+          <h3 class="question-title">${q.stem}</h3>
+          <div class="citation">${q.subjectTitle} ? ${questionCitation(q)}</div>
+          <div class="options">${optionsHtml}</div>
+          ${answerHint}
+          <div class="actions">
+            <button class="btn secondary" id="prev-btn" ${state.index === 0 ? 'disabled' : ''}>上一題</button>
+            <button class="btn secondary" id="next-btn" ${state.index === session.questions.length - 1 ? 'disabled' : ''}>下一題</button>
+            <button class="btn primary" id="submit-btn">提交</button>
+          </div>
+          <div class="citation" style="margin-top:12px;">閱讀時間?${fmt(state.timeByQuestion[state.index] + ((Date.now() - state.currentEnterAt) / 1000))}</div>
+          ${submitted ? '<div class="citation" style="margin-top:8px; color: var(--accent);">結果已生成，可進入複習</div>' : ''}
+        </article>
+      `;
+      els.questionRoot.querySelectorAll('input[name="answer"]').forEach(input => {
+        input.addEventListener('change', e => setAnswer(state.index, e.target.value));
+      });
+      const prev = document.getElementById('prev-btn');
+      const next = document.getElementById('next-btn');
+      const submit = document.getElementById('submit-btn');
+      prev && prev.addEventListener('click', () => goTo(state.index - 1));
+      next && next.addEventListener('click', () => goTo(state.index + 1));
+      submit && submit.addEventListener('click', submitSession);
+      renderReferences(q);
+    }
+
+    function renderMeta() {
+      const answered = Object.keys(state.answers).length;
+      const progress = Math.round((answered / session.questions.length) * 100);
+      els.metaAnswered.textContent = String(answered);
+      els.metaProgress.textContent = `${progress}%`;
+      els.progressBar.style.width = `${progress}%`;
+      const remaining = session.timeLimitMinutes * 60 - Math.floor((Date.now() - state.startAt) / 1000);
+      els.metaTime.textContent = fmt(remaining);
+      els.modeValue.textContent = modeTextForSession();
+      els.modeValueSide.textContent = modeTextForSession();
+      els.mobileStatus.textContent = state.submitted ? '已提交' : '答案會在提交後顯示';
+      els.logState.textContent = state.submitted ? '已提交' : '作答中';
+    }
+
+    function renderSummary() {
+      const totals = session.sections.map(section => {
+        const sectionQuestions = session.questions.filter(q => q.sectionKey === section.sectionKey);
+        const correct = sectionQuestions.reduce((acc, q, idx) => {
+          const globalIndex = session.questions.findIndex(item => item === q);
+          const given = state.answers[String(globalIndex + 1)];
+          return acc + (given === q.answer ? 1 : 0);
+        }, 0);
+        const wrong = sectionQuestions.length - correct;
+        const rate = Math.round((correct / sectionQuestions.length) * 100);
+        return { label: sectionLabel(section.sectionKey), correct, wrong, rate };
+      });
+      const overallCorrect = session.questions.reduce((acc, q, idx) => acc + (state.answers[String(idx + 1)] === q.answer ? 1 : 0), 0);
+      const overallWrong = session.questions.length - overallCorrect;
+      const overallRate = Math.round((overallCorrect / session.questions.length) * 100);
+      const reading = Math.round(state.timeByQuestion.reduce((a, b) => a + b, 0));
+      const items = [
+        { k: '總正確題數', v: String(overallCorrect) },
+        { k: '總錯誤題數', v: String(overallWrong) },
+        { k: '總正確率', v: `${overallRate}%` },
+        { k: '總閱讀秒數', v: String(reading) },
+        ...totals.map(s => ({ k: `${s.label} 正確率`, v: `${s.rate}%` })),
+      ];
+      els.summaryGrid.innerHTML = items.map(item => `<div class="summary-item"><div class="k">${item.k}</div><div class="v">${item.v}</div></div>`).join('');
+    }
+
+    function render() {
+      renderSectionChips();
+      renderNav();
+      renderQuestion();
+      renderMeta();
+    }
+
+    function submitSession() {
+      if (state.submitted) return;
+      if (!confirm('要提交這次測驗嗎？提交後將顯示答案與結果。')) return;
+      markTime();
+      state.submitted = true;
+      renderSummary();
+      els.summaryPanel.classList.add('show');
+      appendLog('已提交，待查看結果');
+      render();
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    applyStaticText();
+    document.getElementById('mobile-submit').addEventListener('click', submitSession);
+    window.addEventListener('beforeunload', () => markTime());
+    setInterval(renderMeta, 1000);
+    render();
+  </script>
+  <script src="./review-hook.js"></script>
+</body>
+</html>

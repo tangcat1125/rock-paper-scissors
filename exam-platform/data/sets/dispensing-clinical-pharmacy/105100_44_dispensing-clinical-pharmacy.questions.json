@@ -1,0 +1,598 @@
+{
+  "setId": "105100_44_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\105100_q44_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\105100_ans44_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 45,
+  "answerCount": 45,
+  "parseWarnings": [
+    "Question 2: Could not parse options for question 2",
+    "Question 3: Could not parse options for question 3",
+    "Question 5: Could not parse options for question 5",
+    "Question 7: Could not parse options for question 7",
+    "Question 8: Could not parse options for question 8",
+    "Question 11: Could not parse options for question 11",
+    "Question 20: Could not parse options for question 20",
+    "Question 31: Could not parse options for question 31",
+    "Question 32: Could not parse options for question 32",
+    "Question 42: Could not parse options for question 42",
+    "Question 44: Could not parse options for question 44",
+    "Question 47: Could not parse options for question 47",
+    "Question 51: Could not parse options for question 51",
+    "Question 52: Could not parse options for question 52",
+    "Question 55: Could not parse options for question 55",
+    "Question 56: Could not parse options for question 56",
+    "Question 59: Could not parse options for question 59",
+    "Question 60: Could not parse options for question 60",
+    "Question 62: Could not parse options for question 62",
+    "Question 64: Could not parse options for question 64",
+    "Question 65: Could not parse options for question 65",
+    "Question 66: Could not parse options for question 66",
+    "Question 68: Could not parse options for question 68",
+    "Question 69: Could not parse options for question 69",
+    "Question 70: Could not parse options for question 70",
+    "Question 71: Could not parse options for question 71",
+    "Question 72: Could not parse options for question 72",
+    "Question 74: Could not parse options for question 74",
+    "Question 75: Could not parse options for question 75",
+    "Question 76: Could not parse options for question 76",
+    "Question 77: Could not parse options for question 77",
+    "Question 78: Could not parse options for question 78",
+    "Question 79: Could not parse options for question 79"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列何者屬於藥品之 primary packaging material ？",
+      "options": {
+        "A": "藥瓶上標籤",
+        "B": "陰道栓劑之給藥輔助器",
+        "C": "安瓿（ampoule ）",
+        "D": "玻璃小瓶（vial ）之鋁製防塵蓋"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 6,
+      "stem": "下列各項配對中，何者是不同的藥品？",
+      "options": {
+        "A": "calcium folinate －leucovorin calcium",
+        "B": "lignocaine HCl －lidocaine HCl",
+        "C": "orciprenaline sulfate －metaproterenol sulfate",
+        "D": "pitocin －pitressin"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 9,
+      "stem": "全靜脈營養輸液（TPN ）處方中，有關電解質每日需求量，下列何者正確？",
+      "options": {
+        "A": "Na 1 ～2 mmol/kg",
+        "B": "K 2 ～3 mmol/kg",
+        "C": "Mg 1 ～2 mmol/kg",
+        "D": "Ca 1 ～1.5 mmol/kg"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 10,
+      "stem": "有關化療藥品溢灑（spillage ）之處理，下列敘述何者錯誤？",
+      "options": {
+        "A": "應備有書面溢灑處理須知",
+        "B": "溢灑處理包應備有吸水布料以吸取溢灑之化療藥品",
+        "C": "若是乾粉溢灑應用濕布處理",
+        "D": "污染的隔離衣應用漂白水清洗後才能再度使用"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 12,
+      "stem": "下列何者不屬於我國「藥物安全監視」涵蓋的通報範疇？",
+      "options": {
+        "A": "監視期間藥品療效定期報告",
+        "B": "藥物不良品通報",
+        "C": "臨床試驗嚴重不良事件（SAE ）通報",
+        "D": "藥物不良反應（ADR ）通報"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 13,
+      "stem": "藥品及其主要副作用之配對，下列何者錯誤？",
+      "options": {
+        "A": "amikacin －vestibular ototoxicity",
+        "B": "perindopril －cough",
+        "C": "metoprolol －tachycardia",
+        "D": "chloramphenicol －aplastic anemia"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 14,
+      "stem": "有關使用 methotrexate （MTX ）之rheumatoid arthritis 病人用藥教育，下列何者正確？",
+      "options": {
+        "A": "低劑量時不會有副作用，可安心服用",
+        "B": "開始治療後每六個月要追蹤病人的 CBC 及肝腎功能",
+        "C": "腎功能不全有可能造成 MTX 蓄積，增加發生 myelosuppression 之機率",
+        "D": "hypersensitivity pneumonitis 發生於使用高劑量 MTX 的最初一個月"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 15,
+      "stem": "王媽媽急著去接小孩，沒時間聽藥師用藥指導。藥師的反應，下列何項不適當？",
+      "options": {
+        "A": "告知病人藥局電話，鼓勵他有任何問題應回電",
+        "B": "和病人另約時間，請病人回電以便提供指導",
+        "C": "請病人務必留在現場，聽取用藥指導",
+        "D": "提供病人書面用藥指導說明"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 16,
+      "stem": "有關藥品諮詢服務之敘述，下列何者錯誤？",
+      "options": {
+        "A": "藥品諮詢服務應有標準作業流程，以維持品質",
+        "B": "藥品諮詢服務的內容與過程需留有紀錄，以供品質控管查核",
+        "C": "為避免法律和道德問題，藥品諮詢服務紀錄應模糊簡略",
+        "D": "藥師應該知道如何有效率的搜尋與評估藥品資訊來源"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 17,
+      "stem": "藥師提供病人用藥指導時，下列何者屬於封閉式問題？",
+      "options": {
+        "A": "以前您曾有過相同的皮膚紅疹嗎",
+        "B": "當您頭痛時都如何處理呢",
+        "C": "請告訴我您現在的症狀",
+        "D": "上次藥品使用後，您的感覺如何"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 18,
+      "stem": "下列口服降血糖藥品之服藥方式，何項不適當？",
+      "options": {
+        "A": "repaglinide ：qd pc",
+        "B": "glimepiride ：qd with breakfast",
+        "C": "miglitol ：tid with first bite of each meal",
+        "D": "pioglitazone ：qd pc"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 19,
+      "stem": "有關 antidepressants 之敘述，下列何項錯誤？",
+      "options": {
+        "A": "每天應在同一時間使用 antidepressants",
+        "B": "通常需要經過 4~6 週持續用藥才能評估療效",
+        "C": "幾乎所有 antidepressants 的作用相當",
+        "D": "antidepressants 屬於成癮性藥品"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 21,
+      "stem": "Digoxin 用於心衰竭時，最適當的血中藥品濃度範圍為若干 ng/mL ？",
+      "options": {
+        "A": "0.2 ～0.5",
+        "B": "0.5 ～1.0",
+        "C": "1.0 ～2.0",
+        "D": "2.0 ～4.0"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 22,
+      "stem": "化療藥品的劑量依體表面積（body surface area ，BSA ）計算，是因為：",
+      "options": {
+        "A": "BSA 是腫瘤大小的指標",
+        "B": "BSA 與心臟輸出率相關",
+        "C": "BSA 與腸胃道吸收相關",
+        "D": "FDA 要求以 BSA 作為計算指標"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 23,
+      "stem": "有關 phenytoin 與valproic acid 之交互作用，下列敘述何者錯誤？",
+      "options": {
+        "A": "valproic acid 會取代 phenytoin 與albumin 的結合",
+        "B": "valproic acid 會抑制 phenytoin 的代謝",
+        "C": "phenytoin 會加速 valproic acid 的代謝",
+        "D": "phenytoin 會使 valproic acid 的血中濃度上升"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 24,
+      "stem": "下列何者會使 theophylline 的血中濃度增加？",
+      "options": {
+        "A": "抽菸",
+        "B": "併服rifampin",
+        "C": "併服cimetidine",
+        "D": "併服phenytoin"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 25,
+      "stem": "有關吸入劑產品之敘述，下列何者錯誤？",
+      "options": {
+        "A": "metered dose inhaler （MDI ）在使用之前須先震搖",
+        "B": "Turbohaler ®是屬於乾粉吸入劑（dry powder inhaler, DPI ）",
+        "C": "Diskhaler ®及Accuhaler ®在使用之前須先震搖",
+        "D": "在使用中不可以對著 DPI 呼氣"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 26,
+      "stem": "有關處方箋中常見拉丁縮寫所代表之意義，下列何者錯誤？",
+      "options": {
+        "A": "ac ：before food",
+        "B": "prn ：when required",
+        "C": "ad ：to",
+        "D": "aa ：half"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 27,
+      "stem": "有關調劑操作之敘述，下列何者錯誤？",
+      "options": {
+        "A": "製備乳劑時應選擇玻璃研缽",
+        "B": "以量筒量取黏度大的液體，應先倒入過量體積再倒出所需液體",
+        "C": "以圓錐形量筒定量液體誤差較大，應使用圓筒形量筒",
+        "D": "固體顆粒若需研磨成粉末，應先研磨之後才稱重"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 28,
+      "stem": "有關藥品調劑相關規定之敘述，下列何者錯誤？",
+      "options": {
+        "A": "處方藥不得以開架式陳列，應專設櫥櫃加鎖貯藏",
+        "B": "交付第四級管制藥品時，不需要由領受人憑身分證明簽名領受",
+        "C": "藥事人員交付藥品時，應確認交付對象並進行必要之用藥指導",
+        "D": "管制藥品與毒劇藥品之調劑，都應將藥品名稱與數量，詳列簿冊以備檢查"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 29,
+      "stem": "依照我國藥事法 75 條，藥廠出廠藥品之標籤、仿單或包裝，應刊載之項目，未包含下列何者？",
+      "options": {
+        "A": "品名及許可證字號",
+        "B": "主要成分含量、用量及用法",
+        "C": "製造日期及有效期間或保存期限",
+        "D": "藥品之數量"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 30,
+      "stem": "有關美國藥典（USP ）對於注射劑包裝相關規範，何者錯誤？",
+      "options": {
+        "A": "單一劑量（single-dose ）注射劑之最大包裝容積為1 L",
+        "B": "用於脊髓腔內注射的注射劑，必須作成單一劑量包裝，僅供單次使用",
+        "C": "一般多劑量（multiple-dose ）包裝注射劑內所含之藥品容積不超過 30 mL",
+        "D": "血液透析液之最大包裝不可超過 1 L"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 33,
+      "stem": "有關首渡代謝（first pass metabolism ）之敘述，下列何者錯誤？",
+      "options": {
+        "A": "直腸投與（rectal route ）可部分避免首渡代謝",
+        "B": "陰道投與（vaginal route ）可避免首渡代謝",
+        "C": "口頰投與（buccal route ）無法避免首渡代謝",
+        "D": "口服投與（oral route ）無法避免首渡代謝"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 34,
+      "stem": "調製抗癌危害性藥品必要的防護與其主要目的之配對，下列何者正確？",
+      "options": {
+        "A": "頭罩－防止頭髮被危害性藥品污染",
+        "B": "外科手術口罩－防止呼吸道吸入危害性藥品",
+        "C": "鞋套－防止鞋子被危害性藥品沾染",
+        "D": "護目鏡－防止眼睛被危害性藥品潑濺"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 35,
+      "stem": "有關 cytotoxic drugs 調製之要求，下列敘述何者錯誤？",
+      "options": {
+        "A": "需在負壓之生物安全櫃內調製",
+        "B": "可使用 Class IIB vertical laminar airflow hood 調製",
+        "C": "調製時應在生物安全櫃兩側靠壁區域操作，以保持氣流通暢",
+        "D": "操作區內應以 70% alcohol 定時擦拭"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 36,
+      "stem": "下列何者不是使用 TPN （total parenteral nutrition ）之適應症？",
+      "options": {
+        "A": "胰臟炎",
+        "B": "嚴重燒燙傷",
+        "C": "胃炎",
+        "D": "潰瘍性結腸炎 37. 70 公斤成人之 TPN 處方中含有 amino acid 105 g 、dextrose 368 g 以及 20% lipid emulsion 275 mL ，下列敘述何者錯誤？"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 38,
+      "stem": "Total parenteral nutrition 中dextrose 及amino acids 經由中央靜脈導管輸注時，可容許之濃度上限？",
+      "options": {
+        "A": "dextrose 50 ～60% ，amino acids 5 ～10%",
+        "B": "dextrose 20 ～35% ，amino acids 5 ～10%",
+        "C": "dextrose 5 ～10% ，amino acids 3 ～5%",
+        "D": "dextrose 35 ～50% ，amino acids 10 ～15%"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 39,
+      "stem": "有關 expiration date （ED ）與beyond use date （BUD ）的差異，下列敘述何者正確？",
+      "options": {
+        "A": "ED 是依據實驗證據訂定，BUD 通常缺乏實驗證據",
+        "B": "ED 是商品被打開以後可以使用的時間，BUD 是商品還在完整包裝中的可使用時間",
+        "C": "對於注射劑而言 ED 通常短於 BUD",
+        "D": "ED 是調配者訂定的，BUD 是製造廠訂定的"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 40,
+      "stem": "一般成人使用病人自控式止痛劑（PCA ）時，下列 lock-out interval 何者最適當？",
+      "options": {
+        "A": "10 分鐘",
+        "B": "10 秒",
+        "C": "30 秒",
+        "D": "30 分鐘"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 41,
+      "stem": "施打 doxorubicin 發生滲漏（extravasation ）時，下列處置何者錯誤？",
+      "options": {
+        "A": "立即抽出施打針頭，以免更多藥品注入",
+        "B": "另用乾淨針頭抽吸滲漏區域組織中的藥液",
+        "C": "冰敷患處 24 到48 小時",
+        "D": "必要時須由外科醫師評估是否需要清創（debridement ）或切除（excision ）"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 43,
+      "stem": "根據我國藥局設置作業注意事項，下列敘述何者錯誤？",
+      "options": {
+        "A": "藥局設立，應依藥師法之規定，由藥師或藥劑生親自主持",
+        "B": "藥局設置之調劑處所，至少應有 6平方公尺之作業面積，其環境設施應符合優良藥品調劑作業規範（GDP ）之規定",
+        "C": "藥局設置總面積需有 18 平方公尺以上，其空間應有調劑處所、候藥區、受理處方箋與非處方藥品供應區及藥事諮詢服務區， 但不包含廁所及倉庫等",
+        "D": "藥局不得在醫療機構內，以隔間方式設置"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 45,
+      "stem": "有關藥局內藥品 compounding 之敘述，下列何者錯誤？",
+      "options": {
+        "A": "未能取得適用市售產品時之因應做法",
+        "B": "可依規範調製無菌製劑及非無菌製劑",
+        "C": "需要達一定批量才能提供",
+        "D": "應有標準操作流程、成分詳細配方及品質管控機制"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 46,
+      "stem": "有關藥品庫存管理，下列敘述何者錯誤？",
+      "options": {
+        "A": "應依藥品種類及可能之風險由經授權之人員負責收貨",
+        "B": "管制藥品應由藥師或其授權人員當場點交",
+        "C": "藥品庫存管理應有一致性的做法，各品項設定相同安全量以落實管理",
+        "D": "冷藏品應優先處理，並確認其配送條件，立刻依其儲存條件存放"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 48,
+      "stem": "有關 anaphylaxis 之急救措施，下列何者正確？",
+      "options": {
+        "A": "epinephrine 因副作用大，臨床上已不再使用",
+        "B": "應立刻停止任何可疑藥品之給藥",
+        "C": "給與 antihistamines 者，不可再給與 corticosteroids ，以免重複",
+        "D": "albuterol 加上 ipratropium 為首選用藥"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 49,
+      "stem": "有關 drug hypersensitivity syndrome ，下列敘述何者正確？",
+      "options": {
+        "A": "又稱為drug reaction with eosinophilia and systemic symptoms （DRESS ）",
+        "B": "沒有發燒，但全身布滿水 疱及紅疹，eosinophils 大量升高",
+        "C": "併有心臟功能降低之症狀",
+        "D": "最常見於 HIV(+) 病人"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 50,
+      "stem": "青少年使用抗憂鬱劑時，下列何種風險會提高？",
+      "options": {
+        "A": "自殺",
+        "B": "注意力不集中",
+        "C": "癲癇",
+        "D": "精神亢奮"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 53,
+      "stem": "當病人轉換照顧單位時，藥師應當執行下列何項業務以預防醫藥疏失？",
+      "options": {
+        "A": "療劑監測（therapeutic drug monitoring ）",
+        "B": "用藥連貫性（medication reconciliation ）分析",
+        "C": "抗生素管理（antibiotic stewardship ）",
+        "D": "藥品不良反應（adverse drug reaction ）監測"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 54,
+      "stem": "下列組合中那些屬於 A型藥品不良反應？①albuterol －tachycardia ②glipizide －hypoglycemia ③ibuprofen －bronchospasm ④allopurinol －skin rash",
+      "options": {
+        "A": "①②",
+        "B": "①④",
+        "C": "②③",
+        "D": "③④"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 57,
+      "stem": "有關 sitagliptin 之用藥指導，下列何者正確？",
+      "options": {
+        "A": "每日服藥一次",
+        "B": "每日依用餐次數服藥",
+        "C": "服藥時必需同時進食",
+        "D": "用餐前 30 分鐘服藥"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 58,
+      "stem": "下列 insulin 製劑中，那些因無充份的資訊，較不建議用於孕婦？①regular insulin ②NPH insulin ③insulin glargine ④insulin detemir",
+      "options": {
+        "A": "①②",
+        "B": "②③",
+        "C": "③④",
+        "D": "①④"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 61,
+      "stem": "有關 Advair Diskus ®（Seretide ™ Accuhaler ™）吸入劑之用藥指導，下列敘述何者錯誤？",
+      "options": {
+        "A": "應告知病人，使用前須搖晃藥瓶",
+        "B": "使用前輕呼一口氣，但不可朝著吸嘴吹氣",
+        "C": "此藥品不適合氣喘急性發作時使用",
+        "D": "建議病人每次吸入藥品之後應漱口"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 63,
+      "stem": "下列敘述何者錯誤？",
+      "options": {
+        "A": "DigiFab ®會干擾 digoxin 血中濃度測定",
+        "B": "phenytoin 血中濃度需依照血中 albumin 值校正",
+        "C": "監測 primidone 時須同時監測其活性代謝物 phenytoin 之濃度",
+        "D": "監測 vancomycin 谷濃度是為了避免抗藥性，以確保療效"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 67,
+      "stem": "下列何者可能減少 L-dopa 的藥效？",
+      "options": {
+        "A": "與phenothiazine 併用",
+        "B": "與ropinirole 併用",
+        "C": "與rasagiline 併用",
+        "D": "服藥時間與高蛋白食物攝取時間錯開"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 73,
+      "stem": "下列何種基因體學檢測結果，可以確保上述化療藥品對此病人的有效性？",
+      "options": {
+        "A": "野生型 K-RAS",
+        "B": "突變型 K-RAS",
+        "C": "UTG1A1 活性正常",
+        "D": "UTG1A1 活性降低"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 80,
+      "stem": "承上題，發生這些不適症狀最可能是下列何種交互作用所致？",
+      "options": {
+        "A": "omeprazole 升高胃內之pH 值，增加 erythromycin 之吸收，造成 erythromycin 血中濃度升高",
+        "B": "Adalat ®OROS ®增加血管通透性，使omeprazole 大量進入血液中",
+        "C": "erythromycin 減少腸道內微生物之數量，降低微生物對 digoxin 之代謝，造成 digoxin 血中濃度升高",
+        "D": "Adalat ®OROS ®阻斷鈣離子通道，減少 digoxin 於心肌細胞內之濃度"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 8
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\105100_44_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\105100_44_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

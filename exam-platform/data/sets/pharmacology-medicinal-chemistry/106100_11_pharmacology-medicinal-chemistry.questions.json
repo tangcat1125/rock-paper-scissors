@@ -1,0 +1,930 @@
+{
+  "setId": "106100_11_pharmacology-medicinal-chemistry",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmacology-medicinal-chemistry",
+  "subjectTitle": "Pharmacology and Medicinal Chemistry",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\106100_q11_pharmacology-medicinal-chemistry.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\106100_mod11_pharmacology-medicinal-chemistry.pdf"
+  ],
+  "questionCount": 75,
+  "answerCount": 75,
+  "parseWarnings": [
+    "Question 44: Could not parse options for question 44",
+    "Question 48: Could not parse options for question 48",
+    "Question 62: Could not parse options for question 62",
+    "Question 65: Could not parse options for question 65",
+    "Question 66: Could not parse options for question 66"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "葡萄糖六磷酸鹽脫氫酶缺陷（glucose-6-phosphate dehydrogenase-deficient ）的病人使用下列何種藥物並不 會引起溶血性貧血（hemolytic anemia ）之副作用？",
+      "options": {
+        "A": "ampicillin",
+        "B": "chloramphenicol",
+        "C": "p-aminosalicylic acid",
+        "D": "primaquine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 2,
+      "stem": "藥物通過體內某一部分的擴散速率與下列何種因素成反比？",
+      "options": {
+        "A": "表面積",
+        "B": "通透率係數",
+        "C": "濃度差",
+        "D": "通過部位的厚度"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 3,
+      "stem": "下列有關 potency 與efficacy 的敘述，何者最正確？",
+      "options": {
+        "A": "一藥物之 potency 比其 efficacy 重要",
+        "B": "potency 與藥物的 intrinsic activity 較有關",
+        "C": "efficacy 與藥物 -受體間的親和力較有關",
+        "D": "efficacy 與藥物的 intrinsic activity 較有關"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 4,
+      "stem": "有關 Tetracyclines 類抗生素之敘述，下列何者正確？",
+      "options": {
+        "A": "和細菌之 50S 核醣體結合而抑制其功能",
+        "B": "屬於殺菌型抗生素",
+        "C": "副作用少，適合用於治療孕婦或幼童之感染",
+        "D": "是治療披衣菌（chlamydiae ）及立克次體（rickettsiae ）感染的首選藥物"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 5,
+      "stem": "下列癌症化學治療藥物，何者不屬於抗代謝類（antimetabolites ）？",
+      "options": {
+        "A": "6-Mercaptopurine",
+        "B": "5-Fluorouracil",
+        "C": "Pemetrexed",
+        "D": "Darcarbazine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 6,
+      "stem": "下列抑制細胞壁合成的抗生素中，何者經由抑制 transpeptidase 所催化之 peptidoglycan 橫向連結（cross- linking ）？",
+      "options": {
+        "A": "Cycloserine",
+        "B": "Teicoplanin",
+        "C": "Aztreonam",
+        "D": "Bacitracin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 7,
+      "stem": "下列有關 etoposide 之敘述，何者錯誤？",
+      "options": {
+        "A": "是一種 podophyllotoxin",
+        "B": "會引起禿頭的副作用但是可逆性",
+        "C": "主要用於治療睪丸癌",
+        "D": "其毒性與血液中的白蛋白的量大小無關"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 8,
+      "stem": "下列有關 Pyrazinamide 的敘述，何者錯誤？",
+      "options": {
+        "A": "它對肺結核的活性，在pH 值偏鹼性的環境下抑制作用較強",
+        "B": "它本身是 Prodrug ，其活性型是 Pyrazinoic acid",
+        "C": "主要副作用是肝毒性",
+        "D": "高尿酸症的病人可能會誘發急性痛風關節炎"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 9,
+      "stem": "下列何者屬於第三代 Cephalosporin ？",
+      "options": {
+        "A": "Cefotaxime",
+        "B": "Cefadroxil",
+        "C": "Cefoxitin",
+        "D": "Cefotetan"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 10,
+      "stem": "下列何種藥物之適應症包括急性／慢性骨髓性白血病以及鐮刀型貧血症？",
+      "options": {
+        "A": "Hydroxyurea",
+        "B": "Methotrexate",
+        "C": "Daunorubicin",
+        "D": "Cytarabine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 11,
+      "stem": "下列有關 Aspirin 之敘述，何者錯誤？",
+      "options": {
+        "A": "不可逆地抑制血小板 cyclooxygenase-1活性",
+        "B": "抑制 cyclooxygenase 主要來自其水解產物salicylate 之作用",
+        "C": "抑制血小板凝集與抑制 thromboxane A 2之形成有關",
+        "D": "可用於預防心肌梗塞"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 12,
+      "stem": "下列何者為thioamides 減少甲狀腺素分泌的機轉？",
+      "options": {
+        "A": "抑制碘離子的吸收",
+        "B": "抑制甲狀腺素的合成",
+        "C": "抑制甲狀腺球蛋白的合成",
+        "D": "抑制 T3的去碘化作用"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 13,
+      "stem": "下列何者為Dopamine D 2受體致效劑，可用來治療高泌乳素血症（Hyperprolactinemia ）？",
+      "options": {
+        "A": "Cabergoline",
+        "B": "Dobutamine",
+        "C": "Fenoldopam",
+        "D": "Haloperidol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 14,
+      "stem": "下列何者並非 Corticosterone 之作用？",
+      "options": {
+        "A": "產生精神異常",
+        "B": "減少發炎之現象",
+        "C": "抑制免疫作用",
+        "D": "使腦下垂體釋放生長激素及甲狀腺促進激素"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 15,
+      "stem": "下列抗高血壓藥物，何者較少產生直立性低血壓的副作用？",
+      "options": {
+        "A": "Prazosin",
+        "B": "Hydrochlorothiazide",
+        "C": "Hydralazine",
+        "D": "Methyldopa"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 16,
+      "stem": "下列何者是治療大腦水腫昏迷的病人之首選藥物？",
+      "options": {
+        "A": "Mannitol",
+        "B": "Acetazolamide",
+        "C": "Amiloride",
+        "D": "Ethacrynic acid"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 17,
+      "stem": "那一種降壓藥物投與後會引起鎮靜或嗜睡之副作用？",
+      "options": {
+        "A": "Clonidine",
+        "B": "Verapamil",
+        "C": "Guanethidine",
+        "D": "Prazosin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 18,
+      "stem": "那一種用於 Supraventricular arrhythmia 治療藥物最有可能誘發 Atrial fibrillation 之副作用？",
+      "options": {
+        "A": "Sotalol",
+        "B": "Propranolol",
+        "C": "Adenosine",
+        "D": "Verapamil"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 19,
+      "stem": "若病人因血鈉濃度降低而有生命危險時，那一種利尿劑最適合與高鈉溶液併用以為急救使用？",
+      "options": {
+        "A": "Furosemide",
+        "B": "Mannitol",
+        "C": "Amiloride",
+        "D": "Acetazolamide"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 20,
+      "stem": "那一種利尿劑較不會增加腎血流量？",
+      "options": {
+        "A": "Furosemide",
+        "B": "Trichlormethiazide",
+        "C": "Bumetanide",
+        "D": "Ethacrynic acid"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 21,
+      "stem": "病人患有 Atrial flutter 等心房心律不整，下列那一種藥物最不易使此不正常心律恢復為正常的竇房結心律 （Sinus rhythm ）？",
+      "options": {
+        "A": "Quinidine",
+        "B": "Procainamide",
+        "C": "Sotalol",
+        "D": "Lidocaine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 22,
+      "stem": "下列那一種降血壓藥物會引起關節痛、肌肉酸痛、皮膚疹、發燒等類似紅斑性狼瘡之副作用？",
+      "options": {
+        "A": "Hydralazine",
+        "B": "Clonidine",
+        "C": "Enalapril",
+        "D": "Losartan"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 23,
+      "stem": "下列何種 α1-blockers 在產生降壓作用時會引起最明顯的反射性心跳頻率增加？",
+      "options": {
+        "A": "Terazosin",
+        "B": "Prazosin",
+        "C": "Doxazosin",
+        "D": "Phentolamine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 24,
+      "stem": "下列有關抗心律不整藥物的敘述何者錯誤？",
+      "options": {
+        "A": "Lidocaine 可抑制鈉離子管道",
+        "B": "Sotalol 可抑制鉀離子管道",
+        "C": "Procainamide 可抑制鈣離子管道",
+        "D": "Flecainide 可抑制鈣離子管道"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 25,
+      "stem": "臨床上以靜脈注射小劑量多巴胺增加腎臟的灌流，可改善少尿症，多巴胺最有可能透過那一型受體產生腎血 管的舒張作用？",
+      "options": {
+        "A": "D1",
+        "B": "D3",
+        "C": "β1",
+        "D": "α"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 26,
+      "stem": "下述那一種藥物可以作為有機磷中毒或 insecticide 、nerve gases 中毒之解毒劑，其作用機轉是活化 phoshorylated acetylcholinesterase ？",
+      "options": {
+        "A": "Rivastigmine",
+        "B": "Pravastatin",
+        "C": "Pralidoxime",
+        "D": "Physostigmine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 27,
+      "stem": "下列藥物何者最易引起 metabolic alkalosis ？",
+      "options": {
+        "A": "Sodium bicarbonate",
+        "B": "Misoprostol",
+        "C": "Magnesium hydroxide",
+        "D": "Sorbitol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 28,
+      "stem": "下列何者不是 Proton pump 抑制劑的特性？",
+      "options": {
+        "A": "主要經由胃部吸收",
+        "B": "大部分以 prodrug 型式使用",
+        "C": "脂溶性高",
+        "D": "屬弱鹼性藥物"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 29,
+      "stem": "下列何者不是 Aspirin 的作用？",
+      "options": {
+        "A": "損害腎臟自我調控的功能",
+        "B": "鎮痛解熱",
+        "C": "減少出血",
+        "D": "減少 prostaglandin 的合成"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 30,
+      "stem": "用於治療高血壓之藥物 Aliskiren 是屬於下列何類作用之藥物？",
+      "options": {
+        "A": "angiotensin receptor blocker",
+        "B": "natriuretic peptide",
+        "C": "renin inhibitor",
+        "D": "vasopeptidase inhibitor"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 31,
+      "stem": "有關類風濕性關節炎（rheumatoid arthritis; RA ）之用藥，下列敘述何者錯誤？",
+      "options": {
+        "A": "A77-1726 為 leflunomide 之活性代謝產物",
+        "B": "infliximab 與 rituximab 皆為TNF-α阻斷劑",
+        "C": "methotrexate 可用於治療 RA",
+        "D": "6-thioguanine 為 azathioprine 之活性代謝產物"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 32,
+      "stem": "下列何種藥物最適合用於癲癇重積症（status epileptics ）？",
+      "options": {
+        "A": "Carbamazepine",
+        "B": "Lamotrigine",
+        "C": "Zopidem",
+        "D": "Lorazepam"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 33,
+      "stem": "下列腦區何者最有可能和濫用藥物的成癮相關？",
+      "options": {
+        "A": "VTA （ventral tegmental area ）",
+        "B": "Hypothalamus",
+        "C": "Occipital cortex",
+        "D": "Cerebellum"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 34,
+      "stem": "下列有關帕金森氏症震顫（tremor ）症狀之敘述，何者正確？",
+      "options": {
+        "A": "發生於休息靜止時，活化乙型交感神經受體會降低其發生",
+        "B": "發生於休息靜止時，benztropine 具有減少其發生的作用",
+        "C": "發生於意向性運動時，levodopa 會增加其發生的機率",
+        "D": "發生於休息靜止時，bromocriptine 會增加其發生的機率"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 35,
+      "stem": "下列那一種鎮靜－安眠（sedative-hypnotic ）藥物，通常以靜脈注射的方式投藥，用於外科手術麻醉前的誘導 作用？",
+      "options": {
+        "A": "Amobarbital",
+        "B": "Thiopental",
+        "C": "Secobarbital",
+        "D": "Pentobarbital"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 36,
+      "stem": "下列那一種維生素會增加週邊組織對於 Levodopa 的代謝作用？",
+      "options": {
+        "A": "Vitamin B 6",
+        "B": "Vitamin B 12",
+        "C": "Vitamin D",
+        "D": "Vitamin E"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 37,
+      "stem": "長期使用 phenytoin 時會產生軟骨症（Osteomalacia ），係由於下列那一種維生素代謝異常所造成的？",
+      "options": {
+        "A": "A",
+        "B": "B6",
+        "C": "D",
+        "D": "E"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 38,
+      "stem": "Chlorpromazine 與D1，D2，α1及5-HT 2A 等4種受體結合的能力，若依由強至弱排序，其正確順序為何？",
+      "options": {
+        "A": "D2 > D 1 > α1 > 5-HT 2A",
+        "B": "α1 = 5-HT 2A > D 2 > D 1",
+        "C": "D1 > α1 > 5-HT 2A = D 2",
+        "D": "D2 = D 1 = α1 > 5-HT 2A"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 39,
+      "stem": "下列何種藥物可用以治療懼曠症（agoraphobia ）？",
+      "options": {
+        "A": "Buspirone",
+        "B": "Alprazolam",
+        "C": "Zaleplon",
+        "D": "Propranolol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 40,
+      "stem": "下列何者可以口服用於多種重金屬，包括鉛、砷和汞中毒的治療？",
+      "options": {
+        "A": "Deferoxamine",
+        "B": "Succimer",
+        "C": "Penicillamine",
+        "D": "Dimercaprol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 41,
+      "stem": "Diazepam 結構如下圖，經由 oxidation 與N-demethylation 後，可生成下列何種活性代謝物？",
+      "options": {
+        "A": "flurazepam",
+        "B": "3-hydroxydiazepam",
+        "C": "nimetazepam",
+        "D": "oxazepam"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 42,
+      "stem": "下列 adrenergic agonists 中，何者最易受 COMT 代謝？",
+      "options": {
+        "A": "albuterol",
+        "B": "formoterol",
+        "C": "isoetharine",
+        "D": "terbutaline"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 43,
+      "stem": "下列有關 galantamine 之敘述，何者正確？",
+      "options": {
+        "A": "具有 quaternary ammonium 結構",
+        "B": "具有 butyrylcholinesterase 抑制作用",
+        "C": "屬於 irreversible acetylcholinesterase 抑制劑",
+        "D": "可治療 Alzheimer's disease"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 45,
+      "stem": "下列何者含有 phosphinate 的結構？",
+      "options": {
+        "A": "benazeprilat",
+        "B": "fosinoprilat",
+        "C": "quinaprilat",
+        "D": "ramiprilat"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 46,
+      "stem": "下列何者為warfarin 代謝成 7-hydroxywarfarin 的最主要酵素？",
+      "options": {
+        "A": "CYP1A4",
+        "B": "CYP2C9",
+        "C": "CYP3A4",
+        "D": "CYP1A2"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 47,
+      "stem": "下列降血脂藥物中，何者屬於 phenoxyisobutyric acid 衍生物 ?",
+      "options": {
+        "A": "fenofibrate",
+        "B": "cholestyramine",
+        "C": "lovastatin",
+        "D": "colestipol"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 49,
+      "stem": "下列有關 amantadine 的敘述，何者錯誤？",
+      "options": {
+        "A": "屬於非對稱（asymmetric ）結構",
+        "B": "含有初級胺（primary amine ）",
+        "C": "可用於帕金森氏症",
+        "D": "可預防流感病毒感染"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 50,
+      "stem": "下圖中 R1與R2為下列何種取代基時，即為metronidazole 之結構？",
+      "options": {
+        "A": "R1＝NO 2，R2＝CH 3",
+        "B": "R1＝CH 3，R2＝NH 2",
+        "C": "R1＝NH 2，R2＝NO 2",
+        "D": "R1＝NO 2，R2＝NH 2"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 51,
+      "stem": "下列何者為penciclovir 之前驅藥？",
+      "options": {
+        "A": "acyclovir",
+        "B": "valacyclovir",
+        "C": "famciclovir",
+        "D": "ganciclovir"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 52,
+      "stem": "Bleomycin 之抗癌作用機轉為何？",
+      "options": {
+        "A": "DNA cross-linking",
+        "B": "DNA alkylation",
+        "C": "DNA binding and cleavage",
+        "D": "mitosis inhibition"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 53,
+      "stem": "下列有關 idarubicin 之敘述，何者錯誤？",
+      "options": {
+        "A": "代謝產物idarubicinol 之抗癌活性與原藥相當",
+        "B": "為daunorubicin 之4-desmethoxy 類似物",
+        "C": "結構中 anthracyclinone 部分可嵌入 DNA 中",
+        "D": "在體內會進行 O-dealkylation"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 54,
+      "stem": "下列何種藥物不屬於 GnRH superagonist ？",
+      "options": {
+        "A": "ganirelix",
+        "B": "leuprolide",
+        "C": "nafarelin",
+        "D": "triptorelin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 55,
+      "stem": "圖中 X＝H，為下列那個藥物之結構？",
+      "options": {
+        "A": "cosyntropin",
+        "B": "desmopressin",
+        "C": "oxytocin",
+        "D": "vasopressin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 56,
+      "stem": "下列因素何者是酒精造成 acetaminophen 對肝毒性更高的原因？",
+      "options": {
+        "A": "glutathione 存量下降",
+        "B": "抑制 CYP2E1 的活性",
+        "C": "抑制 CYP2D6 的活性",
+        "D": "抑制 CYP3A4 的活性"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 57,
+      "stem": "服用 felodipine 同時又飲用葡萄柚汁，下列那些為可能的影響？①felodipine 的血中濃度增加 ②felodipine 的血 中濃度減少 ③葡萄柚汁會活化 CYP3A4 活性 ④葡萄柚汁會抑制 CYP3A4 活性",
+      "options": {
+        "A": "①③",
+        "B": "②④",
+        "C": "①④",
+        "D": "②③"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 58,
+      "stem": "Arylamine 轉變成 arylnitrenium ion 之致癌性物質，與下列那個 Phase II 代謝反應比較無關？",
+      "options": {
+        "A": "glucuronidation",
+        "B": "sulfonation",
+        "C": "acetylation",
+        "D": "methylation"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 59,
+      "stem": "Methyldopa 須活化為下列何種化合物，才具有降壓之作用？",
+      "options": {
+        "A": "1R,2 R-α-methylnorepinephrine",
+        "B": "1S,2 S-α-methylnorepinephrine",
+        "C": "1R,2 S-α-methylnorepinephrine",
+        "D": "1S,2 R-α-methylnorepinephrine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 60,
+      "stem": "下列何種局部麻醉劑是由天然物 isogramine 經生物等價（bioisostere ）之原理設計合成？",
+      "options": {
+        "A": "benzocaine",
+        "B": "lidocaine",
+        "C": "proparacaine",
+        "D": "ropivacaine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 61,
+      "stem": "下列何者為melatonin 生合成的起始物？",
+      "options": {
+        "A": "L-tryptophan",
+        "B": "L-tyrosine",
+        "C": "D-tyrosine",
+        "D": "L-phenylalanine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 63,
+      "stem": "下列何者是第二代抗精神病藥物作用之主要標的？",
+      "options": {
+        "A": "D1",
+        "B": "D2",
+        "C": "5-HT 2A",
+        "D": "sodium channel"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 64,
+      "stem": "下圖化合物最易被下列何種酵素代謝？",
+      "options": {
+        "A": "CYP450",
+        "B": "UGT",
+        "C": "epoxide hydrolase",
+        "D": "esterase"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 67,
+      "stem": "下列何者為hydantoin 衍生物，可抑制鈣離子通道，作為解痙藥？",
+      "options": {
+        "A": "amlodipine",
+        "B": "baclofen",
+        "C": "dantrolene",
+        "D": "phenytoin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 68,
+      "stem": "下列有關 enalapril 之敘述，何者錯誤？",
+      "options": {
+        "A": "具有乙酯結構",
+        "B": "於體內受酯酶活化",
+        "C": "代謝為活性物 enalaprilat 後，logP 值上升",
+        "D": "口服生體可用率約 60%"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 69,
+      "stem": "下列有關 fondaparinux 及heparin 的敘述，何者正確？",
+      "options": {
+        "A": "fondaparinux 是pentasaccharide ，heparin 為polysaccharide",
+        "B": "fondaparinux 是pentapeptide ，heparin 為polypeptide",
+        "C": "fondaparinux 是pentasaccharide ，heparin 為polypeptide",
+        "D": "fondaparinux 是pentapeptide ，heparin 為polysaccharide"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 70,
+      "stem": "Rosuvastatin 具下列何種雜環結構？",
+      "options": {
+        "A": "imidazole",
+        "B": "pyrrole",
+        "C": "pyrazole",
+        "D": "pyrimidine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 71,
+      "stem": "下列何者會影響 thyroxine （T4）的去碘作用（deiodination ）？",
+      "options": {
+        "A": "acetazolamide",
+        "B": "amiodarone",
+        "C": "carbutamide",
+        "D": "warfarin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 72,
+      "stem": "Raloxifene 是選擇性雌激素受體調節劑（SERM ），其結構不包含下列何者？",
+      "options": {
+        "A": "pyridine",
+        "B": "piperidine",
+        "C": "benzene",
+        "D": "benzothiophene"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 73,
+      "stem": "下列有關 hydrocortisone 酯類衍生物之敘述，何者正確？",
+      "options": {
+        "A": "hydrocortisone cypionate 為水溶性",
+        "B": "hydrocortisone sodium succinate 為水溶性",
+        "C": "hydrocortisone sodium phosphate 可口服",
+        "D": "hydrocortisone valerate 可靜脈注射"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 74,
+      "stem": "下列有關 ethinyl estradiol 的敘述，何者錯誤？",
+      "options": {
+        "A": "可以口服",
+        "B": "在estradiol 結構導入 17 β-C≡CH ，阻礙 17 α-hydroxyl group 氧化",
+        "C": "將C-3的hydroxyl group 修飾成 methyl ether ，則得到 mestranol",
+        "D": "mestranol 為其前驅藥"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 75,
+      "stem": "Hydroxychloroquine 係chloroquine 之衍生物，用作類風濕關節炎治療藥，其優於 chloroquine 的理由為何？",
+      "options": {
+        "A": "可口服",
+        "B": "副作用較少",
+        "C": "藥效較強",
+        "D": "不會進入 CNS"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 76,
+      "stem": "下列何者為促進胃腸道蠕動的藥物（prokinetic drug ），且具有 indole 結構？",
+      "options": {
+        "A": "desloratadine",
+        "B": "olopatadine",
+        "C": "prucatopride",
+        "D": "tegaserod"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 77,
+      "stem": "下列有關 ebastine 的敘述，何者錯誤？",
+      "options": {
+        "A": "為選擇性 H1抗組織胺藥",
+        "B": "具piperidine 結構",
+        "C": "其代謝物為bilastine",
+        "D": "其活性代謝物具較長半衰期"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 78,
+      "stem": "下列治療肺結核的藥物，何者作用機轉為抑制 D-alanine racemase 與D-alanine ligase ？",
+      "options": {
+        "A": "p-aminosalicylic acid",
+        "B": "cycloserine",
+        "C": "ethambutol",
+        "D": "pyrazinamide"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 79,
+      "stem": "下列抗癌藥中，何者不屬於 DNA 甲基轉移 酶抑制劑（DNA methyltransferase inhibitor ）？",
+      "options": {
+        "A": "azacitidine",
+        "B": "cladribine",
+        "C": "decitabine",
+        "D": "nelarabine"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 80,
+      "stem": "下列有關 caspofungin 的敘述，何者錯誤？",
+      "options": {
+        "A": "半合成的 echinocandin",
+        "B": "抑制 β-1,3-glucan synthase",
+        "C": "可治療新生囊球菌（Cryptococcus neoformans ）感染",
+        "D": "靜脈注射給藥"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 14
+  },
+  "referenceGroupId": "pharmacology-medicinal-chemistry",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\106100_11_pharmacology-medicinal-chemistry.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\106100_11_pharmacology-medicinal-chemistry.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

@@ -1,0 +1,435 @@
+{
+  "setId": "106020_11_pharmacology-medicinal-chemistry",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmacology-medicinal-chemistry",
+  "subjectTitle": "Pharmacology and Medicinal Chemistry",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\106020_q11_pharmacology-medicinal-chemistry.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\106020_ans11_pharmacology-medicinal-chemistry.pdf"
+  ],
+  "questionCount": 30,
+  "answerCount": 30,
+  "parseWarnings": [
+    "Question 1: Could not parse options for question 1",
+    "Question 4: Could not parse options for question 4",
+    "Question 5: Could not parse options for question 5",
+    "Question 6: Could not parse options for question 6",
+    "Question 8: Could not parse options for question 8",
+    "Question 12: Could not parse options for question 12",
+    "Question 14: Could not parse options for question 14",
+    "Question 15: Could not parse options for question 15",
+    "Question 16: Could not parse options for question 16",
+    "Question 17: Could not parse options for question 17",
+    "Question 18: Could not parse options for question 18",
+    "Question 21: Could not parse options for question 21",
+    "Question 23: Could not parse options for question 23",
+    "Question 25: Could not parse options for question 25",
+    "Question 28: Could not parse options for question 28",
+    "Question 30: Could not parse options for question 30",
+    "Question 31: Could not parse options for question 31",
+    "Question 32: Could not parse options for question 32",
+    "Question 38: Could not parse options for question 38",
+    "Question 39: Could not parse options for question 39",
+    "Question 40: Could not parse options for question 40",
+    "Question 41: Could not parse options for question 41",
+    "Question 42: Could not parse options for question 42",
+    "Question 44: Could not parse options for question 44",
+    "Question 46: Could not parse options for question 46",
+    "Question 47: Could not parse options for question 47",
+    "Question 48: Could not parse options for question 48",
+    "Question 50: Could not parse options for question 50",
+    "Question 51: Could not parse options for question 51",
+    "Question 52: Could not parse options for question 52",
+    "Question 53: Could not parse options for question 53",
+    "Question 54: Could not parse options for question 54",
+    "Question 55: Could not parse options for question 55",
+    "Question 57: Could not parse options for question 57",
+    "Question 58: Could not parse options for question 58",
+    "Question 59: Could not parse options for question 59",
+    "Question 62: Could not parse options for question 62",
+    "Question 63: Could not parse options for question 63",
+    "Question 65: Could not parse options for question 65",
+    "Question 67: Could not parse options for question 67",
+    "Question 68: Could not parse options for question 68",
+    "Question 69: Could not parse options for question 69",
+    "Question 70: Could not parse options for question 70",
+    "Question 71: Could not parse options for question 71",
+    "Question 72: Could not parse options for question 72",
+    "Question 75: Could not parse options for question 75",
+    "Question 76: Could not parse options for question 76",
+    "Question 77: Could not parse options for question 77",
+    "Question 78: Could not parse options for question 78",
+    "Question 80: Could not parse options for question 80"
+  ],
+  "questions": [
+    {
+      "number": 2,
+      "stem": "腎臟功能不好的病人，最可能影響 vancomycin 的何種狀況？",
+      "options": {
+        "A": "排除（Elimination ）",
+        "B": "吸收（absorption ）",
+        "C": "分布體積（volume distribution ）",
+        "D": "代謝（metabolism ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 3,
+      "stem": "有關一般藥物和其特定受體之結合作用，下列敘述何者正確？",
+      "options": {
+        "A": "KD值大即表示親和力（affinity ）強",
+        "B": "共價鍵結合",
+        "C": "立體異構物（stereoisomer ）皆有相等之親和力",
+        "D": "多種微弱之結合力，如氫鍵、離子鍵或 Van der Waals 作用"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 7,
+      "stem": "有關肺結核治療用藥與其主要副作用之配對，下列何者最為正確？",
+      "options": {
+        "A": "Isoniazid–暈眩、失去平衡",
+        "B": "Ethambutol–肝毒性",
+        "C": "Rifampin–使尿液染成橙色",
+        "D": "Streptomycin–視神經炎"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 9,
+      "stem": "下列有關 Itraconazole 抗黴菌藥物的敘述，何者錯誤？",
+      "options": {
+        "A": "Cimetidine 會減低其吸收",
+        "B": "Rifamycins 類藥物會減低它的生體可用率",
+        "C": "其吸收會被食物減低",
+        "D": "其進入腦脊髓液的能力差"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 10,
+      "stem": "抗凝血藥物 Fondaparinux 為抑制那一個凝血因子？",
+      "options": {
+        "A": "Ⅱa",
+        "B": "Ⅶa",
+        "C": "Ⅸa",
+        "D": "Ⅹa"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 11,
+      "stem": "有關 Heparin 引致血小板減少症（thrombocytopenia ）時之處理方式，下列何者錯誤？",
+      "options": {
+        "A": "不能使用 Warfarin 治療",
+        "B": "不可使用 Fondaparinux 治療",
+        "C": "可使用 Lepirudin 治療",
+        "D": "停止使用 Heparin"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 13,
+      "stem": "progestin 合併estrogen 主要在降低 estrogen 所引起的何種副作用？",
+      "options": {
+        "A": "子宮內膜增生",
+        "B": "中風（stroke ）",
+        "C": "心肌梗塞（myocardial infarction ）",
+        "D": "乳癌"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 19,
+      "stem": "下列何者不是 Loop diuretics （利尿劑）之臨床適應症？",
+      "options": {
+        "A": "急性腎衰竭（acute renal failure ）",
+        "B": "陰離子過量（anion overdose ）",
+        "C": "高血鉀症（hyperkalemia ）",
+        "D": "高尿酸血症（hyperuricemia ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 20,
+      "stem": "針對不穩定型心絞痛病人而言，下列那一種治療不恰當？",
+      "options": {
+        "A": "以Nifedipine 治療",
+        "B": "投與 Nitroglycerin",
+        "C": "投與 Atenolol",
+        "D": "以Clopidogrel 治療"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 22,
+      "stem": "下列有關 Osmotic diuretics 之敘述，何者錯誤？",
+      "options": {
+        "A": "使心衰竭病人肺水腫更明顯",
+        "B": "使血液鈉濃度降低，而引起頭疼、噁心等症狀",
+        "C": "會使病人血糖降低",
+        "D": "Urea 為一種 Osmotic diuretic ，對有肝臟疾病之患者不宜使用"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 24,
+      "stem": "下列有關 Thiazide 利尿劑與其他藥物交互作用之敘述，何者錯誤？",
+      "options": {
+        "A": "與Quinidine 併用有增加 Torsade de Pointes 等心室心律過快之危險",
+        "B": "與Corticosteroid 併用使血鉀降低作用增強",
+        "C": "可增加鋰（Li +）之排出而減少鋰鹽之毒性",
+        "D": "會增加 Digoxin 毒性"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 26,
+      "stem": "下列何者為口服 propranolol 的禁忌？",
+      "options": {
+        "A": "青光眼",
+        "B": "震顫",
+        "C": "氣喘",
+        "D": "高血壓"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 27,
+      "stem": "β1選擇性致效劑較非選擇性 β致效劑不易產生反射性心跳過速，原因為何？",
+      "options": {
+        "A": "非選擇性 β致效劑能抑制迷走神經的傳導",
+        "B": "非選擇性 β致效劑能直接收縮血管",
+        "C": "β1選擇性致效劑不作用在心肌",
+        "D": "β1選擇性致效劑不活化舒張血管的 β2受體"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 29,
+      "stem": "有關 Adalimumab 之敘述，下列何者錯誤？",
+      "options": {
+        "A": "用於風濕性關節炎",
+        "B": "為一IgM 單株抗體",
+        "C": "常以皮下給藥，其半衰期為10 ~ 20 天",
+        "D": "為TNF-α阻斷劑"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 33,
+      "stem": "有關臨床劑量之嗎啡作用的敘述，下列何者正確？",
+      "options": {
+        "A": "使血壓上升",
+        "B": "使瞳孔放大",
+        "C": "抑制呼吸",
+        "D": "降低疼痛閾值（threshold ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 34,
+      "stem": "Galantamine 最適宜治療下列何種疾病？",
+      "options": {
+        "A": "老年癡呆症",
+        "B": "重症肌無力",
+        "C": "廣角型青光眼",
+        "D": "帕金森氏症"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 35,
+      "stem": "下列何者並非使用嗎啡（Morphine ）時常見的副作用？",
+      "options": {
+        "A": "瞳孔放大",
+        "B": "呼吸抑制作用",
+        "C": "便秘作用",
+        "D": "抑制免疫活性"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 36,
+      "stem": "下列何者並非嗎啡（Morphine ）的藥理作用？",
+      "options": {
+        "A": "減少胃腸蠕動，治療下痢",
+        "B": "增加黃體激素及濾泡激素的分泌作用",
+        "C": "抑制水分與電解質蓄積於腸腔內",
+        "D": "抑制咳嗽，止咳"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 37,
+      "stem": "下列何者對於開發治療癲癇（Epilepsy ）藥物的策略而言，是錯誤的？",
+      "options": {
+        "A": "阻斷麩胺酸（Glutamate ）受體（Receptor ）",
+        "B": "抑制丘腦（Thalamic ）的T-型鈣離子管道（Ca 2+ channel ）",
+        "C": "減少興奮性麩胺酸（Glutamate ）的神經傳遞作用",
+        "D": "增加 GABA 的代謝"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 43,
+      "stem": "下列有關 fosphenytoin 相較於 phenytoin 的敘述，何者錯誤？",
+      "options": {
+        "A": "水溶性較佳",
+        "B": "口服給藥",
+        "C": "分子量較大",
+        "D": "為前驅藥"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 45,
+      "stem": "下列何者為全身麻醉劑 isoflurane 的代謝物？",
+      "options": {
+        "A": "CH 3CH 2COOH",
+        "B": "CHCl 2COOH",
+        "C": "CF 3COOH",
+        "D": "HOCH 2COOH"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 49,
+      "stem": "下列有關抗結核病藥 fluoroquinolones 的構效關係敘述，何者錯誤？",
+      "options": {
+        "A": "nonfluorinated quinolones 對mycobacteria 仍具活性",
+        "B": "在N-1位置的 cyclopropyl ring 是重要基團",
+        "C": "在C-6和C-8位置上的 fluorine 是重要基團",
+        "D": "在C-7位置上的 heterocyclic substituent 是重要基團"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 56,
+      "stem": "下列生物技術產品與其藥物分類之配對，何者錯誤？",
+      "options": {
+        "A": "teriparatide －parathyroid hormone",
+        "B": "pegvisomant －growth hormone",
+        "C": "erythropoietin －gonadotropin-releasing hormone",
+        "D": "abatacept －tumor necrosis factor"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 60,
+      "stem": "下列有關藥物代謝的敘述，何者正確？①CYP 酵素進行的催化反應，喜在缺電子的位置進行氧化 ②CYP 酵素進行的催化反 應，喜在多電子的位置進行氧化 ③CYP 酵素多含有鎂離子 ④Phase I 代謝通常造成藥物極性變大",
+      "options": {
+        "A": "①③",
+        "B": "②④",
+        "C": "①④",
+        "D": "②③"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 61,
+      "stem": "下列有關 esmolol 之敘述，何者錯誤？",
+      "options": {
+        "A": "結構之骨架為aryloxypropanolamine",
+        "B": "選擇性作用於 β1受體",
+        "C": "屬於長效性作用藥物",
+        "D": "適用於上心室心搏過速（supraventricular tachycardia ）之患者"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 64,
+      "stem": "下列有關 pilocarpine 之敘述，何者錯誤？",
+      "options": {
+        "A": "結構中含二個手性中心（chiral center ）",
+        "B": "結構含 imidazole 環",
+        "C": "於酸性條件下進行差向異構化（epimerization ）形成 isopilocarpine",
+        "D": "可做成凝膠（gel ）使用，但須貯於冷藏器（refrigerator ）中"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 66,
+      "stem": "為增加下圖化合物的抗精神病活性，第二位置處加入下列何種取代基最適合？",
+      "options": {
+        "A": "CH 3",
+        "B": "CF 3",
+        "C": "OCH 3",
+        "D": "NHCH 3"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 73,
+      "stem": "下列有關 acarbose 之敘述，何者錯誤？",
+      "options": {
+        "A": "可抑制 glucoamylase",
+        "B": "可補充蔗糖來改善低血糖問題",
+        "C": "主要以原型由胃腸道排出",
+        "D": "常見有胃腸道刺激、脹氣等副作用"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 74,
+      "stem": "下列有關放射碘之敘述，何者錯誤？",
+      "options": {
+        "A": "131 I半衰期為60 天",
+        "B": "125 I可藉由電子補獲（electronic capture ）衰變為125 Te",
+        "C": "131 I與 125 I衰變時皆會產生γ射線",
+        "D": "131 I可治療甲狀腺癌"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 79,
+      "stem": "下列有關 daptomycin 的敘述，何者錯誤？",
+      "options": {
+        "A": "為發酵產物",
+        "B": "具cyclic lipopeptide 結構",
+        "C": "抑制細胞壁生合成",
+        "D": "具殺菌作用"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 11
+  },
+  "referenceGroupId": "pharmacology-medicinal-chemistry",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\106020_11_pharmacology-medicinal-chemistry.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\106020_11_pharmacology-medicinal-chemistry.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

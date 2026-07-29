@@ -1,0 +1,912 @@
+{
+  "setId": "106100_55_therapeutics",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "therapeutics",
+  "subjectTitle": "Therapeutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_q55_therapeutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\therapeutics\\106100_mod55_therapeutics.pdf"
+  ],
+  "questionCount": 74,
+  "answerCount": 74,
+  "parseWarnings": [],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "王先生長期使用 aspirin 100 mg qd ，即將接受心導管手術並放置支架（stent ），下列何種術前處方最適合？",
+      "options": {
+        "A": "aspirin 100 mg stat ，clopidogrel 300 mg stat ，abciximab IV bolus then IV infusion for 12 hrs ， unfractionated heparin",
+        "B": "aspirin 100 mg stat ，clopidogrel 600 mg stat ，unfractionated heparin infusion",
+        "C": "aspirin 325 mg stat ，abciximab IV bolus then IV infusion for 12 hrs ，unfractionated heparin",
+        "D": "clopidogrel 600 mg stat ，abciximab IV bolus then IV infusion for 12 hrs ，enoxaparin"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 2,
+      "stem": "有關硝酸鹽類藥品之敘述，下列何者錯誤？",
+      "options": {
+        "A": "isosorbide mononitrate 是isosorbide dinitrate 的代謝物",
+        "B": "常見的不良反應包括頭痛與臉部潮紅（flushing ）",
+        "C": "硝酸鹽類藥品的耐受性（tolerance ）與guanylate cyclase 數量增加有關",
+        "D": "採取坐姿服用 nitroglycerin SL tablet 可避免跌倒"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 3,
+      "stem": "林先生因心肌梗塞入院治療，下列何種情況下，他應於出院後繼續服用抗凝血劑，以避免再次心肌梗塞或中 風？",
+      "options": {
+        "A": "左心室有血栓形成",
+        "B": "間歇性跛行",
+        "C": "持續性心跳過慢",
+        "D": "持續性心室提前收縮"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 4,
+      "stem": "下列何者最常有腹瀉的副作用？",
+      "options": {
+        "A": "barium sulfate",
+        "B": "clindamycin",
+        "C": "sucralfate",
+        "D": "succinylcholine"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 5,
+      "stem": "Antacids 與ketoconazole 口服併用時，會因交互作用而影響療效；其主要機轉與臨床意義為何？",
+      "options": {
+        "A": "兩藥間有共價鍵結沉澱，致前者之吸收不良",
+        "B": "胃液 pH 值降低，致前者之溶離不佳而影響藥效",
+        "C": "兩藥間產生複合物沉澱，致後者之吸收不良",
+        "D": "胃液 pH 值升高，致後者之溶離不佳而影響吸收"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 6,
+      "stem": "有關 loperamide 之敘述，下列何者錯誤？",
+      "options": {
+        "A": "可用於急性或慢性腹瀉",
+        "B": "初始劑量一次服用兩顆，共40 mg",
+        "C": "用藥兩日後如症狀未緩解，應立即就醫",
+        "D": "其療效與 bismuth subsalicylate 相當"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 7,
+      "stem": "有關 sulfasalazine 之作用及特性，下列敘述何者錯誤？",
+      "options": {
+        "A": "主要用於治療 inflammatory bowel disease",
+        "B": "屬於 aminosalicylates 類藥品，作用部位在大腸",
+        "C": "由sulfapyridine 和5-aminosalicylic acid 組合而成",
+        "D": "經口服吸收的 5-aminosalicylic acid 是造成不良反應之主因"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 8,
+      "stem": "有關 antipsychotic drugs 與其主要副作用之配對，下列何者正確？",
+      "options": {
+        "A": "clozapine －granulocytosis",
+        "B": "haloperidol －extrapyramidal syndrome",
+        "C": "olanzapine －weight loss",
+        "D": "ziprasidone －hypertrichosis"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 9,
+      "stem": "在流感季節，懷孕婦女除了戴口罩、避免進出公共場所外，應如何預防流感？",
+      "options": {
+        "A": "增強免疫力，且避免使用藥品與疫苗，以免導致畸胎",
+        "B": "使用預防性口服抗流感藥品，以達到最佳預防效果",
+        "C": "以鼻腔吸入流感疫苗，減少全身吸收，以免導致畸胎",
+        "D": "以肌肉注射施打流感疫苗，以達到最佳預防效果"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 10,
+      "stem": "下列那個抗結核病藥品比較不會引起肝毒性？",
+      "options": {
+        "A": "ethambutol",
+        "B": "pyrazinamide",
+        "C": "rifampin",
+        "D": "p-aminosalicylic acid"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 11,
+      "stem": "下列何種抗結核病藥品會使尿液、眼淚、汗水等變成橘紅色，須先告知病人？",
+      "options": {
+        "A": "cycloserine",
+        "B": "rifampin",
+        "C": "ethambutol",
+        "D": "p-aminosalicylic acid"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 12,
+      "stem": "下列何種情況會增加 gentamicin 腎臟毒性的發生？",
+      "options": {
+        "A": "peak level > 8 mg/L",
+        "B": "trough level > 2 mg/L",
+        "C": "peak level > 4 mg/L",
+        "D": "trough level > 0.5 mg/L"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 13,
+      "stem": "下列那一類藥品不用於 human immunodeficiency virus （HIV ）感染的治療？",
+      "options": {
+        "A": "nucleoside reverse transcriptase inhibitors",
+        "B": "angiotensin-converting enzyme inhibitors",
+        "C": "protease inhibitors",
+        "D": "integrase inhibitors"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 14,
+      "stem": "下列何者引起腎臟毒性的機會最低？",
+      "options": {
+        "A": "foscarnet",
+        "B": "acyclovir",
+        "C": "flucytosine",
+        "D": "amphotericin B"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 15,
+      "stem": "下列何者最建議用於治療成人攝護腺炎（prostatitis ）？",
+      "options": {
+        "A": "moxifloxacin",
+        "B": "levofloxacin",
+        "C": "gemifloxacin",
+        "D": "gentamicin"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 16,
+      "stem": "有關抗微生物製劑治療的注意事項，下列何者正確？",
+      "options": {
+        "A": "使用 carbapenems ，應依腎功能調整劑量，以避免癲癇發生",
+        "B": "tetracyclines 可能引發致命性皮膚疹，尤其是愛滋病病人",
+        "C": "sulfonamides 可能造成肌腱斷裂，特別是嬰幼兒",
+        "D": "teicoplanin 的輸注速率不能太快，否則會出現“red man syndrome”"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 17,
+      "stem": "下列何者可用於治療 Salmonella 引起之感染性腹瀉？",
+      "options": {
+        "A": "cefazolin",
+        "B": "cefoxitin",
+        "C": "ceftriaxone",
+        "D": "cefuroxime"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 18,
+      "stem": "有關藥品引發氣喘之敘述，下列何者正確？",
+      "options": {
+        "A": "β-blockers 在氣喘病人中引發氣喘的比例很高，不論 non-selective 或β1-selective blockers 均為氣喘病人之絕 對禁忌症",
+        "B": "氣喘病人有 aspirin 過敏的比例在 30% 以下，所以 NIH 建議只有確知 aspirin 過敏史的氣喘病人須避免使用此類 藥品",
+        "C": "β-blocker 眼藥水不會引起氣喘病人的發作",
+        "D": "COX-2 selective NSAIDs 不可使用在 aspirin 過敏的氣喘病人"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 19,
+      "stem": "有關類固醇在氣喘治療之敘述，下列何者最適當？",
+      "options": {
+        "A": "口服類固醇為慢性氣喘控制的首選藥品",
+        "B": "門診病人急性惡化時，口服 prednisone 1 ～2 mg/kg/day 持續 3～5天可減少住院的機會",
+        "C": "急性發作時應使用口服類固醇，情況穩定後必須逐步減量後才能停用",
+        "D": "急性發作時，使用口服劑型較注射劑型效果差"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 20,
+      "stem": "下列何者最適合做為急性氣喘的緩解藥品？",
+      "options": {
+        "A": "bambuterol PO",
+        "B": "tiotropium inhalation",
+        "C": "salmeterol inhalation",
+        "D": "albuterol inhalation"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 21,
+      "stem": "下列何者之 sedation 、dry mouth 、urinary retension 等副作用最顯著？",
+      "options": {
+        "A": "promethazine",
+        "B": "cetirizine",
+        "C": "fexofenadine",
+        "D": "desloratadine"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 22,
+      "stem": "下列何者會增加 digoxin 中毒的危險？",
+      "options": {
+        "A": "低鉀血症",
+        "B": "低鈉血症",
+        "C": "低磷血症",
+        "D": "低鈣血症"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 23,
+      "stem": "對於收縮性心衰竭合併心房纖維顫動（atrial fibrillation ）的病人，下列何者是控制心跳速率之首選？",
+      "options": {
+        "A": "verapamil",
+        "B": "diltiazem",
+        "C": "digoxin",
+        "D": "propafenone"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 24,
+      "stem": "林先生 80 歲，有高血壓、糖尿病、末期腎病病史，最近新診斷出心房纖維顫動（atrial fibrillation ），下列何者 為其抗凝血藥品的首選？",
+      "options": {
+        "A": "aspirin",
+        "B": "warfarin",
+        "C": "dabigatran",
+        "D": "rivaroxaban"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 25,
+      "stem": "下列何者是 low-molecular-weight heparin 的優點？",
+      "options": {
+        "A": "蛋白結合率較 unfractionated heparin 高，對凝血因子的作用強",
+        "B": "對clotting factor IIa 的專一性較 unfractionated heparin 高，比較不會引起出血的副作用",
+        "C": "排除半衰期長，可每12 ～24 小時給藥一次",
+        "D": "可根據快速的 clotting factor IIa 濃度檢定結果，精確的調整劑量，避免療效不足或出血的風險"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 26,
+      "stem": "楊女士患有高血壓、糖尿病 20 年，冠狀動脈心臟病、高血脂 6年，使用 insulin 控制血糖。最近尿量變少，兩天 前門診檢查BUN 63 mg/dL 、SCr 5.8 mg/dL ，下列近一個月的用藥，何者最可能引起急性腎衰竭？",
+      "options": {
+        "A": "hydrochlorothiazide 25 mg qd",
+        "B": "lisinopril 5 mg qd",
+        "C": "atorvastatin 10 mg qd",
+        "D": "aspirin 100 mg qd"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 27,
+      "stem": "下列藥品可能會惡化收縮性心衰竭（systolic heart failure ）病人之症狀，何者除外？",
+      "options": {
+        "A": "NSAIDs",
+        "B": "carvedilol",
+        "C": "rosiglitazone",
+        "D": "penicillin G Na"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 28,
+      "stem": "王太太 70 歲，有高血壓病史，現因連續幾天有心悸的現象，經診斷為心房纖維顫動（atrial fibrillation ），須施 行心臟復律（cardioversion ），下列敘述何者錯誤？",
+      "options": {
+        "A": "不管以電流或藥物治療進行心臟復律，腦血管阻塞是最常發生的併發症",
+        "B": "進行心臟復律前，應先以 warfarin 治療 3週，以預防發生急性併發症",
+        "C": "使用 warfarin 時，INR 目標值為3.5",
+        "D": "進行心臟復律後，仍應持續以 warfarin 治療 4週，才能有效預防中風的發生"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 29,
+      "stem": "有關化療藥品造成的噁心與嘔吐及其預防藥品，下列敘述何者錯誤？",
+      "options": {
+        "A": "對於高致吐性化療藥品建議的預防性用藥為一種 5-HT 3 receptor antagonist 加上 dexamethasone 及aprepitant 或fosaprepitant",
+        "B": "palonosetron 是半衰期最長的 5-HT 3 receptor antagonist",
+        "C": "與aprepitant 併用時，口服 dexamethasone 應減少一半的劑量，因aprepitant 會抑制 CYP3A4 的活性",
+        "D": "對於焦慮及預期性的噁心與嘔吐，會預防性使用作用快的 midazolam 30. 67 歲男性，長期酗酒，因腹水及黃疸診斷為酒精性肝硬化，並已出現食道靜脈曲張（esophageal varices ， EV ），目前沒有服用任何其他藥品，有關醫師的處方，下列敘述何者錯誤？"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 32,
+      "stem": "有關藥品引起的腎臟病，下列敘述何者錯誤？",
+      "options": {
+        "A": "為預防顯影劑引起的腎病變，可使用 N-acetylcysteine 600 ～1,200 mg PO q12h 7 days ，在顯影劑使用前即 開始服用",
+        "B": "含高量磷離子的術前清腸劑可能造成鈣磷結晶沉積於腎小管，而引起急性腎損傷",
+        "C": "cyclosporine 與tacrolimus 都可能造成腎臟損傷，屬於 dose-limiting 的副作用",
+        "D": "ACEIs 與ARBs 會使出球小動脈（efferent arteriole ）放鬆，而可能造成 GFR 下降"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 33,
+      "stem": "High-flux 透析膜孔徑較大，可增加毒素的排除，但也可能導致下列何種藥品的移除增加？",
+      "options": {
+        "A": "amiodarone",
+        "B": "digoxin",
+        "C": "phenytoin",
+        "D": "vancomycin"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 34,
+      "stem": "有關慢性腎臟病（CKD ）病人使用 ACEIs 與ARBs ，下列敘述何者正確？",
+      "options": {
+        "A": "ACEIs 與ARBs 可能降低腎絲球過濾速率（GFR ），因此所有 CKD 的病人皆不適合使用",
+        "B": "在伴隨有蛋白尿的 CKD 病人，ACEIs 與ARBs 常是其高血壓治療之首選",
+        "C": "使用 ACEIs 與ARBs 的CKD 病人，若發生高血鉀，應立即停藥",
+        "D": "使用 ACEIs 與ARBs 的CKD 病人，若GFR 下降 15% 以上，應立即停藥"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 35,
+      "stem": "腎功能不佳的病人必須小心使用 biguanide 類藥品，以免造成下列何種不良反應？",
+      "options": {
+        "A": "代謝性鹼中毒",
+        "B": "代謝性酸中毒",
+        "C": "呼吸性鹼中毒",
+        "D": "呼吸性酸中毒"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 36,
+      "stem": "下列何者符合代謝性鹼中毒的表現？①pH ＜7.35 ②pH ＞7.45 ③ 上升 ④HCO 3 -上升 ⑤ 下降 ⑥HCO 3 -下降",
+      "options": {
+        "A": "②③④",
+        "B": "②③⑥",
+        "C": "①④⑤",
+        "D": "①③⑥"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 37,
+      "stem": "有關 L-dopa 與carbidopa 併用於治療帕金森氏症，下列敘述何者正確？",
+      "options": {
+        "A": "carbidopa 是一種 COMT （catechol-O-methyltransferase ）抑制劑",
+        "B": "此併用可以提高 L-dopa 進入腦部的濃度",
+        "C": "carbidopa 會通過血腦障蔽（blood-brain barrier ）",
+        "D": "L-dopa 的副作用與劑量高低無關，多為特異體質所引起"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 38,
+      "stem": "下列何種治療帕金森氏症之藥品只有注射劑型？",
+      "options": {
+        "A": "apomorphine",
+        "B": "bromocriptine",
+        "C": "pramipexole",
+        "D": "ropinirole"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 39,
+      "stem": "下列何者是阿茲海默症（Alzheimer's disease ）用藥？",
+      "options": {
+        "A": "cefprozil",
+        "B": "donepezil",
+        "C": "gemfibrozil",
+        "D": "trandolapril"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 40,
+      "stem": "張先生 70 歲，有心肌梗塞病史，因退化性關節炎（osteoarthritis ）而需要使用消炎止痛藥，下列何者最適當？",
+      "options": {
+        "A": "rofecoxib",
+        "B": "naproxen",
+        "C": "diclofenac",
+        "D": "meloxicam"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 41,
+      "stem": "有關 sumatriptan 用於治療急性偏頭痛（migraine ），下列敘述何者正確？",
+      "options": {
+        "A": "其作用機轉與 ergot alkaloids 相同",
+        "B": "與monoamine oxidase inhibitor 併用可能導致 serotonin syndrome",
+        "C": "目前只有注射劑型",
+        "D": "可用於治療冠動脈疾病（coronary artery disease ）病人之急性偏頭痛"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 42,
+      "stem": "下列何者是治療兒童失神型癲癇（childhood absence epilepsy ）首選藥品之一？",
+      "options": {
+        "A": "carbamazepine",
+        "B": "primidone",
+        "C": "tiagabine",
+        "D": "valproic acid"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 43,
+      "stem": "與cheese 併用時，下列那一口服藥產生hypertensive crisis 風險較高？",
+      "options": {
+        "A": "carbidopa",
+        "B": "pramipexole",
+        "C": "ropinirole",
+        "D": "selegiline"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 44,
+      "stem": "治療失眠時，alprazolam 與zolpidem 的差異在於：",
+      "options": {
+        "A": "alprazolam 有成癮性，但zolpidem 沒有成癮性",
+        "B": "alprazolam 干擾睡眠周期的程度比 zolpidem 嚴重",
+        "C": "alprazolam 與zolpidem 均選擇性抑制 GABA 受器，但alprazolam 是omega-1受器，zolpidem 是omega-2受器",
+        "D": "alprazolam 在老年人須降低起始劑量，但zolpidem 不須調降劑量"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 45,
+      "stem": "林女士 29 歲，經醫師評估後擬處方 Li 2CO 3治療，用藥前宜先進行評估，下列何者較無急需？",
+      "options": {
+        "A": "肝功能",
+        "B": "腎功能",
+        "C": "是否懷孕",
+        "D": "甲狀腺功能"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 46,
+      "stem": "下列何種濫用物質不屬於中樞神經興奮劑？",
+      "options": {
+        "A": "cocaine",
+        "B": "Ecstasy",
+        "C": "methadone",
+        "D": "amphetamine"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 47,
+      "stem": "藥癮愛滋感染者同時接受抗愛滋病毒藥品及 methadone 替代治療時，下列敘述何者錯誤？",
+      "options": {
+        "A": "lamivudine 會誘發 CYP3A4 的活性，使methadone 濃度下降，病人可能出現戒斷症狀",
+        "B": "saquinavir 會抑制 CYP3A4 活性，使methadone 的作用時間加長",
+        "C": "methadone 經由 CYP3A4 代謝，與protease inhibitors 類抗愛滋病毒藥品會有不等程度的交互作用",
+        "D": "methadone 會增加 zidovudine 的血中濃度及副作用"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 48,
+      "stem": "有關 Z-hypnotics 之敘述，下列何者正確？",
+      "options": {
+        "A": "長效劑型的 zolpidem 可大幅降低病人出現夢遊的風險",
+        "B": "eszopiclone 可有效延長睡眠、改善清晨過早清醒的問題",
+        "C": "zolpidem 不僅可讓病人易於入睡，還可有效改善清晨過早清醒的問題",
+        "D": "zaleplon 不僅可讓病人易於入睡，還可有效延長睡眠"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 49,
+      "stem": "林女士 53 歲，5年前因子宮肌瘤切除子宮，近來有嚴重熱潮紅及失眠等更年期症狀，讓她非常困擾與不適。如 果要開始荷爾蒙治療，下列何者最佳？",
+      "options": {
+        "A": "estradiol acetate",
+        "B": "estradiol acetate and medroxyprogesterone acetate",
+        "C": "medroxyprogesterone acetate",
+        "D": "levonorgestrel"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 50,
+      "stem": "下列何者長期使用會增加體重？",
+      "options": {
+        "A": "insulin",
+        "B": "phentermine",
+        "C": "dextroamphetamine",
+        "D": "verapamil"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 51,
+      "stem": "下列何者降低血中三酸甘油脂（TG ）效果差，不適合用於治療 hypertriglyceridemia ？",
+      "options": {
+        "A": "fenofibrate 160 mg qd",
+        "B": "atorvastatin 20 mg qd",
+        "C": "niacin （extended-release ）2000 mg qd",
+        "D": "ezetimibe 10 mg qd"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 52,
+      "stem": "下列何者為sitagliptin 之藥品不良反應？",
+      "options": {
+        "A": "Churg-Strauss syndrome",
+        "B": "Stevens-Johnson syndrome",
+        "C": "Graves' disease",
+        "D": "Virchow's Triad"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 53,
+      "stem": "有關 thioamides 類藥品在 hyperthyroidism 之治療，下列敘述何者正確？",
+      "options": {
+        "A": "可增加體內thyroid hormone 的排除",
+        "B": "給藥約一週後即可改善 hyperthyroidism",
+        "C": "該類藥品中，propylthiouracil 適於授乳婦女使用",
+        "D": "該類藥品中，methimazole 起始作用時間較快"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 54,
+      "stem": "若必須使用多種外用製劑於同一部位時，其先後順序為何？①溶液（solutions ） ②凝膠（gels ） ③乳霜 （creams ） ④軟膏（ointments ）",
+      "options": {
+        "A": "①②③④",
+        "B": "①③④②",
+        "C": "④③②①",
+        "D": "②①③④ 55. 26 歲女性上班族，因青春痘就診，不建議貿然使用下列何種治療方式？"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 57,
+      "stem": "有關使用 nonsteroidal anti-inflammatory drugs （NSAIDs ）與disease-modifying antirheumatic drugs （DMARDs ）治療風濕性關節炎（RA ）的敘述，下列何者正確？",
+      "options": {
+        "A": "若病人服用 NSAIDs 即可控制疼痛，應儘量不要使用 DMARDs",
+        "B": "acetaminophen 與NSAIDs 皆可有效控制 RA 的關節疼痛，為第一線治療藥品",
+        "C": "只有生物製劑 DMARDs 才能減緩 RA 對關節的破壞，傳統 DMARDs 則否",
+        "D": "一般而言，生物製劑 DMARDs 產生療效的時間（onset ）比傳統 DMARDs 快"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 58,
+      "stem": "下列何者之給藥途徑為皮下注射（SC ）？",
+      "options": {
+        "A": "rituximab",
+        "B": "tocilizumab",
+        "C": "infliximab",
+        "D": "etanercept"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 59,
+      "stem": "下列何者含鈣比例最高？",
+      "options": {
+        "A": "calcium carbonate",
+        "B": "calcium citrate",
+        "C": "calcium lactate",
+        "D": "calcium chloride 60. 72 歲男性因心肌梗塞住院，治療期間右腳大拇趾腫痛，尿酸值為8.5 mg/dL ，給與 colchicine 後症狀皆消除。在 下列情況下，病人出院後須持續使用降尿酸藥品，但何者除外？"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 61,
+      "stem": "有關 colchicine 的敘述，下列何者正確？",
+      "options": {
+        "A": "與acidifying agent 併用會加強colchicine 之作用",
+        "B": "與atorvastatin 併用會增加橫紋肌溶解症之發生率",
+        "C": "與fluconazole 併用可能會降低 colchicine 的血中濃度",
+        "D": "僅適用於痛風急性發作治療 62. 36 歲乳癌女性病人，腫瘤大小 2公分，病理報告：estrogen receptor （+）； progesterone receptor （+）； human epidermal growth factor receptor testing （–）。此病人使用何種藥品治療最適當？"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 63,
+      "stem": "Leucovorin 可預防下列那個藥品之嚴重不良反應？",
+      "options": {
+        "A": "cisplatin",
+        "B": "docetaxel",
+        "C": "fluorouracil",
+        "D": "methotrexate"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 64,
+      "stem": "有關血液腫瘤的治療目標，下列敘述何者正確且完整？",
+      "options": {
+        "A": "Hodgkin lymphoma ：提高治癒率、降低短期與長期的治療相關副作用",
+        "B": "non-Hodgkin lymphoma ：減輕症狀、儘量避免治療相關副作用",
+        "C": "acute leukemia ：快速達到完全緩解（complete remission ）",
+        "D": "chronic leukemia ：減輕症狀、降低治療相關副作用、提高生活品質"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 65,
+      "stem": "有關口服鐵劑的敘述，下列何者錯誤？",
+      "options": {
+        "A": "ferrous salt 口服吸收較 ferric salt 好",
+        "B": "ferrous sulfate 325 mg tid 提供 195 mg elemental iron",
+        "C": "服用鐵劑時加上 100 mg vitamin C 能大幅增加吸收率",
+        "D": "長效型鐵劑雖可降低腸胃道副作用，卻會降低吸收"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 66,
+      "stem": "下列何者最適合用於預防成人 cisplatin 引起之腎毒性？",
+      "options": {
+        "A": "給與 2～3 L normal saline",
+        "B": "給與 aluminum salt",
+        "C": "furosemide IV q4h till urine output 100 ～200 mL/hour",
+        "D": "mannitol IV q4h till urine output 100 ～200 mL/hour"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 67,
+      "stem": "吳小姐 46 歲，罹患乳癌第二期，手術切除局部乳房，術後第一次化學治療（C/T ）後第 7天回診。病人體溫 38.6 ℃、WBC 900 cells/mm 3、segs 20% 、bands 10% 、lymphocyte 15% ；吳小姐並沒有任何低血壓及其他 感染症狀。依序回答下列三題。 病人現在的絕對嗜中性球數（absolute neutrophil count ）為多少？",
+      "options": {
+        "A": "180 cells/mm 3",
+        "B": "90 cells/mm 3",
+        "C": "270 cells/mm 3",
+        "D": "405 cells/mm 3"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 68,
+      "stem": "吳小姐入院治療，做過必要的檢驗後，下列那種用藥最適宜？",
+      "options": {
+        "A": "filgrastim SC ＋vancomycin PO ＋cefepime IV",
+        "B": "vancomycin PO ＋cefepime IV",
+        "C": "vancomycin IV ＋cefepime IV",
+        "D": "cefepime IV"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 69,
+      "stem": "吳小姐在 7天後出院，腫瘤科醫師要繼續下一次之 C/T ，為減少 febrile neutropenia 的發生，下列處置何者最適 當？",
+      "options": {
+        "A": "C/T 劑量應維持，且在下次 C/T 前48 小時開始給與 filgrastim SC",
+        "B": "C/T 劑量應維持，且在下次 C/T 後48 小時開始給與 filgrastim SC",
+        "C": "C/T 劑量應下降，且在下次 C/T 前48 小時開始給與 filgrastim SC",
+        "D": "C/T 劑量應下降，且在下次 C/T 後48 小時開始給與 filgrastim SC"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 70,
+      "stem": "國一的王同學，曾有運動時發作氣喘之病史，最近 3年沒有發作，想參加桌球社，每次練習 1小時。依序回答 下列三題。 最合適之預防性措施為何？",
+      "options": {
+        "A": "不建議參加桌球社",
+        "B": "運動前使用 inhaled albuterol 2 puffs",
+        "C": "運動前使用 inhaled formoterol 2 puffs",
+        "D": "長期使用 inhaled beclomethasone 2 puffs"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 71,
+      "stem": "若王同學想參加桌球密集訓練，每次練習 4小時，最合適之預防性措施為何？",
+      "options": {
+        "A": "不建議參加桌球密集訓練",
+        "B": "運動前使用 inhaled albuterol 4 puffs",
+        "C": "運動前使用 inhaled salmeterol 2 puffs",
+        "D": "長期使用 inhaled beclomethasone 2 puffs"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 72,
+      "stem": "若王同學最近出現中度間歇性氣喘發作，仍想參加桌球練習 1小時，最合適的預防措施為何？",
+      "options": {
+        "A": "不建議參加桌球練習",
+        "B": "運動前使用 inhaled pirbuterol 2 puffs",
+        "C": "運動前使用 inhaled formoterol 2 puffs",
+        "D": "長期使用 inhaled beclomethasone 2 puffs"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 73,
+      "stem": "劉先生高血壓 15 年，且患有痛風、高血脂、心律不整及糖尿病，長期使用 insulin 。最近半年開始出現疲倦、乾 咳、運動時會喘、呼吸急促以及發燒等症狀，入院診斷懷疑是藥品引起之肺纖維化（pulmonary fibrosis ）， 下列劉先生其他長期用藥中何者最可能造成肺臟毒性？",
+      "options": {
+        "A": "benazepril 40 mg qd",
+        "B": "nicardipine 20 mg tid",
+        "C": "atorvastatin 10 mg qd",
+        "D": "amiodarone 400 mg qd"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 74,
+      "stem": "承上題，會引起肺臟毒性之藥品，也較常造成以下那些副作用？①高尿酸血症 ②甲狀腺功能異常 ③光敏 感 ④周邊神經病變 ⑤肌溶症",
+      "options": {
+        "A": "①②③",
+        "B": "②③④",
+        "C": "③④⑤",
+        "D": "①④⑤"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 75,
+      "stem": "王先生患有高血壓、糖尿病及高血脂，半年前發生急性心肌梗塞，醫師處方 glimepiride 4 mg qd, metoprolol 100 mg qd, ramipril 5 mg qd 以及 lovastatin 40 mg qd ，一個月後王先生開始有肌肉疼痛，最近常感覺疲倦， 食慾不振，依序回答下列三題。 王先生應立刻到醫院做那些檢查？①胸部 X光檢查 ②心電圖 ③肝功能 ④腎功能 ⑤血中 creatine kinase",
+      "options": {
+        "A": "①②③",
+        "B": "②③④",
+        "C": "③④⑤",
+        "D": "①④⑤"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 76,
+      "stem": "依王先生的症狀研判很可能是藥品不良反應，其用藥中何者最容易造成肌肉方面之副作用？",
+      "options": {
+        "A": "glimepiride",
+        "B": "metoprolol",
+        "C": "ramipril",
+        "D": "lovastatin"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 77,
+      "stem": "王先生使用的藥品與下列那些藥品併用時，最可能增加肌肉方面之不良反應？①valsartan ②terazosin ③itraconazole ④gemfibrozil",
+      "options": {
+        "A": "①②",
+        "B": "②③",
+        "C": "①④",
+        "D": "③④"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 78,
+      "stem": "病人接受 CHOP 的處方治療，如下： CHOP Regimen Pre-medication Dexamethasone 10 mg IV infusion 5 min, 15 min before C/T Metoclopramide 10 mg IV over 15 min, 30 min before C/T, then 10 mg IV q6h × 1 day Granisetron 2 mg PO, 60 min before C/T Chemotherapy Cyclophosphamide 750 mg/m 2 IV slowly push 3-5 min on day 1; then Doxorubicin 40 mg/m 2 IV slowly push 3-5 min on day 1; then Vincristine 1.4 mg/m 2 IV slowly push on day 1 (max. 2 mg ); then Prednisolone 40 mg/m 2/day PO bid × 5 days Allopurinol 100 mg PO tid x 5 days started on day before chemotherapy Cumulative dose of doxorubicin after this chemotherapy: 64 mg/m 2 依序回答下列三題。 CHOP 處方中何者血管外滲（extravasation ）會造成嚴重傷害？",
+      "options": {
+        "A": "cyclophosphamide",
+        "B": "dexamethasone",
+        "C": "metoclopramide",
+        "D": "vincristine"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 79,
+      "stem": "根據國際止吐劑規範，你同意處方中所開立的止吐藥品嗎？",
+      "options": {
+        "A": "同意，因為這個處方的化療藥品組合屬中致吐等級",
+        "B": "同意，因為dexamethasone 可以加強granisetron 的作用",
+        "C": "不同意，因為metoclopramide 不需要與 granisetron 同時併用",
+        "D": "不同意，因為granisetron 不應使用口服劑型"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 80,
+      "stem": "處方中記錄doxorubicin 的累積劑量是考量其何種毒性？",
+      "options": {
+        "A": "心臟毒性",
+        "B": "骨髓毒性",
+        "C": "膀胱毒性",
+        "D": "血管外滲毒性"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 12
+  },
+  "referenceGroupId": "therapeutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\106100_55_therapeutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\106100_55_therapeutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

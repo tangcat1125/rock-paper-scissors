@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exeam 首頁</title>
+  <style>
+    :root {
+      --bg: #f5efe5;
+      --panel: #ffffff;
+      --panel-2: #fbfaf7;
+      --text: #14213d;
+      --muted: #5b6472;
+      --accent: #0f766e;
+      --accent-2: #d97706;
+      --line: #d7d3cb;
+      --shadow: 0 18px 40px rgba(20, 33, 61, .10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,.12), transparent 28%),
+        radial-gradient(circle at 80% 0%, rgba(217,119,6,.12), transparent 26%),
+        linear-gradient(180deg, #f6f0e6 0%, #eef3f8 100%);
+      min-height: 100vh;
+    }
+    .shell {
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .hero, .layout {
+      display: grid;
+      gap: 16px;
+    }
+    .hero {
+      grid-template-columns: 1.7fr 1fr;
+      margin-bottom: 16px;
+    }
+    .layout {
+      grid-template-columns: 1.3fr .9fr;
+      margin-top: 16px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 20px;
+    }
+    .hero-card {
+      background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
+      color: #fff;
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .kicker {
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: 12px;
+      color: rgba(255,255,255,.7);
+      margin-bottom: 10px;
+    }
+    .title {
+      font-size: clamp(30px, 4vw, 56px);
+      line-height: 1.05;
+      margin: 0 0 14px;
+      max-width: 12ch;
+    }
+    .copy {
+      color: rgba(255,255,255,.82);
+      line-height: 1.7;
+      margin-bottom: 18px;
+      max-width: 64ch;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid transparent;
+      transition: transform .15s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn.primary { background: #f8fafc; color: #111827; }
+    .btn.secondary { background: rgba(255,255,255,.08); color: #fff; border-color: rgba(255,255,255,.14); }
+    .btn.ghost { background: transparent; color: var(--accent); border-color: rgba(15,118,110,.18); }
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .stat {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
+    }
+    .stat-label {
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .stat-value {
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+    .stat-sub {
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+    }
+    .note {
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .mode-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .mode-card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      background: linear-gradient(180deg, #fffdf9 0%, #fff 100%);
+    }
+    .mode-kicker {
+      color: var(--accent-2);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 8px;
+    }
+    .mode-title {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .mode-desc {
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 12px;
+      min-height: 3.2em;
+    }
+    .familiarity-grid {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+    .donut {
+      width: 220px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      margin: 0 auto;
+      background: conic-gradient(#0f766e 0deg 201deg, #d97706 201deg 360deg);
+      position: relative;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.6);
+    }
+    .donut::after {
+      content: "熟悉度";
+      position: absolute;
+      inset: 26px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.96);
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      color: var(--text);
+      text-align: center;
+      padding: 18px;
+    }
+    .unit-row + .unit-row { margin-top: 14px; }
+    .unit-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+    .pct { color: var(--muted); }
+    .meter {
+      height: 12px;
+      background: #e9eef5;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .meter span {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+    }
+    .weak-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .weak-card {
+      background: linear-gradient(180deg, #fffdf8 0%, #fff 100%);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    .weak-title {
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .weak-percent {
+      color: var(--accent-2);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .weak-desc {
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .rule-list {
+      display: grid;
+      gap: 10px;
+    }
+    .rule-item {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px;
+      background: var(--panel-2);
+      line-height: 1.6;
+    }
+    .sticky-bar {
+      position: sticky;
+      bottom: 14px;
+      z-index: 10;
+      margin-top: 16px;
+      display: none;
+    }
+    .sticky-inner {
+      background: rgba(20,33,61,.96);
+      color: #fff;
+      border-radius: 18px;
+      padding: 12px;
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    @media (max-width: 1023px) {
+      .hero, .layout {
+        grid-template-columns: 1fr;
+      }
+      .mode-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .familiarity-grid {
+        grid-template-columns: 1fr;
+      }
+      .donut { width: 180px; }
+    }
+    @media (max-width: 767px) {
+      .shell { padding: 14px; }
+      .hero-card, .panel { border-radius: 18px; }
+      .summary-grid, .weak-grid, .mode-grid {
+        grid-template-columns: 1fr;
+      }
+      .actions a {
+        width: 100%;
+      }
+      .sticky-bar { display: block; }
+      .panel { padding: 16px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <div class="hero-card">
+        <div class="kicker">EXEAM Diagnostic Dashboard</div>
+        <h1 class="title">先複習，再分科作答。</h1>
+        <p class="copy">
+          這個首頁會先顯示上次測驗結果、單元熟悉度與弱點單元，然後讓受試者選擇全考或單科測驗。
+          流程會依序支援法規、調劑臨床、藥治三科，每科 20 題。
+        </p>
+        <div class="actions">
+          <a class="btn secondary" href="#exam-modes">選擇單科 20 題</a>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>上次檢測摘要</h2>
+        <div class="summary-grid">
+          <div class="stat">
+            <div class="stat-label">Last score</div>
+            <div class="stat-value">58%</div>
+            <div class="stat-sub">12 / 20 correct</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Reading</div>
+            <div class="stat-value">28m</div>
+            <div class="stat-sub">1120 sec reading</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Answer edits</div>
+            <div class="stat-value">9</div>
+            <div class="stat-sub">保留改選紀錄供分析</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Attempts</div>
+            <div class="stat-value">12</div>
+            <div class="stat-sub">50 次後再進正式模式</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="exam-modes" style="margin-bottom:16px;">
+      <h2>考科入口</h2>
+      <div class="note">
+        現在只保留三個單科入口，依序是法規、調劑臨床、藥治，每科 20 題。你可以先單獨測某一科，方便從弱項開始複習。
+      </div>
+      <div class="mode-grid">
+        <article class="mode-card">
+          <div class="mode-kicker">Section 1</div>
+          <div class="mode-title">法規 20 題</div>
+          <div class="mode-desc">先測法規，適合快速暖機與查漏補缺。</div>
+          <a class="btn ghost" href="exam-platform/law-exam.html">測法規</a>
+        </article>
+        <article class="mode-card">
+          <div class="mode-kicker">Section 2</div>
+          <div class="mode-title">調劑臨床 20 題</div>
+          <div class="mode-desc">聚焦調劑與臨床判斷題型。</div>
+          <a class="btn ghost" href="exam-platform/dispensing-exam.html">測調劑臨床</a>
+        </article>
+        <article class="mode-card">
+          <div class="mode-kicker">Section 3</div>
+          <div class="mode-title">藥治 20 題</div>
+          <div class="mode-desc">聚焦藥物治療與治療學觀念。</div>
+          <a class="btn ghost" href="exam-platform/therapeutics-exam.html">測藥治</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="layout">
+      <div class="panel">
+        <h2>單元熟悉度</h2>
+        <div class="note">圓餅圖用來快速看整體比例，右側用條狀圖保留數值細節。</div>
+        <div class="familiarity-grid">
+          <div class="donut" aria-label="熟悉度圓餅圖"></div>
+          <div>
+            <div class="unit-row">
+              <div class="unit-head">
+                <span>法規</span>
+                <span class="pct">66%</span>
+              </div>
+              <div class="meter"><span style="width:66%; background:#0f766e"></span></div>
+            </div>
+            <div class="unit-row">
+              <div class="unit-head">
+                <span>調劑臨床</span>
+                <span class="pct">52%</span>
+              </div>
+              <div class="meter"><span style="width:52%; background:#d97706"></span></div>
+            </div>
+            <div class="unit-row">
+              <div class="unit-head">
+                <span>藥治</span>
+                <span class="pct">61%</span>
+              </div>
+              <div class="meter"><span style="width:61%; background:#2563eb"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>弱單元先複習</h2>
+        <div class="note">先複習弱項，再進入檢測，有助於提高正確率，也能減少重複錯誤。</div>
+        <div class="weak-grid">
+          <article class="weak-card">
+            <div class="weak-title">調劑臨床</div>
+            <div class="weak-percent">52% familiar</div>
+            <div class="weak-desc">先複習這個單元，再開始 20 題檢測。</div>
+            <a class="btn ghost" href="exam-platform/dispensing-exam.html">Open review</a>
+          </article>
+          <article class="weak-card">
+            <div class="weak-title">法規</div>
+            <div class="weak-percent">66% familiar</div>
+            <div class="weak-desc">先複習這個單元，再開始 20 題檢測。</div>
+            <a class="btn ghost" href="exam-platform/law-exam.html">Open review</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="sticky-bar">
+      <div class="sticky-inner">
+        <div>
+          <div style="font-weight:800;">準備開始檢測？</div>
+          <div class="small" style="color:rgba(255,255,255,.7);">可直接選科目進入單科模式。</div>
+        </div>
+        <a class="btn primary" href="#exam-modes" style="min-height:44px;">選考科目</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

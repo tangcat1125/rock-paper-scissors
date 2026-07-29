@@ -1,0 +1,739 @@
+{
+  "setId": "115020_0404_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\115020_q0404_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\115020_ans0404_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 71,
+  "answerCount": 71,
+  "parseWarnings": [
+    "Question 29: Could not parse options for question 29",
+    "Question 30: Could not parse options for question 30",
+    "Question 47: Could not parse options for question 47",
+    "Question 71: Could not parse options for question 71"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列何者不於pharmaceuticalsuspension之防腐劑?",
+      "options": {
+        "A": "phenol",
+        "B": "ammonia",
+        "C": "parabens",
+        "D": "meta-cresol"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "有關藥品調製天秤的使用，下列叙述何者錯？",
+      "options": {
+        "A": "天秤應放置在水平的桌面上",
+        "B": "天秤放的位置應該避免氣流的干",
+        "C": "使用秤量纸秤重，可以提升確度",
+        "D": "秤量前必须歸零"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "有關調製基本技巧及器具選用原则，下列叙述何者錯？",
+      "options": {
+        "A": "量取溶液時，視線须與液面同高，觀測液面下緣",
+        "B": "使用滤過滤溶液，容易有維污染滤液及吸附主成分的問題",
+        "C": "利用研缺及，運用何稀耦法可充分混合兩種體殊的粉末",
+        "D": "玻璃研钵及特别適合用於研细固體、或混合固體及液體，以調製suspension及emulsion"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "如何以50%iodinestocksolution製備5%500mL的iodinesolution?",
+      "options": {
+        "A": "取100mLiodinestocksolution添加蒸水400mL",
+        "B": "取50mLiodinestocksolution添加蒸水至500mL",
+        "C": "取62.5mLiodinestocksolution添加蒸水至500mL",
+        "D": "取50mLiodinestocksolution添加蒸水400mL"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "有關topicalophthalmicpreparations之叙述；下列何者正確?",
+      "options": {
+        "A": "可分為solution丶ointment丶suspension，以ointment最為常見與最易使用",
+        "B": "若有延長藥品放需求，會將藥品製備為solution",
+        "C": "藥品若有快速發藥效的需求，例如1idocaine，會製備為suspension",
+        "D": "steroid水溶性不佳，會製為suspension"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "有關flavoringagent（味劑）之叙述，下列何者錯？",
+      "options": {
+        "A": "可以增加小孩的服藥之意與配合度",
+        "B": "味劑的選通常會搭配顏色，提高病人接受度",
+        "C": "sweetener如sorbital也於味劑的一種",
+        "D": "味劑通常對温度不敏感，製備過程穩定"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "下列何者於藥品的secondarypackaging materials?",
+      "options": {
+        "A": "耳用滴瓶",
+        "B": "氯喘用藥MDI之給藥辅助器（spacer）",
+        "C": "玻璃小瓶（vial）之標貼",
+        "D": "玻璃小瓶（vial）之橡皮塞"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "下列何者不是patientpacks的優點？",
+      "options": {
+        "A": "可降低存空間的需求",
+        "B": "可提供较完整的藥品資訊",
+        "C": "可增加藥師調劑的效率",
+        "D": "易於辨識產品及製造商"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "下列何者不是派營養（PN）的適應症？",
+      "options": {
+        "A": "大圍小腸切除導致胃腸道内營養吸收不良",
+        "B": "任何程度的胰炎",
+        "C": "腹膜瘤導致的機械性腸道阻塞",
+        "D": "因neutropenicenterocolitis而無法維持腸道營養的病人"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "下列何者可以抑制氧化反應，增加注射的安定性？",
+      "options": {
+        "A": "增加存温度",
+        "B": "提高注射液的 pH值",
+        "C": "在容器内充填氮氣",
+        "D": "於注射液中加人鐵離子"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "病人因為胃食道逆流到社區藥局求助，下列藥師提供的處置，何者最不適當？",
+      "options": {
+        "A": "了解民是否使用高風用藥（如：NSAIDs）",
+        "B": "建民調整生活作息（例如戒、减重）",
+        "C": "建病人購買metoclopramidetablet",
+        "D": "若病情恶化建民就醫"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "下列何者於懷孕期間任一孕期使用相對安全？",
+      "options": {
+        "A": "levothyroxine",
+        "B": "tetracycline",
+        "C": "topiramate",
+        "D": "trimethoprim"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "懷孕婦女可接種下列何種疫苗？",
+      "options": {
+        "A": "白喉破傷風及百日咳疫苗",
+        "B": "人類乳突病毒疫苗",
+        "C": "水痘疫苗",
+        "D": "麻疹腮腺炎德國麻疹混合疫苗"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "有關老年人的生理變化對藥品血中濃度的影響，下列何者錯？",
+      "options": {
+        "A": "肌肉質量及全身水分减少，導致digoxin的血中濃度增加",
+        "B": "serumalbumin减少，導致血中freephenytoin濃度增加",
+        "C": "肝血流减少，肝代謝能力下降，導致gentamicin的血中濃度增加",
+        "D": "臀血流减少，GFR下降，導致vancomycin的血中濃度增加"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "Madoparcapsules使用後，尿液可能變成何種颜色？",
+      "options": {
+        "A": "紅色",
+        "B": "色",
+        "C": "黑色",
+        "D": "藍色"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "使用short-actingβ2agonist後，肺功能顯著回復至於正常，該病人最可能的診為何？",
+      "options": {
+        "A": "chronic obstructive pulmonary disease",
+        "B": "asthma",
+        "C": "allergic rhinitis",
+        "D": "cystic fibrosis"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "下列何者最不會造成眼睛乾燥，影響戴形眼镜的舒適度？",
+      "options": {
+        "A": "amitriptyline",
+        "B": "chlorpheniramine",
+        "C": "pilocarpine",
+        "D": "disopyramide"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "針對mechanicalprostheticvalve置换之病人，下列何者為anticoagulant之首選？",
+      "options": {
+        "A": "aspirin",
+        "B": "apixaban",
+        "C": "dabigatran",
+        "D": "warfarin"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "下列何者會促進warfarin代谢，而降低INR（internationalnormalizedratio）？",
+      "options": {
+        "A": "griseofulvin",
+        "B": "allopurinol",
+        "C": "amiodarone",
+        "D": "metronidazole"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "下列那一組藥品之交互作用pharmacodynamicdruginteraction？",
+      "options": {
+        "A": "dabigatran/amiodarone",
+        "B": "cyclosporine/statins",
+        "C": "methotrexate/salicylates",
+        "D": "amikacin/cisatracurium"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "有關藥物交互作用之叙述，下列何者正確？",
+      "options": {
+        "B": "verapami1舆葡萄柚汁饼服時，verapamil之口服吸收率會降低 温度26℃，相對濕度50~65%",
+        "C": "furosemideinjection與midazolaminjection混合使用，furosemide可能產生沉 温度28℃，相對濕度35～45%",
+        "D": "tetracycline與含有Al*或Mg的antacid供服時，tetracycline之口服吸收率會增加 温度30℃，相對濕度50～65%",
+        "A": "温度20℃，相對濕度35～45%"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "Gentamicin如依傅統給藥方式，有關loadingdose之叙述，下列何者正確？〔：IBW：idealbody weight；TBW: total body weight]",
+      "options": {
+        "A": "须依照臀功能調整",
+        "B": "體重過輕者需要依照IBW",
+        "C": "肥胖者须依照adjustedBW（=IBW+（TBW一IBW)xO.4）",
+        "D": "所有病人均须依照TBW"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "有關藥品的存，下列叙述何者錯？",
+      "options": {
+        "A": "amphotericinB注射劑reconstitute後，仍须避光存",
+        "B": "albumin须於≤30℃存，不可冷凍",
+        "C": "開封後nitroglycerinSLtablet，须持續置放於原包装褐色瓶中",
+        "D": "稀後的nitroglycerininjection须使用PVCIVset，输注時要避光"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "有關transdermaldrugdelivery之叙述，下列何者錯？",
+      "options": {
+        "A": "效力弱舆半衰期長的藥品，適合製備為皮膚貼片",
+        "B": "藥品在皮膚中有可能被代谢",
+        "C": "nitroglycerin貼片可長時維持steady-state血中濃度，因而產生耐受性",
+        "D": "戒者若因尼古丁貼片影響睡眠，可每天只使用16小時"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "有關口服藥品赋形劑的成分和用途之配對，下列何者錯？",
+      "options": {
+        "A": "pH調節劑：sodium succinate",
+        "B": "稀劑：calciumcarbonate",
+        "C": "著色劑：sodium alginate",
+        "D": "潤滑劑：magnesiumstearate"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "Erythromycinfororalsuspension由藥廠提供固體劑型，於使用前再調製成悬浮液。下列叙述何者錯？",
+      "options": {
+        "A": "劑型通常為乾粉",
+        "B": "erythromycin在水性溶媒中不穩定，使用前再調製，可確保療效和安全性",
+        "C": "調製成浮液後，必须冷藏，於三天内使用完",
+        "D": "主成分可為erythromycinbase或不同的esters"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "有關eyedrops使用之注意事填，下列何者錯？",
+      "options": {
+        "A": "须同時使用雨種eyedrops時，用完一種後應間隔數分鐘再使用第二種",
+        "B": "應將藥水滴於下眼内侧",
+        "C": "應提醒病人eyedrops給藥後，立即閑眼以防止藥水流出",
+        "D": "若eyedrops颜色改變，應立即抛案不再使用"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "有關patient-controlledanalgesia（PCA）之叙述，下列何者錯？",
+      "options": {
+        "A": "fentanyl具高脂溶性，可穿透blood-brainbarrier",
+        "B": "應依病人疼痛反應設定最大劑量",
+        "C": "basaldose應使用於opioidnaive病人",
+        "D": "oxycodone PO 20 mg 效價相當於 morphine IV 10 mg"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "有關無菌調製產品beyond-usedate（BUD）之訂定，下列叙述何者正確？",
+      "options": {
+        "A": "依據USP（797）决定的BUD不受存温度條件影響",
+        "B": "stability主要受到調製環境與操作複雜度影響",
+        "C": "sterility主要受到有效成分的化學穩定度影響",
+        "D": "USP<797〉提供sterilenon-hazardousdrug的BUD言定则"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "進行非危害性無菌調製產品前，必须穿著個人防護装備，下列顺序何者正確？",
+      "options": {
+        "B": "清理指甲内部→穿專用鞋→清洗手部至手臂→隔離衣→戴無粉减菌手套→髮帽舆口罩",
+        "C": "穿專用鞋→葵帽舆口罩→清理指甲内部→清洗手部至手臂→隔離衣→戴無粉藏菌手套",
+        "D": "清理指甲内部→清洗手部至手臂→穿專用鞋→帽舆口罩→隔離衣→戴無粉减菌手套 不同的類藥品没有交叉過敏反應",
+        "A": "oxaliplatin 為organic platinum drug’carboplatin 奥cisplatin為inorganic platinum drug"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "下列何者最不會破壤3-in-1totalparenteralnutrition（TPN）中之fatemulsion安定性？",
+      "options": {
+        "A": "添加trivalentcation",
+        "B": "增加divalentcation之濃度",
+        "C": "降低TPN製劑pH值",
+        "D": "使用1.2μm之filter"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "有關hydromorphone之叙述，下列何者錯？",
+      "options": {
+        "A": "臀功能不良之病人起始劑量應降低",
+        "B": "是morphine的analogue’水溶性较morphine佳",
+        "C": "代谢物有hydromorphone-3-glucuronide 和hydromorphone-6-glucuronide",
+        "D": "hydromorphone-6-glucuronide不具止痛活性"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "有關waterforinjection之叙述，下列何者錯？",
+      "options": {
+        "A": "依USP规定，開封後可於室温下保存48小時",
+        "B": "依EP定，须以distillation製備",
+        "C": "依USP定，可以compressiondistillation或是reverseosmosis/ultrafiltration製備",
+        "D": "進水含chlorine過高，易造成蒸設備之腐触"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "有關prefilledsyringes和multi-dosevials之叙述，下列何者錯？",
+      "options": {
+        "A": "prefilled syringes 不含 antimicrobialpreservatives",
+        "B": "prefilledsyringes可直接使用，不须調製",
+        "C": "multi-dosevials之製造商會测試開封使用後之purity及potency維持時間",
+        "D": "若無特别明，根據USP（797〉multi-dosevials開封後之beyond-usedate為14天"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "估病人接受totalparenteralnutrition（TPN）之水分需求，下列叙述何者正確？",
+      "options": {
+        "A": "renalfailure：水分需求减少 TPNbags可由單層EVA製成",
+        "B": "severe gastrointestinalloss：水分需求减少 IVfatemulsion會使plasticizer由EVAbag漏出",
+        "C": "heartfailure：水分需求增加 totalnutrientadmixture不可使用PVC bag",
+        "D": "burn：水分需求减少 polyvinyl chloride] 氧氣氯通透性在PVCbag 高於多層EVAbag"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "注射液使用下列何種材料包装時，會有金氧化物渗出的問題？",
+      "options": {
+        "A": "polyvinylchloride",
+        "B": "borosilicate glass",
+        "C": "butyl rubber",
+        "D": "polypropylene"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "有關imipenem之叙述，下列何者正確？",
+      "options": {
+        "A": "imipeneminjection中含有cilastatin，為dehydropeptidaseIinhibitor",
+        "B": "imipenem舆cilastatin重量比為2：1",
+        "C": "IVinfusion之建給藥濃度，以imipenem計算應為10mg/mL",
+        "D": "舆meropenem相比，较不易發生seizure的副作用"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "調劑化療藥品人員之訓内容，可不包含下列何者？",
+      "options": {
+        "A": "horizontallaminarairflowunit之無菌操作技巧與維護",
+        "B": "常用化療藥品及protocols",
+        "C": "细胞毒性藥品之安全操作",
+        "D": "安全存及運送化療藥品"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "一崴半以下幼兒，最安全的肌肉注射部位為：",
+      "options": {
+        "A": "三角肌",
+        "B": "臀肌",
+        "C": "腹肌",
+        "D": "大腿外侧肌"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "下列何者不於系统性疏失之预防措施？",
+      "options": {
+        "A": "建立醫模组（orderset）開方系統",
+        "B": "回near miss處方給當事人",
+        "C": "限制特定病房備之藥品數量",
+        "D": "開立處方時，自動提供建劑量"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "有關antipsychotics藥品不良反應之叙述，下列何者錯？",
+      "options": {
+        "A": "olanzapine和clozapine會造成anticholinergic副作用",
+        "B": "clozapine 较haloperidol易發生orthostatichypotension",
+        "C": "發生tardivedyskinesia的風险與累劑量及使用期間無關",
+        "D": "ziprasidone鹰避免用於hypokalemia或hypomagnesemia的病人"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "下列何者不是社區藥局藥師執業時該有的则？",
+      "options": {
+        "A": "提供以疾病為中心的藥事照護",
+        "B": "應用專業知識來做判",
+        "C": "勇敢指正錯觀念",
+        "D": "舆他人建立合作關係"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "下列何種經濟學分析用monetaryunits做為healtheffect之outcome？",
+      "options": {
+        "A": "cost-utilityanalysis",
+        "B": "cost-effectiveness analysis",
+        "C": "cost-minimization analysis",
+        "D": "cost-benefit analysis"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "有關藥事委員會之叙述，下列何者錯？",
+      "options": {
+        "A": "應訂有符合规定之一般藥品及特殊藥品使用、管理標舆规定",
+        "B": "成員應以藥師為主，醫療單位為辅，管理部门则不须参與",
+        "C": "應制言藥物不良反應及常情况之通報、測、讨改善及追機制",
+        "D": "可依據藥品使用估分析，做為醫院用藥機讨及改善之参考"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "美國推行specialtypharmacypractice’主要的挑载不包括下列那一填？",
+      "options": {
+        "A": "病人整體付出醫燎花費提高",
+        "B": "特殊藥品的配送與調劑不易",
+        "C": "不同專業醫療人員服務整合不易",
+        "D": "藥物管理的法规經常修改"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "有關單一劑量包装（unit-dosepackaging）之叙述，下列何者錯？",
+      "options": {
+        "A": "應標示樂品學名及單位含量",
+        "B": "單一劑量包装配送系統较多劑量包装藥品配送系统成本低",
+        "C": "應標示expirationdate",
+        "D": "係單一藥品個别包装且仅含特定病人單次用藥所需劑量"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "有閣medicationtherapymanagementservices（MTMS）之叙述，下列何者錯？",
+      "options": {
+        "A": "须記錄病人用藥史",
+        "B": "须記錄病人過敏史",
+        "C": "藥師须單獨解决藥物治療問題",
+        "D": "须测病人用藥"
+      }
+    },
+    {
+      "number": 54,
+      "stem": "下列何者不於美國InstituteforSafeMedicationPractices定義之highalertmedicationsfor acute care settings?",
+      "options": {
+        "A": "methotrexate2.5mg/tab",
+        "B": "potassium chloride 600 mg/tab",
+        "C": "sterile water for inj. 100 mL/bag",
+        "D": "sodium chloride inj. 3%,500 mL/bag"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "在failure modesandeffectsanalysis中，風優先指數（risk prioritynumber）的計算公式不含下列 何者？",
+      "options": {
+        "A": "重度（severity）",
+        "B": "傷害度（harm）",
+        "C": "侦測率（likelihoodof detection）",
+        "D": "發生率（likelihoodof occurrence）"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "下列何者不是藥師與病人面時的原则？",
+      "options": {
+        "A": "確空間隐私",
+        "B": "维持與病人眼神接",
+        "C": "量使用封開式問题引[導病人",
+        "D": "籍由複述病人的回答來確資訊之正確性"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "下列何者為造成幼童服用1amotrigine後產生紅疹的可能原因？",
+      "options": {
+        "A": "可能增加經皮吸收",
+        "B": "血中有85%以上藥品與蛋白結合",
+        "C": "藥品代謝能力尚未成熟",
+        "D": "藥品本身具有毒性，致使原型藥無法排泄"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "下列何者用於老年人osteoporosis，最不會造成osteonecrosisofthejaw?",
+      "options": {
+        "A": "alendronate PO QW",
+        "B": "denosumab SC injection Q6M",
+        "C": "teriparatide SC injection QD",
+        "D": "zoledronic acid IV infusion Q12M"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "一嬰兒重腹，下列處置方式何者錯？",
+      "options": {
+        "A": "首重水分及電解質的補充",
+        "B": "oralrehydrationsolution所含dextrose不要超過2.5%",
+        "C": "可使用racecadotril",
+        "D": "建用loperamide止"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "下列何藥品資訊來源於tertiaryliterature?",
+      "options": {
+        "A": "internet",
+        "B": "PubMed",
+        "C": "originalresearch articles",
+        "D": "regularly updated electronic textbook"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "有關孕婦補充folicacid之叙述，下列何者錯？",
+      "options": {
+        "A": "folicacid於DNA合成扮演重要地位",
+        "B": "補充足folicacid，可预防胎兒唐氏症之發生",
+        "C": "光靠飮食無法提供每日所需folicacid",
+        "D": "一般孕婦每日攝取0.4～0.8mgfolicacid"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "有關懷孕造成的生理特性改變，下列叙述何者錯？",
+      "options": {
+        "A": "gastric emptyingtime 增加",
+        "B": "plasma albumin concentration 增加",
+        "C": "CYP3A4activity增加",
+        "D": "glomerular filtration rate 增加"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "有關幼兒用藥之叙述，下列何者錯？",
+      "options": {
+        "A": "多數藥品臨床試驗不會纳人幼兒 oral adminstration of weakly acidic drugs",
+        "B": "有些藥品在幼兒每單位體重的劑量高於成人 intramuscular injection",
+        "C": "大多數藥品具備在幼兒使用之有效性及安全性資計 subcutaneous injection",
+        "D": "給幼兒的口服製劑考虑接受度，常色彩宜人，具甜味口感 transdermaladministration"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "Methotrexate（MTX）的療劑測原则，下列何者正確？",
+      "options": {
+        "A": "正常劑量MTX與高劑量MTX都要做療劑测",
+        "B": "MTX停止给藥後第24小時抽血测藥品濃度",
+        "C": "1eucovorin劑量及療程依MTX開始給藥後第24小時、48小時、72小時血中濃度决定",
+        "D": "leucovorin應該在MTX完成給藥就開始使用"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "口服荷爾蒙避孕藥與下列何者供用時，最易造成避孕失败？",
+      "options": {
+        "A": "azithromycin",
+        "B": "cephalexin",
+        "C": "ethambutol",
+        "D": "rifampin"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "李先生规律服用amlodipine5mgBID，血壓仍控制不佳。醫師欲新增降壓藥，下列何者最不適當？",
+      "options": {
+        "A": "valsartan",
+        "B": "trichlormethiazide",
+        "C": "benidipine",
+        "D": "lisinopril"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "Paxlovid”（nirmatrelvir+ritonavir）造成交互作用之主要機轉為何？",
+      "options": {
+        "A": "CYP3A4/5inhibition",
+        "B": "CYP2D6 inhibition",
+        "C": "CYP2C19 inhibition",
+        "D": "altered gastric pH"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "承上题，下列何者於使用Paxlovid時必须停藥？",
+      "options": {
+        "A": "empagliflozin",
+        "B": "atorvastatin",
+        "C": "cetirizine",
+        "D": "atenolol"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "下列饼用兩種藥品的處方，何者不適當？",
+      "options": {
+        "A": "amlodipine and amantadine",
+        "B": "doxazosinanddexamethasone",
+        "C": "glimepirideandglyburide",
+        "D": "salbutamol and salmeterol"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "下列何者不會同時抑制CYP3A4及P-glycoprotein？",
+      "options": {
+        "A": "efavirenz",
+        "B": "verapamil",
+        "C": "fluconazole",
+        "D": "clarithromycin"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "吴先生，長期吸，最近診有COPD，抽血查WBC5，000/mm”，eosinophi11%，COPD评估問卷（CAT）分 數為25。下列治療何者最適合？",
+      "options": {
+        "A": "umeclidinium",
+        "B": "umeclidinium+vilanterol",
+        "C": "vilanterol+fluticasonefuroate",
+        "D": "umeclidinium+vilanterol+fluticasonefuroate"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "有關anti-epileptics之TDM，下列叙述何者正確？",
+      "options": {
+        "A": "phenytoin由肝代谢，透析病人若肝功能正常；藥動學與臀功能正常者相同",
+        "B": "unboundphenytoin目標濃度10～20ug/mL",
+        "C": "valproicacid目標濃度50～150mg/L",
+        "D": "carbamazepine開始服用一段時間後，tiv2會因代謝和而愈來愈長；血中濃度可能會突然增加"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "一般而言，下列何者最不易造成藥品交互作用？",
+      "options": {
+        "A": "carbamazepine",
+        "B": "levetiracetam",
+        "C": "phenobarbi tal",
+        "D": "phenytoin"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "承上題，除了正解外，其他藥品對hepaticCYP450enzyme的影響為何？",
+      "options": {
+        "A": "加成",
+        "B": "拮抗",
+        "C": "導",
+        "D": "抑制"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "St．John'swort產生藥品交互作用，主要是影響其他藥品的：",
+      "options": {
+        "A": "吸收",
+        "B": "分布",
+        "C": "代",
+        "D": "排泄"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "下列何者舆warfarin供用時，發生pharmacokineticinteraction的可能性最低？",
+      "options": {
+        "A": "pravastatin",
+        "B": "simvastatin",
+        "C": "1ovastatin",
+        "D": "fluvastatin"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "下列何者與rivaroxaban饼用時，會降低rivaroxaban之抗凝血效果？",
+      "options": {
+        "A": "ketoconazole ciprofloxacin抑制ipratropium代謝",
+        "B": "St.John's wort ciprofloxacin增加albuterol代谢",
+        "C": "ritonavir ciprofloxacin抑制theophylline代谢",
+        "D": "indinavir 80.70崴江先生，因COPD使用ipratropium 3puffsQID丶albuterol2puffsPRN及theophylline SR200mg Q12HPO。日前因prostatitis服用ciprofloxacin500mgQ12H，3天後，出現心及心悸等症状。弓|起這 些副作用最可能的原因為何？ theophylline增加ciprofloxacin代謝"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 14
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\115020_0404_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\115020_0404_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

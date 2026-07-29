@@ -1,0 +1,642 @@
+{
+  "setId": "115020_0405_therapeutics",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "therapeutics",
+  "subjectTitle": "Therapeutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\115020_q0405_therapeutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\therapeutics\\115020_ans0405_therapeutics.pdf"
+  ],
+  "questionCount": 61,
+  "answerCount": 61,
+  "parseWarnings": [
+    "Question 52: Could not parse options for question 52",
+    "Question 54: Could not parse options for question 54",
+    "Question 61: Could not parse options for question 61",
+    "Question 65: Could not parse options for question 65",
+    "Question 73: Could not parse options for question 73",
+    "Question 76: Could not parse options for question 76",
+    "Question 78: Could not parse options for question 78"
+  ],
+  "questions": [
+    {
+      "number": 2,
+      "stem": "有關febrileneutropenia病人之感染，下列叙述何者正確？",
+      "options": {
+        "A": "fluoroquinolones常做為预防性用藥，是增加G（-)细菌感染的原因之一",
+        "B": "Pseudomonasaeruginosa感染率在solidtumor病人减少，hematologicalmalignancy病人则没有减少",
+        "C": "在prolongedneutropenia病人，長期使用啡舆invasivefungalinfection的發生有直接關係",
+        "D": "Non-albicansCandidainfection逐渐增加，是因為這些菌對於amphotericinB敏感性降低的結果"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "下列何種Candida對於fluconazole先天具有抗藥性？",
+      "options": {
+        "A": "Candida albicans",
+        "B": "Candida tropicalis",
+        "C": "Candida parapsilosis",
+        "D": "Candida krusei"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "有關下列肺外結核，何者建使用corticosteroid以改善病人预後？①粟粒性結核②生殖泌尿道結核③ 中福神經系统結核④結核性心包膜炎5骨結核",
+      "options": {
+        "A": "①②5 acyclovir500mgIVQ8H",
+        "B": "①③④ acyclovir250mgIVQ8H",
+        "C": "③④ ganciclovir 250 mg IV Q8H",
+        "D": "②5 5.24崴女性；BH163cm，BW50kg’無過去病史。因發燒與突發性癫瘤送急診，lumbarpuncture發現HSV-1 DNAPCR為陽性·診有HSVencephalitis’請問下列治療何者最適當？ foscarnet 3000 mg IV Q12H"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "有關梅毒（syphilis）的處置，下列何者錯？",
+      "options": {
+        "A": "神經性梅毒可能以腦膜炎、腦神經翼常表現，建使用benzathinepenicillinG治療",
+        "B": "感染1年之内的早期梅毒，优需使用1劑benzathinepenicillinG治療",
+        "C": "對於penicillin過敏的病人，可依病况選選doxycycline、ceftriaxone等替代",
+        "D": "早期梅毒經治療後應追nontreponemaltest效價以评估療效"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "Enterococci引[起的endocarditis’下列何種抗生素治療组合最不適當？",
+      "options": {
+        "A": "ampicillin+gentamicin",
+        "B": "ampicillin+ceftriaxone",
+        "C": "vancomycin+gentamicin",
+        "D": "vancomycin+ceftriaxone"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "Clostridioidesdifficile初次感染，依其重程度，下列處方何者最適當？",
+      "options": {
+        "A": "nonsevere’metronidazole250mg POQ8H",
+        "B": "severe’vancomycin 125 mg PO Q6H",
+        "C": "severe’fidaxomicin 200mg POQ8H",
+        "D": "fulminant with ileus’metronidazole 500 mg IV Q8H+vancomycin 250 mg rectal enema Q6H"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "下列叙述何者錯？",
+      "options": {
+        "A": "imipenem/cilastatin可探用每日一次高劑量投與方式增強殺菌效果",
+        "B": "cefepime可探用持續性输注方式增強治療效果",
+        "C": "AUC/MICratio可做為quinolones療效指標",
+        "D": "Once-dailygentamicin是利用其post-antibioticeffect"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "AIDS病人可以服用co-trimoxazole來预防何種伺機性感染？",
+      "options": {
+        "A": "Streptococcuspneumoniae引|起的肺炎 若為中等重程度者，應以静胍注射minocycline治療",
+        "B": "hepatitisBvirus感染 重糖尿病足部感染的致病菌若可能是Pseudomonasaeruginosa舆methicillin-resistant Staphylococcusaureus，應以tigecycline為經性抗生素治療",
+        "C": "influenzavirus感染 若已造成osteomyelitis，则應將抗生素療程延長為2～4调",
+        "D": "Pneumocystisjiroveci肺炎 11.70崴男性因糖尿病足部感染，人院接受静胍注射抗生素治療，下列叙述何者正確？ bonescan或radiography均有助於判是否供發骨髓炎"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "承上題，若傷口的细菌培養結果為Pseudomonasaeruginosa，對常用抗生素皆敏感，下列何種抗生素最適 合？",
+      "options": {
+        "A": "piperacillin/tazobactam",
+        "B": "moxifloxacin",
+        "C": "ceftriaxone",
+        "D": "ertapenem"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "氯喘急性發作時；常以highdoseshort-actingβ2-agonist處置，下列何者不是常見副作用？",
+      "options": {
+        "A": "tachycardia",
+        "B": "hypoglycemia",
+        "C": "hypokalemia",
+        "D": "tremors"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "有關theophylline的交互作用，下列何者正確？",
+      "options": {
+        "A": "飲食大量蛋白質，會降低theophylline代謝 mild",
+        "B": "舆ciprofloxacin饼用，會增加theophylline濃度 moderate",
+        "C": "與ticlopidine饼用，會增加theophylline代谢 severe",
+        "D": "抽者；會降低theophylline代謝 obstruction程度為何？ very severe"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "林妹妹8崴，有輕微、持續的asthma症状，但其對吸人型corticosteroid的使用顺服性不佳，下列何藥 品最適合替代？",
+      "options": {
+        "A": "meloxicam",
+        "B": "moxifloxacin",
+        "C": "montelukast",
+        "D": "manidipine"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "吕先生有COPD，spirometry查值為：FEV/FVC<0.7FEV=30%ofpredicted，過去1年内曾因acute exacerbations of respiratory symptoms 就医2次；modified British MedicalResearch Council Questionaire的分數為2分，使用salmeterolIH供用fluticasoneIH治療後效果不佳。建可加上下列 何頂藥品？",
+      "options": {
+        "A": "aclidinium",
+        "B": "albuterol",
+        "C": "aminophylline",
+        "D": "amoxicillin"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "下列藥品用於過敏性鼻炎的劑量何者正確？",
+      "options": {
+        "A": "chlorpheniramine 4 mg QD",
+        "B": "desloratadine 10 mg QID",
+        "C": "fexofenadine 60 mg Q12H",
+        "D": "levocetirizine 5 mg TID"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "長期使用下列何者，停藥後會產生reboundsymptom？",
+      "options": {
+        "A": "intranasalazelastine",
+        "B": "intranasal budesonide",
+        "C": "intranasal oxymetazoline",
+        "D": "oralloratadine"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "關於aldosteroneantagonists的叙述，下列何者正確？",
+      "options": {
+        "A": "應避免與NSAIDs饼用",
+        "B": "可改善heartfailure住院率但無法降低死亡率",
+        "C": "會造成hypokalemia，開立藥品前鹰额外補充potassium",
+        "D": "eplerenone相對於spironolactone引|起gynecomastia的機率较高"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "有關第二線降血壓藥品治療的叙述，下列何者錯？",
+      "options": {
+        "A": "然停用clonidine會造成reboundhypertension levofloxacin",
+        "B": "應考虑合供使用hydralazine奥amlodipine以避免reflextachycardia cefazolin",
+        "C": "建於睡前服用doxazosin以减少orthostatichypotension的發生 azithromycin",
+        "D": "怀孕婦女應避免使用aliskiren治療妊娠高血壓 22.62林先生，目前服用dronedarone’心電圖示心室早期收缩的心律不整，心室速率為61beats/min， QTc475ms。於住院進行心電氯生理查期間發燒；抽血機查以估感染。在细菌培養結果尚未出來前， 下列何者是最佳建？ fluconazole"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "有關clopidogrel丶prasugrel與ticagrelor三者之比较，下列何者正確?",
+      "options": {
+        "A": "三者之中ticagrelor的口服吸收率最差",
+        "B": "三者之中clopidogrel的起始作用時間最快",
+        "C": "有prasugrel不需要經由肝酵素轉化為活性藥物",
+        "D": "懂有prasugrel抑制P2Y2的作用為可逆，停藥3天可進行拔牙"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "LVEF低下之心藏衰竭病人，饼用下列何種藥品時，最可能需要降低digoxin的劑量？",
+      "options": {
+        "A": "metoclopramide",
+        "B": "clarithromycin",
+        "C": "sulfasalazine",
+        "D": "cholestyramine"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "關於atrialfibrillation（AF）病人使用ratecontrol藥品的叙述，下列何者正確？",
+      "options": {
+        "A": "digoxin需数小時才能達最大療效 可增加aspirin的劑量以改善治療反應",
+        "B": "metoprolol對於交感神經亢套引起的AF效果不彰 若舆naproxen饼用時，應避免於aspirin服藥前雨小時内使用naproxen",
+        "C": "diltiazem是急性心衰竭合饼低血壓病人控制AF的首選藥品 床上不建常规測血小板功能做為調整aspirin使用的依據",
+        "D": "esmolol是急性心衰竭合饼低血壓病人控制AF的首藥品 可加上其他antiplatelet合饼治療"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "有閣anticoagulants舆其reversalagent的配對，下列何者錯？",
+      "options": {
+        "A": "enoxaparin-protamine",
+        "B": "heparin—protamine",
+        "C": "rivaroxaban—idarucizumab",
+        "D": "warfarin-Vit.K"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "有關sacubitril/valsartan之叙述，下列何者正確?",
+      "options": {
+        "A": "可取代β-blocker為第一線收缩性心衰竭之治療",
+        "B": "ACEI停藥36小時後；才可使用sacubitril/valsartan’以避免發生angioedema",
+        "C": "使用時不需要测臀功能及血濃度",
+        "D": "與spironolactone饼用會增加高血钾之風，為使用禁忌"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "有閣acutecoronarysyndrome（ACS）治療之叙述，下列何者正確？",
+      "options": {
+        "A": "無是否執行PCI，為避免血管再次阻塞，所有病人皆應接受glycoproteinIIb/IIIainhibitors的治療",
+        "B": "enoxaparin有较佳的安全性及藥動學特性，可取代heparin用於ACS治療",
+        "C": "β-blocker可能造成心收缩力不足，影響心肌的供氧，最好等病人生命微象穩定後再開始使用",
+        "D": "nitroglycerinIVinfusion可有效改善心血流供應，應持續输注到病人出院為止"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "關先生68崴，有高血壓，1年前曾因缺血性中風而住院。下列何者單獨使用可做為高血壓治療之第一線用 藥？",
+      "options": {
+        "A": "indapamide",
+        "B": "irbesartan",
+        "C": "isradipine",
+        "D": "iprat ropium"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "降血壓藥之用法用量，下列何者最適當？",
+      "options": {
+        "A": "hydrochlorothiazide :25 mg TID",
+        "B": "valsartan:80mgQD",
+        "C": "amlodipine : 5 mg QID",
+        "D": "fosinopril : 20 mg TID"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "下列那些藥品最可能會造成便秘？①imipramine②morphine③magnesiumoxide④spironolactone",
+      "options": {
+        "A": "①②",
+        "B": "①③",
+        "C": "②④",
+        "D": "①④"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "有關hepaticencephalopathy的處置，下列何者無法改善hyperammonemia？",
+      "options": {
+        "A": "neomycin",
+        "B": "flumazenil",
+        "C": "lactulose",
+        "D": "rifaximin"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "有關急性胰炎的叙述，下列何者最不適當？",
+      "options": {
+        "A": "endoscopicretrogradecholangiopancreatography（ERCP）後發生的急性胰炎，可用口服 indomethacin预防",
+        "B": "hypocalcemia是预後不佳的指標",
+        "C": "極fluidresuscitation可使用crystalloids，如lactatedRinger'ssolution",
+        "D": "壤死性胰炎若初始治療未改善，可使用廣效抗生素治療"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "下列何者是腸内菌分解sulfasalazine產生的有效成分？",
+      "options": {
+        "A": "balsalazide",
+        "B": "olsalazine",
+        "C": "mesalamine",
+        "D": "sulfapyridine"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "下列何者不於治療H．pylori之tripletherapy組合用藥？",
+      "options": {
+        "A": "amoxicillin",
+        "B": "bismuth subsalicylate",
+        "C": "clarithromycin",
+        "D": "proton pump inhibitor"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "下列何種藥品最可能導致pulmonaryfibrosis？",
+      "options": {
+        "A": "adalimumab",
+        "B": "infliximab",
+        "C": "methotrexate",
+        "D": "mesalamine"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "針對hemodialysis（HD）及peritonealdialysis（PD）比较，下列叙述何者正確？",
+      "options": {
+        "A": "HD容易造成peritonitis",
+        "B": "HD不易造成hypotension",
+        "C": "PD需常规给予heparin避免管路阻塞",
+        "D": "PD的病友需學習透析操作技巧"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "下列何者不是aminoglycoside造成AKI的危因子？",
+      "options": {
+        "A": "休克",
+        "B": "peak concentration>2 mg/L",
+        "C": "餠用foscarnet",
+        "D": "使用超過3天"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "有關透析的叙述，下列何者正確？①腹膜透析對小分子的清除率较血液透析差②血液透析常見饼發症為透 析中低血壓③血液透析是透過Tenckhoff導管進行④腹膜透析常見供發症為抽筋",
+      "options": {
+        "A": "①②",
+        "B": "①③",
+        "C": "②④",
+        "D": "③④"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "有關低血钾之叙述，下列何者正確？①可能導致心律不整②輕微低血钾時（3～4mEq/L）口服補充優先於 静胍注射 ③由於低血卸會造成致命性心律不整；應快速输注含钾溶液提升血钾④spironolactone可能 引起低血钾",
+      "options": {
+        "A": "①②",
+        "B": "①③",
+        "C": "②③",
+        "D": "②④"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "下列何者最不可能造成代谢性酸中毒？",
+      "options": {
+        "A": "败血性休克",
+        "B": "急性臀衰竭",
+        "C": "糖尿病酮酸血症",
+        "D": "過度换氣症候群"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "廣防己主要因含有何種成分導致臀病變？",
+      "options": {
+        "A": "ε-aminocaproicacid pregabalin",
+        "B": "aristolochic acid phenytoin",
+        "C": "-hydroxybutyricacid phenobarbi tal",
+        "D": "pipemidic acid 44.82崴老奶奶有osteoporosis’且脊椎骨折開刀過。此次因為ischemicstroke；發生多次focalseizures° 下列何種antiepileptics最不會增加骨折風？ carbamazepine"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "關於triptans藥品之使用，下列何者錯？",
+      "options": {
+        "A": "ischemicheartdisease病史病人不可使用",
+        "B": "懷孕期間不可常规使用",
+        "C": "可與SSRIs同時供用",
+        "D": "經常使用可能造成medication-overuseheadache"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "下列何藥品無法單獨使用於Parkinsondisease之治療？",
+      "options": {
+        "A": "entacapone",
+        "B": "pramipexole",
+        "C": "rasagiline",
+        "D": "selegiline"
+      }
+    },
+    {
+      "number": 47,
+      "stem": "亞洲人使用carbamazepine時，下列那一個基因型是導致Stevens-Johnsonsyndrome的危因子？",
+      "options": {
+        "A": "HLA-B*1508 急性疼痛+神經病變型（neuropathic）疼痛",
+        "B": "HLA-B*5801 急性疼痛+疼痛受器型（nociceptive）疼痛",
+        "C": "HLA-B*1502 慢性疼痛+神經病篓型（neuropathic）疼痛",
+        "D": "HLA-B*1302 10mgQID。董先生女兒發現他服用morphine以後開始白天嗜睡，疼痛程度0～1分。有關董先生疼痛之叙 述，下列何者正確？ 慢性疼痛+疼痛受器型（nociceptive）疼痛"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "承上題，董先生的問題經確與morphine有關，下列叙述何者正確？",
+      "options": {
+        "A": "立即停藥；改用ibuprofen400mgPOQID",
+        "B": "立即將morphine10mgPOQID改為Q6H",
+        "C": "此嗜睡問題將不會在持續服用後减輕",
+        "D": "morphine的止痛作用主要來自於代謝物morphine-3-glucuronide"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "有關majordepressivedisorder的治療，下列叙述何者最不適當？",
+      "options": {
+        "A": "相较於SSRI類藥品，bupropion较少造成sexualdysfunction",
+        "B": "trazodone的作用機轉包括5-HT2 antagonist舆5-HTreuptakeinhibitor",
+        "C": "mirtazapine的常見副作用包括weightgain丶drymouth舆constipation",
+        "D": "second-generationantipsychotics不建用於major depressivedisorder的治療"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "下列何者不適合用於schizophrenia病人之acutepsychoticepisodes之起始治療？",
+      "options": {
+        "A": "clozapine PO",
+        "B": "haloperidol IM",
+        "C": "lorazepam IM",
+        "D": "loxapine IH"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "下列何者可以用於治療narcolepsy病人的日間過度嗜睡症狀？",
+      "options": {
+        "A": "imipramine",
+        "B": "sodium oxybate",
+        "C": "fluoxetine",
+        "D": "modafinil"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "Buprenorphine用在opioid成瘾者戒瘾時的給藥方式，下列何者正確？",
+      "options": {
+        "A": "口服液",
+        "B": "舌下锭",
+        "C": "皮下注射",
+        "D": "皮贴片"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "關於hyperthyroidism之症狀，下列何者錯？",
+      "options": {
+        "A": "moist skin",
+        "B": "poor appetite",
+        "C": "proptosis",
+        "D": "palpitations"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "關於methimazole與propylthiouracil之比较，下列何者錯？",
+      "options": {
+        "A": "methimazole较少發生hepatitis",
+        "B": "methimazole较常發生delayedagranulocytosis",
+        "C": "使用前應測FreeT4及TSH",
+        "D": "methimazole更適合用於thyroidstorm治療"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "有關减重藥品，下列叙述何者錯？",
+      "options": {
+        "A": "以liraglutide治療16後，若體重未减輕4%，應停止治療 鹰使用estrogen及progestogen，以减少breastcancer之風险",
+        "B": "以bupropion/naltrexone治療12调後；若體重未减輕5%，鹰停止治療 鹰使用estrogen及progestogen，以减少endometrialcancer之風",
+        "C": "於癫瘤的病人；bupropion/naltrexone為首選藥品 鹰單獨使用estrogen，以减少breastcancer之風",
+        "D": "使用liraglutide建定期测心跳 59.52崴女士出現hotflushes，即使調整穿著、少喝熱飲仍無法缓解；育有兒女，intactuterus。若使用 hormonetherapy，下列叙述何者正確？ 鹰單獨使用estrogen，以减少endometrialcancer之風险"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "關於testosterone之使用，下列何者錯？",
+      "options": {
+        "A": "maleerectiledysfunction之首選用藥",
+        "B": "肌肉注射较口服使用少發生hepatitis副作用",
+        "C": "贴片之位置應輪替以减少副作用",
+        "D": "長期使用可能發生prostatecancer"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "下列何者對心藏血管之保護作用最具實證？",
+      "options": {
+        "A": "glipizide",
+        "B": "saxagliptin",
+        "C": "empagliflozin",
+        "D": "acarbose"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "下列何者能降低low-density1ipoprotein（LDL-C）超過50%？",
+      "options": {
+        "A": "rosuvastatin 20 mg",
+        "B": "atorvastatin10 mg",
+        "C": "pitavastatin 2mg",
+        "D": "simvastatin 20 mg"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "陳先生42崴，90公斤，罹患typeIDM18年，目前使用insulinglulisine16～18unitsSCTIDAC insulinglargine40unitsSC HS；其HbAic6.9%。最近一内發生數次低血糖，其血糖值如下：早餐前60",
+      "options": {
+        "A": "insulin劑量不足，應增加三餐前的insulinglulisine劑量",
+        "B": "insulin劑量不足，應增加早、晚餐時的insulinglulisine劑量",
+        "C": "為overinsulinization現象，优需降低insulinglargine劑量",
+        "D": "為overinsulinization現象，二種insulin劑量均應適當調降"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "關於TNFinhibitors於rheumatoidarthritis之治療，下列何者錯？",
+      "options": {
+        "A": "certolizumab 為 humanized monoclonal antibody 800",
+        "B": "infliximab為chimericmonoclonalantibody 1,000",
+        "C": "使用前應進行tuberculosis及hepatitisB筛 1,200",
+        "D": "使用後應進行interferon-gammareleaseassay驗 67.50以上女性為避免骨質疏，每日元素钙建攝取量為多少mg？ 1,400"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "有關口服isotretinoin之叙述，下列何者錯？",
+      "options": {
+        "A": "可舆tetracycline饼用，以加強效果 celecoxib 口服isotritinoin為現今重度青春痘最有效的治療方式",
+        "B": "建舆食物饼服 naproxen 開始服用後原先使用的topicalretinoids及口服tetracycline可以續使用",
+        "C": "具有致畸胎性，女性用藥前應確未懷孕 prednisolone 開始治療前1個月，治療中舆治療後1個月须探取有效避孕措施",
+        "D": "具有光敏感性，建加強防曬 69.66崴王太太；有中度骨關節炎、心血管疾病，eGFR35mL/min/1.73m²；acetaminophen無法有效缓解她的骨 關節炎，下列何者最適合後續治療？ tramadol 70.24崴陳小姐，使用topicalretinoids及口服tetracycline治療青春痘3個月，效果不佳。經皮膚科診 為重度青春痘，凝改用口服isotretinoin治療，下列叙述何者錯？ 治療期間應定期测肝功能及TG"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "下列何者不於disease-modifyingantirheumaticdrugs?",
+      "options": {
+        "A": "methotrexate",
+        "B": "leflunomide",
+        "C": "hydroxychloroquine",
+        "D": "doxorubicin"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "有關febuxostat的叙述，下列何者正確？",
+      "options": {
+        "A": "purine xanthineoxidase抑制劑",
+        "B": "與allopurinol相较，febuxostat對xanthineoxidase的選性较差",
+        "C": "在creatinineclearance>30mL/min時，不需要調整劑量",
+        "D": "较allopurinol便宜又有效"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "有G6PDdeficiency的病人，不能使用下列何種藥品？",
+      "options": {
+        "A": "allopurinol",
+        "B": "carbamazepine",
+        "C": "primaquine",
+        "D": "metronidazole"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "在急性骨髓性白血病（AML）中，下列那一種染色體變化预後最好？",
+      "options": {
+        "A": "t(3;3)",
+        "B": "t (6;9)",
+        "C": "t (8;21)",
+        "D": "t (9;22)"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "杨先生，62崴，無慢性疾病，近來持續重下背疼痛，使用止痛藥及肌肉弛劑無效。且常覺得疲倦無力、 2.4mg/dL；X光顯示病理性脊椎骨折。怀疑為multiplemyeloma（MM），下列叙述何者錯？",
+      "options": {
+        "A": "MM為plasmacells的恶性疾病，好發於老年人，床症状常見骨頭疼痛、箕血、臀衰竭等",
+        "B": "因MM常合饼出現高血钙，此案例的便秘可能為高血钙之表現，應建醫師加抽血钙以確",
+        "C": "MM可用InternationalStagingSystem分期，其分期係依據serumalbumin與creatinine值",
+        "D": "目前治療可以病人年龄分為二類，針對未來可接受幹细胞移植者，不可給與melphalan治療"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "下列何者在臨床上不會常规進行TDM？",
+      "options": {
+        "A": "cyclosporine",
+        "B": "everolimus",
+        "C": "mycophenolate mofetil",
+        "D": "sirolimus"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "有關bevacizumab之叙述，下列何者正確？",
+      "options": {
+        "A": "促進 angiogenesis",
+        "B": "促進vascularendothelialgrowthfactor合成",
+        "C": "proteinuria是其常見的副作用",
+        "D": "可用於治療acutelymphoblasticleukemia"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 15
+  },
+  "referenceGroupId": "therapeutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\115020_0405_therapeutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\115020_0405_therapeutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

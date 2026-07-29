@@ -1,0 +1,205 @@
+{
+  "testModes": {
+    "diagnostic20": {
+      "questionCount": 20,
+      "timeLimitMinutes": 30,
+      "answersHiddenUntilSubmit": true,
+      "goal": "Measure current familiarity and mis-concept patterns before revealing answer keys."
+    },
+    "formal50": {
+      "questionCount": 50,
+      "availableAfterAttempts": 100,
+      "goal": "Move to formal testing once the user has enough practice history."
+    }
+  },
+  "selectionPolicy": {
+    "first50Attempts": {
+      "unseenQuestionWeight": "equal",
+      "subjectWeight": "uniform across subjects",
+      "repeatQuestionPenalty": "strong",
+      "goal": "Keep exposure even while the bank is still being learned."
+    },
+    "after50Attempts": {
+      "unseenQuestionWeight": "moderate",
+      "subjectWeight": "inverse_to_recent_accuracy",
+      "repeatQuestionPenalty": "strong",
+      "weakUnitBoost": "enabled",
+      "goal": "Bias sampling toward weak units without starving the rest of the bank."
+    },
+    "after100Attempts": {
+      "questionCount": 50,
+      "mode": "formal"
+    }
+  },
+  "samplingSteps": [
+    "Build an eligible pool from all question sets for the current mode.",
+    "Exclude questions answered very recently unless the pool is too small.",
+    "Weight each question by unit familiarity, question exposure count, and recent correctness.",
+    "Sample without replacement for the current session.",
+    "Store the final sample order and lock it for the session.",
+    "Do not expose answer keys before the user submits the session."
+  ],
+  "logging": {
+    "readingTimeSeconds": true,
+    "answerChangeHistory": true,
+    "firstAnswerTimestamp": true,
+    "finalAnswerTimestamp": true,
+    "perQuestionDuration": true
+  },
+  "referencePolicy": {
+    "unitCitationAttached": true,
+    "verificationLinksAttached": true,
+    "referenceLibrary": {
+      "pharmaceutical-analysis-natural-products": {
+        "unitId": "unit1",
+        "unitTitle": "Unit 1",
+        "subjectId": "pharmaceutical-analysis-natural-products",
+        "subjectTitle": "Pharmaceutical Analysis and Natural Products",
+        "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products",
+        "sourceFolder": "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products",
+        "verificationLinks": [
+          {
+            "Label": "ICH Q2(R2) Validation of Analytical Procedures",
+            "Url": "https://database.ich.org/sites/default/files/ICH_Q2%28R2%29_Guideline_2023_1130.pdf",
+            "Source": "ICH"
+          },
+          {
+            "Label": "FDA M9 Biopharmaceutics Classification System-Based Biowaivers",
+            "Url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m9-biopharmaceutics-classification-system-based-biowaivers",
+            "Source": "FDA"
+          },
+          {
+            "Label": "NCBI Bookshelf: Screening Plants for New Medicines",
+            "Url": "https://www.ncbi.nlm.nih.gov/books/NBK219315/",
+            "Source": "NIH/NCBI"
+          }
+        ]
+      },
+      "pharmaceutics-biopharmaceutics": {
+        "unitId": "unit1",
+        "unitTitle": "Unit 1",
+        "subjectId": "pharmaceutics-biopharmaceutics",
+        "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+        "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics",
+        "sourceFolder": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics",
+        "verificationLinks": [
+          {
+            "Label": "FDA M9 Biopharmaceutics Classification System-Based Biowaivers",
+            "Url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m9-biopharmaceutics-classification-system-based-biowaivers",
+            "Source": "FDA"
+          },
+          {
+            "Label": "FDA Bioavailability and Bioequivalence Studies in NDAs or INDs",
+            "Url": "https://www.fda.gov/files/drugs/published/Bioavailability-and-Bioequivalence-Studies-Submitted-in-NDAs-or-INDs-%E2%80%94-General-Considerations.pdf",
+            "Source": "FDA"
+          },
+          {
+            "Label": "FDA PBPK Analyses for Biopharmaceutics Applications",
+            "Url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/use-physiologically-based-pharmacokinetic-analyses-biopharmaceutics-applications-oral-drug-product",
+            "Source": "FDA"
+          }
+        ]
+      },
+      "pharmacology-medicinal-chemistry": {
+        "unitId": "unit1",
+        "unitTitle": "Unit 1",
+        "subjectId": "pharmacology-medicinal-chemistry",
+        "subjectTitle": "Pharmacology and Medicinal Chemistry",
+        "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry",
+        "sourceFolder": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry",
+        "verificationLinks": [
+          {
+            "Label": "NCBI Bookshelf: Pharmacology",
+            "Url": "https://www.ncbi.nlm.nih.gov/books/NBK518755/",
+            "Source": "NIH/NCBI"
+          },
+          {
+            "Label": "NCBI Bookshelf: Chapter 1 Pharmacokinetics & Pharmacodynamics",
+            "Url": "https://www.ncbi.nlm.nih.gov/books/NBK595006/",
+            "Source": "NIH/NCBI"
+          },
+          {
+            "Label": "NCBI Bookshelf: Chemistry Collection",
+            "Url": "https://www.ncbi.nlm.nih.gov/books/NBK518691/",
+            "Source": "NIH/NCBI"
+          }
+        ]
+      },
+      "dispensing-clinical-pharmacy": {
+        "unitId": "unit2",
+        "unitTitle": "Unit 2",
+        "subjectId": "dispensing-clinical-pharmacy",
+        "subjectTitle": "Dispensing and Clinical Pharmacy",
+        "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+        "sourceFolder": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy",
+        "verificationLinks": [
+          {
+            "Label": "ISMP Guidance and Tools",
+            "Url": "https://www.ismp.org/Tools/default.aspx",
+            "Source": "ISMP"
+          },
+          {
+            "Label": "FDA Patient Labeling Resources",
+            "Url": "https://www.fda.gov/drugs/fdas-labeling-resources-human-prescription-drugs/patient-labeling-resources",
+            "Source": "FDA"
+          },
+          {
+            "Label": "ASHP Clinical Pharmacy Resources",
+            "Url": "https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources",
+            "Source": "ASHP"
+          }
+        ]
+      },
+      "pharmaceutical-law-regulations": {
+        "unitId": "unit2",
+        "unitTitle": "Unit 2",
+        "subjectId": "pharmaceutical-law-regulations",
+        "subjectTitle": "Pharmaceutical Law and Regulations",
+        "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+        "sourceFolder": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations",
+        "verificationLinks": [
+          {
+            "Label": "Taiwan Pharmaceutical Affairs Act",
+            "Url": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=L0030001",
+            "Source": "Laws and Regulations Database of the Republic of China"
+          },
+          {
+            "Label": "Taiwan Controlled Drugs Act",
+            "Url": "https://www.mohw.gov.tw/dl-92684-89cddf4d-8d44-49d0-997f-9bbb32e2273f.html",
+            "Source": "MOHW"
+          },
+          {
+            "Label": "Taiwan MOHW Pharmaceutical Affairs Act page",
+            "Url": "https://www.mohw.gov.tw/np-3688-2.html",
+            "Source": "MOHW"
+          }
+        ]
+      },
+      "therapeutics": {
+        "unitId": "unit2",
+        "unitTitle": "Unit 2",
+        "subjectId": "therapeutics",
+        "subjectTitle": "Therapeutics",
+        "unitCitation": "Unit 2 / Therapeutics",
+        "sourceFolder": "D:\\exeam\\question-bank\\unit2\\therapeutics",
+        "verificationLinks": [
+          {
+            "Label": "ASHP Current Practice Guidelines",
+            "Url": "https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources/current-practice-guidelines",
+            "Source": "ASHP"
+          },
+          {
+            "Label": "NCBI Bookshelf: Chapter 1 Pharmacokinetics & Pharmacodynamics",
+            "Url": "https://www.ncbi.nlm.nih.gov/books/NBK595006/",
+            "Source": "NIH/NCBI"
+          },
+          {
+            "Label": "NCBI Bookshelf: Therapeutics Letter",
+            "Url": "https://www.ncbi.nlm.nih.gov/books/NBK598434/",
+            "Source": "NIH/NCBI"
+          }
+        ]
+      }
+    }
+  }
+}

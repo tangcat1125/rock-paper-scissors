@@ -1,0 +1,666 @@
+{
+  "setId": "105020_22_pharmaceutical-analysis-natural-products",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutical-analysis-natural-products",
+  "subjectTitle": "Pharmaceutical Analysis and Natural Products",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\105020_q22_pharmaceutical-analysis-natural-products.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\105020_ans22_pharmaceutical-analysis-natural-products.pdf"
+  ],
+  "questionCount": 51,
+  "answerCount": 51,
+  "parseWarnings": [
+    "Question 8: Could not parse options for question 8",
+    "Question 9: Could not parse options for question 9",
+    "Question 13: Could not parse options for question 13",
+    "Question 15: Could not parse options for question 15",
+    "Question 17: Could not parse options for question 17",
+    "Question 18: Could not parse options for question 18",
+    "Question 19: Could not parse options for question 19",
+    "Question 23: Could not parse options for question 23",
+    "Question 29: Could not parse options for question 29",
+    "Question 39: Could not parse options for question 39",
+    "Question 40: Could not parse options for question 40",
+    "Question 41: Could not parse options for question 41",
+    "Question 47: Could not parse options for question 47",
+    "Question 49: Could not parse options for question 49",
+    "Question 50: Could not parse options for question 50",
+    "Question 51: Could not parse options for question 51",
+    "Question 52: Could not parse options for question 52",
+    "Question 55: Could not parse options for question 55",
+    "Question 57: Could not parse options for question 57",
+    "Question 61: Could not parse options for question 61",
+    "Question 63: Could not parse options for question 63",
+    "Question 64: Could not parse options for question 64",
+    "Question 67: Could not parse options for question 67",
+    "Question 69: Could not parse options for question 69",
+    "Question 73: Could not parse options for question 73",
+    "Question 74: Could not parse options for question 74",
+    "Question 76: Could not parse options for question 76",
+    "Question 77: Could not parse options for question 77",
+    "Question 78: Could not parse options for question 78"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列酸在非水溶劑中的酸性強度順序，何者正確？",
+      "options": {
+        "A": "H2SO 4>HClO 4>HCl",
+        "B": "HClO 4>HCl>HNO 3",
+        "C": "H2SO 4>HCl>HBr",
+        "D": "HClO 4>HNO 3>H 2SO 4"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 2,
+      "stem": "某檢品中同時含有 sulfanilamide 和sulfathiazole 兩種成分，若要以非水滴定選擇性分析 sulfathiazole 的含量，下列何種“指示劑／溶劑”組合最適合？",
+      "options": {
+        "A": "Azo violet ／butylamine",
+        "B": "Azo violet ／DMF",
+        "C": "Thymol blue ／butylamine",
+        "D": "Thymol blue ／DMF"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 3,
+      "stem": "中華藥典中載明溶液之酸性或鹼性，除另有規定外，均係指對何種物質之檢測而判斷？",
+      "options": {
+        "A": "石蕊試紙",
+        "B": "酚酞",
+        "C": "酚紅",
+        "D": "溴瑞香酚藍"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 4,
+      "stem": "下列有關待標定物質與其標定時所使用之一級標準物之組合，何者正確？",
+      "options": {
+        "A": "鹽酸溶液；苯二甲酸氫鉀（potassium biphthalate ）",
+        "B": "氫氧化鈉溶液；碳酸鈉（sodium carbonate ）",
+        "C": "過氯酸溶液；苯二甲酸氫鉀（potassium biphthalate ）",
+        "D": "鹽酸溶液；已標定過之氫氧化鈉溶液"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 5,
+      "stem": "有關亞硝酸鈉滴定法的敘述，下列何者錯誤？",
+      "options": {
+        "A": "可在 15 ℃中進行",
+        "B": "檢品須為一級芳香胺",
+        "C": "用potassium chloride-starch 試紙做內部指示劑偵測終點",
+        "D": "滴定時滴定管下端需浸入檢品溶液液面下"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 6,
+      "stem": "有關索氏抽提器（Soxhlet extractor ）之敘述，下列何者錯誤？",
+      "options": {
+        "A": "利用泵浦循環，只需使用少量溶媒重覆萃取",
+        "B": "檢品充填於濾紙筒（thimble ）",
+        "C": "利用虹吸方式進行溶媒循環抽提",
+        "D": "抽提物含量（extractive content ）測定可使用此抽提器"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 7,
+      "stem": "植物油中若有摻入礦物油，下列何者會顯著提高？",
+      "options": {
+        "A": "碘價（Iodine value ）",
+        "B": "不皂化物（Unsaponifiable matter ）",
+        "C": "皂化價（Saponification value ）",
+        "D": "酸價（Acid value ）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 10,
+      "stem": "桂皮油之桂皮醛的含量測定，採用何法？",
+      "options": {
+        "A": "水蒸氣蒸餾法",
+        "B": "Schiff base 生成法",
+        "C": "羥胺法（Hydroxylamine method ）",
+        "D": "亞硫酸氫鈉法（Bisulfite method ）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 11,
+      "stem": "藍伯比爾定律（Beer-Lambert law ）（ A = ε × l × c ）之下列何種參數數值與待測物所用之溶 媒有關？",
+      "options": {
+        "A": "ε與l",
+        "B": "ε與c",
+        "C": "c與l",
+        "D": "ε與A"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 12,
+      "stem": "請問下圖為何種儀器的裝置示意圖？",
+      "options": {
+        "A": "核磁共振光譜儀",
+        "B": "螢光光譜儀",
+        "C": "紫外光－可見光光譜儀",
+        "D": "拉曼光譜儀"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 14,
+      "stem": "以液相層析－質譜儀定量小分子藥物血中濃度，考量定量準確性、靈敏度及有限預算，下列 何種質譜儀為採購時之首選？",
+      "options": {
+        "A": "四極柱式質譜儀（Quadrupole MS ）",
+        "B": "飛行時間質譜儀（Time of flight MS ）",
+        "C": "扇形磁場質譜儀（Magnetic-sector MS ）",
+        "D": "離子捕獲質譜儀（Ion trap MS ）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 16,
+      "stem": "下列有關吸收光譜法之敘述，何者正確？",
+      "options": {
+        "A": "共軛雙鍵因降低 n→π*之能階，而使最大吸收移至較短波長",
+        "B": "芳香環含多組 n→π*之躍遷",
+        "C": "助色基團（auxochrome ）可降低吸收波長",
+        "D": "發色基團（chromophore ）為引起吸光之關鍵基團"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 20,
+      "stem": "下列何者不宜單用紫外光譜儀進行測定？",
+      "options": {
+        "A": "某些化合物的 pKa 值",
+        "B": "某些藥物之溶離度測定",
+        "C": "某些原料藥之定性",
+        "D": "中草藥複方濃縮製劑之成分定量"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 21,
+      "stem": "下列關於傅立葉轉換紅外光譜儀（FT-IR ）之敘述，何者錯誤？",
+      "options": {
+        "A": "干涉儀主要元件是光束分歧器（splitter ）、移動鏡、固定鏡等",
+        "B": "光束分歧器是 NaCl 鹽片鍍上金箔，使一半的光線反射",
+        "C": "紅外光源是 Nernst glower 或Globar",
+        "D": "檢測器是熱偶檢測器（thermocouple detector ）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 22,
+      "stem": "將銅半電池與鋅半電池電極以電位計及電流計串連，兩池液以鹽橋連接，構成一完整電路， 下列敘述何者錯誤？",
+      "options": {
+        "A": "當調整電位計使電流讀數為零時，電位計上顯示值即為此電池之電位",
+        "B": "已知銅電極電位 E Cu =+ 0.34 ；鋅電極電位 EZn = - 0.76 ，則此電池之電位等於 - 0.42 V",
+        "C": "此實驗中，銅、鋅電解液濃度皆為1 M",
+        "D": "電池電位用 Ecell = E l – Er 即可算出（l = 左，r = 右）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 24,
+      "stem": "下列有關原子發散光譜測定法（atomic emission spectrophotometry, AES ）的敘述，何者錯 誤？",
+      "options": {
+        "A": "其原理為當原子受熱激發後，會產生特定波長之輻射",
+        "B": "離子化程度、檢品黏度等因素可能干擾 AES 之結果",
+        "C": "此方法可應用於各種金屬原子",
+        "D": "原子發散光譜之譜線極窄"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 25,
+      "stem": "下列那一項不是近紅外光分析（near-infrared analysis, NIRA ）所能測定者？",
+      "options": {
+        "A": "藥品粒徑大小",
+        "B": "化合物的 IR 基本振動吸收帶",
+        "C": "藥品製程中攪拌均勻度",
+        "D": "藥品的水分含量測定"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 26,
+      "stem": "下列何者的自旋量子數（spin quantum number ）不是 1/2 ？",
+      "options": {
+        "A": "2H",
+        "B": "13 C",
+        "C": "15 N",
+        "D": "19 F"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 27,
+      "stem": "下列有關 C6H5NH 2之敘述，何者錯誤？",
+      "options": {
+        "A": "NH 2基團為發色團（chromophore ）",
+        "B": "與苯相比其紫外光最大吸收波長（λmax ）移至波長較長處（bathochromic shift ）",
+        "C": "與苯相比其紫外光最大吸光度 A（1%, 1 cm ）強度增加",
+        "D": "與苯相比其極性增加"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 28,
+      "stem": "下列何種儀器用於定量分析時，在適當條件下其可偵測極限濃度最低？",
+      "options": {
+        "A": "質譜儀",
+        "B": "紅外光光譜儀",
+        "C": "紫外光光度儀",
+        "D": "核磁共振光譜儀"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 30,
+      "stem": "有關 Van Deemter 方程式（H = A + B/ µ+ Cµ）之參數定義，下列何者正確？",
+      "options": {
+        "A": "A為相間質量轉換（mass transfer between phases ）",
+        "B": "B為多重移動路徑（multiple flow paths ）",
+        "C": "C為縱向擴散（longitudinal diffusion ）",
+        "D": "µ為移動相之線性速度"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 31,
+      "stem": "下列何者非主成分含量測定須進行的確效項目？",
+      "options": {
+        "A": "準確度（Accuracy ）",
+        "B": "精密度（Precision ）",
+        "C": "選擇性（Selectivity ）",
+        "D": "偵測極限（Limit of detection ）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 32,
+      "stem": "有關氣相層析法之敘述，下列何者正確？",
+      "options": {
+        "A": "常用之移動相為空氣",
+        "B": "常用之層析管長度為10-30 cm",
+        "C": "溫度梯度常運用於分析沸點分佈較廣之混合物",
+        "D": "火焰離子偵測器對含鹵素之化合物有特異性"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 33,
+      "stem": "有關電滲透流（EOF ）之敘述，下列何者正確？",
+      "options": {
+        "A": "進行等電聚焦（isoelectric focusing ）需有 EOF 輔助",
+        "B": "使用 teflon 材質能增加 EOF",
+        "C": "緩衝溶液中添加甲基纖維素（methylcellulose ）能抑制 EOF",
+        "D": "電滲透流為毛細管電泳分離蛋白質必要之動力"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 34,
+      "stem": "毛細管區帶電泳法（CZE ）中，下列何者係造成帶加寬（band broadening ）的最主要因 子？",
+      "options": {
+        "A": "縱向擴散（Longitudinal diffusion ）",
+        "B": "渦流擴散（Eddy diffusion ）",
+        "C": "質量轉移（Mass transfer ）",
+        "D": "增加電壓"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 35,
+      "stem": "在毛細管電泳分析中，下列何者的移動速率與電滲透流（electro-osmotic flow, EOF ）相同？",
+      "options": {
+        "A": "陽離子界面活性劑",
+        "B": "陰離子界面活性劑",
+        "C": "非離子界面活性劑",
+        "D": "兩性離子界面活性劑"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 36,
+      "stem": "以毛細管區帶電泳（CZE ）分析 Voriconazole 、Naphthalene 及Aspirin 三個藥物，在正常電 極模式（normal polarity ）下其遷移時間由短至長之順序為何（背景緩衝液 pH=5.0 ）？ Voriconazole Naphthalene Aspirin (pKa 1.8, 5.0, and 11.5) (pKa 3.5)",
+      "options": {
+        "A": "Voriconazole ＜Naphthalene ＜Aspirin",
+        "B": "Voriconazole ＜Aspirin ＜Naphthalene",
+        "C": "Aspirin ＜Naphthalene ＜Voriconazole",
+        "D": "Aspirin ＜Voriconazole ＜Naphthalene"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 37,
+      "stem": "一般液相層析法中，移動相在高流速下會造成層析峰變寬（band broadening ）現象，下列 何因子受高流速影響最大？",
+      "options": {
+        "A": "渦旋擴散（Eddy diffusion ）",
+        "B": "縱向擴散（Longitudinal diffusion ）",
+        "C": "固定相質量轉移（Stationary phase mass transfer ）",
+        "D": "移動相質量轉移（Mobile phase mass transfer ）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 38,
+      "stem": "下列關於液相層析法移動相的沖提力（eluotropic power ）的敘述，何者錯誤？",
+      "options": {
+        "A": "在逆相層析中，水的沖提力最小",
+        "B": "在正相層析時，移動相在氯仿中逐漸增加甲醇比例，可加大沖提力",
+        "C": "在逆相層析時，乙腈-水作移動相，逐漸增加乙 腈比例，可加大沖提力",
+        "D": "在逆相層析採梯度沖提時，一般以漸增移動相極性之方式進行"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 42,
+      "stem": "Peptidomimetics 是一種：",
+      "options": {
+        "A": "蛋白質分析方法",
+        "B": "蛋白質合成技術",
+        "C": "功能性蛋白質",
+        "D": "擬蛋白質之藥物"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 43,
+      "stem": "大棗、黨參及黃耆常作為補氣藥，其性味的共同特性為何？",
+      "options": {
+        "A": "甘",
+        "B": "苦",
+        "C": "辛",
+        "D": "酸"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 44,
+      "stem": "有關生藥與主成分之配對，下列何者錯誤？",
+      "options": {
+        "A": "frangula －barbaloin",
+        "B": "rheum －rhein",
+        "C": "Indian rhubarb －rhein",
+        "D": "aloe －barbaloin"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 45,
+      "stem": "有關人參的敘述，下列何者錯誤？",
+      "options": {
+        "A": "為茄科植物",
+        "B": "主成分 ginsenosides 為四環三 萜類",
+        "C": "主成分之一為ginsenoside Rg 1",
+        "D": "具有 adaptogen 之功效"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 46,
+      "stem": "下列何種生藥之主成分為digoxin ？",
+      "options": {
+        "A": "Digitalis purpurea",
+        "B": "Digitalis lanata",
+        "C": "Digitalis thapsi",
+        "D": "Digitalis ferruginea"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 48,
+      "stem": "下列有關蘆薈的敘述，何者錯誤？",
+      "options": {
+        "A": "屬於石蒜科植物",
+        "B": "水溶性抽取物不得少於 50%",
+        "C": "含barbaloin 及isobarbaloin",
+        "D": "可治療燒燙傷"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 53,
+      "stem": "下列中藥何者含 xanthiazone 成分？",
+      "options": {
+        "A": "蒼耳子",
+        "B": "胖大海",
+        "C": "栝樓",
+        "D": "枸杞"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 54,
+      "stem": "茯苓的使用部位為︰",
+      "options": {
+        "A": "種子",
+        "B": "根莖",
+        "C": "菌核",
+        "D": "孢子"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 56,
+      "stem": "薄荷腦屬於下列何種成分？",
+      "options": {
+        "A": "酯類",
+        "B": "醇類",
+        "C": "醛類",
+        "D": "酚類"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 58,
+      "stem": "下列有關 Valeriana officinalis 之敘述，何者錯誤？",
+      "options": {
+        "A": "valerenic acid 為雙萜類",
+        "B": "valerenolic acid 為其成分之一",
+        "C": "藥用部位為根莖與根",
+        "D": "valepotriates 可幫助睡眠"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 59,
+      "stem": "艾葉可用於：",
+      "options": {
+        "A": "活血化瘀",
+        "B": "血熱妄行",
+        "C": "清熱涼血",
+        "D": "崩漏帶下"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 60,
+      "stem": "檸檬油（lemon oil ）之製備方法及主成分之配對為：",
+      "options": {
+        "A": "壓榨法－limonene",
+        "B": "壓榨法－citral",
+        "C": "蒸餾法－citral",
+        "D": "溶媒抽取法－limonene"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 62,
+      "stem": "下列有關鞣質（tannin ）之敘述，何者錯誤？",
+      "options": {
+        "A": "不易結晶",
+        "B": "與氨水作用呈深藍色",
+        "C": "與蛋白質結合易產生沉澱",
+        "D": "曾當生物鹼中毒之解毒劑"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 65,
+      "stem": "訶子用於澀腸止瀉時，常以下列何種炮製法炮製，以增加效用？",
+      "options": {
+        "A": "生用",
+        "B": "麩皮炒",
+        "C": "酒蒸",
+        "D": "薑汁製"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 66,
+      "stem": "下列有關薑（ginger ）的敘述，何者正確？①薑之辛辣成分為zingiberol ②薑可作為刺激劑 ③研究顯示薑亦具有止吐作用",
+      "options": {
+        "A": "僅①②",
+        "B": "僅①③",
+        "C": "僅②③",
+        "D": "①②③"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 68,
+      "stem": "托品酸（tropic acid ）的生合成前驅物（precursor ）為：",
+      "options": {
+        "A": "色胺酸（tryptophan ）",
+        "B": "苯丙胺酸（phenylalanine ）",
+        "C": "精胺酸（arginine ）",
+        "D": "鳥胺酸（ornithine ）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 70,
+      "stem": "下列有關生藥與植物基原之配對，何者錯誤？",
+      "options": {
+        "A": "belladonna －Atropa belladonna",
+        "B": "hyoscyamus －Hyoscyamus niger",
+        "C": "stramonium －Datura stramonium",
+        "D": "cola －Erythroxylum coca"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 71,
+      "stem": "下列生藥名、科名及成分之配對，何者錯誤？",
+      "options": {
+        "A": "ipecac －Rubiaceae －emetine",
+        "B": "opium －Papaveraceae －codeine",
+        "C": "cinchona －Rutaceae －quinine",
+        "D": "rauwolfia serpentina －Apocynaceae －reserpine"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 72,
+      "stem": "下列常用中藥、科別及藥用部位之配對，何者正確？",
+      "options": {
+        "A": "黃柏－Rutaceae －根莖",
+        "B": "苦參－Leguminosae －莖",
+        "C": "附子－Ranunculaceae －旁生塊根",
+        "D": "貝母－Liliaceae －果實"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 75,
+      "stem": "吳茱萸之使用部位為：",
+      "options": {
+        "A": "根莖",
+        "B": "種子",
+        "C": "葉子",
+        "D": "果實"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 79,
+      "stem": "下列生物鹼何者不具異奎 啉（isoquinoline ）架構？",
+      "options": {
+        "A": "吐根鹼（emetine ）",
+        "B": "北美黃連鹼（hydrastine ）",
+        "C": "蛇根鹼（reserpine ）",
+        "D": "小檗鹼（berberine ）"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    },
+    {
+      "number": 80,
+      "stem": "下列藥用植物之基原、使用部位及科別之配對，何者錯誤？",
+      "options": {
+        "A": "Erythroxylum coca －leaves －Erythroxylaceae",
+        "B": "Cinchona succirubra －bark －Rubiaceae",
+        "C": "Rauvolfia serpentina －root －Papaveraceae",
+        "D": "Catha edulis －leaves －Celastraceae"
+      },
+      "referenceGroupId": "pharmaceutical-analysis-natural-products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 9
+  },
+  "referenceGroupId": "pharmaceutical-analysis-natural-products",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-analysis-natural-products\\105020_22_pharmaceutical-analysis-natural-products.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-analysis-natural-products\\105020_22_pharmaceutical-analysis-natural-products.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

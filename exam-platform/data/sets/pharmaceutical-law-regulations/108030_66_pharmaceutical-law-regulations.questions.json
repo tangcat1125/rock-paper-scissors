@@ -1,0 +1,612 @@
+{
+  "setId": "108030_66_pharmaceutical-law-regulations",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "pharmaceutical-law-regulations",
+  "subjectTitle": "Pharmaceutical Law and Regulations",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108030_q66_pharmaceutical-law-regulations.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\108030_ans66_pharmaceutical-law-regulations.pdf"
+  ],
+  "questionCount": 49,
+  "answerCount": 49,
+  "parseWarnings": [],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列 敘述何者錯誤？",
+      "options": {
+        "A": "衛⽣福利部為辦理中醫藥之研究，特設國家中醫藥研究所",
+        "B": "衛⽣福利部之次級機關包括有「疾病管制署」、「食品藥物管理署」、「中央健康保險署」、「國⺠健康 署」及「國⺠年⾦署」",
+        "C": "⾏政院為辦理全國衛⽣及福利業務，特設衛⽣福利部",
+        "D": "勞保相關業務非屬衛⽣福利部職掌"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 2,
+      "stem": "依現⾏（ 105 年11 ⽉修正）化粧品衛⽣管理條例之規定，下列何種⾏為應負刑事責任？",
+      "options": {
+        "A": "化粧品⾊素未經中央衛⽣主管機關核准擅⾃變更已核准事項",
+        "B": "製造化粧品使⽤非經中央衛⽣主管機關核准之⾊素",
+        "C": "販賣來源不明之化粧品",
+        "D": "輸入化粧品未經中央衛⽣主管機關核准⽽在國內分裝出售"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 3,
+      "stem": "下列 敘述何者正確？",
+      "options": {
+        "A": "管制藥品關於安全監視及嚴重不良反應通報業務之法定主管機關為衛⽣福利部",
+        "B": "衛⽣福利部食品藥物管理署；直轄市及縣（市）政府；直轄市及縣（市）政府衛⽣局；三者均為藥事法所 定之衛⽣主管機關",
+        "C": "衛⽣福利部食品藥物管理署為法定衛⽣主管機關；直轄市及縣（市）政府衛⽣局為法定藥政管理機關",
+        "D": "⿇醉藥品製劑之查驗登記，由衛⽣福利部食品藥物管理署管制藥品組負責辦理"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 4,
+      "stem": "衛⽣福利部之附屬機關，不包括下列何者？",
+      "options": {
+        "A": "中央健康保險署",
+        "B": "社會及家庭署",
+        "C": "護理及健康照護署",
+        "D": "食品藥物管理署"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 5,
+      "stem": "有關新藥上市後之安全監視，下列何者錯誤？",
+      "options": {
+        "A": "為許可證持有者之義務",
+        "B": "應積極收集國內、外藥品使⽤之安全資料",
+        "C": "醫療機構應將處⽅全⾯釋出",
+        "D": "安全性報告應依衛⽣福利部指定時間通報"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 6,
+      "stem": "下列有關醫事⼈⼒及執業環境之 敘述，何者錯誤？",
+      "options": {
+        "A": "為因應未來⼈⼝老化及五⼤科醫師⼈⼒需求，⾃ 105 學年度辦理培育重點科別公費醫學⽣",
+        "B": "為建立中醫師臨床訓練制度，依師資培訓認證要點培訓指導醫師及指導藥師",
+        "C": "為保障醫師勞動權益，受僱醫師已全⾯納入勞基法適⽤對象",
+        "D": "施⾏⽣產事故救濟條例，以承擔女性的⽣產風險"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 7,
+      "stem": "下列何者非屬全⾯推動癌症篩檢之項⽬？",
+      "options": {
+        "A": "⼦宮頸癌",
+        "B": "肝癌",
+        "C": "乳癌",
+        "D": "⼤腸癌"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 8,
+      "stem": "依藥師法之規定，下列 敘述何者錯誤？",
+      "options": {
+        "A": "對處⽅之內容如有可疑之點，應詢明原處⽅醫師確認後⽅得調劑",
+        "B": "處⽅箋上所載 500mg acetaminophen 錠劑缺乏時，可改以同廠牌、同成分、同劑量之膠囊劑替代",
+        "C": "應注意處⽅上年、⽉、⽇、病⼈姓名、性別、年齡、藥名、劑量、⽤法、醫師署名或蓋章等項",
+        "D": "對於醫師所開處⽅，祇許調劑⼀次"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 9,
+      "stem": "依藥師法之規定，藥師調劑應按照下列何者，不得錯誤？",
+      "options": {
+        "A": "藥品仿單（說明書）",
+        "B": "常⽤藥品⼿冊",
+        "C": "藥理及治療學教科書",
+        "D": "醫師處⽅"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 10,
+      "stem": "依藥事法第 102 條之規定，全⺠健康保險實施 2年後，醫師得依⾃開處⽅，親⾃為藥品之調劑情形為何？",
+      "options": {
+        "A": "具有藥事法規定之調劑設備者",
+        "B": "醫療急迫情形",
+        "C": "附近藥局未備有所處⽅之藥品",
+        "D": "1公⾥內無藥事⼈員執業"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 11,
+      "stem": "依藥師法之規定，下列何者屬藥事照護業務範圍？",
+      "options": {
+        "A": "藥品調劑",
+        "B": "藥品檢驗",
+        "C": "病⼈給藥流程評估",
+        "D": "藥品鑑定"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 12,
+      "stem": "依藥師法之規定，下列有關藥師業務之 敘述，何者錯誤？",
+      "options": {
+        "A": "藥師得執⾏藥品儲備、供應及分裝之監督",
+        "B": "藥師均得執⾏中藥製劑之製造、供應及調劑",
+        "C": "藥師得執⾏含藥化粧品製造之監製",
+        "D": "藥師得販賣或管理⼀定等級之醫療器材"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 13,
+      "stem": "下列有關藥師懲戒之 敘述，何者錯誤？",
+      "options": {
+        "A": "藥師懲戒委員會由直轄市、縣（市）主管機關設置之，但藥師執業⼈數合計未滿⼀百⼈之縣（市），得免 設藥師懲戒委員會",
+        "B": "藥師藉其專業⾝分為產品代⾔誇⼤不實，致有誤導消費者誤信廣告內容⽽購買之虞者，應以停業為懲戒⽅ 式",
+        "C": "法定懲戒⽅式共有 5項，其性質不相牴觸者，得合併為⼀懲戒處分",
+        "D": "由藥師公會或主管機關移付之懲戒事件，應由藥師懲戒委員會處理"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 14,
+      "stem": "依藥師法之規定，下列何者正確？",
+      "options": {
+        "A": "領得藥師證書後第六年，⾸次申請執業登記，得免檢具繼續教育之證明文件",
+        "B": "藥師申請停歇業時，應⾃事實發⽣之⽇起⼀週內，報請原發執業執照之主管機關備查",
+        "C": "藥師歇業後重新申請執業登記，執業登記⽇期未逾原發執業執照所載應更新⽇期者，以該⽇期為新發執業 執照應更新⽇期",
+        "D": "藥師因執業異動，中斷執業達⼀個⽉以上者，於再⾏申請執業時，應檢附申請⽇前⼀年內接受繼續教育25 點以上證明文件"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 15,
+      "stem": "某藥師取得執業執照第⼆年，出國進修歇業兩年半，返國後再申請回原醫院執業，下列有關繼續 教育之敘 述，何者正確？",
+      "options": {
+        "A": "出國進修歇業兩年半，繼續教育積分數仍有效，可免提交繼續教育積分數",
+        "B": "應檢具 120 積分數繼續教育證明文件，始得繼續執業",
+        "C": "進修內容如與藥學相關，得免具繼續教育積分數證明文件，即可繼續執業",
+        "D": "得以前⼀年內接受繼續教育20 積分數以上之證明文件，重新申請執業登記"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 16,
+      "stem": "病⼈「⽣病在家」、「住院治療」，應分別由下列何種醫事⼈員提供其藥事照護？",
+      "options": {
+        "A": "藥師、醫師",
+        "B": "醫師、護理師",
+        "C": "藥師、藥師",
+        "D": "藥師、護理師"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 17,
+      "stem": "下列有關藥師於執業處所外執⾏業務之 敘述，何者錯誤？",
+      "options": {
+        "A": "藥師於執業處所外執⾏業務者，應事先報請中央主管機關核准",
+        "B": "藥師於醫療機構、藥局執業者，⽅得事先報准於執業處所外執⾏業務",
+        "C": "藥師於藥商執業者，不得於執業處所外執⾏業務",
+        "D": "藥師於執業處所外執⾏業務，應考量⼯作時數分配之適當性"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 18,
+      "stem": "下列何者非屬嚴重藥物不良反應通報 辦法所稱之嚴重藥物不良反應？",
+      "options": {
+        "A": "全⾝出疹⼦",
+        "B": "造成永久性殘疾",
+        "C": "胎嬰兒先天性畸形",
+        "D": "導致病⼈住院或延⻑病⼈住院時間 19. 106 年發⽣之降⾎脂藥物「冠脂妥」事件，經檢驗發現其所含有效成分之名稱與核准不符，屬藥事法所稱 之："
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 20,
+      "stem": "病⼈使⽤⼼臟節律器，不幸發⽣危及⽣命事件，醫療機構及藥局應如何處置？",
+      "options": {
+        "A": "以健保醫療資訊雲端查詢系統之「疑似藥品療效不相等」管道通報",
+        "B": "收集詳細圖片及事件紀錄，送衛⽣福利部食品藥物管理署供判定是否為劣藥",
+        "C": "醫院應於 15 ⽇內，依規定辦理通報，並副知持有⼼臟節律器許可證之藥商",
+        "D": "緊急時得先⾏以⼝頭⽅式通報，並於期限內完成書⾯通報"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 21,
+      "stem": "依藥事法之規定，下列 敘述何者正確？",
+      "options": {
+        "A": "除藥局外，醫療機構及藥商，對於嚴重藥物不良反應，應⾏通報",
+        "B": "醫療機構因嚴重藥物不良反應致⽣死亡或危及⽣命情形時，應立即向所在地衛⽣主管機關通報",
+        "C": "新藥，須依規定進⾏安全監視",
+        "D": "所有第⼆等級及第三等級醫療器材均應監視其安全性"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 22,
+      "stem": "依藥品優良調劑作業準則之規定，下列 敘述何者錯誤？",
+      "options": {
+        "A": "依處⽅箋內容選取正確藥品、計數正確數量、書寫藥袋或貼標籤、包裝等過程之⾏為，為調配",
+        "B": "依醫師所開具之處⽅箋，配製新製品之⾏為，為調配",
+        "C": "藥師⾃受理處⽅⾄交付藥品⽤藥指導等相關之⾏為，為調劑",
+        "D": "依醫師所開具之處⽅箋，改變原劑型之⾏為，為調製"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 23,
+      "stem": "下列有關衛⽣主管機關檢 查事項之敘述，何者錯誤？",
+      "options": {
+        "A": "派員檢查時，應出⽰有關執⾏職務之證明文件",
+        "B": "抽驗藥物屬執⾏公權⼒，得不出具單據",
+        "C": "得檢查藥物製造業者、販賣業者之處所設施及有關業務",
+        "D": "得檢查醫療機構或藥局之有關業務"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 24,
+      "stem": "下列有關醫療器材品名之規定，何者錯誤？",
+      "options": {
+        "A": "不得與其他廠商醫療器材品名相同，或涉及仿冒或影射情事",
+        "B": "中文品名不得夾雜外文或數字，但具直接意義或英文商標具特殊意義經中央衛⽣主管機關核定者，不在此 限",
+        "C": "品名不得使⽤他⼈藥物商標或廠商名稱，但已取得商標或授權使⽤者，不在此限",
+        "D": "外銷專⽤醫療器材之中英文品名為因應國際市場需求，無特別限制"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 25,
+      "stem": "下列 敘述何者正確？",
+      "options": {
+        "A": "義診或巡迴醫療服務時，藥師即可逕⾏於執業處所外執⾏業務",
+        "B": "醫師治療癌末病⼈，得視需要，開立海洛因處⽅，交由藥師調劑",
+        "C": "病⼈可持健保特約醫院釋出之處⽅箋，⾄該醫院轄區之健保特約藥局調劑",
+        "D": "修習中藥課程達適當標準之醫師，得兼營中藥之調劑"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 26,
+      "stem": "有關擔任藥廠監製藥師之應⾏注意事項，下列 敘述何者正確？",
+      "options": {
+        "A": "倉儲採完全電腦化儲存系統者，原料標籤須以資料易讀⽅式標出",
+        "B": "電腦化系統安定性試驗資料，僅能由原始操作者修改數據",
+        "C": "藥廠均應有品質管制部⾨，該部⾨⽬前暫未列為管制區",
+        "D": "應視需要，核對產率及進⾏重量 /數量調和，以確保無超出允收範圍的差異"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 27,
+      "stem": "依⻄藥藥品優良製造規範之規定， 為使因交叉污染所引起之嚴重醫療傷害的風險降到最低，那些藥品應有專 ⽤且⾃⾜圍堵的⽣ 產設施？ ①青黴素 ②疫苗 ③可待因 ④免疫球蛋⽩",
+      "options": {
+        "A": "①②③",
+        "B": "①③④",
+        "C": "①②④",
+        "D": "②③④"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 28,
+      "stem": "下列有關藥物廣告之 敘述，何者正確？",
+      "options": {
+        "A": "採訪醫療成功案例推廣藥物療效",
+        "B": "使⽤者⾒證記錄成⼿冊發給⺠眾",
+        "C": "持藥物空盒 5件回郵可參加抽獎",
+        "D": "非經藥物許可證持有者之委託，主管機關不受理申請藥物廣告"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 29,
+      "stem": "下列有關衛⽣主管機關檢 查藥物製造業及販賣業之敘述，何者錯誤？",
+      "options": {
+        "A": "得出具單據抽驗藥物，業者不得無故拒絕",
+        "B": "抽驗藥物之數量以⾜供檢驗之⽤者為限",
+        "C": "依藥物製造業者檢查辦法之規定檢查藥廠",
+        "D": "檢查藥物販賣業有關業務之內容，包括使⽤塑膠袋數量、銷售全部產品之營業⾦額"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 30,
+      "stem": "依藥事法之規定，有關國 內製造藥品，下列敘述何者錯誤？",
+      "options": {
+        "A": "製造藥物，應由藥物製造⼯廠為之",
+        "B": "藥物製造，應符合藥物優良調製準則之規定",
+        "C": "應取得藥物製造許可後，始得製造",
+        "D": "從事藥物研發之機構或公司，其研發⽤藥物，應於符合中央衛⽣主管機關規定之⼯廠或場所製造"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 31,
+      "stem": "依藥事法之規定，下列何者非屬藥商？",
+      "options": {
+        "A": "中藥製造業",
+        "B": "醫療器材製造業",
+        "C": "⻄藥販賣業",
+        "D": "含藥化粧品製造業"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 32,
+      "stem": "依藥事法之規定，中央衛⽣主管機關於核發新藥許可證時，應公開申請⼈檢附之下列何項資料？",
+      "options": {
+        "A": "臨床試驗報告書",
+        "B": "成分含量規格",
+        "C": "檢驗規格",
+        "D": "已揭露專利字號或案號"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 33,
+      "stem": "依藥事法之規定，藥物廣告應事先向下列何機關申請核准？",
+      "options": {
+        "A": "中央衛⽣主管機關或直轄市衛⽣主管機關",
+        "B": "文化部",
+        "C": "國家通訊傳播委員會",
+        "D": "⾏政院消費者保護會"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 34,
+      "stem": "下列有關藥物標⽰之 敘述，何者錯誤？",
+      "options": {
+        "A": "輸入之藥物，中文品名之文字不得⼩於外文",
+        "B": "應依核准刊載產品之批號",
+        "C": "輸入之藥物，品名及許可證字號得以外文為主，但應附上中文仿單",
+        "D": "應依核准刊載品名及許可證字號"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 35,
+      "stem": "有關醫療器材 查驗登記之規定，下列敘述何者錯誤？",
+      "options": {
+        "A": "若為已有類似品之第⼆等級醫療器材，可以檢附美國官⽅及歐盟會員國官⽅或權責單位出具之核准上市證 明文件，取代臨床前測試及原廠品質管制資料",
+        "B": "對於第⼆等級無類似品且不符合簡化規定者，以及第三等級醫療器材申請查驗登記時，同時需檢附相關臨 床評估或臨床試驗資料",
+        "C": "未滅菌及不具量測功能之第⼀等級醫療器材，可無須符合醫療器材優良製造準則",
+        "D": "醫療器材中文仿單之字體⼤⼩規格不得⼩於電腦字體 7號字"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 36,
+      "stem": "下列有關藥物 查驗登記之敘述，何者錯誤？",
+      "options": {
+        "A": "許可證有效期間為5年",
+        "B": "國內製造之醫療器材，其標籤、仿單、包裝應以中文為主，所附外文文字應⼩於中文",
+        "C": "輸入醫療器材，應向衛⽣福利部申請查驗登記，經核發許可證後，始得為之",
+        "D": "中央衛⽣主管機關為維護公益⽬的，公開所持有及保管藥商申請製造或輸入藥物所檢附之藥物成分、仿單 等相關資料，須事前經業者同意，始得為之"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 37,
+      "stem": "下列何者不在藥局兼營零售之醫療器材之列？",
+      "options": {
+        "A": "靜脈點滴套",
+        "B": "含殺精劑衛⽣套",
+        "C": "玻尿酸⽪下植入物",
+        "D": "⾎糖機"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 38,
+      "stem": "下列有關管制藥品之證照制度，何者正確？",
+      "options": {
+        "A": "醫藥教育研究試驗機構申請管制藥品登記證之負責⼈，僅能由機關⾸⻑擔任",
+        "B": "醫師、牙醫師使⽤管制藥品，必須領有管制藥品使⽤執照",
+        "C": "藥局執照之負責⼈，可為管制藥品登記證之負責⼈",
+        "D": "國內運輸第⼀級⾄第三級管制藥品，應向衛⽣主管機關申請核發運輸憑照"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 39,
+      "stem": "下列有關管制藥品管理之 敘述，何者正確？",
+      "options": {
+        "A": "各級管制藥品均應置於業務處所，並應專櫃儲藏",
+        "B": "藥局依規定設簿冊登載管制藥品，應依各藥品批號分別登載收⽀情形",
+        "C": "第⼀級⾄第三級管制藥品，除歇業或停業外，不得借貸、轉讓",
+        "D": "調劑或使⽤後之殘餘管制藥品，應由管制藥品管理⼈會同有關⼈員銷燬"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 40,
+      "stem": "下列何種成分可從鴉片中分離出來，但因不具成 癮性，已被排除在管制藥品之外？",
+      "options": {
+        "A": "可待因（ codeine ）",
+        "B": "諾司卡賓（ noscapine ）",
+        "C": "美托邦（ metopon ）",
+        "D": "狄芬諾⻄萊（diphenoxylate ）"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 41,
+      "stem": "依現⾏化粧品衛⽣管理條例之規定，下列何者不屬於含藥化粧品？",
+      "options": {
+        "A": "髮表著⾊劑",
+        "B": "染髮劑",
+        "C": "燙髮劑",
+        "D": "⽌汗制臭劑"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 42,
+      "stem": "某衛⽣局 查獲⼀批來源不明之洗髮精，依化粧品衛⽣安全管理法規定，對該違規產品之處置，下列何者錯 誤？",
+      "options": {
+        "A": "得命化粧品業者下架該違規產品",
+        "B": "應訂定期限命化粧品製造或輸入業者，通知販賣業者回收市售違規產品",
+        "C": "得命化粧品業者重新包裝後，⽅可上架販售",
+        "D": "沒入銷毀"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 43,
+      "stem": "與國際先進國家比較，我國罕⾒疾病防治及藥物法的特⾊ 為何？",
+      "options": {
+        "A": "立法內容結合罕⾒疾病防治與罕⾒疾病藥物管理",
+        "B": "罕⾒疾病藥物許可證保障達五年，不受理同類藥物查驗登記申請",
+        "C": "罕⾒疾病藥物包含維持⽣命所需特殊營養食品",
+        "D": "政府全額補助國外代⾏檢驗費⽤"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 44,
+      "stem": "下列有關政府成立「藥害救濟基⾦會」業務之 敘述，何者錯誤？",
+      "options": {
+        "A": "受理藥害救濟案件申請",
+        "B": "藥害救濟徵收⾦管理",
+        "C": "核定藥害救濟審議結果",
+        "D": "藥害救濟⾦給付"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 45,
+      "stem": "某診所醫師 為氣喘病患開立改善⼼悸藥之處⽅，藥師依處⽅給藥列印藥袋時，仿單中呈現「氣喘禁⽤」之警 ⽰，但未詢問開立處⽅醫師即調劑給藥，造成病患服藥後死亡，下列 敘述何者正確？",
+      "options": {
+        "A": "該藥因為經過醫師處⽅，藥師依處⽅給藥，符合藥害救濟法所稱之正當使⽤",
+        "B": "病患因此服藥後死亡，符合藥害救濟法之死亡給付",
+        "C": "藥師得替該死亡病患申請藥害救濟，以符合及時救濟宗旨",
+        "D": "該醫師與藥師均應負其責任"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 46,
+      "stem": "下列何者 為全⺠健康保險不予給付之藥品？",
+      "options": {
+        "A": "沙立邁（ thalidomide ）膠囊",
+        "B": "冠脂妥（ rosuvastatin ）膜衣錠",
+        "C": "丙泊酚（propofol ）製劑",
+        "D": "美服培酮（mifepristone ）錠"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 47,
+      "stem": "依全⺠健康保險法之規定，下列何者可列入給付範圍？",
+      "options": {
+        "A": "精神疾病之⽇間住院費⽤",
+        "B": "住院之膳食費⽤",
+        "C": "掛號及診斷書費⽤",
+        "D": "指定醫師費⽤"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 48,
+      "stem": "某健保特約藥局調劑由甲醫師開立之處⽅箋，經衛⽣福利部中央健康保險署核定藥品費⽤不予給付，且可歸 責於甲醫師時，該藥品費⽤應如何處理？",
+      "options": {
+        "A": "應⾃甲醫師之⾨診診療服務費⽤核減⼀半以上",
+        "B": "應⾃特約藥局之藥事⼈員藥事服務費中核減",
+        "C": "應處甲醫師罰鍰",
+        "D": "應⾃甲醫師所屬之醫療機構申報之醫療費⽤核減"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 49,
+      "stem": "有關醫師處⽅應記明事項及藥劑交付應註明事項等規定，係訂定於下列何項法律中？",
+      "options": {
+        "A": "醫療法",
+        "B": "醫師法",
+        "C": "藥事法",
+        "D": "全⺠健康保險法"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    },
+    {
+      "number": 50,
+      "stem": "依全⺠健康保險醫事服務機構特約及管理 辦法之規定，下列有關特約及管理原則，何者錯誤？",
+      "options": {
+        "A": "公平",
+        "B": "互信",
+        "C": "互利",
+        "D": "對等"
+      },
+      "referenceGroupId": "pharmaceutical-law-regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 8
+  },
+  "referenceGroupId": "pharmaceutical-law-regulations",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-law-regulations\\108030_66_pharmaceutical-law-regulations.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutical-law-regulations\\108030_66_pharmaceutical-law-regulations.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

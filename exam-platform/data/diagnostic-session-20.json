@@ -1,0 +1,453 @@
+{
+  "generatedAt": "2026-07-29T12:42:32",
+  "mode": "diagnostic20",
+  "timeLimitMinutes": 30,
+  "questionCount": 20,
+  "questions": [
+    {
+      "setId": "108100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 28,
+      "stem": "有關監測 traditional dosing gentamicin 血中 peak 與trough concentration 之敘述，下列何者正確？",
+      "options": {
+        "A": "peak concentration 與療效有關，其值應在 5-8 mg/L",
+        "B": "peak concentration 與毒性有關，應低於最小抑菌濃度",
+        "C": "trough concentration 與毒性有關，應低於最小抑菌濃度的五分之一以下",
+        "D": "trough concentration 與療效有關，其值應 > 2 mg/L"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "referenceGroupId": "dispensing-clinical-pharmacy"
+    },
+    {
+      "setId": "109020_22_pharmaceutical-analysis-natural-products",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmaceutical-analysis-natural-products",
+      "subjectTitle": "Pharmaceutical Analysis and Natural Products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products",
+      "questionNumber": 58,
+      "stem": "Benzoin 不具有下列何種作用？",
+      "options": {
+        "A": "antiseptic",
+        "B": "diuretic",
+        "C": "expectorant",
+        "D": "anticancer"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\109020_q22_pharmaceutical-analysis-natural-products.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\109020_mod22_pharmaceutical-analysis-natural-products.pdf"
+      ],
+      "referenceGroupId": "pharmaceutical-analysis-natural-products"
+    },
+    {
+      "setId": "110020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 31,
+      "stem": "某食品之宣傅單，載有「有清熱退火、祛傷解郁丶凉血固肺丶開中氣之效果，有藥王之喻，能防止細胞老 化、预防癌症、糖尿病、心藏病，特價80元」等文字，下列叙述何者錯？",
+      "options": {
+        "A": "清熱退火、祛傷解、凉血固肺、開中氣，為療效之宣",
+        "B": "预防癌症、糖尿病及心藏病，為療效之宣",
+        "C": "食品宣特價80元，非藥物廣告管理",
+        "D": "本案宣傳單應事前向主管機關申請藥品廣告"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\110020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\110020_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "referenceGroupId": null
+    },
+    {
+      "setId": "109100_11_pharmacology-medicinal-chemistry",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmacology-medicinal-chemistry",
+      "subjectTitle": "Pharmacology and Medicinal Chemistry",
+      "unitCitation": null,
+      "questionNumber": 68,
+      "stem": "下列皮質類固醇藥中，何者具9α-Cl基？",
+      "options": {
+        "A": "triamcinolone",
+        "B": "mometasone",
+        "C": "alclometasone",
+        "D": "halcinonide"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\109100_q11_pharmacology-medicinal-chemistry.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\109100_mod11_pharmacology-medicinal-chemistry.pdf"
+      ],
+      "referenceGroupId": null
+    },
+    {
+      "setId": "108100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 7,
+      "stem": "有關糖尿病足部感染（diabeticfootinfections）之叙述，下列何者正確？",
+      "options": {
+        "A": "大多數须住院治療之重感染者，都是由於單一菌種所致 王女士目前為無症状菌尿症（asymptomaticbacteriuria） 5~12 μg/mL 現今最常見的致病菌為Pseudomonasaeruginosa sodium chloride 3%250mL",
+        "B": "amoxicillin/clavulanate可做為輕微感染的經驗性治療 因王女士發展為感染症及其他饼發症的機率極高，應立即開始抗生素治療 5~12 mg/dL 血液细菌培養阳性率低於50% sodium chloride 9% 250 mL",
+        "C": "只有小於10%的病人可能供發骨髓炎 除65崴以上的老人外，此種情况也好發於懷孕婦女及小孩 15～20 μg/mL 廣效性抗生素應立即停止，開始以抗徽菌藥品治療 magnesium sulfate 10% 200 mL",
+        "D": "如饼發骨髓炎，應使用抗生素治療3调 8.70崴王女士因心功能不佳人院。尿液查：>10^bacteria/mL，無尿道感染症状。下列叙述何者錯？ 在大多數研究，對於65以上没有饼發症或其他床問題的老人，投舆抗生素治療無顯著效益 15~20 mg/dL cells/uL，下列叙述何者正確？ 若症状尚未改善時，投與之抗徽菌劑首選應是fluconazole 11.68蕨男士至急診室時；體温36.5℃，心跳100次/分鐘；呼吸25次/分鐘，SaO287%。給與6次吸人型abuterol及 ipratropium與IVcorticosteroid後反應仍不佳；除插管使用呼吸器外，下列何種靜胍输注治療最適當？ magnesium sulfate 10% 20 mL"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\108100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\108100_mod55_therapeutics.pdf"
+      ],
+      "referenceGroupId": null
+    },
+    {
+      "setId": "106100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 78,
+      "stem": "承上題，此種合併治療之目的為何？",
+      "options": {
+        "A": "減少口乾、視力模糊之副作用",
+        "B": "減少腎臟損傷之副作用",
+        "C": "減少錐體徑外副作用",
+        "D": "減少抗藥性發生機率"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "referenceGroupId": "dispensing-clinical-pharmacy"
+    },
+    {
+      "setId": "107020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "questionNumber": 15,
+      "stem": "有關藥品優良調劑作業準則所稱之「調製」，下列何者正確？",
+      "options": {
+        "A": "選取正確藥品",
+        "B": "計數正確數量",
+        "C": "改變原劑型",
+        "D": "包裝"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\107020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\107020_mod66_pharmaceutical-law-regulations.pdf"
+      ],
+      "referenceGroupId": "pharmaceutical-law-regulations"
+    },
+    {
+      "setId": "108100_22_pharmaceutical-analysis-natural-products",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmaceutical-analysis-natural-products",
+      "subjectTitle": "Pharmaceutical Analysis and Natural Products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products",
+      "questionNumber": 40,
+      "stem": "以有機溶劑萃取水溶液中的有機酸化合物時，下列敘述何者正確？",
+      "options": {
+        "A": "水溶液的 pH 值須調整至高於此有機酸的 pKa 值",
+        "B": "若抽提效率不佳時，可加入適量 鹼並少量多次萃取",
+        "C": "於水中加入 氯化鈉至飽和濃度，可提高萃取率",
+        "D": "四氫呋喃為適當的有機溶劑"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\108100_q22_pharmaceutical-analysis-natural-products.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\108100_ans22_pharmaceutical-analysis-natural-products.pdf"
+      ],
+      "referenceGroupId": "pharmaceutical-analysis-natural-products"
+    },
+    {
+      "setId": "108100_33_pharmaceutics-biopharmaceutics",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmaceutics-biopharmaceutics",
+      "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics",
+      "questionNumber": 20,
+      "stem": "下列何種劑型最不具有搖變性？",
+      "options": {
+        "A": "凝膠劑",
+        "B": "乳漿劑",
+        "C": "膠漿劑",
+        "D": "流浸膏"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\108100_q33_pharmaceutics-biopharmaceutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\108100_mod33_pharmaceutics-biopharmaceutics.pdf"
+      ],
+      "referenceGroupId": "pharmaceutics-biopharmaceutics"
+    },
+    {
+      "setId": "108100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": null,
+      "questionNumber": 27,
+      "stem": "下列抗血小板藥品中，何者兼具血管張特性？",
+      "options": {
+        "A": "ticlopidine",
+        "B": "cilostazol",
+        "C": "clopidogrel",
+        "D": "aspirin"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\108100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\108100_mod55_therapeutics.pdf"
+      ],
+      "referenceGroupId": null
+    },
+    {
+      "setId": "110020_66_pharmaceutical-law-regulations",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "pharmaceutical-law-regulations",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": null,
+      "questionNumber": 25,
+      "stem": "依藥物製造業者查辦法之规定，下列何者錯？",
+      "options": {
+        "A": "國產醫療器材製造業者，每三年查一次",
+        "B": "输人醫療器材國外製造業者，每三年查一次",
+        "C": "輸人醫療器材國外製造業者，應由我國代理商（藥商）於其國外製造業者之醫療器材製造許可有效期間屆满 三個月前，主動提出查申請",
+        "D": "中央衛生主管機關於發現醫療器材有重大危害之情事者，得另實施不定期查"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\110020_q66_pharmaceutical-law-regulations.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\pharmaceutical-law-regulations\\110020_ans66_pharmaceutical-law-regulations.pdf"
+      ],
+      "referenceGroupId": null
+    },
+    {
+      "setId": "107020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 47,
+      "stem": "有關 NSAIDs 的心臟毒性，下列敘述何者正確？",
+      "options": {
+        "A": "celecoxib 因心臟毒性下市",
+        "B": "此毒性與 NSAIDs 的劑量、使用時間長短有關",
+        "C": "rofecoxib 200 mg bid 為心臟毒性較低的用法",
+        "D": "若病人有心臟病史，應選擇 diclofenac 做為止痛藥品"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "referenceGroupId": "dispensing-clinical-pharmacy"
+    },
+    {
+      "setId": "107100_55_therapeutics",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "therapeutics",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "questionNumber": 33,
+      "stem": "下列何者較可能抑制 cytochrome P450 酵素活性？",
+      "options": {
+        "A": "carbamazepine",
+        "B": "phenobarbital",
+        "C": "phenytoin",
+        "D": "valproic acid"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_q55_therapeutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\therapeutics\\107100_ans55_therapeutics.pdf"
+      ],
+      "referenceGroupId": "therapeutics"
+    },
+    {
+      "setId": "109100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 4,
+      "stem": "领藥時，下列何者不须领受人身分證明名领受？",
+      "options": {
+        "A": "morphine",
+        "B": "fentanyl",
+        "C": "alprazolam",
+        "D": "flunitrazepam"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "referenceGroupId": null
+    },
+    {
+      "setId": "106100_11_pharmacology-medicinal-chemistry",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmacology-medicinal-chemistry",
+      "subjectTitle": "Pharmacology and Medicinal Chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry",
+      "questionNumber": 61,
+      "stem": "下列何者為melatonin 生合成的起始物？",
+      "options": {
+        "A": "L-tryptophan",
+        "B": "L-tyrosine",
+        "C": "D-tyrosine",
+        "D": "L-phenylalanine"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\106100_q11_pharmacology-medicinal-chemistry.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\106100_mod11_pharmacology-medicinal-chemistry.pdf"
+      ],
+      "referenceGroupId": "pharmacology-medicinal-chemistry"
+    },
+    {
+      "setId": "115090_0403_pharmaceutics-biopharmaceutics",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmaceutics-biopharmaceutics",
+      "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+      "unitCitation": null,
+      "questionNumber": 3,
+      "stem": "有關elixirs之製備，下列叙述何者正確？",
+      "options": {
+        "A": "elixirs通常比syrups更甜且更黏稠 ①>②>③",
+        "B": "elixirs由於其含水和含醇的特性，比syrups更能保持水溶性和醇溶性成分之溶解度 ②>③>① c.③>②>①",
+        "C": "因蔗糖於高酒精含量的elixirs中有良好的溶解度，故常被用於增加甜度",
+        "D": "鹰将醇溶液加人水溶液中，以防止醇溶性成分發生分離或沉殿 ①=②=③"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\115090_q0403_pharmaceutics-biopharmaceutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\115090_ans0403_pharmaceutics-biopharmaceutics.pdf"
+      ],
+      "referenceGroupId": null
+    },
+    {
+      "setId": "105100_22_pharmaceutical-analysis-natural-products",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmaceutical-analysis-natural-products",
+      "subjectTitle": "Pharmaceutical Analysis and Natural Products",
+      "unitCitation": "Unit 1 / Pharmaceutical Analysis and Natural Products",
+      "questionNumber": 36,
+      "stem": "某一小分子藥物極性高且呈鹼性，溶於酸性溶液中時，下列何種固相萃取－沖提液配對可提供最高的回收率？",
+      "options": {
+        "A": "anion exchanger －0.2% formic acid",
+        "B": "cation exchanger －acetonitrile",
+        "C": "cation exchanger －1 M ammonium chloride",
+        "D": "anion exchanger －methanol"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\105100_q22_pharmaceutical-analysis-natural-products.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmaceutical-analysis-natural-products\\105100_ans22_pharmaceutical-analysis-natural-products.pdf"
+      ],
+      "referenceGroupId": "pharmaceutical-analysis-natural-products"
+    },
+    {
+      "setId": "107100_33_pharmaceutics-biopharmaceutics",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmaceutics-biopharmaceutics",
+      "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics",
+      "questionNumber": 11,
+      "stem": "下列何種界面活性劑是藉由與微生物細胞膜發生陽離子交換而具有抑菌活性？",
+      "options": {
+        "A": "sodium dodecyl sulfate",
+        "B": "dodecyl-β-alanine",
+        "C": "benzalkonium chloride",
+        "D": "polyoxyl 40 stearate"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\107100_q33_pharmaceutics-biopharmaceutics.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\107100_mod33_pharmaceutics-biopharmaceutics.pdf"
+      ],
+      "referenceGroupId": "pharmaceutics-biopharmaceutics"
+    },
+    {
+      "setId": "109020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 74,
+      "stem": "Fluoxetine 與下列何者併用時，最不易產生serotonin syndrome ？",
+      "options": {
+        "A": "dextromethorphan",
+        "B": "estazolam",
+        "C": "meperidine",
+        "D": "tramadol"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "referenceGroupId": "dispensing-clinical-pharmacy"
+    },
+    {
+      "setId": "113020_11_pharmacology-medicinal-chemistry",
+      "unitId": "unit1",
+      "unitTitle": "Unit 1",
+      "subjectId": "pharmacology-medicinal-chemistry",
+      "subjectTitle": "Pharmacology and Medicinal Chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry",
+      "questionNumber": 64,
+      "stem": "下列有關 L-thyroxine 與liothyronine",
+      "options": {
+        "A": "L-thyroxine 的 pKa 較小",
+        "B": "L-thyroxine 的口服生體可用率較高",
+        "C": "L-thyroxine 的蛋白結合較高",
+        "D": "L-thyroxine 代謝後，從尿液與糞便排泄"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\113020_q11_pharmacology-medicinal-chemistry.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\113020_mod11_pharmacology-medicinal-chemistry.pdf"
+      ],
+      "referenceGroupId": "pharmacology-medicinal-chemistry"
+    }
+  ],
+  "samplingNotes": [
+    "Questions were sampled from the parsed local question bank JSON files.",
+    "Answers remain hidden until submission.",
+    "Each question keeps its unit citation for review and verification."
+  ]
+}

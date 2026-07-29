@@ -1,0 +1,23 @@
+{
+  "setId": "105020_55_therapeutics",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "therapeutics",
+  "subjectTitle": "Therapeutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\105020_q55_therapeutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\therapeutics\\105020_ans55_therapeutics.pdf"
+  ],
+  "questionCount": 0,
+  "answerCount": 80,
+  "parseWarnings": [],
+  "questions": [],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 1
+  },
+  "referenceGroupId": "therapeutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\105020_55_therapeutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\105020_55_therapeutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

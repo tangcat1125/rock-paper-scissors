@@ -1,0 +1,728 @@
+{
+  "setId": "110100_44_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\110100_q44_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\110100_ans44_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 70,
+  "answerCount": 70,
+  "parseWarnings": [
+    "Question 14: Could not parse options for question 14",
+    "Question 35: Could not parse options for question 35",
+    "Question 51: Could not parse options for question 51"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "下列叙述何者正確？",
+      "options": {
+        "A": "aspirin100mgentericmicroencapsulatedcapsule溶解度會因腸胃道pH值而不同",
+        "B": "erythromycinestolate250mgcapsule溶解度會因腸胃道pH值而不同",
+        "C": "nitrofurantoin100mgtablet溶解度會因微粒化（micronize）而降低，因而减少口服吸收",
+        "D": "ampicillin trihydrate 500 mg capsule溶離速度比ampicillin anhydrous快"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "有關眼藥水之抗氧化劑，下列叙述何者錯？",
+      "options": {
+        "A": "sodiummetabisulphite適用於酸性pH值 静派注射",
+        "B": "sodiumsulphite须避光以維持穩定 眼内注射",
+        "C": "sodiummetabisulphite在適當條件下，具抗菌作用 脊椎内注射",
+        "D": "disodiumedetate是眼藥水常用的抗氧化劑 （）（） 皮下注射"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "下列處方缩寫與對應的意思，何者正確？",
+      "options": {
+        "A": "a.u.：右耳",
+        "B": "o.d.：左眼",
+        "C": "qid：每天4次",
+        "D": "susp：栓劑"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "下列何者不是液體劑型的抗氧化劑？",
+      "options": {
+        "A": "ascorbic acid",
+        "B": "propionic acid",
+        "C": "sodium sulfite",
+        "D": "phosphoric acid"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "下列何者不是plasticcontainers之添加劑？",
+      "options": {
+        "A": "resins",
+        "B": "stabilizers",
+        "C": "lubricants",
+        "D": "static agents"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "下列何種材質最常用於製造strippackaging？",
+      "options": {
+        "A": "paper",
+        "B": "type I glass",
+        "C": "aluminium foil",
+        "D": "polypropylene"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "有關臨時調製（extemporaneouscompounding）的存及管理，下列叙述何者錯？",
+      "options": {
+        "A": "不應以藥品原出廠效期為調製後的使用期限",
+        "B": "不须標示該次調製所使用的藥品批號",
+        "C": "應標示調製後藥品的含量",
+        "D": "應標示使用方法"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "下列何项藥品，最不易被PVC吸附？",
+      "options": {
+        "A": "amiodarone",
+        "B": "calcitriol",
+        "C": "nitroglycerin",
+        "D": "voriconazole"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "有關冷藏藥品存注意事项，下列何者錯？",
+      "options": {
+        "A": "冰箱中放置連續性温度記錄器為宜 1.25mLPOBID，共1bottle",
+        "B": "每日至少1次查連續性温度記錄器是否正常運轉 1.25mLPOBID，共2bottles",
+        "C": "冰箱内每層的温度都是一致，且可將藥品放满 2.5 mLPOQD，共2 bottles",
+        "D": "最好装置温度巽常發報設施，可以及時监控温度巽常狀况 11.25kg之10崴兒童；醫師欲開立sodiumvalproate oralsolution20mg/kg/dayBID，共28天，目前藥局之藥品為 200mg/mL,40mL/bottle，應如何建處方？ 2.5mLPOBID’共4bottles"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "每5mL含有amoxicillin/clavulanate400/57mg之糖，張小弟體重5公斤，醫師處方45/6.4mg/kg/dayBIDPO， 每一次應服用多少mL？",
+      "options": {
+        "A": "0.6",
+        "B": "0.7",
+        "C": "1.4",
+        "D": "2.8"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "下列何頂靜胍注射劑，因添加有機溶媒做為助溶劑，若以一般靜胍输液稀可能沉析出，故不宜以IV infusion方式給藥？",
+      "options": {
+        "A": "diazepam",
+        "B": "aminophylline",
+        "C": "gentamicin",
+        "D": "vancomycin"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "Halfsaline2L中含多少公克的NaCl？",
+      "options": {
+        "A": "9",
+        "B": "18",
+        "C": "0.9",
+        "D": "1.8"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "下列何者不是長期（>3個月）使用TPN最常见的供發症？",
+      "options": {
+        "A": "急性胰炎（acute pancreatitis）",
+        "B": "中央靜服導管阻塞（centralcatheterocclusion）",
+        "C": "代谢性骨病夔（metabolicbonedisease）",
+        "D": "肝疾病（hepatobiliary disease）"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "有關靜派營養熱量之叙述，下列何者錯？",
+      "options": {
+        "A": "amino acids : 4 kcal/g",
+        "B": "dextrose : 3.4 kcal/g",
+        "C": "fat emulsion 10% : 2 kcal/mL",
+        "D": "fat : 10 kcal/g"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "以mmol/kg/day計算，下列那一项在全静胍營養（TPN）中電解質需求量最小？",
+      "options": {
+        "A": "sodium",
+        "B": "calcium",
+        "C": "phosphate",
+        "D": "chloride"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "下列何者配製成溶液後，在光線下會分解，且由浅褐色逐渐變成深褐色、橘色或藍色？",
+      "options": {
+        "A": "norepinephine",
+        "B": "nitroprusside",
+        "C": "nitroglycerin",
+        "D": "cyclophosphamide"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "依據USP<797>SterilePreparations之规，low-riskcompounded sterile preparations於冷藏條件下，beyond-use date最長為多少天？",
+      "options": {
+        "A": "7",
+        "B": "14",
+        "C": "21",
+        "D": "28"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "下列何者最可能因為加人其他藥品而影響其安定性？",
+      "options": {
+        "A": "10% amino acids solution",
+        "B": "10% fat emulsion",
+        "C": "50%dextrose solution",
+        "D": "3% glycerol solution"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "化學治療藥品與其常見副作用之配對，下列何者錯？",
+      "options": {
+        "A": "irinotecan—diarrhea",
+        "B": "doxorubicin— severe mucositis",
+        "C": "paclitaxel—myelosuppression",
+        "D": "cisplatin—- cardiac toxicity"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "調製化療藥品時，不小心被針頭刺到，下列處置何者最適當？",
+      "options": {
+        "A": "立刻以酒精棉球覆蓋傷處",
+        "B": "立刻以纱布覆蓋傷處",
+        "C": "立刻以OK覆蓋傷處",
+        "D": "将刺傷處出血，澈底清洗傷處"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "有關注射藥品之叙述，下列何者正確？",
+      "options": {
+        "A": "Clexane（enoxaparin）是皮下注射用的prefilled syringe",
+        "B": "paclitaxel水溶性低，製成注射劑時须以ethylalcohol及Tween80為助溶劑",
+        "C": "IVfatemulsion濃度高，不適合由周血管輸注",
+        "D": "脂溶性藥品溶於油性溶劑後，可直接用於静胍注射"
+      }
+    },
+    {
+      "number": 25,
+      "stem": "有關腹膜透析液與血液透析液之叙述，下列何者錯？",
+      "options": {
+        "A": "腹膜透析液直接注人腹腔",
+        "B": "腹膜透析液一般不含钾離子",
+        "C": "血液透析液與血液無直接接",
+        "D": "腹膜透析液與血液透析液均為無菌製劑"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "下列何者最不適合做為large-volumeparenteralinjection之包装？",
+      "options": {
+        "A": "glass bottles",
+        "B": "polyvinyl chloride （PVC） collapsible bags",
+        "C": "semi-rigid polythene containers",
+        "D": "polystyrene containers"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "下列何種情形不會增加morphinePCA導致呼吸抑制的風？",
+      "options": {
+        "A": "男性",
+        "B": "70崴的老年人",
+        "C": "lockoutinterval設定為4分鐘",
+        "D": "creatinineclearance 40mL/min"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "有關病人自控式止痛（PCA）之叙述，下列何者正確？",
+      "options": {
+        "A": "可用於opioid-tolerant病人的術後止痛",
+        "B": "不可用於未曾使用opioid止痛劑的病人",
+        "C": "fentanyl因onset慢、排除也慢，不建使用於PCA",
+        "D": "對同一個病人，hydromorphone的單次給藥劑量會大於morphine"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "某注射藥品（5mg/mL）在D5W的溶解度為0.06mg/mL，應以下列何種倍數稀；才不會導致藥品沉？",
+      "options": {
+        "A": "1 : 1",
+        "B": "1 : 10",
+        "C": "1 : 50",
+        "D": "1 :100"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "藥劑部门提供centralizedintravenous additive service（CIVAS）之主要目的，不包含下列何者？",
+      "options": {
+        "A": "提供7日/调、24小時／日之服務",
+        "B": "提升病人安全",
+        "C": "提升機構資源運用效率",
+        "D": "减少用藥錯"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "有關經由周血管給與静派營養输液，下列叙述何者正確？",
+      "options": {
+        "A": "營養输液濃度不可太高",
+        "B": "不易引起胍炎",
+        "C": "適用於需要限水的病人",
+        "D": "適用於需長期使用靜服營養输液的病人"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "下列何者是社區藥局可提供的服務？①戒服務②協助慢性疾病③協助結核病防治",
+      "options": {
+        "A": "仅①② 依處方調劑",
+        "B": "②③ 立即建停用rosuvastatin",
+        "C": "①③ 推疫痛貼布給王奶奶带回去用",
+        "D": "①②③ 33.75崴王奶奶，帶著慢性病連續處方笺到藥局领第二次的藥，抱怨全身無力丶肌肉疫痛已3调。藥師注意到處方 中有rosuvastatin，下列處置何者最適當？ 评估是否為rosuvastatin之副作用，建王奶奶快回診"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "有關amiodarone injection（150mg/3mL/amp,Cordarone），下列何者正確？",
+      "options": {
+        "A": "用NS調配稀耦",
+        "B": "用PVC软袋當容器",
+        "C": "建由大血管输注",
+        "D": "避光放於2～8°C冷藏環境"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "有關预防護理端給藥疏失策略的叙述，下列何者正確？",
+      "options": {
+        "A": "條碼管理可以完全避免病人、藥品品项、藥品劑量及給藥時間等疏失",
+        "B": "化療藥品給藥前經雨位護理師確是多餘的，對護理作業没有助且耗費人力",
+        "C": "藥師稽核護理站急用藥品项、數量與有效期，對護理作業没有助且浪費藥師人力",
+        "D": "主管不定時到病房稽核護理師給藥步是否符合作業標，可以降低給藥疏失"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "下列何者不是醫藥疏失的風险因子？",
+      "options": {
+        "A": "同成分藥品有多项劑型",
+        "B": "調劑時進行劑量换算",
+        "C": "藥師不熟悉作業系統",
+        "D": "調劑流程中不同步由不同藥師執行"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "美國FDA所定義之用藥相關重不良事件（serious adverseevent）不包括下列何者？",
+      "options": {
+        "A": "造成永久性残疾",
+        "B": "胎兒先天性畸形",
+        "C": "導致原治療計畫必须變更",
+        "D": "導致病人住院或著延長病人住院時間"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "欲估抗生素使用合理性，下列何者最適合做為估指標？",
+      "options": {
+        "A": "每月抗生素處方筆數 仅①②",
+        "B": "抗生素與對應感染症的符合比率 懂①③",
+        "C": "感染科醫師處方抗生素與全院醫師處方抗生素的比值 ②③",
+        "D": "抗生素的DDD（defined daily dose） ③rechallenge ①②③"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "下列何者導致臀毒性的可能性最低？",
+      "options": {
+        "A": "gentamicin",
+        "B": "cyclosporine",
+        "C": "amphotericin B",
+        "D": "sucralfate"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "有關PhaseIⅢItrials之叙述，下列何者錯？",
+      "options": {
+        "A": "受試者约1,000～3,000個病人",
+        "B": "决定該藥的tolerability與toxicityprofile",
+        "C": "確該藥常見的不良反應",
+        "D": "通常所花費的時間较長，且protocol複雜"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "下列叙述何者錯？",
+      "options": {
+        "A": "在新生兒與幼兒，使用highlyprotein-bounddrugs较容易產生藥品毒性",
+        "B": "幼兒到2時才能達到成人胃酸的pH值",
+        "C": "在<12崴的兒童；aminoglycosides單位體重之分布體积较成人小",
+        "D": "新生兒藥品經皮吸收的比率较成人高"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "下列何者不是老年人常見的生理變化？",
+      "options": {
+        "A": "胃的pH值上升",
+        "B": "身體總水分减少",
+        "C": "肝血流量减少",
+        "D": "身體總脂肪量减少"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "李女士75崴，有便秘、尿液滞留等問題。現因蔓郁症求診，下列何者最不適合用來治療她的郁症？",
+      "options": {
+        "A": "imipramine",
+        "B": "mirtazapine",
+        "C": "sertraline",
+        "D": "venlafaxine"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "與力障（hearingimpaired）的病人溝通，下列何者最不適當？",
+      "options": {
+        "A": "使用肢體語言 ①②",
+        "B": "清晰且稍微缓慢的發音 ①④",
+        "C": "用藥指導時须配戴口罩，保護自己及病人 ②③",
+        "D": "量將背景噪音降到最低 後，再開始進行吸藥③吸藥時應用力吸氯④吸藥後屏住呼吸約5～10秒 ③④"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "下列藥品與可能造成畸胎類型的配對，何者錯？",
+      "options": {
+        "A": "lamotrigine一唇颚裂",
+        "B": "methotrexate－中福神經和四肢畸形",
+        "C": "streptomycin一第八對腦神經受損",
+        "D": "vitaminA-視力受損"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "王女士親自哺31出生的早產兒，因焦虑與失眠重影響健康；她可使用lorazepam0.5mgHS的理由包括 那些？①没有活性代謝物②相對嬰兒劑量（relativeinfantdose）<10%（2.4%～4.7%）③不會分泌到母 乳中",
+      "options": {
+        "A": "仅①②",
+        "B": "懂①③",
+        "C": "仅②③",
+        "D": "①②③"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "下列何者之肝代謝或臀清除率，在孕婦可能會降低，须調整劑量？",
+      "options": {
+        "A": "phenytoin",
+        "B": "β-lactams",
+        "C": "theophylline",
+        "D": "digoxin"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "有關藥品相關研究之研究類别與方法，下列組合何者最不適當？",
+      "options": {
+        "A": "experimental— randomized controlled trial",
+        "B": "observational—- prospective cohort study",
+        "C": "descriptive— case-control study",
+        "D": "descriptive— case series"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "下列何者於tertiarydrug information source？",
+      "options": {
+        "A": "AHFS Drug Information",
+        "B": "Medline",
+        "C": "The Cochrane Library",
+        "D": "Concise Medical Dictionary"
+      }
+    },
+    {
+      "number": 54,
+      "stem": "陳先生使用戒貼片3天後，出現心悸的現象。下列建何者最適當？",
+      "options": {
+        "A": "陳先生不適合使用尼古丁替代療法，建改用抗豪劑",
+        "B": "陳先生不適合使用戒貼片，建改用戒口香糖",
+        "C": "陳先生不適合使用戒貼片，建改用戒吸人劑",
+        "D": "若陳先生使用戒貼片時仍有抽，建停止抽"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "有關exenatide注射劑之用藥指導，下列何者最正確？",
+      "options": {
+        "A": "餐前60分鐘给藥",
+        "B": "餐前30分鐘給藥",
+        "C": "隨餐給藥",
+        "D": "餐後給藥"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "氯喘病人使用尖峰呼氯流速器（peakflowmeter）時；若要得到较正確之讀數，應避免下列何種操作方式？",
+      "options": {
+        "A": "操作3次選取最佳數值",
+        "B": "使用肌肉提高流速",
+        "C": "背部用力增強呼氣",
+        "D": "力体快呼氣"
+      }
+    },
+    {
+      "number": 57,
+      "stem": "下列何者會在新生兒引起gaspingsyndrome？",
+      "options": {
+        "A": "benzyl alcohol",
+        "B": "sodiumbenzoate",
+        "C": "methylparaben",
+        "D": "propylene glycol"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "朱小弟體重15kg，醫師處方digoxinelixir0.05mg/mL，10μg/kgPOQ2D。下列用法標示何者正確？",
+      "options": {
+        "A": "每天一次，每次7.5mL，口服",
+        "B": "每隔天一次，每次3mL，口服",
+        "C": "每隔天一次，每次0.6mL，口服",
+        "D": "每调一次，每次7.5mL，口服"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "下列何者因具有很強的anticholinergiceffects，年長者應避免使用？",
+      "options": {
+        "A": "quinidine",
+        "B": "quinapril",
+        "C": "desmopressin",
+        "D": "dextromethorphan"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "使用下列何種藥品的病人，不可同時服用含dextromethorphan的產品？",
+      "options": {
+        "A": "selegiline",
+        "B": "pseudoephedrine",
+        "C": "phenylephrine",
+        "D": "quinidine"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "醫師處方50%dextrose50mLIV,regularinsulin（RI）10U，下列對病人之评估，何者最適當？",
+      "options": {
+        "A": "此處方完全不合理",
+        "B": "病人可能高血糖，先用RI降血糖備葡萄糖水预防低血糖。鹰確最近一次血糖值，持續測",
+        "C": "查病人驗數值，可能有低血钾。確數值正確性，之後持續测血钾",
+        "D": "检查病人驗數值，可能有高血钾。確數值正確性，之後持續测血钾"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "下列那個標靶藥品會影響EGFR-dependent組織，而導致皮膚毒性？",
+      "options": {
+        "A": "everolimus",
+        "B": "panitumumab",
+        "C": "rituximab",
+        "D": "palbociclib"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "下列何者建一次不要服用超過2，24小時内不要服用超過8？",
+      "options": {
+        "A": "naproxen 250 mg",
+        "B": "acetaminophen 500 mg",
+        "C": "ibuprofen 200 mg",
+        "D": "diclofenac 50 mg"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "李女士有hypothyroidism丶heart failure及asthma病史。現因atrialfibrillation人院；下列何者最適合用來控制其心 跳速率？",
+      "options": {
+        "A": "amiodarone",
+        "B": "digoxin",
+        "C": "propranolol",
+        "D": "verapamil"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "有關aminoglycosides血中濃度的监測，下列叙述何者正確？",
+      "options": {
+        "A": "extendedintervaldosing的gentamicin，建steady-state峰濃度為5～10μg/mL",
+        "B": "extendedintervaldosing的gentamicin，建steady-state谷濃度<2μg/mL",
+        "C": "conventionaldosing的amikacin，建steady-state谷濃度<5～7μg/mL",
+        "D": "conventionaldosing的amikacin，建steady-state峰濃度為5～7μg/mL"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "臨床上，下列何者通常不例行性進行血中濃度测？",
+      "options": {
+        "A": "cyclosporine",
+        "B": "mycophenolate mofetil",
+        "C": "sirolimus",
+        "D": "tacrolimus"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "末期臀病病人的phenytoin血中濃度须依照下列何種血中數值調整？",
+      "options": {
+        "A": "白蛋白（albumin）",
+        "B": "红素（bilirubin）",
+        "C": "钙（calcium）",
+        "D": "肌酸酐（creatinine）"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "下列何者主要代謝酶與其他三者不同？",
+      "options": {
+        "A": "lovastatin",
+        "B": "simvastatin",
+        "C": "fluvastatin",
+        "D": "atorvastatin"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "下列何者是CYP2C8、3A4/5與2B6之enzymeinducer？",
+      "options": {
+        "A": "ketoconazole",
+        "B": "rifampin",
+        "C": "theophylline",
+        "D": "ethanol"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "有關藥品交互作用之叙述，下列何者錯？",
+      "options": {
+        "A": "sulfamethoxazole會增加warfarin的毒性",
+        "B": "thiazide會增加lithium的毒性",
+        "C": "amiodarone會增加dabigatran的毒性",
+        "D": "furosemide會增加midazolam的毒性"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "若病人服藥adherence良好，下列何者最可能有「藥品劑量不足」的問題？",
+      "options": {
+        "A": "55崴hypertension病人（無其他疾病），服用amlodipine5mgQD一個月後，测得血壓135/80mmHg",
+        "B": "60崴type2DM病人，服用metformin500mgQD三個月後，测得HbA1c7.8%",
+        "C": "65崴atrialfibrillation病人，服用warfarin5mgQD二星期後，測得INR3.2",
+        "D": "70崴grand mal seizure病人服用phenytoin300mgQD一個月後，测得phenytoin血中濃度22mg/L"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "下列何者不是使用clozapine病人须定期测的项目？",
+      "options": {
+        "A": "lipid profile",
+        "B": "fasting blood sugar",
+        "C": "WBCwith differential count",
+        "D": "albumin"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "Vancomycin用於治療methicillin-resistantS.aureus引「起的骨髓炎，適當的troughconcentration為何？",
+      "options": {
+        "A": "15~20 mg/L",
+        "B": "15～20 μmol/L",
+        "C": "5~10 μg/mL",
+        "D": "5~10 μmol/L"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "葡萄柚汁较不會增加下列何者之血中濃度？",
+      "options": {
+        "A": "amlodipine",
+        "B": "lovastatin",
+        "C": "lisinopril",
+        "D": "cyclosporine"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "Cisplatininjection使用下列何種稀液時穩定性不佳？",
+      "options": {
+        "A": "5% dextrose injection",
+        "B": "normal saline",
+        "C": "half saline",
+        "D": "5% dextrose in 0.45% NaCl"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "下列何者之吸收受到钙、乳製品及食物之影響最小？",
+      "options": {
+        "A": "chlortetracycline",
+        "B": "tetracycline",
+        "C": "demeclocycline",
+        "D": "doxycycline"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "周女士因ovariancancer接受cisplatin療程，下列那一项驗不是用於测該藥品之副作用？",
+      "options": {
+        "A": "AFP/CEA clarithromycin抑制肝藏酵素，使theophylline血中濃度上升",
+        "B": "ALT/ AST theophylline抑制clarithromycin代谢；使得clarithromycin血中濃度上升",
+        "C": "BUN/SCr theophylline增加胃中pH值，造成clarithromycin吸收增加",
+        "D": "CBCwith differential &platelet count 三题。 有關theophylline與clarithromycin交互作用之叙述，下列何者正確？ clarithromycin增加腸胃蠕動，造成theophylline吸收增加"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "下列建何者最適當？",
+      "options": {
+        "A": "建醫師将theophylline劑量减半 藥品交互作用",
+        "B": "建醫師将clarithromycin劑量减半 年龄大於65崴",
+        "D": "建病人特别注意心跳與腸胃道症状，可能是theophylline濃度偏高的微兆 80.4天後王先生來電，告知早上未服藥前的心跳1分鐘110下。下列何者不是他心跳加快最可能的危因子？ 吸",
+        "C": "肝硬化"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 12
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\110100_44_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\110100_44_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

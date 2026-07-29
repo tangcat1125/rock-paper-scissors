@@ -1,0 +1,599 @@
+{
+  "setId": "106020_33_pharmaceutics-biopharmaceutics",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutics-biopharmaceutics",
+  "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\106020_q33_pharmaceutics-biopharmaceutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\106020_mod33_pharmaceutics-biopharmaceutics.pdf"
+  ],
+  "questionCount": 45,
+  "answerCount": 45,
+  "parseWarnings": [
+    "Question 1: Could not parse options for question 1",
+    "Question 5: Could not parse options for question 5",
+    "Question 8: Could not parse options for question 8",
+    "Question 9: Could not parse options for question 9",
+    "Question 15: Could not parse options for question 15",
+    "Question 17: Could not parse options for question 17",
+    "Question 18: Could not parse options for question 18",
+    "Question 19: Could not parse options for question 19",
+    "Question 21: Could not parse options for question 21",
+    "Question 22: Could not parse options for question 22",
+    "Question 29: Could not parse options for question 29",
+    "Question 31: Could not parse options for question 31",
+    "Question 40: Could not parse options for question 40",
+    "Question 42: Could not parse options for question 42",
+    "Question 45: Could not parse options for question 45",
+    "Question 47: Could not parse options for question 47",
+    "Question 48: Could not parse options for question 48",
+    "Question 49: Could not parse options for question 49",
+    "Question 50: Could not parse options for question 50",
+    "Question 51: Could not parse options for question 51",
+    "Question 52: Could not parse options for question 52",
+    "Question 54: Could not parse options for question 54",
+    "Question 57: Could not parse options for question 57",
+    "Question 58: Could not parse options for question 58",
+    "Question 59: Could not parse options for question 59",
+    "Question 65: Could not parse options for question 65",
+    "Question 68: Could not parse options for question 68",
+    "Question 69: Could not parse options for question 69",
+    "Question 71: Could not parse options for question 71",
+    "Question 72: Could not parse options for question 72",
+    "Question 73: Could not parse options for question 73",
+    "Question 75: Could not parse options for question 75",
+    "Question 76: Could not parse options for question 76",
+    "Question 77: Could not parse options for question 77"
+  ],
+  "questions": [
+    {
+      "number": 2,
+      "stem": "下列那一項資料在新藥申請（NDA ）是必備的，但在簡易新藥申請（ANDA ）不需提供？",
+      "options": {
+        "A": "藥品的化學製造",
+        "B": "生體可用率／生體相等性",
+        "C": "藥品之品管",
+        "D": "臨床試驗"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 3,
+      "stem": "有關流浸膏的敘述，下列何者錯誤？",
+      "options": {
+        "A": "流浸膏為生藥以適當浸溶劑抽提，所製得之一種含乙醇液體製劑。每mL 所含之有效成分，相當於標準生藥 1 g",
+        "B": "法定之流浸膏，多以浸漬法製備之，其使用之浸溶劑，則照中華藥典第七版正文之個別規定",
+        "C": "流浸膏製備時所稱的「中速率」，係指每分鐘流出之滲出液為1～3 mL 而言",
+        "D": "流浸膏貯置相當時間後，常有沉澱發生，可予過濾，或將澄明部分傾出，再調整其濃度使符合規定標準"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 4,
+      "stem": "有關糖漿劑的敘述，下列何者正確？",
+      "options": {
+        "A": "蔗糖的水解反應在鹼性環境特別容易發生",
+        "B": "單糖漿最高能和 20% 乙醇混合不會產生結晶",
+        "C": "當果膠和蔗糖溶液混合後會產生膠化（gelation ）現象，主要是因為蔗糖造成果膠的脫水現象",
+        "D": "根據中華藥典第七版規定，糖漿應該滿置於緊密容器內，放於 4℃貯之"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 6,
+      "stem": "就sucrose 、aspartame 、saccharin 三者之物化性質比較，下列排序何者最正確？",
+      "options": {
+        "A": "每克熱含量：sucrose ＞aspartame ＞saccharin",
+        "B": "對熱安定性：saccharin ＞sucrose ＞aspartame",
+        "C": "對酸安定性：sucrose ＞aspartame ＞saccharin",
+        "D": "相對甜度：aspartame ＞saccharin ＞sucrose"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 7,
+      "stem": "下列何者不是 gelatin 溶液降溫形成 gel 時之原因？",
+      "options": {
+        "A": "降低動能",
+        "B": "增加 dipole-dipole 交互作用",
+        "C": "活化能負值",
+        "D": "增加聚合物交互作用"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 10,
+      "stem": "流體的黏稠度是切應力與下列何者的比值？",
+      "options": {
+        "A": "單位變形度",
+        "B": "加速度",
+        "C": "切變速率",
+        "D": "移動距離"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 11,
+      "stem": "下列何種儀器或方法無法測量物質之分子量？",
+      "options": {
+        "A": "滲透壓器",
+        "B": "光散射器",
+        "C": "黏度器",
+        "D": "過篩法"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 12,
+      "stem": "擬降低懸浮液沉降速率時，下列何者最不適合？",
+      "options": {
+        "A": "降低固體顆粒直徑",
+        "B": "提高連續相的黏度",
+        "C": "降低固體粒子密度",
+        "D": "提高分散相的黏度"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 13,
+      "stem": "有關 starch 之敘述，下列何者錯誤？",
+      "options": {
+        "A": "適合利用熱水溶解",
+        "B": "具有 dilatancy 特性",
+        "C": "常做為稀釋劑",
+        "D": "具較多 α-1, 4-glucosidic 鍵結"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 14,
+      "stem": "Cortisone 懸浮劑因呈現不同溶離速率而影響其生體可用率時，下列何者不為其原因？",
+      "options": {
+        "A": "顆粒大小不同",
+        "B": "晶形不同",
+        "C": "有無形成 cake 狀",
+        "D": "分配係數不同"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 16,
+      "stem": "Bismuth subnitrate 懸液劑，當加入之 monobasic potassium phosphate 量愈多時，下列敘述何者錯誤？",
+      "options": {
+        "A": "若不添加 monobasic potassium phosphate 時，該懸液劑易沉澱且結塊",
+        "B": "bismuth subnitrate 粒子之 apparent zeta potential 正值愈大者，沉澱較少傾向於結塊",
+        "C": "bismuth subnitrate 粒子之 apparent zeta potential 負值愈大者，沉澱較少傾向於不結塊",
+        "D": "bismuth subnitrate 粒子之 apparent zeta potential 為零時，沉澱較多但不結塊"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 20,
+      "stem": "下列何種劑型不供外用？",
+      "options": {
+        "A": "浸膏劑",
+        "B": "膠漿劑",
+        "C": "溶液劑",
+        "D": "凝膠劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 23,
+      "stem": "下列何者不是半固體基劑用於皮膚投與之目的？",
+      "options": {
+        "A": "活化膠原蛋白",
+        "B": "保護皮膚",
+        "C": "軟化角質層",
+        "D": "作為藥物載體"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 24,
+      "stem": "油／水型乳劑，是屬於下列那一種軟膏基劑？",
+      "options": {
+        "A": "烴基基劑",
+        "B": "吸收性基劑",
+        "C": "水和性基劑",
+        "D": "水溶性基劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 25,
+      "stem": "下列何者不是延遲性（delayed-release ）口服劑型設計之目的？",
+      "options": {
+        "A": "防止藥物被胃酸破壞",
+        "B": "保護胃不受藥物損傷",
+        "C": "提高藥物生體可用率",
+        "D": "加速藥物排空至小腸"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 26,
+      "stem": "下列何者屬於 level C 的IVIVC （in vitro-in vivo correlations ）？",
+      "options": {
+        "A": "體外溶離時間和體內吸收量",
+        "B": "體外平均溶離和體內平均釋出時間",
+        "C": "體外 3小時之溶離量和體內AUC",
+        "D": "體外平均溶離時間和體內滯留時間"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 27,
+      "stem": "下列何種製錠過程，最不會影響藥物的生體可用率？",
+      "options": {
+        "A": "以濕式造粒法後壓錠",
+        "B": "以slugging 造粒後壓錠",
+        "C": "以冷凍乾燥法造粒後壓錠",
+        "D": "以藥品和賦形劑混合後壓錠"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 28,
+      "stem": "某錠劑標誌重量為324 mg ，其重量差異度規定應在下列何範圍內？",
+      "options": {
+        "A": "±3%",
+        "B": "±5%",
+        "C": "±7%",
+        "D": "±10%"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 30,
+      "stem": "下列何者不是長效性口服劑型在臨床使用時病人所能得到的優點？",
+      "options": {
+        "A": "延長病人維持有效濃度的期間",
+        "B": "依據病人需求可調整給藥劑量",
+        "C": "提高病人使用方便性與依順性",
+        "D": "降低病人服用產生不良副作用"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 32,
+      "stem": "有關冷凍乾燥法之敘述，下列何者較正確？",
+      "options": {
+        "A": "操作條件通常設定於溫度0.0099 ℃以上，而壓力 4.57 mm 汞柱以上時來進行",
+        "B": "乾燥後易成非晶型之產物，故其製劑通常不易吸潮",
+        "C": "冷凍過程易使蛋白質變性，故欲乾燥蛋白質製劑時通常要添加適量保護劑抗凍",
+        "D": "與乾熱法比較，本法乾燥時之能源消耗通常較低、乾燥效率較高，而耗時則較短"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 33,
+      "stem": "在粒徑大於 1 µm以上時，難溶性固體藥物之何種物性受粒徑大小之影響最大？",
+      "options": {
+        "A": "熔點",
+        "B": "溶離速率",
+        "C": "溶解度",
+        "D": "溶解熱"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 34,
+      "stem": "欲將薄荷與水楊酸以等量（w/w ）比例研合時，為避免共熔物或液化之現象出現，通常可預行添加下列何者以避免之？",
+      "options": {
+        "A": "三酸甘油酯",
+        "B": "乳酸",
+        "C": "聚乙二醇",
+        "D": "碳酸鎂"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 35,
+      "stem": "假設“acetaminophen with codeine capsules”之配方組成為：acetaminophen 325 mg; codeine phosphate 30 mg; sodium starch glycolate q.s.; magnesium stearate q.s. 及stearic acid q.s. ；其中所含 sodium starch glycolate 之主要用途為何？",
+      "options": {
+        "A": "填充劑",
+        "B": "潤滑劑",
+        "C": "崩散劑",
+        "D": "黏合劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 36,
+      "stem": "下列何者不是將藥物組合進行造粒（granulation ）之主要目的？",
+      "options": {
+        "A": "使藥物組合形成能自由流動的顆粒",
+        "B": "提高藥物組合的密度而提供壓縮性",
+        "C": "使藥物組合疏鬆的結合而易於崩散",
+        "D": "增強藥物組合的黏合性而提高硬度"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 37,
+      "stem": "藥品以油液製成溶液或懸液劑以加熱滅菌時，應使每一容器全部內容物之溫度保持在下列何種條件？",
+      "options": {
+        "A": "115 ℃；30 分鐘",
+        "B": "115 ℃；60 分鐘",
+        "C": "150 ℃；60 分鐘",
+        "D": "300 ℃；30 分鐘"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 38,
+      "stem": "有關多劑量注射劑的敘述，下列何者最正確？",
+      "options": {
+        "A": "是供貯存靜脈注射劑的容器",
+        "B": "是供貯存心內注射劑的容器",
+        "C": "一般容量不得超過 10 個單位劑量",
+        "D": "總容量不可超過 20 毫升"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 39,
+      "stem": "有關熱原（pyrogen ）的敘述，下列何者最正確？",
+      "options": {
+        "A": "是一種病毒的內毒素",
+        "B": "革蘭氏陽性菌的代謝物所引起",
+        "C": "在靜脈注射液中只要有微量存在即可引起發燒",
+        "D": "除了會引起發燒，也會引起低血壓"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 43,
+      "stem": "LAL （Limulus amebocyte lysate ）test 適用於何種物質的測試？",
+      "options": {
+        "A": "細菌",
+        "B": "病毒",
+        "C": "內毒素",
+        "D": "粉塵顆粒"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 44,
+      "stem": "中華藥典法定注射劑玻璃容器試驗法不包含下列那一項？",
+      "options": {
+        "A": "可溶性鹼",
+        "B": "可溶性鐵",
+        "C": "砷",
+        "D": "硼"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 46,
+      "stem": "有關含增稠劑之眼用溶液，下列敘述何者錯誤？",
+      "options": {
+        "A": "可用 methylcellulose 作為眼用溶液的增稠劑",
+        "B": "眼用溶液的黏度以 15 至25 cp 被認為最適宜",
+        "C": "一般來說眼藥之生物鹼製劑為酸性溶液",
+        "D": "通常一溶液的黏度會隨溫度增加而增加"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 53,
+      "stem": "當靜脈輸注（IV infusion ）給藥的速率增加一倍時，下列敘述何者正確？",
+      "options": {
+        "A": "到達穩定狀態的時間減半，穩定狀態下的血中藥物濃度不變",
+        "B": "到達穩定狀態的時間減半，穩定狀態下的血中藥物濃度加倍",
+        "C": "到達穩定狀態的時間不變，穩定狀態下的血中藥物濃度不變",
+        "D": "到達穩定狀態的時間不變，穩定狀態下的血中藥物濃度加倍"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 55,
+      "stem": "下列何者不是藥物血中濃度呈現雙峰現象的可能原因？",
+      "options": {
+        "A": "胃酸分泌的複雜性",
+        "B": "胃排空的多種變化",
+        "C": "食物存在的影響",
+        "D": "腸肝循環的發生"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 56,
+      "stem": "下列那一圖中之何條曲線可用來代表某二室模式藥品以快速輸注（R/k ）投與速效劑量，並以恆速靜脈輸注繼續投與後之血漿 中藥品濃度－時間關係？",
+      "options": {
+        "A": "圖I a",
+        "B": "圖II b",
+        "C": "圖I c",
+        "D": "圖II d"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 60,
+      "stem": "有關口服藥物血中濃度經時變化的敘述，下列何者正確？",
+      "options": {
+        "A": "吸收相時，排除速率趨近於零",
+        "B": "排除相時，吸收速率趨近於零",
+        "C": "吸收相時，吸收速率小於排除速率",
+        "D": "排除相時，排除速率小於吸收速率"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 61,
+      "stem": "有關藥品中有效成分吸收進入全身循環的程度與速率，下列何者正確？①血中最高濃度與吸收程度有關 ②血中最高濃度與吸 收速率有關 ③達到血中最高濃度的時間與吸收程度有關 ④達到血中最高濃度的時間與吸收速率有關",
+      "options": {
+        "A": "①③④",
+        "B": "②③④",
+        "C": "①②③",
+        "D": "①②④"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 62,
+      "stem": "下列何者為影響 BCS class 2 藥品其口服生體可用率（bioavailability ）的決定步驟？",
+      "options": {
+        "A": "崩散",
+        "B": "溶離",
+        "C": "腸道吸收",
+        "D": "腸胃蠕動"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 63,
+      "stem": "有關 Fick's law of diffusion ，下列敘述何者正確？①用來探討 facilitated diffusion 的速率 ②用來探討 passive diffusion 的速率 ③擴散速率與 diffusion coefficient 呈反比 ④擴散速率與 permeability coefficient 呈正比",
+      "options": {
+        "A": "①②",
+        "B": "①③",
+        "C": "②④",
+        "D": "③④"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 64,
+      "stem": "下列藥物併用時生體可用率改變，其影響因子何者錯誤？",
+      "options": {
+        "A": "digoxin+amiodarone ：後者抑制 p-glycoprotein",
+        "B": "ritonavir+lopinavir ：前者抑制 CYP 3A",
+        "C": "ritonavir+clarithromycin ：前者抑制 CYP 3A",
+        "D": "tolbutamide+rifampin ：後者抑制 CYP 450"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 66,
+      "stem": "藥品具多晶型態（polymorphism ）時，對不同晶型之敘述，下列何者正確？",
+      "options": {
+        "A": "溶解速率相同",
+        "B": "分子量相同",
+        "C": "壓縮性質相同",
+        "D": "安定性相同"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 67,
+      "stem": "有關 haloperidol 肌肉注射劑之敘述，下列何者正確？",
+      "options": {
+        "A": "haloperidol deconate 為水溶性注射劑，排除速率較慢",
+        "B": "haloperidol lactate 溶於 sesame oil ，吸收速率較快",
+        "C": "haloperidol deconate 較haloperidol lactate 達尖峰濃度時間較短",
+        "D": "haloperidol deconate 注射劑建議之給藥間隔為4週"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 70,
+      "stem": "下列敘述何者屬時間依賴型（time-dependent ）藥物動力學？",
+      "options": {
+        "A": "藥品排除完全遵循一階次反應",
+        "B": "當劑量改變，原型藥與代謝物組成及比例也改變",
+        "C": "藥品的排除半衰期隨固定劑量的重複給藥次數而變短",
+        "D": "藥品血漿濃度－時間曲線下面積（AUC ）與生體可吸收藥量不成定比例"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 74,
+      "stem": "下列何者為敘述在一條同源染色體上發生多處 DNA 序列的單一鹼基對（base pair ）變異？",
+      "options": {
+        "A": "藥物遺傳學（pharmacogenetics ）",
+        "B": "單型（haplotype ）",
+        "C": "表現型（phenotype ）",
+        "D": "單核 苷酸基因多型性（single-nucleotide polymorphism, SNP ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 78,
+      "stem": "學名藥（generic drug products ）之開發，基於下列何項藥品特性之考量，最需要進行生體相等性評估？",
+      "options": {
+        "A": "水溶解度大於 5 mg/mL",
+        "B": "賦形劑對主成分之比例大於 5倍",
+        "C": "於15 分鐘藥品之溶離率大於 85%",
+        "D": "在療效範圍內屬dose-independent 藥動特性"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 79,
+      "stem": "已知 tobramycin 排除半衰期 2小時，隨腎功能衰退而延長，一般劑量為160 mg q8h （Cl cr =80 ～100 mL/min ），某70 歲老先生 體重 56 公斤，其血清肌酸酐（serum creatinine ）為1.8 mg/dL ，依其腎功能之變化，若劑量不變，則給藥間隔應如何調整為 宜？",
+      "options": {
+        "A": "維持 q8h",
+        "B": "延長為q12h",
+        "C": "延長為q24h",
+        "D": "延長為q36h"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 80,
+      "stem": "某抗生素以靜脈注射投與，在年輕成年病人半衰期為110 分鐘，在70 歲以上病人半衰期為165 分鐘。已知在年輕成年病人的給 藥方式為每12 小時 7.5 mg/kg 。若治療濃度與分布體積不因年紀而改變，則此抗生素用於 75 歲病人的多劑量療程可調整為何？",
+      "options": {
+        "A": "每18 小時 7.5 mg/kg",
+        "B": "每12 小時 7.5 mg/kg",
+        "C": "每8小時 7.5 mg/kg",
+        "D": "每6小時 7.5 mg/kg"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 8
+  },
+  "referenceGroupId": "pharmaceutics-biopharmaceutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\106020_33_pharmaceutics-biopharmaceutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\106020_33_pharmaceutics-biopharmaceutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

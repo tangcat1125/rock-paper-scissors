@@ -1,0 +1,757 @@
+{
+  "setId": "113020_44_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113020_q44_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\113020_ans44_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 73,
+  "answerCount": 73,
+  "parseWarnings": [
+    "Question 10: Could not parse options for question 10",
+    "Question 47: Could not parse options for question 47"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "有關藥用劑（aerosols）之叙述，下列何者錯？",
+      "options": {
+        "A": "常用於治療氯喘",
+        "B": "加壓装置装载了藥品和推進劑",
+        "C": "不可用於肌肉傷害之治療",
+        "D": "具定量可控制劑量"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "下列何者可做為眼藥水之增稠劑（viscosityenhancer）?",
+      "options": {
+        "A": "chlorhexidineacetate",
+        "B": "phenylmercuric nitrate",
+        "C": "hypromellose",
+        "D": "chlorobutanol"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "有關給藥途径之叙述，下列何者錯？",
+      "options": {
+        "A": "口途径（buccalroute）可用於給與止吐藥",
+        "B": "直腸途径（rectalroute）可達到局部或全身作用",
+        "C": "陰道途径（vaginalroute）易受到首渡效應影響",
+        "D": "吸人途径（inhalationroute）產生效果所需之劑量比口服途径低"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "有關raloxifene於骨症治療之叙述，下列何者錯？",
+      "options": {
+        "A": "须考量静胍栓塞病史",
+        "B": "依creatinineclearance調整劑量",
+        "C": "须注意與cholestyramine之交互作用",
+        "D": "须考量肺栓塞之風险"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "下列處方之縮寫；何者代表rightear?",
+      "options": {
+        "A": "ac",
+        "B": "a. d.",
+        "C": "a. s.",
+        "D": "a. u."
+      }
+    },
+    {
+      "number": 6,
+      "stem": "有關藥品與包装標示之警語配對，下列何者最不適當？",
+      "options": {
+        "A": "verapamil－不可與葡萄柚汁饼服",
+        "B": "famotidine一鹰空腹服用",
+        "C": "pseudoephedrine一避免在睡前服用",
+        "D": "chlorpheniramine一服藥後，避免開車或操作危機械"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "下列何者是patientpacks之缺點？",
+      "options": {
+        "A": "無法提供完整產品資訊",
+        "B": "存空間的需求增加",
+        "C": "降低藥師調劑的效率",
+        "D": "不易辨識藥品與製造商"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "下列何者為unit-dose packaging?①blister packs②aerosol packs ③strip packs④dropper bottles for ear",
+      "options": {
+        "A": "①②③④",
+        "B": "①③",
+        "C": "仅②③④",
+        "D": "②④"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "有關疫苗之存管理，下列叙述何者錯？",
+      "options": {
+        "A": "應使用專用冰箱或冷藏且有温度监控，每日至少查核記錄温度兩次",
+        "B": "若温度視卡的D格顯示為藍色，即使目前存疫苗的冰箱温度正常，此批疫苗也不可再用",
+        "C": "若冷凍視片破裂，表示存於冰箱内的疫苗曾暴露於0℃以下",
+        "D": "查核記錄温度時，仅须填寫目前冰箱/冷藏库温度"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "若将5gpenicillinV泡製成1瓶200mL口服糖，醫服用每次125mg劑量，每次须取用多少mL的糖？",
+      "options": {
+        "A": "0.5 80",
+        "B": "2.5 47",
+        "C": "3.125 55",
+        "D": "5 12.60崴女性，身高150公分，體重50公斤，serumcreatinine為1.0mg/dL，若依Cockcroft-Gault計算其 creatinineclearance應為多少mL/min？ 68"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "若將400mL的2.5%w/v藥品溶液稀耦至1，500mL，最終濃度是多少%w/v？",
+      "options": {
+        "A": "0.67",
+        "B": "1.5",
+        "C": "0.07",
+        "D": "0.15"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "Nitrate類藥品之經皮貼片，每日须自皮膚移除該貼片數小時之主要原因為何？",
+      "options": {
+        "A": "長時間使用nitrate貼片易弓l起皮膚過敏",
+        "B": "nitrate半衰期長，無须整日使用",
+        "C": "長時間使用nitrate貼片易引起心律不整",
+        "D": "長時間使用nitrate會產生耐受性（tolerance）"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "欲調製每公克含5mgneomycinsulfate软膏20公克，若neomycinsulfate原料粉末的效價（potency）為 650μg/mg powder，则须秤取多少mg的neomycin sulfate原料粉末？",
+      "options": {
+        "A": "153.8",
+        "B": "100",
+        "C": "76.5",
+        "D": "13"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "有關周静胍營養（PPN）之叙述，下列何者錯？",
+      "options": {
+        "A": "適合预計接受靜服營養治療不超過10天者",
+        "B": "PPN配方中osmolality至少達1,000mOsm/L",
+        "C": "PPN配方中finaldextroseconcentration5～10%",
+        "D": "PPN配方中finalaminoacidsconcentration3～5%"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "有關二合一與三合一胍營養配方的比较，下列何者最適當？",
+      "options": {
+        "A": "以周静胍給與二合一静胍營養配方時，避免與IVlipidemulsion一起給與，可降低静派炎發生的風险 必须装設於清淨室的出氣口",
+        "B": "二合一静營養配方细菌生長的風较低 可以過99.997%的0.5μm的空氣微粒",
+        "C": "二合一静派營養配方與其他藥品的相容性（compatibility）较差 可以過99.997%的0.3μm的空氣微粒",
+        "D": "三合一靜營養配方若添加高濃度的電解質時较有彈性 前後的滤壓差130Pascal時，表示必须更換新滤網"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "Pemetrexed注射劑不可使用lactatedRinger'sinjection稀，主要是因為lactatedRinger'sinjection 中的那一個離子？",
+      "options": {
+        "A": "钾",
+        "B": "",
+        "C": "氯",
+        "D": "钙"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "依據USP，下列何種preservative可添加之濃度限量（maximumconcentrationlimit，%）最低？",
+      "options": {
+        "A": "chlorobutanol",
+        "B": "cresol",
+        "C": "phenol",
+        "D": "thimerosal"
+      }
+    },
+    {
+      "number": 21,
+      "stem": "下列何者於物理性變化？",
+      "options": {
+        "A": "氧氣渗人注射劑弓I起之變化",
+        "B": "光線照射注射劑弓|起之變化",
+        "C": "藥品活性成分降解（degradation）",
+        "D": "加人另一種溶媒而造成主成分沉"
+      }
+    },
+    {
+      "number": 22,
+      "stem": "一般而言；化療藥品產生hematologictoxicities的先後顺序，下列何者正確？①anemia ②neutropenia ③thrombocytopenia",
+      "options": {
+        "A": "①②③",
+        "B": "②①③",
+        "C": "②③①",
+        "D": "③①②"
+      }
+    },
+    {
+      "number": 23,
+      "stem": "有關調製危害性注射藥品的環境，下列叙述何者正確？",
+      "options": {
+        "A": "清淨室相對於前室應為正壓，操作臺须使用水平式層流臺",
+        "B": "清淨室相對於前室應為負壓，操作臺须使用水平式層流臺",
+        "C": "清淨室相對於前室應為正壓，操作臺须使用垂直式層流臺",
+        "D": "清淨室相對於前室應為負壓，操作臺须使用垂直式層流臺"
+      }
+    },
+    {
+      "number": 24,
+      "stem": "有關抗癌藥品製備之述，下列何者正確？",
+      "options": {
+        "A": "cisplatin须以5%dextrose稀，因dextrose可减少臀毒性 35",
+        "B": "gemcitabine回溶後濃度须≤40mg/mL，因濃度過高，藥品無法完全溶離 42",
+        "C": "irinotecan以normalsalineinj.稀耦，因irinotecan在鹽水比糖水中穩定 175",
+        "D": "oxaliplatin须以normasalineinj.稀；因oxaliplatin在鹽水中可减少神經毒性 mannitol ? 210"
+      }
+    },
+    {
+      "number": 26,
+      "stem": "有關parenteralproducts之叙述，下列何者錯？",
+      "options": {
+        "A": "不可添加抗氧化劑",
+        "B": "悬浮液劑中，直径5～10μm之固體粒子<5%",
+        "C": "irrigation solution於large volume parenteral product",
+        "D": "對藥品的相容性而言’semi-rigid塑膠容器较PVC容器佳"
+      }
+    },
+    {
+      "number": 27,
+      "stem": "有關multiple-dosevials之叙述，下列何者錯？",
+      "options": {
+        "A": "為厚壁玻璃容器",
+        "B": "不须添加抗菌劑",
+        "C": "可重複抽取所需劑量",
+        "D": "橡膠瓶蓋可能會與製劑產生交互作用"
+      }
+    },
+    {
+      "number": 28,
+      "stem": "有關opioidspatient-controlledanalgesia（PCA）之使用，下列何者正確？",
+      "options": {
+        "A": "對未曾使用opioids的病人來，起始劑量比起傳統靜派給藥，單次劑量较少",
+        "B": "较傅統静派給藥，容易造成opioids上瘾",
+        "C": "较傳統派給藥，血中藥品濃度波動较大",
+        "D": "若有breakthroughpain，可合饼使用buprenorphine"
+      }
+    },
+    {
+      "number": 29,
+      "stem": "有關fentanylPCA之叙述，下列何者錯？",
+      "options": {
+        "A": "於一級管制藥品，購人或支出一定要登载",
+        "B": "须使用管制藥品專用處方笺，保存5年",
+        "C": "常用的給藥濃度為10μg/mL",
+        "D": "可設定lockoutinterval，以避免過度使用"
+      }
+    },
+    {
+      "number": 30,
+      "stem": "Furosemideinjection與下列何注射藥品在normalsaline中相容？",
+      "options": {
+        "A": "dopamine",
+        "B": "dobutamine",
+        "C": "diazepam",
+        "D": "aminophylline"
+      }
+    },
+    {
+      "number": 31,
+      "stem": "如圖進行無菌調製（不含危害性藥品），所需的調劑室設備，下列何者较佳？ 層流工作台Z X",
+      "options": {
+        "A": "氯壓X>Y，X=ISOClass5，Y=ISOClass7",
+        "B": "氯X<Y，X=ISOClass7，Z=ISOClass5",
+        "C": "氯壓X>Y，X=ISO Class7，Z=ISO Class5",
+        "D": "氯壓X<Y，X=ISOClass5，Y=ISOClass7"
+      }
+    },
+    {
+      "number": 32,
+      "stem": "下列何者可安全用於全静派營養（TPN）中，一般做為主要carbohydrate來源？",
+      "options": {
+        "A": "fructose",
+        "B": "sorbitol",
+        "C": "dextrose",
+        "D": "xylitol"
+      }
+    },
+    {
+      "number": 33,
+      "stem": "下列何者會與钙片產生交互作用？",
+      "options": {
+        "A": "amoxicillin",
+        "B": "cephalexin",
+        "C": "clarithromycin",
+        "D": "tetracycline"
+      }
+    },
+    {
+      "number": 34,
+      "stem": "承上題，如果處方有上述合饼用藥，藥師應如何建最適當？",
+      "options": {
+        "A": "将抗生素與钙片錯開服用時間，以避免交互作用",
+        "B": "回去詢問醫師是否可更改抗生素處方",
+        "C": "回去詢問醫師是否可服用钙片",
+        "D": "藥師只需將正確處方藥品交付病人"
+      }
+    },
+    {
+      "number": 35,
+      "stem": "有關醫院藥品管理與使用，下列流程何者正確？",
+      "options": {
+        "A": "手寫處方较方便，應鼓使用",
+        "B": "為缩短護理師取得藥品時間，将多數藥品列為可以直接取用的病房常備藥",
+        "C": "醫師開立處方後，護理師可直接給藥",
+        "D": "條碼給藥是改善護理師給藥錯的最佳方法之一"
+      }
+    },
+    {
+      "number": 36,
+      "stem": "下列臨床數值之正常圍，何者正確？",
+      "options": {
+        "A": "potassium:3.5~5mg/mL",
+        "B": "creatinine clearance （CrCl） :90~130 mL/min",
+        "C": "aspartate aminotransferase（AST）:0~35 units/mL",
+        "D": "prostate-specific antigen（PSA） :O～4 mg/mL"
+      }
+    },
+    {
+      "number": 37,
+      "stem": "為减少調劑錯的發生，在建立標調劑作業流程時應考量下列那些作法？①避免單一藥師獨自完成整個調",
+      "options": {
+        "A": "仅①②",
+        "B": "①③",
+        "C": "②③",
+        "D": "①②③"
+      }
+    },
+    {
+      "number": 38,
+      "stem": "若每日上班時間皆為8小時，下列24小時制的班别，何者最容易發生用藥疏失？",
+      "options": {
+        "A": "23:00~07:00",
+        "B": "08:00~16:00",
+        "C": "12:00~20:00",
+        "D": "14:00~22:00"
+      }
+    },
+    {
+      "number": 39,
+      "stem": "有關typeB藥品不良反應之叙述，下列何者錯？",
+      "options": {
+        "A": "不常見",
+        "B": "具可预测性",
+        "C": "與劑量無相",
+        "D": "舆药理作用無相關"
+      }
+    },
+    {
+      "number": 40,
+      "stem": "有關上市後藥品使用估（DUE）的研究方法，下列叙述何者正確？",
+      "options": {
+        "A": "通常case-controlstudy花費的時間比cohortstudy更長",
+        "B": "小兒off-label使用的藥品不建進行DUE研究",
+        "C": "前瞻性（prospective）研究比较可以控制干因子",
+        "D": "床上常用之藥品不须再進行DUE研究"
+      }
+    },
+    {
+      "number": 41,
+      "stem": "有關用藥安全之叙述，下列何者錯？",
+      "options": {
+        "A": "因調劑錯導致病人傷害也於藥品不良事件（adversedrugevents）",
+        "B": "醫師直接於醫療資訊系統開立處方有助於增進病人安全",
+        "C": "藥師進行處方建時就已確保病人安全，完成紀錄與否不重要",
+        "D": "已抽藥之針筒應清楚標示藥名及給藥途径，避免潜藏給藥疏失"
+      }
+    },
+    {
+      "number": 42,
+      "stem": "下列何者產生肝藏毒性的可能性最小？",
+      "options": {
+        "A": "carmustine",
+        "B": "epirubicin",
+        "C": "methotrexate",
+        "D": "cytarabine"
+      }
+    },
+    {
+      "number": 43,
+      "stem": "張先生有心血管疾病，長期服用下列藥品。最近3個月容易疲倦且體重增加，查發現T3丶T4與TSH巽常。若 為藥品不良反應，最可能是何填藥品所造成？",
+      "options": {
+        "A": "valsartan 80 mg QD",
+        "B": "felodipine 5 mg QD",
+        "C": "amiodarone 200 mg QD",
+        "D": "rosuvastatin 5 mg QD"
+      }
+    },
+    {
+      "number": 44,
+      "stem": "下列何者不是NSAIDs弓[起胃之危因子？",
+      "options": {
+        "A": "饼用SSRI抗豪劑",
+        "B": "饼用低劑量aspirin",
+        "C": "饼用bisphosphonates",
+        "D": "性别"
+      }
+    },
+    {
+      "number": 45,
+      "stem": "與成人比较，有關一般新生兒藥動學之叙述，下列何者錯？",
+      "options": {
+        "A": "外用藥品之吸收较好",
+        "B": "腸胃蠕動较快，口服藥品吸收较差",
+        "C": "臀藏排除较差",
+        "D": "CYP3A4代谢较差"
+      }
+    },
+    {
+      "number": 46,
+      "stem": "下列何者最不建用於治療neonatalseizures？",
+      "options": {
+        "A": "phenobarbital",
+        "B": "valproic acid",
+        "C": "phenytoin",
+        "D": "lorazepam"
+      }
+    },
+    {
+      "number": 48,
+      "stem": "下列何者是老年人用藥的之一？",
+      "options": {
+        "A": "Screening Tool to Alert Doctors to Right Treatment",
+        "B": "Federal Interagency Forum on Aging-Related Statistics",
+        "C": "Guiding Principles for the Care of Older Adults with Multimorbidity",
+        "D": "Administration on Aging"
+      }
+    },
+    {
+      "number": 49,
+      "stem": "有關SABAs（short-actingβ2agonists）的用藥指導，下列何者最不適當？",
+      "options": {
+        "A": "除了教導吸人劑的使用方式外，也须進行氯喘的介绍",
+        "B": "SABAs只能做為relieverinhaler，不建用於预防exercise-inducedasthma",
+        "C": "當大多數時間，使用relieverinhaler每调超過2次時，可能须考虑增加preventerinhaler",
+        "D": "繁使用relieverinhaler可能代表目前氯喘状熊重控制不佳"
+      }
+    },
+    {
+      "number": 50,
+      "stem": "下列為提示病人戒的最佳時機，但何者除外？",
+      "options": {
+        "A": "服用口服避孕藥且年龄>35崴的婦女",
+        "B": "HDL過低",
+        "C": "血壓過低",
+        "D": "正在服用PPIs或H2blockers"
+      }
+    },
+    {
+      "number": 51,
+      "stem": "有關進行用藥指導與病人溝通之叙述，下列何者錯？",
+      "options": {
+        "A": "面對面溝通時，保持適當的眼神交流",
+        "B": "使用開放式問題詢問病人狀况",
+        "C": "仔细聆谈話内容，可不须注意病人的肢體語言",
+        "D": "在交中適時給予回"
+      }
+    },
+    {
+      "number": 52,
+      "stem": "下列何者無法降低婴兒由母乳攝取藥品或受到傷害的風？",
+      "options": {
+        "A": "選選较不易分布至乳汁中的藥品",
+        "B": "選用持續放劑型的藥品",
+        "C": "避免長期用藥",
+        "D": "用對婴兒傷害较低的藥品"
+      }
+    },
+    {
+      "number": 53,
+      "stem": "方小姐35崴；有桥本氏甲狀腺炎（Hashimoto’sthyroiditis），TT45.7μg/dL（正常值4.8～10.4）， FT40.7ng/dL（正常值0.8～1.4）’5個多月前醫師處方L-thyroxine0.1mgQD。目前懷孕8调，则其L- thyroxine每日劑量初步調整為多少mg最適當？",
+      "options": {
+        "A": "0.05 cephalexin",
+        "B": "0.1 ciprofloxacin",
+        "C": "0.125 doxycycline",
+        "D": "0.2 trimethoprim+ sulfamethoxazole"
+      }
+    },
+    {
+      "number": 55,
+      "stem": "有關三級文獻之叙述，下列何者最適當？",
+      "options": {
+        "A": "提供經過完善查的資訊",
+        "B": "資訊不容易取得",
+        "C": "需要整理寫，因此資訊更新速度很快",
+        "D": "不包括電子書"
+      }
+    },
+    {
+      "number": 56,
+      "stem": "有關bileacidsequestrants之用藥指導，下列何者錯?",
+      "options": {
+        "A": "主要作用為阻止bileacid於腸胃道之吸收 1崴以上的幼兒才可使用OTC感冒藥",
+        "B": "常見副作用為腸胃不適 guaifenesin是唯一有效的祛痰劑",
+        "C": "服用後至少間隔4小時才能服用其他藥品 抗組織胺致死劑量较高，對幼兒安全",
+        "D": "水溶性佳，口服吸收率也佳 止咳劑如dextromethorphan未證實對幼兒感冒有明效益"
+      }
+    },
+    {
+      "number": 58,
+      "stem": "有關repaglinide之服用方式，下列叙述何者最適當？",
+      "options": {
+        "A": "饭前30分鐘服用",
+        "B": "随餐服用",
+        "C": "若没有吃，仍要按時服藥",
+        "D": "每日睡前服用"
+      }
+    },
+    {
+      "number": 59,
+      "stem": "有關吸與饼用口服避孕藥增加心血管風之交互作用，下列何者正確？",
+      "options": {
+        "A": "pharmacodynamicinteraction",
+        "B": "pharmacokineticinteraction",
+        "C": "pharmaceuticinteraction",
+        "D": "吸與口服避孕藥間無藥品交互作用"
+      }
+    },
+    {
+      "number": 60,
+      "stem": "吴太太73崴，自用了下列種藥品後较易跌倒，其中何者最不可能影響她的行動能力？",
+      "options": {
+        "A": "amitriptyline",
+        "B": "diazepam",
+        "C": "morphine",
+        "D": "sodium polystyrene sulfonate"
+      }
+    },
+    {
+      "number": 61,
+      "stem": "下列何種藥品可以磨粉服用？",
+      "options": {
+        "A": "Navelbine(vinorelbine) 30 mg/soft cap",
+        "B": "Adalat? OROS (nifedipine） 30 mg/tab",
+        "C": "Capoten(captopril) 25 mg/tab",
+        "D": "Isoptin SR (verapami1) 240 mg/tab"
+      }
+    },
+    {
+      "number": 62,
+      "stem": "下列那個藥品組合，鹰該使用olanzapineday1-4+palonosetronday1+dexamethasoneday1來止吐?",
+      "options": {
+        "A": "oxaliplatin+fluorouracil+leucovorin",
+        "B": "epirubicin+cyclophosphamide",
+        "C": "mitoxantrone",
+        "D": "busul fan"
+      }
+    },
+    {
+      "number": 63,
+      "stem": "下列何者於前或後服用皆可？",
+      "options": {
+        "A": "exenatide",
+        "B": "linagliptin",
+        "C": "acarbose",
+        "D": "glipizide"
+      }
+    },
+    {
+      "number": 64,
+      "stem": "下列何者可以助肥胖的糖尿病人减輕體重？①insulin②dapagliflozin③liraglutide ④pioglitazone",
+      "options": {
+        "A": "①②",
+        "B": "①③",
+        "C": "②③",
+        "D": "③④"
+      }
+    },
+    {
+      "number": 65,
+      "stem": "吴先生40崴，有酒精性肝硬化及食道静派曲張，下列何者最適合预防食道静胍曲張出血？",
+      "options": {
+        "A": "atenolol",
+        "B": "bisoprolol",
+        "C": "metoprolol",
+        "D": "propranolol"
+      }
+    },
+    {
+      "number": 66,
+      "stem": "Digoxin用於治療congestiveheartfailure，建therapeuticrange為何？",
+      "options": {
+        "A": "<0.5 ng/mL",
+        "B": "0.5~0.9ng/mL",
+        "C": "1.0~1.5 mg/L",
+        "D": "1.5~2.0μg/mL"
+      }
+    },
+    {
+      "number": 67,
+      "stem": "有關療劑监测之叙述，下列何者正確？",
+      "options": {
+        "A": "臀移植後使用cyclosporine，须經3～5個t1/2達steady-state後，再開始监测血中濃度",
+        "B": "sirolimus測steady-state服藥後2小時的濃度",
+        "C": "tacrolimus開始供用sirolimus時，不须降低tacrolimus劑量，維持相同血中濃度",
+        "D": "everolimus用於器官移植，须測steady-state谷濃度"
+      }
+    },
+    {
+      "number": 68,
+      "stem": "攝護腺癌病人以gonadotropinreleasinghormone（GnRH）agonist作為荷爾蒙去勢療法，最適合的療效 測参數為何？",
+      "options": {
+        "A": "血中LH濃度",
+        "B": "血中FSH濃度",
+        "C": "血中PSA濃度",
+        "D": "血中testosterone濃度"
+      }
+    },
+    {
+      "number": 69,
+      "stem": "下列何者可經由促進胃蠕動，影響餠用藥品的吸收？",
+      "options": {
+        "A": "ketoconazole",
+        "B": "chlorpheniramine",
+        "C": "erythromycin",
+        "D": "sulfamethoxazole"
+      }
+    },
+    {
+      "number": 70,
+      "stem": "下列何者於pharmacodynamicinteraction？①直接影響receptor的功能②干摄生物或生理的控制過 程③加強或减弱其藥理作用④影響外部環境因子",
+      "options": {
+        "A": "①②③",
+        "B": "①②④",
+        "C": "①③④",
+        "D": "②③④"
+      }
+    },
+    {
+      "number": 71,
+      "stem": "下列何者與warfarin饼用時，可能加強warfarin抗凝血效果？",
+      "options": {
+        "A": "amiodarone",
+        "B": "carbamazepine",
+        "C": "nafcillin",
+        "D": "phenytoin"
+      }
+    },
+    {
+      "number": 72,
+      "stem": "下列何者受CYP450inhibitors的影響程度最低？",
+      "options": {
+        "A": "rosuvastatin",
+        "B": "atorvastatin",
+        "C": "pravastatin",
+        "D": "fluvastatin"
+      }
+    },
+    {
+      "number": 73,
+      "stem": "下列何者與imatinib饼用時，會使imatinib血中濃度下降？",
+      "options": {
+        "A": "amiodarone",
+        "B": "clarithromycin",
+        "C": "St. John’ s wort",
+        "D": "verapamil"
+      }
+    },
+    {
+      "number": 74,
+      "stem": "下列何者與ritonavir饼用時，其血中濃度不會受ritonavir影響而上升？",
+      "options": {
+        "A": "lovastatin",
+        "B": "cyclosporine",
+        "C": "allopurinol",
+        "D": "darunavir"
+      }
+    },
+    {
+      "number": 75,
+      "stem": "下列何者在進行療劑测時，须测peak與trough兩點濃度？",
+      "options": {
+        "A": "digoxin in chronic use",
+        "B": "phenytoin in chronic use",
+        "C": "gentamicin in conventional dosing",
+        "D": "aminophylline continuous infusion"
+      }
+    },
+    {
+      "number": 76,
+      "stem": "下列何組藥品之交互作用，不是經由藥動學機轉？",
+      "options": {
+        "A": "penicillin-probenecid",
+        "B": "alcohol-disulfiram",
+        "C": "tetracycline-iron supplement",
+        "D": "trihexyphenidyl-imipramine"
+      }
+    },
+    {
+      "number": 77,
+      "stem": "下列何者對digoxin血中濃度的影響與其他選不同？",
+      "options": {
+        "A": "amiodarone",
+        "B": "rifampin",
+        "C": "verapamil",
+        "D": "clarithromycin"
+      }
+    },
+    {
+      "number": 78,
+      "stem": "下列何者會增加sirolimus的毒性？",
+      "options": {
+        "A": "St.John's wort",
+        "B": "grapefruit juice",
+        "C": "rifampin",
+        "D": "ferrous sulfate"
+      }
+    },
+    {
+      "number": 79,
+      "stem": "下列疾病與监測指標之配對，何者足以评估病人過去2～3个月期間用藥的配合度及療效？",
+      "options": {
+        "A": "dyslipidemia-cholesterol",
+        "B": "epilepsy-phenytoin血中濃度",
+        "C": "diabetes mellitus—HbAic",
+        "D": "atrial fibrillation-INR"
+      }
+    },
+    {
+      "number": 80,
+      "stem": "羅女士50崴，因癫瘤服用phenytoin100mgTID。回診主有頭昏及步態不穩的現象；抽血結果：albumin 2.2g/dL’phenytoin15mg/L，下列叙述何者錯？",
+      "options": {
+        "A": "phenytoin血中濃度在理想圍，無調整劑量",
+        "B": "頭昏及步熊不穩的現象，示phenytoin可能過量",
+        "C": "經albumin校正後；freephenytoin濃度太高",
+        "D": "了解albumin缺乏的原因，亚予以改善"
+      }
+    }
+  ],
+  "source": {
+    "method": "rapidocr-onnxruntime",
+    "pages": 14
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\113020_44_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\113020_44_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

@@ -1,0 +1,592 @@
+{
+  "setId": "105020_44_dispensing-clinical-pharmacy",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "dispensing-clinical-pharmacy",
+  "subjectTitle": "Dispensing and Clinical Pharmacy",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\105020_q44_dispensing-clinical-pharmacy.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\105020_ans44_dispensing-clinical-pharmacy.pdf"
+  ],
+  "questionCount": 47,
+  "answerCount": 47,
+  "parseWarnings": [
+    "Question 19: Could not parse options for question 19",
+    "Question 30: Could not parse options for question 30",
+    "Question 41: Could not parse options for question 41"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "衛生福利部為提升血液供輸品質，對於避免患者因輸血後發生溶血反應所採取之方法為：",
+      "options": {
+        "A": "對捐血人進行紅血球抗原篩檢",
+        "B": "建立血型資料庫",
+        "C": "加強B型肝炎篩檢",
+        "D": "加強愛滋病毒篩檢"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 2,
+      "stem": "有關衛生福利部中央健康保險署組織法之敘述，下列何者錯誤？",
+      "options": {
+        "A": "由國營事業改制為行政機關",
+        "B": "設置公務預算以辦理全民健康保險相關業務",
+        "C": "「全民健康保險藥品特材業務之研擬、規劃及執行」為掌理事項之一",
+        "D": "為全民健康保險法所規範之「保險人」"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 3,
+      "stem": "我國對進口牛肉所採取「三管五卡」管制措施，其中所稱之「三管」不包括下列何項？",
+      "options": {
+        "A": "管源頭",
+        "B": "管邊境",
+        "C": "管市場",
+        "D": "管餐飲業者"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 4,
+      "stem": "在「食品消費紅綠燈」機制中，下列何者屬「紅燈」？",
+      "options": {
+        "A": "超過有效期限",
+        "B": "有致人體健康危害之虞",
+        "C": "標示不全",
+        "D": "具有不安全之疑慮"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 5,
+      "stem": "設址於新竹市西區之化粧品色素販賣業者，擬申請歇業，應向何機關辦理？",
+      "options": {
+        "A": "新竹市政府",
+        "B": "新竹市政府建設局",
+        "C": "衛生福利部",
+        "D": "衛生福利部食品藥物管理署"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 6,
+      "stem": "下列有關新藥安全監視之敘述，何者正確？",
+      "options": {
+        "A": "為保護市場，監視期間 10 年",
+        "B": "藥商應於指定期限內提出藥物定期安全性報告",
+        "C": "醫療院所進藥時仍得要求臨床試驗",
+        "D": "於新藥上市前為之"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 7,
+      "stem": "有關藥師執業，下列事項何者正確？",
+      "options": {
+        "A": "某藥師於某年 2月1日自臺北榮總離職，同年 6月1日至高雄榮總就職，該藥師應向高雄市政 府辦理變更執業處所登記",
+        "B": "某藥師於臺北榮總工作時已加入臺北市藥師公會，後調職於高雄榮總工作，無需再加入高 雄市藥師公會",
+        "C": "臺北榮總與高雄榮總同屬輔導會所屬醫院，兩者間藥師調動，無需辦理執業變更登記",
+        "D": "某藥師於高雄榮總執業期間死亡，由高雄市政府註銷執業執照"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 8,
+      "stem": "下列何者為藥師法所稱主管機關？",
+      "options": {
+        "A": "新北市衛生局",
+        "B": "臺北市藥師公會",
+        "C": "衛生福利部食品藥物管理署",
+        "D": "衛生福利部"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 9,
+      "stem": "依藥師法之規定，藥師執行處方調劑，下列何者錯誤？",
+      "options": {
+        "A": "依醫師處方",
+        "B": "依管制藥品專用處方",
+        "C": "依中華藥典、國民處方選輯之處方",
+        "D": "依醫師具名僅書寫藥品名稱之字條"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 10,
+      "stem": "依藥師法之規定，下列敘述何者錯誤？",
+      "options": {
+        "A": "犯管制藥品管理條例之罪，經判刑確定者，應廢止藥師證書",
+        "B": "藥師受懲戒處分者，得廢止藥師證書",
+        "C": "藥師受廢止藥師證書處分時，其兼領有藥劑生證書者，得保有藥劑生證書，不受廢止藥師 證書處分影響",
+        "D": "犯毒品危害防制條例之罪，經判刑確定者，應廢止藥師證書"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 11,
+      "stem": "下列何種產品之製造，不須聘請藥師駐廠監製？",
+      "options": {
+        "A": "衛生棉條",
+        "B": "維士比",
+        "C": "衛生套",
+        "D": "染髮劑"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 12,
+      "stem": "有關藥師執業之規定，下述何者錯誤？",
+      "options": {
+        "A": "須向執業所在地直轄市、縣（市）主管機關申請執業登記，領有執業執照",
+        "B": "公職藥師得利用公餘，夜間至居家附近診所兼任調劑藥師",
+        "C": "須加入所在地藥師公會",
+        "D": "須依藥師執業登記及繼續教育辦法之規定辦理"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 13,
+      "stem": "下列何者不得販賣或管理醫療器材？",
+      "options": {
+        "A": "藥師",
+        "B": "醫療器材販賣業者",
+        "C": "醫療器材相關技術人員",
+        "D": "西藥販賣業者"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 14,
+      "stem": "某市售防曬面霜僅有日文標示，應依下列何種方式處置？",
+      "options": {
+        "A": "未依核准擅自輸入之藥品",
+        "B": "未依核准擅自製造之藥品",
+        "C": "未依核准擅自製造之化粧品",
+        "D": "未依主管機關之規定標示"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 15,
+      "stem": "藥師執業登錄於下列何者，非屬藥師法所稱「實際調劑經驗」？",
+      "options": {
+        "A": "醫院",
+        "B": "藥粧店",
+        "C": "聯合藥局",
+        "D": "診所"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 16,
+      "stem": "藥劑生違反藥劑生資格及管理辦法，其處罰方式及額度係依據下列何者？",
+      "options": {
+        "A": "藥師法",
+        "B": "藥劑生資格及管理辦法",
+        "C": "藥事法",
+        "D": "藥劑生公會全聯會決議"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 17,
+      "stem": "依藥物優良製造準則之規定，下列何者錯誤？",
+      "options": {
+        "A": "原料：指任何用於製造藥品之材質，不包括參與製程但不存在於最終產品之材質",
+        "B": "半製品或中間產品：指任何產品製造過程中所得之產物，其經隨後之製造過程，即可成為 產品者",
+        "C": "產品：指經過所有製造過程後，所產生之原料藥或其劑型含有效成分，並常含非有效成分 之製劑",
+        "D": "最終產品：指已經完成包裝作業，由外觀及所附資料可確知該包裝內容物相關資訊之藥品"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 18,
+      "stem": "下列何項藥品不須經衛生福利部檢驗合格，並加查訖封緘，即可上市銷售？",
+      "options": {
+        "A": "疫苗",
+        "B": "青黴素",
+        "C": "第八凝血因子",
+        "D": "肉毒桿菌"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 20,
+      "stem": "依據藥事法之規定，對於查獲之偽藥、禁藥、劣藥或不良醫療器材之處置，下列何者錯誤？",
+      "options": {
+        "A": "查獲之偽藥或禁藥，沒入銷燬之",
+        "B": "查獲之劣藥或不良醫療器材，如係本國製造，經檢驗後仍可改製使用者，應由直轄市或縣 （市）衛生主管機關，派員監督原製造廠商限期改製",
+        "C": "查獲之劣藥或不良醫療器材，如係本國製造，經檢驗後不能改製或屆期未改製者，沒入銷 燬之",
+        "D": "查獲之劣藥或不良醫療器材，如係核准輸入者，應即予以封存，沒入銷燬之"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 21,
+      "stem": "藥品標示之有效期間或保存期限，是依據下列何項之試驗結果推算？",
+      "options": {
+        "A": "藥品優良製造作業確效",
+        "B": "藥品安定性試驗",
+        "C": "藥品安全性試驗",
+        "D": "藥品生體可用率及相等性試驗"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 22,
+      "stem": "依據藥事法之規定，下列何者錯誤？",
+      "options": {
+        "A": "製造、輸入藥品，應依藥品查驗登記審查準則檢附資料，申請中央衛生主管機關查驗登 記，經核准發給藥品許可證後，始得製造或輸入",
+        "B": "藥物製造、輸入許可證有效期間為5年",
+        "C": "經核准製造、輸入之藥物，非經中央衛生主管機關之核准，不得變更原登記事項",
+        "D": "領有輸入許可證之藥品，應由藥品許可證所有人輸入，不得授權他人"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 23,
+      "stem": "依藥事法之規定，有關藥商僱用之推銷員，下列何者錯誤？",
+      "options": {
+        "A": "應由該藥商向當地之直轄市、縣（市）衛生主管機關登記後，方准執行推銷工作",
+        "B": "以向藥局、藥商、衛生醫療機構、醫學研究機構及經衛生主管機關准予登記為兼售藥物者 推銷其受僱藥商所製售或經銷之藥物為限",
+        "C": "得沿途推銷、設攤出售其受僱藥商所製售或經銷之藥物",
+        "D": "不得有擅將藥物拆封、改裝或非法廣告之行為"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 24,
+      "stem": "依藥事法之規定，下列何者錯誤？",
+      "options": {
+        "A": "管制藥品及毒劇藥品之處方箋、簿冊，均應保存 5年",
+        "B": "藥品之調劑，應由藥師為之；但不含麻醉藥品者，得由藥劑生為之",
+        "C": "修習中藥課程達適當標準之藥師，親自主持之藥局，得兼營中藥之調劑、供應或零售業務",
+        "D": "民國 78 年12 月31 日前業經核准登記領照營業之西藥販賣業者、西藥種商，其所聘請專任管 理之藥師或藥劑生，免受駐店管理及調劑、供應藥品之限制"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 25,
+      "stem": "藥事法第 40 條之 2規範的資料專屬權，涵蓋下列何種新藥？",
+      "options": {
+        "A": "新成分",
+        "B": "新療效複方",
+        "C": "新使用途徑",
+        "D": "新劑量"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 26,
+      "stem": "依據藥事法規定，西藥販賣業者，不得兼售中藥；中藥販賣業者，不得兼售西藥。但何者不 在此限？",
+      "options": {
+        "A": "成藥",
+        "B": "管制藥品",
+        "C": "指示藥品",
+        "D": "處方藥品"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 27,
+      "stem": "下列何者適用藥物安全監視管理辦法，須列入監視名單中？①新成分藥品 ②經衛生福利部 公告指定之醫療器材 ③新療效複方藥品 ④新使用途徑藥品",
+      "options": {
+        "A": "僅①②③",
+        "B": "僅①②④",
+        "C": "僅③④",
+        "D": "①②③④"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 28,
+      "stem": "對於藥物廣告之規定，下列何者錯誤？",
+      "options": {
+        "A": "採訪、報導或宣傳，其內容暗示或影射醫療效能者，視為藥物廣告",
+        "B": "可藉由醫療專業人員之名義為其宣傳",
+        "C": "醫師處方之藥物，其廣告以登載於學術性醫療刊物為限",
+        "D": "藥物廣告，經中央或直轄市衛生主管機關核准者，其有效期間為1年"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 29,
+      "stem": "依藥品優良臨床試驗準則之規定，下列何者錯誤？",
+      "options": {
+        "A": "受試者得不附理由隨時退出臨床試驗",
+        "B": "試驗主持人應於臨床試驗進行前，取得受試者自願給予之受試者同意書",
+        "C": "試驗委託者對於受試者可獲得之補助，除小金額外，應於試驗完成後一次給付",
+        "D": "受試者之身分及其臨床試驗相關紀錄，應予保密"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 31,
+      "stem": "依藥事法之規定，對於嚴重藥物不良反應未通報者，應如何處置？",
+      "options": {
+        "A": "限期改善",
+        "B": "停業處分",
+        "C": "罰鍰處分",
+        "D": "罰金處分"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 32,
+      "stem": "下列有關藥品販售之規定，何者錯誤？",
+      "options": {
+        "A": "藥品販賣業者，不得兼售毒性化學物質",
+        "B": "經核准輸入之藥物樣品或贈品，不得出售",
+        "C": "輸入製劑之分裝，應先由符合藥品優良製造規範之藥品製造業者分裝，再報請中央衛生主 管機關核准，始得販售",
+        "D": "經分裝之原料藥，以銷售藥品製造業者為限"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 33,
+      "stem": "藥局販賣之衛生棉條，經抽驗，含金黃色葡萄球菌，則該產品為藥事法所稱之：",
+      "options": {
+        "A": "妨害衛生之物品",
+        "B": "不良衛生之物品",
+        "C": "不良醫療器材",
+        "D": "劣藥"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 34,
+      "stem": "藥事法有關毒劇性中藥之管理，下列敘述何者正確？①中藥販賣業者及中藥製造業者售賣毒 劇性之中藥，非有中醫師簽名、蓋章之處方箋，不得出售 ②中藥販賣或製造業者，購存或 售賣毒劇性中藥，應將藥品名稱數量詳列簿冊 ③毒劇性中藥應專櫃加鎖儲藏 ④製造毒劇 性中藥應先申請製造同意書",
+      "options": {
+        "A": "僅①②",
+        "B": "僅②③",
+        "C": "僅①④",
+        "D": "①②③④"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 35,
+      "stem": "下列敘述何者正確？",
+      "options": {
+        "A": "衛生主管機關可派員檢查藥物製造業者、販賣業者之處所設施及有關業務",
+        "B": "衛生主管機關抽驗藥物時，依法可直接抽驗不出具單據",
+        "C": "衛生主管機關抽驗時，為避免抽驗檢體不夠，可以抽超過檢驗必需之量",
+        "D": "衛生主管機關抽驗藥物時，必須價購"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 36,
+      "stem": "下列有關「劣藥」之敘述，何者正確？",
+      "options": {
+        "A": "將他人產品抽換者",
+        "B": "添加非法定著色劑者",
+        "C": "更換有效期間之標示者",
+        "D": "有效成分之名稱，與核准不符者"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 37,
+      "stem": "得知藥物造成危及生命之嚴重不良反應，下列何者應行通報？①醫療機構 ②藥局 ③持有 許可證之藥商 ④病人家屬",
+      "options": {
+        "A": "僅①②",
+        "B": "僅①②③",
+        "C": "①②③④",
+        "D": "僅④"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 38,
+      "stem": "有關管制藥品之敘述，下列何者正確？",
+      "options": {
+        "A": "管制藥品限供醫藥上之需用，依其成癮性、濫用性及社會危害性之程度，分四級管理",
+        "B": "分級及品項經管制藥品審議委員會審議後，由衛生福利部食品藥物管理署核定公告",
+        "C": "為防止麻醉藥品及影響精神藥品之流用、濫用，制定藥事法嚴加管理",
+        "D": "嗎啡（Morphine ）用於治療癌症疼痛，列為第一級管制藥品"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 39,
+      "stem": "某大學教授欲從事愷他命（Ketamine ）有關之研究試驗，非經下列何者之核准，不得使用該 藥品？",
+      "options": {
+        "A": "地方衛生主管機關",
+        "B": "科技部",
+        "C": "衛生福利部",
+        "D": "財團法人國家衛生研究院"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 40,
+      "stem": "有關管制藥品使用執照之敘述，下列何者錯誤？",
+      "options": {
+        "A": "藥師調劑第一級至第三級管制藥品，需先取得管制藥品使用執照",
+        "B": "獸醫師使用第一級至第三級管制藥品，需先取得管制藥品使用執照",
+        "C": "醫師未取得管制藥品使用執照即開立管制藥品專用處方箋之罰鍰，由中央衛生主管機關處 罰",
+        "D": "醫藥教育研究試驗人員使用管制藥品，需經中央衛生主管機關核准"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 42,
+      "stem": "有關化粧品網路廣告之規定，下列敘述何者正確？",
+      "options": {
+        "A": "網路刊載經確認屬化粧品產品資訊，不需辦理廣告申請",
+        "B": "僅含藥化粧品需辦理廣告申請，一般化粧品不需辦理廣告申請",
+        "C": "不論是刊載產品資訊或實質廣告，均應事前申請核准，始得廣告",
+        "D": "全省各縣市衛生局均受理化粧品廣告申請"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 43,
+      "stem": "下列有關化粧品之規定，何者錯誤？",
+      "options": {
+        "A": "禁止使用氯仿",
+        "B": "使用 Parahydroxybenzoic acid 及其酯類，總量為1%",
+        "C": "使用 DMDM Hydantoin 時，化粧品中游離甲醛（Free Formaldehyde ）量，不得超過 1,000 ppm",
+        "D": "可使用甲醛，惟含量不得超過 1,000 ppm"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 44,
+      "stem": "含0.2 ～0.5% 之水楊酸（Salicylic acid ）成分之化粧品，其可標示之效能為：",
+      "options": {
+        "A": "防腐劑",
+        "B": "防曬效果",
+        "C": "角質軟化劑、面皰預防",
+        "D": "治療雞眼"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 45,
+      "stem": "罕見疾病及藥物審議委員會委員之組成，至少應有二分之一以上為：",
+      "options": {
+        "A": "政府機關代表",
+        "B": "具罕見疾病臨床治療、照護經驗或研究之醫事學者專家",
+        "C": "罕見疾病患者家屬代表",
+        "D": "法學專家及社會工作人員"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 46,
+      "stem": "某藥廠領有罕見疾病藥物許可證，經衛生福利部認定其售價顯不合理，得以下列何種方式處 置？",
+      "options": {
+        "A": "撤銷該藥物許可證",
+        "B": "受理其他同類藥物之查驗登記申請",
+        "C": "由罕見疾病及藥物審議委員會裁定合理價格給付",
+        "D": "中止該藥物許可證展延"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 47,
+      "stem": "下列何者不屬藥害救濟法規定之救濟給付範圍？",
+      "options": {
+        "A": "死亡",
+        "B": "障礙",
+        "C": "試驗用藥致癮",
+        "D": "嚴重疾病"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 48,
+      "stem": "罕見疾病藥物許可證之所有人，擬停止製造或輸入該罕見藥物，應如何辦理？",
+      "options": {
+        "A": "應於停止前 1個月以書面通知該公司轄區衛生主管機關",
+        "B": "應於停止前 3個月以書面通知轄區衛生主管機關",
+        "C": "應於停止前 6個月以書面通知中央主管機關",
+        "D": "應於停止後向主管機關報備"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 49,
+      "stem": "依全民健康保險法之規定，下列何者不屬於保險醫事服務機構可提供之服務？",
+      "options": {
+        "A": "門診診療服務",
+        "B": "交付處方箋予病人",
+        "C": "住院診療服務",
+        "D": "人體試驗"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    },
+    {
+      "number": 50,
+      "stem": "依全民健康保險法之規定，保險人核付門診藥物費用，下列何者正確？",
+      "options": {
+        "A": "門診藥品費用設有獨立總額",
+        "B": "依藥物給付項目及支付標準核付",
+        "C": "支付費用超出預先設定之藥品費用總額時，應自下一季之門診醫療給付費用總額中扣除",
+        "D": "支付費用超出預先設定之藥品費用總額時，立即調整藥物支付標準"
+      },
+      "referenceGroupId": "dispensing-clinical-pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 6
+  },
+  "referenceGroupId": "dispensing-clinical-pharmacy",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\105020_44_dispensing-clinical-pharmacy.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\dispensing-clinical-pharmacy\\105020_44_dispensing-clinical-pharmacy.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

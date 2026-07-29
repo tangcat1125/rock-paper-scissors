@@ -1,0 +1,413 @@
+{
+  "setId": "105100_11_pharmacology-medicinal-chemistry",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmacology-medicinal-chemistry",
+  "subjectTitle": "Pharmacology and Medicinal Chemistry",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\105100_q11_pharmacology-medicinal-chemistry.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmacology-medicinal-chemistry\\105100_mod11_pharmacology-medicinal-chemistry.pdf"
+  ],
+  "questionCount": 28,
+  "answerCount": 28,
+  "parseWarnings": [
+    "Question 1: Could not parse options for question 1",
+    "Question 3: Could not parse options for question 3",
+    "Question 4: Could not parse options for question 4",
+    "Question 5: Could not parse options for question 5",
+    "Question 6: Could not parse options for question 6",
+    "Question 10: Could not parse options for question 10",
+    "Question 12: Could not parse options for question 12",
+    "Question 13: Could not parse options for question 13",
+    "Question 15: Could not parse options for question 15",
+    "Question 17: Could not parse options for question 17",
+    "Question 18: Could not parse options for question 18",
+    "Question 19: Could not parse options for question 19",
+    "Question 20: Could not parse options for question 20",
+    "Question 21: Could not parse options for question 21",
+    "Question 24: Could not parse options for question 24",
+    "Question 25: Could not parse options for question 25",
+    "Question 28: Could not parse options for question 28",
+    "Question 30: Could not parse options for question 30",
+    "Question 35: Could not parse options for question 35",
+    "Question 36: Could not parse options for question 36",
+    "Question 37: Could not parse options for question 37",
+    "Question 38: Could not parse options for question 38",
+    "Question 39: Could not parse options for question 39",
+    "Question 43: Could not parse options for question 43",
+    "Question 44: Could not parse options for question 44",
+    "Question 45: Could not parse options for question 45",
+    "Question 46: Could not parse options for question 46",
+    "Question 50: Could not parse options for question 50",
+    "Question 51: Could not parse options for question 51",
+    "Question 52: Could not parse options for question 52",
+    "Question 53: Could not parse options for question 53",
+    "Question 54: Could not parse options for question 54",
+    "Question 55: Could not parse options for question 55",
+    "Question 56: Could not parse options for question 56",
+    "Question 57: Could not parse options for question 57",
+    "Question 58: Could not parse options for question 58",
+    "Question 60: Could not parse options for question 60",
+    "Question 62: Could not parse options for question 62",
+    "Question 63: Could not parse options for question 63",
+    "Question 64: Could not parse options for question 64",
+    "Question 65: Could not parse options for question 65",
+    "Question 68: Could not parse options for question 68",
+    "Question 69: Could not parse options for question 69",
+    "Question 70: Could not parse options for question 70",
+    "Question 71: Could not parse options for question 71",
+    "Question 72: Could not parse options for question 72",
+    "Question 73: Could not parse options for question 73",
+    "Question 74: Could not parse options for question 74",
+    "Question 75: Could not parse options for question 75",
+    "Question 77: Could not parse options for question 77",
+    "Question 78: Could not parse options for question 78",
+    "Question 79: Could not parse options for question 79"
+  ],
+  "questions": [
+    {
+      "number": 2,
+      "stem": "下列那些因素會決定一藥物進入腎小管之量？①藥物與血中蛋白結合程度 ②腎絲球過濾速率 ③腎小管主動分泌",
+      "options": {
+        "A": "僅①②",
+        "B": "僅①③",
+        "C": "僅②③",
+        "D": "①②③ 均對"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 7,
+      "stem": "下列有關細胞壁抑制劑之敘述，何者錯誤？",
+      "options": {
+        "A": "Bacitracin 全身性的投與時會引起明顯的腎毒性",
+        "B": "Cycloserine 屬於水溶性，在酸性中不穩定",
+        "C": "Vancomycin 是一種 glycopeptide 抗生素，可抑制 transglycosylase",
+        "D": "Fosfomycin 可抑制 transpeptidase"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 8,
+      "stem": "下列有關 Amphotericin B 的敘述，何者錯誤？",
+      "options": {
+        "A": "做成脂質（lipid ）性藥物製劑，目的在增加其吸收",
+        "B": "化學上是一種雙性聚烯類（amphoteric polyene ）macrolide 化合物",
+        "C": "可改變細胞膜的通透性",
+        "D": "臨床上通常以生理食鹽水配合，進行靜脈注射"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 9,
+      "stem": "下列何者不是 cyclosporine 的藥理性質？",
+      "options": {
+        "A": "是一種 fat-soluble peptide",
+        "B": "可抑制由 antigen-stimulated T- cells 所引起之 IL-2的gene transcription",
+        "C": "可令 T cell 的antigen receptor-induced differentiation 的early stage 不活性化",
+        "D": "可抑制由 primed cells 所引起之 IFN-γ的gene transcription"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 11,
+      "stem": "有關 statins 類藥物之敘述，下列何者錯誤？",
+      "options": {
+        "A": "作用機轉為抑制 HMG-CoA reductase",
+        "B": "可併用niacin 降血脂藥物",
+        "C": "懷孕婦女或哺乳時不可持續使用此類藥物",
+        "D": "會降低 LDL 受體之親和力"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 14,
+      "stem": "下列那些藥物可用於治療乳癌？①Estradiol ②Levonorgestrel ③Finasteride ④Tamoxifen ⑤Fulvestrant",
+      "options": {
+        "A": "①②",
+        "B": "②③",
+        "C": "③④",
+        "D": "④⑤"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 16,
+      "stem": "下列何者是使用 thioamides 最危險的副作用？",
+      "options": {
+        "A": "血管發炎",
+        "B": "類紅斑性狼瘡",
+        "C": "顆粒性白血球減少",
+        "D": "肺部纖維化"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 22,
+      "stem": "下列有關硝基化合物藥理作用之敘述，何者錯誤？",
+      "options": {
+        "A": "小劑量時會使 Preload 減少",
+        "B": "較大劑量時亦使 Afterload 減少",
+        "C": "對心臟耗氧量之減低作用比心肌供氧量之增加效果明顯",
+        "D": "會使血管平滑肌之 Myosine light chain 磷酸化，而使血管放鬆"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 23,
+      "stem": "下列有關 Nitrite 類藥物藥理作用之敘述，何者錯誤？",
+      "options": {
+        "A": "可作為氰化物（CN -）解毒之補助劑",
+        "B": "會使 Cyclic GMP 增加",
+        "C": "Nitrite 會與血紅素作用而使其變為Methemoglobin",
+        "D": "對靜脈之放鬆效果比動脈差"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 26,
+      "stem": "下列何者不是 antimuscarinic drug 的治療用途？",
+      "options": {
+        "A": "緩解膀胱痙攣",
+        "B": "消化道潰瘍",
+        "C": "帕金森氏症（parkinsonism ）",
+        "D": "青光眼"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 27,
+      "stem": "有關 Albuterol 之敘述 ，下列何者是正確？",
+      "options": {
+        "A": "只有 R-isomers 有效",
+        "B": "只有 S-isomers 有效",
+        "C": "R-isomers 會引起發炎反應",
+        "D": "主要副作用是口乾"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 29,
+      "stem": "關於 Lamotrigine 的敘述，下列何者錯誤？",
+      "options": {
+        "A": "抑制電壓調控型（voltage-gated ）的鈉離子通道",
+        "B": "對失神性癲癇（absence seizures ）無效",
+        "C": "Valproate 會抑制 Lamotrigine 的代謝",
+        "D": "可能產生紅疹、嗜睡、複視（diplopia ）副作用"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 31,
+      "stem": "下列那一種生理反應，不屬於類鴉片物質停止使用後，所出現的戒斷現象（withdrawal syndromes ）？",
+      "options": {
+        "A": "瞳孔縮小（miosis ）",
+        "B": "流淚（lacrimation ）",
+        "C": "腹瀉（diarrhea ）",
+        "D": "體溫高熱（hyperpyrexia ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 32,
+      "stem": "下列那一種病人在服用 Chlorpromazine 時會加重其病情？",
+      "options": {
+        "A": "帕金森氏症（Parkinson's disease ）",
+        "B": "精神分裂症（Schizophrenia ）",
+        "C": "焦慮症（Anxiety ）",
+        "D": "躁鬱症（Bipolar disorder ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 33,
+      "stem": "阻斷下列那一種神經傳遞物質的受體（neurotransmitter receptors ），容易引起錐體外的症狀（extrapyramidal symptoms ）及 坐立難安（akathisia ）等副作用？",
+      "options": {
+        "A": "甲型 -腎上腺素性受體（α-adrenergic receptors ）",
+        "B": "乙型 -腎上腺素性受體（β-adrenergic receptors ）",
+        "C": "第二型多巴胺受體（D 2 dopaminergic receptors ）",
+        "D": "第一型血清素受體（5-HT 1 receptors ）"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 34,
+      "stem": "下列有關抗癲癇藥物 Carbamazepine 與Oxcarbazepine 的敘述，何者錯誤？",
+      "options": {
+        "A": "Oxcarbazepine 與Carbamazepine 適用於同型式的癲癇治療",
+        "B": "Oxcarbazepine 所產生的肝毒性較 Carbamazepine 低",
+        "C": "相同劑量的 Oxcarbazepine 所產生的作用強度較 Carbamazepine 大",
+        "D": "Oxcarbazepine 所產生的藥物過敏性反應較 Carbamazepine 低"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 40,
+      "stem": "下列症狀何者不是慢性無機砷中毒所引起的？",
+      "options": {
+        "A": "週邊神經病變，如感覺遲純",
+        "B": "週邊血管疾病，如門脈高血壓",
+        "C": "體重增加",
+        "D": "癌症"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 41,
+      "stem": "下列有關 captopril 結構的敘述，何者正確？",
+      "options": {
+        "A": "含有 sulfhydryl",
+        "B": "含有兩個 carboxylate",
+        "C": "含有苯環",
+        "D": "含有 phosphonate"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 42,
+      "stem": "下列有關 cholestyramine 的敘述，何者錯誤？",
+      "options": {
+        "A": "具陰離子交換樹脂之功能",
+        "B": "為一種膽酸結合劑",
+        "C": "styrene 可作為其合成原料",
+        "D": "口服吸收良好"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 47,
+      "stem": "前列腺素類藥物 PGE 2之臨床治療用途為：",
+      "options": {
+        "A": "抗炎",
+        "B": "解熱",
+        "C": "鎮痛",
+        "D": "引產"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 48,
+      "stem": "下列有關抗癌藥 mitoxantrone 的敘述，何者錯誤？",
+      "options": {
+        "A": "屬於 anthracenedione 的結構",
+        "B": "結構上含有醣基",
+        "C": "比anthracycline 較不會形成心毒性代謝物",
+        "D": "會造成藍綠色的尿液"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 49,
+      "stem": "Quinine 的結構含有下列那兩個雜環？",
+      "options": {
+        "A": "quinolizidine 與quinoline",
+        "B": "quinuclidine 與quinoline",
+        "C": "quinolizidine 與quinazolinone",
+        "D": "quinuclidine 與quinazolinone"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 59,
+      "stem": "下列對於人類 insulin 相關的敘述，何者錯誤？",
+      "options": {
+        "A": "分子結構由 51 個胺基酸組成，其中 A鏈有 21 個，B鏈有 30 個",
+        "B": "分子結構中有 1個interchain 雙硫鍵及 2個intrachain 雙硫鍵",
+        "C": "能促進肝糖、蛋白質與脂質的生合成",
+        "D": "insulin glargine 是修飾 insulin 結構而得到的超長效藥物"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 61,
+      "stem": "下列有關 carvedilol 之敘述，何者錯誤？",
+      "options": {
+        "A": "含carbamate 之結構",
+        "B": "為混合型 α/β-adrenergic 拮抗劑",
+        "C": "具抗氧化之作用",
+        "D": "可用於心衰竭之病人"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 66,
+      "stem": "Minimum alveolar concentration （MAC ）是評估全身麻醉劑效力的重要參數，下列何者的 MAC 值最小？",
+      "options": {
+        "A": "CHCl 2CF 2OCH 3",
+        "B": "CF 3CHBrCl",
+        "C": "CHClFCF 2OCHF 2",
+        "D": "CF 3CHClOCHF 2"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 67,
+      "stem": "下列全身麻醉劑中，何者在體內代謝之百分比最低？",
+      "options": {
+        "A": "CF 3CHBrCl",
+        "B": "CHClFCF 2OCHF 2",
+        "C": "CHCl 2CF 2OCH 3",
+        "D": "CF 3CHFOCHF 2"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 76,
+      "stem": "下列有關 thyroid hormone 之敘述，何者錯誤？",
+      "options": {
+        "A": "liothyronine 之藥效可維持 2～3週",
+        "B": "levothyroxine 之血漿蛋白結合率可達 99%",
+        "C": "liotrix 是T 4與T3之鈉鹽以 4：1之比例混合而成",
+        "D": "dextrothyroxine 可用於降低血脂"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    },
+    {
+      "number": 80,
+      "stem": "下列有關 temozolomide 的敘述，何者錯誤？",
+      "options": {
+        "A": "為indoline 衍生物",
+        "B": "可治療多形性神經膠母細胞瘤",
+        "C": "最顯著的副作用為骨髓抑制",
+        "D": "食物會減少此藥物的吸收"
+      },
+      "referenceGroupId": "pharmacology-medicinal-chemistry",
+      "unitCitation": "Unit 1 / Pharmacology and Medicinal Chemistry"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 10
+  },
+  "referenceGroupId": "pharmacology-medicinal-chemistry",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\105100_11_pharmacology-medicinal-chemistry.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmacology-medicinal-chemistry\\105100_11_pharmacology-medicinal-chemistry.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

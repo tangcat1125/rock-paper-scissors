@@ -1,0 +1,1045 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>調屬臨床 20 題</title>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --panel: #ffffff;
+      --panel-2: #fbfaf7;
+      --text: #14213d;
+      --muted: #5b6472;
+      --accent: #0f766e;
+      --accent-2: #d97706;
+      --line: #d7d3cb;
+      --shadow: 0 18px 40px rgba(20, 33, 61, .10);
+      --correct: #0f766e;
+      --wrong: #b42318;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,.12), transparent 28%),
+        radial-gradient(circle at 80% 0%, rgba(217,119,6,.12), transparent 26%),
+        linear-gradient(180deg, #f6f0e6 0%, #eef3f8 100%);
+      min-height: 100vh;
+    }
+    .shell { max-width: 1440px; margin: 0 auto; padding: 20px; }
+    .topbar, .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); }
+    .topbar {
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .brand-kicker { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .brand-title { margin: 0; font-size: 28px; }
+    .brand-copy { color: var(--muted); margin-top: 6px; line-height: 1.6; }
+    .meta-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; width: min(760px, 100%); }
+    .meta-card { border: 1px solid var(--line); border-radius: 18px; padding: 14px; background: var(--panel-2); }
+    .meta-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .meta-value { font-size: 22px; font-weight: 800; }
+    .layout { display: grid; grid-template-columns: 260px minmax(0, 1fr) 320px; gap: 16px; align-items: start; }
+    .panel { padding: 18px; }
+    .panel h2 { margin: 0 0 12px; font-size: 18px; }
+    .panel .note { color: var(--muted); line-height: 1.6; margin-bottom: 14px; }
+    .section-chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 14px; }
+    .section-chip { padding: 6px 10px; border-radius: 999px; background: rgba(15,118,110,.10); color: var(--accent); font-size: 12px; font-weight: 700; }
+    .nav-list { display: grid; gap: 8px; max-height: calc(100vh - 220px); overflow: auto; padding-right: 4px; }
+    .nav-btn {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 14px;
+      padding: 12px 14px;
+      text-align: left;
+      cursor: pointer;
+      font: inherit;
+      color: var(--text);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .nav-btn.active { border-color: var(--accent); box-shadow: inset 0 0 0 1px rgba(15,118,110,.12); }
+    .nav-btn.answered { background: rgba(15,118,110,.06); }
+    .nav-btn small { color: var(--muted); display: block; margin-top: 2px; }
+    .question-card { background: linear-gradient(180deg, #fff 0%, #fffdf9 100%); border: 1px solid var(--line); border-radius: 20px; padding: 18px; }
+    .question-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    .question-badge { background: rgba(15,118,110,.10); color: var(--accent); padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 700; }
+    .question-title { margin: 0; font-size: 22px; line-height: 1.45; white-space: pre-wrap; }
+    .citation { color: var(--muted); font-size: 14px; margin-top: 8px; }
+    .options { display: grid; gap: 10px; margin-top: 16px; }
+    .option { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: #fff; display: flex; gap: 12px; align-items: flex-start; }
+    .option input { margin-top: 4px; transform: scale(1.1); }
+    .option .letter { font-weight: 800; min-width: 22px; }
+    .option.correct { border-color: var(--correct); background: rgba(15,118,110,.07); }
+    .option.wrong { border-color: var(--wrong); background: rgba(180,35,24,.07); }
+    .option .text { line-height: 1.6; white-space: pre-wrap; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+    .btn {
+      border: 0;
+      border-radius: 14px;
+      min-height: 46px;
+      padding: 0 16px;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn.primary { background: var(--accent); color: #fff; }
+    .btn.secondary { background: #edf2f7; color: var(--text); }
+    .btn.ghost { background: transparent; color: var(--accent); border: 1px solid rgba(15,118,110,.18); }
+    .progress { margin-top: 12px; height: 10px; background: #e9eef5; border-radius: 999px; overflow: hidden; }
+    .progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), #22c55e); width: 0%; }
+    .side-list { display: grid; gap: 10px; }
+    .info-card { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: var(--panel-2); }
+    .info-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .info-value { font-size: 18px; font-weight: 800; }
+    .log { font-size: 13px; color: var(--muted); line-height: 1.6; white-space: pre-wrap; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 12px; max-height: 220px; overflow: auto; }
+    .summary { margin-top: 16px; display: none; }
+    .summary.show { display: block; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 12px; }
+    .summary-item { border: 1px solid var(--line); border-radius: 16px; padding: 14px; background: #fff; }
+    .summary-item .k { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .summary-item .v { font-size: 22px; font-weight: 800; }
+    .reference-list { display: grid; gap: 8px; }
+    .reference-list a { color: var(--accent); text-decoration: none; }
+    .mobile-actions { display: none; position: sticky; bottom: 12px; z-index: 20; margin-top: 14px; }
+    .mobile-actions .bar { display: flex; gap: 10px; padding: 12px; background: rgba(20,33,61,.96); color: #fff; border-radius: 18px; align-items: center; justify-content: space-between; box-shadow: var(--shadow); }
+    .mobile-actions .bar .btn { min-height: 42px; }
+    @media (max-width: 1200px) {
+      .layout { grid-template-columns: 1fr; }
+      .nav-list { max-height: none; }
+      .summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .meta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .mobile-actions { display: block; }
+    }
+    @media (max-width: 767px) {
+      .shell { padding: 12px; }
+      .topbar { padding: 16px; border-radius: 18px; }
+      .panel { border-radius: 18px; }
+      .meta-grid, .summary-grid { grid-template-columns: 1fr; }
+      .brand-title { font-size: 22px; }
+      .question-title { font-size: 18px; }
+      .actions .btn { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="topbar">
+      <div>
+        <div class="brand-kicker">EXEAM Diagnostic Session</div>
+        <h1 class="brand-title">調屬臨床 20 題</h1>
+        <div class="brand-copy">單獨測調屬臨床第一科 20 題。答案會在提交前隱藏，提交後才顯示結果。</div>
+        <div class="section-chip-row" id="section-chips"></div>
+      </div>
+      <div class="meta-grid">
+        <div class="meta-card"><div class="meta-label">測驗模式</div><div class="meta-value" id="mode-value">調屬臨床 20 ?</div></div>
+        <div class="meta-card"><div class="meta-label">剩餘時間</div><div class="meta-value" id="meta-time">30:00</div></div>
+        <div class="meta-card"><div class="meta-label">已作答</div><div class="meta-value" id="meta-answered">0</div></div>
+        <div class="meta-card"><div class="meta-label">進度</div><div class="meta-value" id="meta-progress">0%</div></div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel">
+        <h2>題號導覽</h2>
+        <div class="note">點擊可以快速跳題。灰色表示尚未作答，綠色表示已作答。</div>
+        <div class="nav-list" id="nav-list"></div>
+      </aside>
+
+      <main class="panel">
+        <h2>主測試頁</h2>
+        <div class="note">請先作答，提交後才會顯示正確答案與解析摘要。</div>
+        <div class="progress"><span id="progress-bar"></span></div>
+        <div id="question-root"></div>
+        <div class="summary" id="summary-panel">
+          <h2>作答結果</h2>
+          <div class="summary-grid" id="summary-grid"></div>
+          <div class="actions" style="margin-top:14px;">
+            <a class="btn ghost" href="../index.html">回首頁</a>
+          </div>
+        </div>
+      </main>
+
+      <aside class="panel">
+        <h2>題庫說明</h2>
+        <div class="note">每題都保留單元引述與參考連結，方便提交後回頭查證。</div>
+        <div class="side-list">
+          <div class="info-card"><div class="info-label">測驗模式</div><div class="info-value" id="mode-value-side">調屬臨床 20 ?</div></div>
+          <div class="info-card"><div class="info-label">資料來源</div><div class="info-value">D:\\exeam\\question-bank</div></div>
+          <div class="info-card"><div class="info-label">紀錄狀態</div><div class="info-value" id="log-state">等待作答</div></div>
+          <div class="info-card">
+            <div class="info-label">事件記錄</div>
+            <div class="log" id="event-log">Session initialized.\nAnswers remain hidden until submission.</div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">參考連結</div>
+            <div class="reference-list" id="reference-list"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="mobile-actions">
+      <div class="bar">
+        <div>
+          <div style="font-weight:800;">測驗進行中</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.72);" id="mobile-status">答案會在提交後顯示</div>
+        </div>
+        <button class="btn primary" id="mobile-submit">提交</button>
+      </div>
+    </div>
+  </div>
+
+  <script id="session-data" type="application/json">{
+  "generatedAt": "2026-07-29T12:54:32",
+  "mode": "dispensing",
+  "modeText": "調屬臨床 20 ?",
+  "timeLimitMinutes": 30,
+  "sections": [
+    {
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "questionCount": 20
+    }
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "setId": "109020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 66,
+      "stem": "下列何者會因肥胖而改變清除率，雖不影響分布體積，但會改變其半衰期？",
+      "options": {
+        "A": "gentamicin",
+        "B": "methylprednisolone",
+        "C": "carbamazepine",
+        "D": "trazodone"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 1,
+      "sectionQuestionIndex": 1,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 5,
+      "stem": "Amphotericin B injection 靜脈輸注時，須以何種靜脈輸液稀釋？",
+      "options": {
+        "A": "5% dextrose in water",
+        "B": "0.9% NaCl",
+        "C": "2.5% dextrose in 0.45% NaCl",
+        "D": "Lactated Ringer's injection"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107100_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 2,
+      "sectionQuestionIndex": 2,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 12,
+      "stem": "再度餵食症候群（refeeding syndrome ）會出現何種檢驗數值異常？",
+      "options": {
+        "A": "鈣",
+        "B": "磷",
+        "C": "鈉",
+        "D": "鋁"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 3,
+      "sectionQuestionIndex": 3,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 13,
+      "stem": "若將60mL的12%（w/v）chlorhexidine溶液用水稀至120mL，最終濃度是多少%（w/v）？",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "7.2",
+        "D": "10"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 4,
+      "sectionQuestionIndex": 4,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 55,
+      "stem": "使用topicalcorticosteroids時，下列那一族群產生全身性副作用之風险较低？",
+      "options": {
+        "A": "幼童",
+        "B": "老年人",
+        "C": "肝功能不佳的病人",
+        "D": "臀功能不佳的病人"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 5,
+      "sectionQuestionIndex": 5,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "111100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 65,
+      "stem": "李先生55崴，有小细胞肺癌骨轉移疼痛，之前使用過acetaminophen無法控制。瘤科處方tramadol37.5mg+ acetaminophen325mg3tabQIDPC。此處方主要的問题為何？",
+      "options": {
+        "A": "藥品不符合健保給付规",
+        "B": "有禁忌症",
+        "C": "劑量過高",
+        "D": "適症不對"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\111100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 6,
+      "sectionQuestionIndex": 6,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 9,
+      "stem": "住院病人處於 mild stress 情況時，每日之 protein requirements 為多少 g/kg/day ？",
+      "options": {
+        "A": "0.5 ～0.8",
+        "B": "1～1.2",
+        "C": "1.2 ～1.5",
+        "D": "1.5 ～2"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 7,
+      "sectionQuestionIndex": 7,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "110020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 6,
+      "stem": "依據醫療法，下列何者不是藥品容器或包装上之標具備之项目？",
+      "options": {
+        "A": "病人及調劑者姓名",
+        "B": "調劑日期及病人性别",
+        "C": "藥品数量、劑量及用法",
+        "D": "藥品自費或健保給付"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\110020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\110020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 8,
+      "sectionQuestionIndex": 8,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "109020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 55,
+      "stem": "妊娠糖尿病婦女，須使用口服降血糖藥品時，下列何者最適當？",
+      "options": {
+        "A": "pioglitazone",
+        "B": "glyburide",
+        "C": "glipizide",
+        "D": "glimepiride"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\109020_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 9,
+      "sectionQuestionIndex": 9,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 51,
+      "stem": "Haloperidol-induced malignant hyperthermia 屬於那一類型的 adverse drug reaction ？",
+      "options": {
+        "A": "type A",
+        "B": "type B",
+        "C": "type C",
+        "D": "type D"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 10,
+      "sectionQuestionIndex": 10,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108030_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 61,
+      "stem": "王⼩姐出現 產後憂鬱症，但仍希望哺餵⺟乳。下列那⼀個抗憂鬱劑較安全？",
+      "options": {
+        "A": "sertraline",
+        "B": "paroxetine",
+        "C": "fluoxetine",
+        "D": "citalopram"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108030_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108030_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 11,
+      "sectionQuestionIndex": 11,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 37,
+      "stem": "下列何種藥品在使用上最需要注意rhabdomyolysis的問題？",
+      "options": {
+        "A": "rosuvastatin",
+        "B": "alendronate",
+        "C": "lisinopril",
+        "D": "dabigatran"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 12,
+      "sectionQuestionIndex": 12,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 35,
+      "stem": "Insulin detemir 開封後，於室溫下至多可存放幾天？",
+      "options": {
+        "A": "7",
+        "B": "14",
+        "C": "28",
+        "D": "42"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 13,
+      "sectionQuestionIndex": 13,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 8,
+      "stem": "下列何者不是 lactose 適合做為口服粉劑稀釋劑的原因？",
+      "options": {
+        "A": "香味",
+        "B": "白色",
+        "C": "溶於水",
+        "D": "流動性佳"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 14,
+      "sectionQuestionIndex": 14,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108030_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 32,
+      "stem": "有關使⽤玻璃做 為藥品包材之敘述，下列何者錯誤？",
+      "options": {
+        "A": "對於⼤部分的藥品它是惰性的",
+        "B": "有些玻璃會釋出酸，影響藥品",
+        "C": "空氣與⽔分不能通透",
+        "D": "容易清潔及加熱滅菌"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108030_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108030_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 15,
+      "sectionQuestionIndex": 15,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107020_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 12,
+      "stem": "Lorazepam injection 製劑中，含有何種常用的助溶劑？",
+      "options": {
+        "A": "propylene glycol",
+        "B": "glycerin",
+        "C": "cremophor",
+        "D": "polyethylene glycol"
+      },
+      "answer": "A",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107020_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 16,
+      "sectionQuestionIndex": 16,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "112100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": null,
+      "questionNumber": 57,
+      "stem": "杨先生到藥局詢問：「糖尿病控制不好，該吃何種糖尿病專用營養配方？」。藥師應進一步詢問下列那些 問題？①是糖尿病控制不好②飮食習惯③體能活動④血糖控制圍5病人如何服藥",
+      "options": {
+        "A": "仅②④ 先確病人希望的指導方式",
+        "B": "仅①③④ 大聲喊叫，镶病人得清楚",
+        "C": "②③5 如果病人不懂時，要再一次或寫下來給病人看",
+        "D": "①②③④5 要在明亮處，病人隨時能看到你的"
+      },
+      "answer": "C",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\112100_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 17,
+      "sectionQuestionIndex": 17,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "108030_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 10,
+      "stem": "有關非癌症慢性頑固性疼痛的病⼈，⻑期處⽅成 癮性⿇醉藥品注意事項，下列何者錯誤？",
+      "options": {
+        "A": "係指其他藥品或治療仍無法緩解疼痛，必須使⽤⿇醉藥品⽌痛之病⼈",
+        "B": "⻑期使⽤係指連續使⽤超過 14 ⽇，或間歇使⽤於三個⽉內累計超過 28 ⽇",
+        "C": "成癮性⿇醉藥品包括 morphine 、codeine 、opium 、pethidine 、fentanyl 或propoxyphene 等",
+        "D": "使⽤藥品劑型以針劑為主，再依此順序轉換為貼片－舌下劑－⼝服劑型"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108030_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\108030_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 18,
+      "sectionQuestionIndex": 18,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "107100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 38,
+      "stem": "下列何種注射方式可容許之容積最小？",
+      "options": {
+        "A": "皮下（subcutaneous ）",
+        "B": "皮內（intradermal ）",
+        "C": "肌肉（intramuscular ）",
+        "D": "靜脈（intravenous ） 39. 2% （w/v ）glucose injection 200 mL ，要調製成等張溶液，須加入多少公克的 NaCl ？（ 1% glucose 的冰點下 降值為0.1 ℃，1% NaCl 的冰點下降值為0.576 ℃）"
+      },
+      "answer": "B",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\107100_mod44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 19,
+      "sectionQuestionIndex": 19,
+      "sectionQuestionTotal": 20
+    },
+    {
+      "setId": "106100_44_dispensing-clinical-pharmacy",
+      "unitId": "unit2",
+      "unitTitle": "Unit 2",
+      "subjectId": "dispensing-clinical-pharmacy",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "questionNumber": 68,
+      "stem": "醫囑“KCl 40 mEq in 1 L normal saline （NS ）, IV infusion at 0.5 mEq/min”，則這瓶點滴可供輸注多少分 鐘？",
+      "options": {
+        "A": "100",
+        "B": "20",
+        "C": "500",
+        "D": "80"
+      },
+      "answer": "D",
+      "questionPdf": "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_q44_dispensing-clinical-pharmacy.pdf",
+      "answerPdfs": [
+        "D:\\exeam\\question-bank\\unit2\\dispensing-clinical-pharmacy\\106100_ans44_dispensing-clinical-pharmacy.pdf"
+      ],
+      "sectionKey": "dispensing",
+      "sectionTitle": "調屬臨床",
+      "sectionOrder": 20,
+      "sectionQuestionIndex": 20,
+      "sectionQuestionTotal": 20
+    }
+  ]
+}</script>
+  <script>
+    const session = JSON.parse(document.getElementById('session-data').textContent);
+    const state = {
+      index: 0,
+      submitted: false,
+      startAt: Date.now(),
+      currentEnterAt: Date.now(),
+      answers: {},
+      changes: [],
+      timeByQuestion: Array(session.questions.length).fill(0),
+      firstChoiceAt: {},
+      lastChoiceAt: {},
+    };
+
+    const els = {
+      navList: document.getElementById('nav-list'),
+      questionRoot: document.getElementById('question-root'),
+      progressBar: document.getElementById('progress-bar'),
+      metaTime: document.getElementById('meta-time'),
+      metaAnswered: document.getElementById('meta-answered'),
+      metaProgress: document.getElementById('meta-progress'),
+      summaryPanel: document.getElementById('summary-panel'),
+      summaryGrid: document.getElementById('summary-grid'),
+      eventLog: document.getElementById('event-log'),
+      logState: document.getElementById('log-state'),
+      referenceList: document.getElementById('reference-list'),
+      mobileStatus: document.getElementById('mobile-status'),
+      mobileSubmit: document.getElementById('mobile-submit'),
+      sectionChips: document.getElementById('section-chips'),
+      modeValue: document.getElementById('mode-value'),
+      modeValueSide: document.getElementById('mode-value-side'),
+    };
+
+
+
+    const SECTION_LABELS = { law: '\u6cd5\u898f', dispensing: '\u8abf\u5c6c\u81e8\u5e8a', therapeutics: '\u85e5\u6cbb' };
+    const FULL_COPY = '\u4f9d\u5e8f\u9032\u884c\u6cd5\u898f\u3001\u8abf\u5c6c\u81e8\u5e8a\u3001\u85e5\u6cbb\u4e09\u79d1\uff0c\u6bcf\u79d1 20 \u984c\u3002\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u524d\u96b1\u85cf\uff0c\u63d0\u4ea4\u5f8c\u624d\u986f\u793a\u7d50\u679c\u3002';
+    function sectionLabel(key) {
+      return SECTION_LABELS[key] || key;
+    }
+    function modeTextForSession() {
+      if (session.mode === 'full') return '\u5168\u8003 60 \u984c';
+      return `${sectionLabel(session.sections[0].sectionKey)} 20 \u984c`;
+    }
+    function modeCopyForSession() {
+      if (session.mode === 'full') return FULL_COPY;
+      return `${sectionLabel(session.sections[0].sectionKey)} \u55ae\u79d1 20 \u984c\u3002\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u524d\u96b1\u85cf\uff0c\u63d0\u4ea4\u5f8c\u624d\u986f\u793a\u7d50\u679c\u3002`;
+    }
+    function applyStaticText() {
+      document.title = modeTextForSession();
+      const kicker = document.querySelector('.brand-kicker');
+      if (kicker) kicker.textContent = 'EXEAM Diagnostic Session';
+      const title = document.querySelector('.brand-title');
+      if (title) title.textContent = modeTextForSession();
+      const copy = document.querySelector('.brand-copy');
+      if (copy) copy.textContent = modeCopyForSession();
+      const labels = document.querySelectorAll('.meta-label');
+      if (labels.length >= 4) {
+        labels[0].textContent = '\u6e2c\u9a57\u6a21\u5f0f';
+        labels[1].textContent = '\u5269\u9918\u6642\u9593';
+        labels[2].textContent = '\u5df2\u4f5c\u7b54';
+        labels[3].textContent = '\u9032\u5ea6';
+      }
+      const heads = document.querySelectorAll('h2');
+      if (heads.length >= 4) {
+        heads[0].textContent = '\u984c\u865f\u5c0e\u89bd';
+        heads[1].textContent = '\u4e3b\u6e2c\u8a66\u9801';
+        heads[2].textContent = '\u4f5c\u7b54\u7d50\u679c';
+        heads[3].textContent = '\u984c\u5eab\u8aaa\u660e';
+      }
+      const notes = document.querySelectorAll('.note');
+      if (notes.length >= 3) {
+        notes[0].textContent = '\u9ede\u64ca\u53ef\u4ee5\u5feb\u901f\u8df3\u984c\u3002\u7070\u8272\u8868\u793a\u5c1a\u672a\u4f5c\u7b54\uff0c\u7da0\u8272\u8868\u793a\u5df2\u4f5c\u7b54\u3002';
+        notes[1].textContent = '\u8acb\u5148\u4f5c\u7b54\uff0c\u63d0\u4ea4\u5f8c\u624d\u6703\u986f\u793a\u6b63\u78ba\u7b54\u6848\u8207\u89e3\u6790\u6458\u8981\u3002';
+        notes[2].textContent = '\u6bcf\u984c\u90fd\u4fdd\u7559\u55ae\u5143\u5f15\u8ff0\u8207\u53c3\u8003\u9023\u7d50\uff0c\u65b9\u4fbf\u63d0\u4ea4\u5f8c\u56de\u982d\u67e5\u8b49\u3002';
+      }
+      const review = document.querySelector('#summary-panel .btn.ghost');
+      if (review) review.textContent = '\u56de\u9996\u9801';
+      const modeValue = document.getElementById('mode-value');
+      if (modeValue) modeValue.textContent = modeTextForSession();
+      const modeValueSide = document.getElementById('mode-value-side');
+      if (modeValueSide) modeValueSide.textContent = modeTextForSession();
+      const mobileStatus = document.getElementById('mobile-status');
+      if (mobileStatus) mobileStatus.textContent = '\u7b54\u6848\u6703\u5728\u63d0\u4ea4\u5f8c\u986f\u793a';
+      const mobileSubmit = document.getElementById('mobile-submit');
+      if (mobileSubmit) mobileSubmit.textContent = '\u63d0\u4ea4';
+    }
+
+    function fmt(seconds) {
+      const s = Math.max(0, Math.floor(seconds));
+      const m = Math.floor(s / 60);
+      const r = String(s % 60).padStart(2, '0');
+      return `${m}:${r}`;
+    }
+
+    function appendLog(line) {
+      const current = els.eventLog.textContent.trim();
+      els.eventLog.textContent = current ? `${current}\n${line}` : line;
+      els.eventLog.scrollTop = els.eventLog.scrollHeight;
+    }
+
+    function questionCitation(question) {
+      if (question.unitCitation) return question.unitCitation;
+      if (question.unitTitle && question.subjectTitle) return `${question.unitTitle} / ${question.subjectTitle}`;
+      return question.subjectTitle || question.unitTitle || '';
+    }
+
+    function markTime() {
+      const now = Date.now();
+      state.timeByQuestion[state.index] += (now - state.currentEnterAt) / 1000;
+      state.currentEnterAt = now;
+    }
+
+    function goTo(index) {
+      if (index < 0 || index >= session.questions.length) return;
+      if (index !== state.index) {
+        markTime();
+        state.index = index;
+        state.currentEnterAt = Date.now();
+        render();
+        appendLog(`開啟 Q${index + 1} @ ${new Date().toLocaleTimeString()}`);
+      }
+    }
+
+    function setAnswer(questionIndex, value) {
+      const key = String(questionIndex + 1);
+      const previous = state.answers[key];
+      state.answers[key] = value;
+      const now = new Date().toISOString();
+      if (!state.firstChoiceAt[key]) state.firstChoiceAt[key] = now;
+      state.lastChoiceAt[key] = now;
+      state.changes.push({ question: key, from: previous || null, to: value, at: now });
+      appendLog(`答案變更：Q${key}: ${previous || '?'} -> ${value}`);
+      renderNav();
+      renderMeta();
+    }
+
+    function renderSectionChips() {
+      els.sectionChips.innerHTML = '';
+      session.sections.forEach(section => {
+        const chip = document.createElement('span');
+        chip.className = 'section-chip';
+        chip.textContent = `${sectionLabel(section.sectionKey)} ${section.questionCount} 題`;
+        els.sectionChips.appendChild(chip);
+      });
+    }
+
+    function renderNav() {
+      els.navList.innerHTML = '';
+      session.questions.forEach((q, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'nav-btn' + (i === state.index ? ' active' : '') + (state.answers[String(i + 1)] ? ' answered' : '');
+        btn.innerHTML = `<span><strong>Q${i + 1}</strong><small>${sectionLabel(q.sectionKey)}</small></span><span>${q.sectionQuestionIndex}/20</span>`;
+        btn.addEventListener('click', () => goTo(i));
+        els.navList.appendChild(btn);
+      });
+    }
+
+    function renderReferences(question) {
+      els.referenceList.innerHTML = '';
+      const entries = [];
+      if (question.questionPdf) entries.push({ label: '\u984c\u76ee PDF', url: question.questionPdf });
+      (question.answerPdfs || []).filter(Boolean).slice(0, 1).forEach(url => {
+        entries.push({ label: '\u7b54\u6848 PDF', url });
+      });
+      entries.forEach(link => {
+        const a = document.createElement('a');
+        a.href = link.url || '#';
+        a.textContent = `${questionCitation(question)} ? ${link.label}`;
+        a.target = '_blank';
+        a.rel = 'noreferrer';
+        els.referenceList.appendChild(a);
+      });
+      const cite = document.createElement('div');
+      cite.style.color = 'var(--muted)';
+      cite.style.fontSize = '13px';
+      cite.style.lineHeight = '1.5';
+      cite.style.marginTop = '8px';
+      cite.textContent = `${question.unitCitation}`;
+      els.referenceList.appendChild(cite);
+    }
+
+    function renderQuestion() {
+      const q = session.questions[state.index];
+      const answered = state.answers[String(state.index + 1)];
+      const options = Object.entries(q.options || {});
+      const submitted = state.submitted;
+      const optionsHtml = options.map(([letter, text]) => {
+        const selected = answered === letter;
+        const isCorrect = submitted && q.answer === letter;
+        const isWrong = submitted && selected && q.answer !== letter;
+        return `
+          <label class="option ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}">
+            <input type="radio" name="answer" value="${letter}" ${selected ? 'checked' : ''} ${submitted ? 'disabled' : ''}>
+            <span class="letter">${letter}.</span>
+            <span class="text">${text}</span>
+          </label>`;
+      }).join('');
+      const answerHint = submitted
+        ? `<div class="citation" style="color: var(--accent); font-weight:700;">正確答案：${q.answer}</div>`
+        : '<div class="citation">答案在提交前不公開</div>';
+      els.questionRoot.innerHTML = `
+        <article class="question-card">
+          <div class="question-head">
+            <div class="question-badge">? ${state.index + 1} ? / ${session.questions.length} ?</div>
+            <div class="question-badge" style="background: rgba(217,119,6,.10); color: var(--accent-2);">${sectionLabel(q.sectionKey)} ${q.sectionQuestionIndex}/20</div>
+          </div>
+          <h3 class="question-title">${q.stem}</h3>
+          <div class="citation">${q.subjectTitle} ? ${questionCitation(q)}</div>
+          <div class="options">${optionsHtml}</div>
+          ${answerHint}
+          <div class="actions">
+            <button class="btn secondary" id="prev-btn" ${state.index === 0 ? 'disabled' : ''}>上一題</button>
+            <button class="btn secondary" id="next-btn" ${state.index === session.questions.length - 1 ? 'disabled' : ''}>下一題</button>
+            <button class="btn primary" id="submit-btn">提交</button>
+          </div>
+          <div class="citation" style="margin-top:12px;">閱讀時間?${fmt(state.timeByQuestion[state.index] + ((Date.now() - state.currentEnterAt) / 1000))}</div>
+          ${submitted ? '<div class="citation" style="margin-top:8px; color: var(--accent);">結果已生成，可進入複習</div>' : ''}
+        </article>
+      `;
+      els.questionRoot.querySelectorAll('input[name="answer"]').forEach(input => {
+        input.addEventListener('change', e => setAnswer(state.index, e.target.value));
+      });
+      const prev = document.getElementById('prev-btn');
+      const next = document.getElementById('next-btn');
+      const submit = document.getElementById('submit-btn');
+      prev && prev.addEventListener('click', () => goTo(state.index - 1));
+      next && next.addEventListener('click', () => goTo(state.index + 1));
+      submit && submit.addEventListener('click', submitSession);
+      renderReferences(q);
+    }
+
+    function renderMeta() {
+      const answered = Object.keys(state.answers).length;
+      const progress = Math.round((answered / session.questions.length) * 100);
+      els.metaAnswered.textContent = String(answered);
+      els.metaProgress.textContent = `${progress}%`;
+      els.progressBar.style.width = `${progress}%`;
+      const remaining = session.timeLimitMinutes * 60 - Math.floor((Date.now() - state.startAt) / 1000);
+      els.metaTime.textContent = fmt(remaining);
+      els.modeValue.textContent = modeTextForSession();
+      els.modeValueSide.textContent = modeTextForSession();
+      els.mobileStatus.textContent = state.submitted ? '已提交' : '答案會在提交後顯示';
+      els.logState.textContent = state.submitted ? '已提交' : '作答中';
+    }
+
+    function renderSummary() {
+      const totals = session.sections.map(section => {
+        const sectionQuestions = session.questions.filter(q => q.sectionKey === section.sectionKey);
+        const correct = sectionQuestions.reduce((acc, q, idx) => {
+          const globalIndex = session.questions.findIndex(item => item === q);
+          const given = state.answers[String(globalIndex + 1)];
+          return acc + (given === q.answer ? 1 : 0);
+        }, 0);
+        const wrong = sectionQuestions.length - correct;
+        const rate = Math.round((correct / sectionQuestions.length) * 100);
+        return { label: sectionLabel(section.sectionKey), correct, wrong, rate };
+      });
+      const overallCorrect = session.questions.reduce((acc, q, idx) => acc + (state.answers[String(idx + 1)] === q.answer ? 1 : 0), 0);
+      const overallWrong = session.questions.length - overallCorrect;
+      const overallRate = Math.round((overallCorrect / session.questions.length) * 100);
+      const reading = Math.round(state.timeByQuestion.reduce((a, b) => a + b, 0));
+      const items = [
+        { k: '總正確題數', v: String(overallCorrect) },
+        { k: '總錯誤題數', v: String(overallWrong) },
+        { k: '總正確率', v: `${overallRate}%` },
+        { k: '總閱讀秒數', v: String(reading) },
+        ...totals.map(s => ({ k: `${s.label} 正確率`, v: `${s.rate}%` })),
+      ];
+      els.summaryGrid.innerHTML = items.map(item => `<div class="summary-item"><div class="k">${item.k}</div><div class="v">${item.v}</div></div>`).join('');
+    }
+
+    function render() {
+      renderSectionChips();
+      renderNav();
+      renderQuestion();
+      renderMeta();
+    }
+
+    function submitSession() {
+      if (state.submitted) return;
+      if (!confirm('要提交這次測驗嗎？提交後將顯示答案與結果。')) return;
+      markTime();
+      state.submitted = true;
+      renderSummary();
+      els.summaryPanel.classList.add('show');
+      appendLog('已提交，待查看結果');
+      render();
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    applyStaticText();
+    document.getElementById('mobile-submit').addEventListener('click', submitSession);
+    window.addEventListener('beforeunload', () => markTime());
+    setInterval(renderMeta, 1000);
+    render();
+  </script>
+  <script src="./review-hook.js"></script>
+</body>
+</html>

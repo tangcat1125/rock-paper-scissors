@@ -1,0 +1,269 @@
+{
+  "generatedAt": "2026-07-29T00:00:00+08:00",
+  "subjects": {
+    "pharmaceutical-law-regulations": {
+      "subjectId": "pharmaceutical-law-regulations",
+      "title": "法規",
+      "subjectTitle": "Pharmaceutical Law and Regulations",
+      "unitCitation": "Unit 2 / Pharmaceutical Law and Regulations",
+      "reviewFocus": [
+        "法規主體與主管機關",
+        "藥師執業與藥局管理",
+        "處方、調劑與用藥安全",
+        "管制藥品與特殊藥品管理",
+        "標示、廣告、輸入輸出與違規責任"
+      ],
+      "knowledgeNodes": [
+        {
+          "id": "law-framework",
+          "title": "法規架構與主管機關",
+          "summary": "先辨識題目是在問法源、主管機關、執行責任，還是在問藥事實務的適用範圍。",
+          "keywords": ["藥事法", "主管機關", "法源", "執行"],
+          "checklist": ["先看題幹的主體", "再對照法規用語", "最後確認例外條款"],
+          "verificationLinks": [
+            {
+              "label": "Taiwan Pharmaceutical Affairs Act",
+              "url": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=L0030001",
+              "source": "Laws and Regulations Database of the Republic of China"
+            }
+          ]
+        },
+        {
+          "id": "law-dispensing",
+          "title": "處方與調劑",
+          "summary": "常見錯誤集中在處方內容、調劑流程、交付與紀錄保存。",
+          "keywords": ["處方", "調劑", "交付", "保存"],
+          "checklist": ["確認是處方藥或非處方藥", "確認調劑者與場所", "確認有無補正程序"],
+          "verificationLinks": [
+            {
+              "label": "Taiwan MOHW Pharmaceutical Affairs Act page",
+              "url": "https://www.mohw.gov.tw/np-3688-2.html",
+              "source": "MOHW"
+            }
+          ]
+        },
+        {
+          "id": "law-controlled-drugs",
+          "title": "管制藥品與特殊管理",
+          "summary": "聚焦於持有、調配、流向紀錄、報備與稽查責任。",
+          "keywords": ["管制藥品", "報備", "稽查", "紀錄"],
+          "checklist": ["先辨識是否屬管制藥品", "再確認保存與紀錄義務", "最後確認違規責任"],
+          "verificationLinks": [
+            {
+              "label": "Taiwan Controlled Drugs Act",
+              "url": "https://www.mohw.gov.tw/dl-92684-89cddf4d-8d44-49d0-997f-9bbb32e2273f.html",
+              "source": "MOHW"
+            }
+          ]
+        },
+        {
+          "id": "law-labeling",
+          "title": "標示、廣告與警示",
+          "summary": "很多誤選來自標示義務、廣告限制與警語規範的混淆。",
+          "keywords": ["標示", "廣告", "警語", "宣稱"],
+          "checklist": ["辨識題目是否在問宣稱內容", "再查是否需要警語", "最後比對禁止事項"],
+          "verificationLinks": [
+            {
+              "label": "Taiwan Pharmaceutical Affairs Act",
+              "url": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=L0030001",
+              "source": "Laws and Regulations Database of the Republic of China"
+            }
+          ]
+        }
+      ],
+      "verificationLinks": [
+        {
+          "label": "Taiwan Pharmaceutical Affairs Act",
+          "url": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=L0030001",
+          "source": "Laws and Regulations Database of the Republic of China"
+        },
+        {
+          "label": "Taiwan Controlled Drugs Act",
+          "url": "https://www.mohw.gov.tw/dl-92684-89cddf4d-8d44-49d0-997f-9bbb32e2273f.html",
+          "source": "MOHW"
+        },
+        {
+          "label": "Taiwan MOHW Pharmaceutical Affairs Act page",
+          "url": "https://www.mohw.gov.tw/np-3688-2.html",
+          "source": "MOHW"
+        }
+      ]
+    },
+    "dispensing-clinical-pharmacy": {
+      "subjectId": "dispensing-clinical-pharmacy",
+      "title": "調劑臨床",
+      "subjectTitle": "Dispensing and Clinical Pharmacy",
+      "unitCitation": "Unit 2 / Dispensing and Clinical Pharmacy",
+      "reviewFocus": [
+        "調劑流程與處方審核",
+        "用藥交付與病人衛教",
+        "藥品交互作用與禁忌",
+        "藥物重整與用藥安全",
+        "特殊族群與劑量調整"
+      ],
+      "knowledgeNodes": [
+        {
+          "id": "dispense-workflow",
+          "title": "調劑工作流程",
+          "summary": "從處方審核到交付，題目常在找你是否漏掉流程節點。",
+          "keywords": ["處方審核", "交付", "衛教", "紀錄"],
+          "checklist": ["確認處方合法性", "確認劑量與頻次", "確認交付與衛教"],
+          "verificationLinks": [
+            {
+              "label": "ISMP Guidance and Tools",
+              "url": "https://www.ismp.org/Tools/default.aspx",
+              "source": "ISMP"
+            }
+          ]
+        },
+        {
+          "id": "dispense-safety",
+          "title": "用藥安全與差錯預防",
+          "summary": "辨識高警訊藥品、名稱相似藥品與標示錯誤，是這一科的高頻概念。",
+          "keywords": ["高警訊藥品", "LASA", "雙重確認"],
+          "checklist": ["辨識風險藥品", "檢查名稱與濃度", "確認雙重核對"],
+          "verificationLinks": [
+            {
+              "label": "ISMP Guidance and Tools",
+              "url": "https://www.ismp.org/Tools/default.aspx",
+              "source": "ISMP"
+            }
+          ]
+        },
+        {
+          "id": "dispense-counseling",
+          "title": "病人衛教與交付",
+          "summary": "題目常會混淆『交付』與『衛教』，要先分辨資訊層次，再看是否需回覆疑慮。",
+          "keywords": ["衛教", "服藥指導", "依從性", "不良反應"],
+          "checklist": ["確認用法用量", "確認禁忌與注意事項", "確認病人是否理解"],
+          "verificationLinks": [
+            {
+              "label": "FDA Patient Labeling Resources",
+              "url": "https://www.fda.gov/drugs/fdas-labeling-resources-human-prescription-drugs/patient-labeling-resources",
+              "source": "FDA"
+            }
+          ]
+        },
+        {
+          "id": "dispense-clinical-judgment",
+          "title": "臨床判讀與特殊族群",
+          "summary": "腎功能、肝功能、懷孕、兒科與高齡族群是常見誤選核心。",
+          "keywords": ["劑量調整", "特殊族群", "腎功能", "肝功能"],
+          "checklist": ["先看族群條件", "再看劑量是否需修正", "最後確認監測指標"],
+          "verificationLinks": [
+            {
+              "label": "ASHP Clinical Pharmacy Resources",
+              "url": "https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources",
+              "source": "ASHP"
+            }
+          ]
+        }
+      ],
+      "verificationLinks": [
+        {
+          "label": "ISMP Guidance and Tools",
+          "url": "https://www.ismp.org/Tools/default.aspx",
+          "source": "ISMP"
+        },
+        {
+          "label": "FDA Patient Labeling Resources",
+          "url": "https://www.fda.gov/drugs/fdas-labeling-resources-human-prescription-drugs/patient-labeling-resources",
+          "source": "FDA"
+        },
+        {
+          "label": "ASHP Clinical Pharmacy Resources",
+          "url": "https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources",
+          "source": "ASHP"
+        }
+      ]
+    },
+    "therapeutics": {
+      "subjectId": "therapeutics",
+      "title": "藥治",
+      "subjectTitle": "Therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics",
+      "reviewFocus": [
+        "疾病治療原則與藥物選擇",
+        "疾病分類與治療階段",
+        "監測指標與療效判讀",
+        "不良反應與禁忌",
+        "特殊族群與共病治療"
+      ],
+      "knowledgeNodes": [
+        {
+          "id": "thera-cardiometabolic",
+          "title": "心血管與代謝疾病",
+          "summary": "高血壓、心衰竭、糖尿病與血脂治療常對應到機轉、目標值與監測。",
+          "keywords": ["高血壓", "心衰竭", "糖尿病", "血脂"],
+          "checklist": ["辨識疾病目標", "看治療起始條件", "確認監測指標"],
+          "verificationLinks": [
+            {
+              "label": "ASHP Current Practice Guidelines",
+              "url": "https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources/current-practice-guidelines",
+              "source": "ASHP"
+            }
+          ]
+        },
+        {
+          "id": "thera-infectious",
+          "title": "感染症與抗菌治療",
+          "summary": "題目常考經驗治療、培養結果修正、療程長度與抗藥性風險。",
+          "keywords": ["抗生素", "培養", "抗藥性", "療程"],
+          "checklist": ["先辨識感染部位", "再確認嚴重度", "最後確認抗生素選擇"],
+          "verificationLinks": [
+            {
+              "label": "NCBI Bookshelf: Therapeutics Letter",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK598434/",
+              "source": "NIH/NCBI"
+            }
+          ]
+        },
+        {
+          "id": "thera-organ-systems",
+          "title": "器官系統與劑量調整",
+          "summary": "腎、肝、呼吸、神經與內分泌疾病常考跨系統判讀。",
+          "keywords": ["腎功能", "肝功能", "呼吸", "神經"],
+          "checklist": ["先看器官功能", "再看藥物代謝", "最後確認監測頻率"],
+          "verificationLinks": [
+            {
+              "label": "NCBI Bookshelf: Chapter 1 Pharmacokinetics & Pharmacodynamics",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK595006/",
+              "source": "NIH/NCBI"
+            }
+          ]
+        },
+        {
+          "id": "thera-evidence",
+          "title": "實證與治療目標",
+          "summary": "在藥治題裡，治療目標、第一線選擇與替代方案通常比單一藥名更重要。",
+          "keywords": ["實證", "第一線", "替代方案", "治療目標"],
+          "checklist": ["先找治療目標", "再找首選藥物", "最後找替代路徑"],
+          "verificationLinks": [
+            {
+              "label": "ASHP Current Practice Guidelines",
+              "url": "https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources/current-practice-guidelines",
+              "source": "ASHP"
+            }
+          ]
+        }
+      ],
+      "verificationLinks": [
+        {
+          "label": "ASHP Current Practice Guidelines",
+          "url": "https://www.ashp.org/Pharmacy-Practice/Resource-Centers/clinical-pharmacy-resources/current-practice-guidelines",
+          "source": "ASHP"
+        },
+        {
+          "label": "NCBI Bookshelf: Chapter 1 Pharmacokinetics & Pharmacodynamics",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK595006/",
+          "source": "NIH/NCBI"
+        },
+        {
+          "label": "NCBI Bookshelf: Therapeutics Letter",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK598434/",
+          "source": "NIH/NCBI"
+        }
+      ]
+    }
+  }
+}

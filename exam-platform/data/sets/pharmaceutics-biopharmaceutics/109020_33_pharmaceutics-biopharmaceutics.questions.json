@@ -1,0 +1,951 @@
+{
+  "setId": "109020_33_pharmaceutics-biopharmaceutics",
+  "unitId": "unit1",
+  "unitTitle": "Unit 1",
+  "subjectId": "pharmaceutics-biopharmaceutics",
+  "subjectTitle": "Pharmaceutics and Biopharmaceutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\109020_q33_pharmaceutics-biopharmaceutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit1\\pharmaceutics-biopharmaceutics\\109020_mod33_pharmaceutics-biopharmaceutics.pdf"
+  ],
+  "questionCount": 77,
+  "answerCount": 77,
+  "parseWarnings": [
+    "Question 49: Could not parse options for question 49",
+    "Question 78: Could not parse options for question 78"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "某藥物（ 6% w/v ）以零階次動力學降解，其反應速率為0.05 mg/mL/h ，此藥物的半衰期為多少天？",
+      "options": {
+        "A": "12.5",
+        "B": "25",
+        "C": "60",
+        "D": "300"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 2,
+      "stem": "下列那一項不是 5FU （fluorouracil ）前驅藥 capecitabine 設計之主要目的？",
+      "options": {
+        "A": "增加溶解度",
+        "B": "口服吸收",
+        "C": "降低全身毒性",
+        "D": "對腫瘤具選擇性"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 3,
+      "stem": "有關密度單位表示法，下列何者錯誤？",
+      "options": {
+        "A": "mg/in",
+        "B": "g/pint",
+        "C": "gr/mL",
+        "D": "lb/gal"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 4,
+      "stem": "有關影響溶解度的因素之 敘述，下列何者錯誤？",
+      "options": {
+        "A": "溶質和溶劑的分子性質越接近時，通常其溶解度會越高",
+        "B": "四氯化碳由於結構中有四個 C-Cl 共價鍵，使其成為極性分子",
+        "C": "溶質和溶劑的分子性質越接近，通常此溶質在此溶劑溶解的速率會越快",
+        "D": "離子化合物在極性溶劑中的溶解度較高，非極性化合物在非極性溶劑中的溶解度較高"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 5,
+      "stem": "眼用溶液中，增加眼用溶液之黏稠度最主要目的 為何？",
+      "options": {
+        "A": "可增進滅菌之效果",
+        "B": "可增進藥品之安定性",
+        "C": "可增進用藥時之抗菌性",
+        "D": "可延長與眼睛接觸之時間"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 6,
+      "stem": "Lugol's solution 為下列何種溶液劑？",
+      "options": {
+        "A": "碘溶液（ iodine solution ）",
+        "B": "複方 碘溶液（ compound iodine solution ）",
+        "C": "碘化鉀溶液（ potassium iodine solution ）",
+        "D": "普維 酮－碘溶液（ povidone-iodine solution ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 7,
+      "stem": "膠體粒子布朗運動的位移與下列何項因素無關？",
+      "options": {
+        "A": "濃度",
+        "B": "絕對溫度",
+        "C": "粒徑",
+        "D": "液體黏稠度"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 8,
+      "stem": "甲乙丙三種物質，其彈性係數分別是甲： 2×10 12 dyne/cm 2；乙： 2×10 11 dyne/cm 2；丙： 1×10 9 dyne/cm 2，若施 以相同的應力，則在彈性限度 內三種物質之單位伸長量的大小關係為何？",
+      "options": {
+        "A": "甲＞乙＞丙",
+        "B": "丙＞乙＞甲",
+        "C": "乙＞丙＞甲",
+        "D": "乙＞甲＞丙"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 9,
+      "stem": "下列何者不能作 為膠體質粒平均分子量的測量方法？",
+      "options": {
+        "A": "掃描式電子顯微鏡測粒徑",
+        "B": "超速離心機測 沉降速率",
+        "C": "滲透壓儀測滲透壓",
+        "D": "濁度計測散射光"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 10,
+      "stem": "具有搖變性之塑性流體，下列敘述何者正確？",
+      "options": {
+        "A": "流變曲線經過原點",
+        "B": "受力時流變曲線有 啟動值",
+        "C": "減小應力後流變曲線 為凹面向上",
+        "D": "布朗運動越快則滯後環區域越大"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 11,
+      "stem": "依據愛因斯坦黏滯係數方程式，溶液的黏稠度除以溶劑的黏稠度，其比值稱為下列何者？",
+      "options": {
+        "A": "relative viscosity",
+        "B": "reduced viscosity",
+        "C": "specific viscosity",
+        "D": "intrinsic viscosity"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 12,
+      "stem": "在24℃ 下，利用 Langmuir isotherm 以不同的 Y座標，畫出下面二個圖形，下列敘述何者正確？（ X：吸附溶質 的量； m：吸附劑的量）",
+      "options": {
+        "A": "1與A有較佳單層吸附量",
+        "B": "1與B有較佳單層吸附量",
+        "C": "2與A有較佳單層吸附量",
+        "D": "2與B有較佳單層吸附量"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 13,
+      "stem": "一軟膏擬以 20 cm/s 速度，塗抹於皮膚之厚度為0.05 cm ，則其切變速率為何？",
+      "options": {
+        "A": "400 s -1",
+        "B": "1 s -1",
+        "C": "400 cm 2/s",
+        "D": "1 cm 2/s"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 14,
+      "stem": "某懸浮液之沉降體積 F與F∞值分別為0.1 與0.1 時，此懸浮液性質為何？",
+      "options": {
+        "A": "凝絮（ flocculation ）",
+        "B": "無凝絮現象（ no flocculation ）",
+        "C": "β值小於 1",
+        "D": "β值大於 1"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 15,
+      "stem": "有關 W/O 乳劑之敘述，下列何者錯誤？",
+      "options": {
+        "A": "此油相 為外相",
+        "B": "此水相 為分散相",
+        "C": "此劑型易形成透明 狀",
+        "D": "此乳劑須添加界面活性劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 16,
+      "stem": "某液體以受力時之切應力與切變速率作圖呈現通過原點的直線，今改以切變速率為X軸，黏稠度為Y軸作圖， 隨著切變速率增加，則該液體的黏稠度值如何變化？",
+      "options": {
+        "A": "增加",
+        "B": "降低",
+        "C": "不變",
+        "D": "先增加後降低"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 17,
+      "stem": "以可可脂製作基準為2克的栓劑，現擬製作含有水合三氯乙醛500 mg （藥量替換因子為0.67 ）之栓劑，則依 dosage replacement factor method 計算，製出之每個成品應為多少重量（ g）？",
+      "options": {
+        "A": "2.000",
+        "B": "2.019",
+        "C": "2.085",
+        "D": "2.180"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 18,
+      "stem": "下列軟膏基劑中，何者具有不含水、可吸水但不溶於水、無法用水洗掉的特性？",
+      "options": {
+        "A": "水溶性軟膏基劑",
+        "B": "乳劑型軟膏基劑",
+        "C": "吸收性軟膏基劑",
+        "D": "油脂性軟膏基劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 19,
+      "stem": "有關糊劑的敘述，下列何者錯誤？",
+      "options": {
+        "A": "由水合果膠製成軟膏 狀的外用製劑",
+        "B": "氧化鋅糊屬脂肪質糊劑，局部保護用",
+        "C": "糊劑在體 溫時軟化，有助於藥物的吸收",
+        "D": "含有較多粉末藥品，容易吸收傷口 滲出液"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 20,
+      "stem": "下列何種因子替代法常用於計算栓劑中藥物與基劑間的替代量？",
+      "options": {
+        "A": "重量",
+        "B": "體積",
+        "C": "密度",
+        "D": "黏度"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 21,
+      "stem": "苯甲酸與聚乙二醇製作軟膏時，應在基劑中加入下列何者，以增進二者的相容性？",
+      "options": {
+        "A": "cetyl alcohol",
+        "B": "stearyl alcohol",
+        "C": "1,6 -hexanediol",
+        "D": "1,2,6 -hexanetriol"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 22,
+      "stem": "W/O 型乳劑，是屬於下列那一種軟膏基劑？",
+      "options": {
+        "A": "烴基基劑",
+        "B": "吸收性基劑",
+        "C": "水和性基劑",
+        "D": "水溶性基劑"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 23,
+      "stem": "經皮貼片產品進行溶離試驗時，依 USP-NF 及Non-USP-NF 可採用下列何種裝置？",
+      "options": {
+        "A": "Apparatus 1",
+        "B": "Apparatus 3",
+        "C": "Apparatus 4",
+        "D": "Apparatus 5"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 24,
+      "stem": "下列何種藥物釋出機轉是最具代表性的延遲性（ delayed-release ）口服劑型？",
+      "options": {
+        "A": "腸溶機制（ enteric coating ）",
+        "B": "蝕溶機制（ eroding ）",
+        "C": "酵素消化機制（ enzyme digesting ）",
+        "D": "細菌水解機制（ hydrolyzing ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 25,
+      "stem": "親水性纖維素基質錠片（ matrix tablets ）的製備常採用直接打錠方式。當高速旋轉式打錠機（ rotary tabletting machine ）的轉速越快，則對此類錠片打錠最常見之影響為何？",
+      "options": {
+        "A": "重量偏差度可能越大",
+        "B": "錠片的硬度可能增大",
+        "C": "含量均 勻度可能越佳",
+        "D": "錠片的脆度可能越高"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 26,
+      "stem": "通常錠劑厚度的誤差度應控制在下列何範圍內？",
+      "options": {
+        "A": "±5%",
+        "B": "±7%",
+        "C": "±10%",
+        "D": "±12%"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 27,
+      "stem": "下列何者比較不會造成壓錠時重量差異過大的問題？",
+      "options": {
+        "A": "顆粒流動性不良",
+        "B": "顆粒大小差異大",
+        "C": "下沖模下降幅度不一",
+        "D": "上沖模下降幅度不一"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 28,
+      "stem": "有關錠劑的評估，下列敘述何者錯誤？",
+      "options": {
+        "A": "一般錠劑厚度的誤差標準 值應在±5% 以內",
+        "B": "脆度分析時重量損失應小於 1%",
+        "C": "硬度應大於 5公斤",
+        "D": "壓錠壓力應大於 3,650 磅"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 29,
+      "stem": "微膠囊化（ microencapsulation ）包覆之過程，藉由引發溶解的包覆材料相分離（ coacervation ）而包覆於蕊物 質表面所致，下列何者不可用來引發相分離？",
+      "options": {
+        "A": "不同溶解度的溶媒",
+        "B": "不同分子量的膠體",
+        "C": "不同電荷性的材料",
+        "D": "不同酸 鹼值的溶液"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 30,
+      "stem": "極難溶性藥品由親水性纖維素（ hydrophilic cellulose ）材質製備的基質性錠片（ matrix tablet ），其主要釋出機 轉為何？",
+      "options": {
+        "A": "溶蝕機轉（ erosion ）",
+        "B": "滲透機轉（ diffusion ）",
+        "C": "離子交換（ ion exchange ）",
+        "D": "滲透壓力（ osmosis ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 31,
+      "stem": "欲將結塊之樟腦於研缽中研成細粉，為增加研磨效率可添加少量的溶劑來助研，下列溶劑何者較適合？",
+      "options": {
+        "A": "乙醇",
+        "B": "甘油",
+        "C": "聚乙二醇",
+        "D": "丙二醇"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 32,
+      "stem": "粉末質粒在重力作用下，其流動性常受到粉末間之磨擦力及吸附力之影響，就此相關敘述之比較，下列何者 最正確？",
+      "options": {
+        "A": "粉末粒徑大於 10 μm以上時，顆粒間吸附力會相對性地增大",
+        "B": "當混合不同材質之粉末時，粉末間之密度差異性通常對整個粉體之流動性影響很小",
+        "C": "評估粉末流動性時，通常以 flow meter 之測定值比評估粉末安息角較具實用參考價值",
+        "D": "膠囊劑之重量差異受粉末流動性之影響小"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 33,
+      "stem": "以沉降速率法測量藥物粉末之粒徑時，下列敘述何者正確？",
+      "options": {
+        "A": "測定原理與 Smoluchowski equation 有關",
+        "B": "粒徑平方與分散媒液之黏度成反比",
+        "C": "測量粉末粒徑時，需先得知其密度",
+        "D": "一般檢測時常用之儀器 為立體雷射攝影機"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 34,
+      "stem": "下列製劑何者係為zinc insulin 之amorphous form ？",
+      "options": {
+        "A": "insulin solution",
+        "B": "prompt insulin zinc suspension",
+        "C": "extended insulin zinc suspension",
+        "D": "insulin zinc suspension"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 35,
+      "stem": "以壓製法（ compression ）製備速溶錠（ rapidly dissolving tablets ）時，為加速崩解溶離，除添加超級崩散劑 （super-disintegrants ）外，尚須添加何種材質來增強速溶效果？",
+      "options": {
+        "A": "界面活性劑（ surfactants ）",
+        "B": "潤滑劑（ lubricants ）",
+        "C": "發泡劑（ effervescents ）",
+        "D": "抗黏劑（ antiadherents ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 36,
+      "stem": "有關抑菌滅菌用水（ bacteriostatic water for injection, USP ）之敘述，下列何者最正確？",
+      "options": {
+        "A": "使用小 瓶容器時，至少要充填超過 50 毫升",
+        "B": "主要是供製備大容量（ large volume ；如大於 10 毫升）注射劑之溶劑使用",
+        "C": "不需標示添加的抑菌劑的名稱與比例",
+        "D": "不可供新生兒（ neonates ）使用"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 37,
+      "stem": "有關氣體滅菌使用的環氧乙烯之敘述，下列何者最正確？",
+      "options": {
+        "A": "不具有可燃性",
+        "B": "須與惰性氣體（如二 氧化碳）稀釋後使用",
+        "C": "其滅菌機轉是抑制細菌養分的吸收",
+        "D": "不適合對熱與濕氣不穩定的物質或材料選用的滅菌方法"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 38,
+      "stem": "細菌內毒素檢驗方式是用何種生物細胞液製成的試劑？",
+      "options": {
+        "A": "猴子",
+        "B": "鱟",
+        "C": "鱉",
+        "D": "蟾蜍"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 39,
+      "stem": "在醫院或藥局內以非無菌粉末（ nonsterile bulk powder ）調配成為無菌產品，此屬於何種程度的風險？",
+      "options": {
+        "A": "不能調配",
+        "B": "低度風險",
+        "C": "中度風險",
+        "D": "高度風險"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 40,
+      "stem": "下列何者最不適合作為嬰幼兒注射劑之保藏劑？",
+      "options": {
+        "A": "benzyl alcohol",
+        "B": "chlorobutanol",
+        "C": "cresol",
+        "D": "benzakonium chloride"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 41,
+      "stem": "有關聚合 酶鏈反應（ polymerase chain reaction ）之步驟，下列何者為正確順序？ ①核酸引子和 DNA 雜交 ②DNA 被分離成兩股 ③加入 DNA 聚合 酶以複製標的（ target ）的核酸序列",
+      "options": {
+        "A": "①②③",
+        "B": "①③②",
+        "C": "②①③",
+        "D": "③②①"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 42,
+      "stem": "下列何者不屬於藥物的依數性質（ colligative properties ）？",
+      "options": {
+        "A": "蒸氣壓",
+        "B": "滲透壓",
+        "C": "折射率",
+        "D": "沸點"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 43,
+      "stem": "下列何者主要使用於藥廠製備注射劑之用？",
+      "options": {
+        "A": "純淨水（ purified water ）",
+        "B": "注射用水（ water for injection ）",
+        "C": "無菌注射用水（ sterile water for injection ）",
+        "D": "加抑菌劑之無菌注射用水（ bacteriostatic water for injection ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 44,
+      "stem": "依中華藥典第八版，下列何藥須冷藏避光貯之，且其注射液不得冷凍？",
+      "options": {
+        "A": "cyclosporine",
+        "B": "digoxin",
+        "C": "perphenazine",
+        "D": "vasopressin"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 45,
+      "stem": "下列何種防腐劑不可添加於含有 salicylate 的眼用製劑？",
+      "options": {
+        "A": "benzalkonium chloride",
+        "B": "phenylmercuric nitrate",
+        "C": "phenylmercuric acetate",
+        "D": "chlorobutanol"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 46,
+      "stem": "下列何者為Class 100 之定義？",
+      "options": {
+        "A": "每立方英呎空間中不小於 5 μm的總粒子數不可超過 100 粒",
+        "B": "每立方公尺空間中不小於 0.5 μm的總粒子數不可超過 100 粒",
+        "C": "每立方公尺空間中不大於 0.5 μm的總粒子數不可超過 100 粒",
+        "D": "每立方英呎空間中不小於 0.5 μm的總粒子數不可超過 100 粒"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 47,
+      "stem": "下列滅菌法中，何者可用於最終包裝產品之滅菌？",
+      "options": {
+        "A": "高壓蒸汽滅菌法",
+        "B": "氣體滅菌法",
+        "C": "過濾滅菌法",
+        "D": "乾熱滅菌法"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 48,
+      "stem": "某男性病人（ 23 歲，75kg ），經靜脈注射某降血壓藥 20 mg/kg 後，該藥屬二室式線性動力學特性，其血中藥 物濃度經時變化關係式為Cp = 8.8e -1.9t + 3.2e -0.3t （Cp: mg/L ，t: h ），其中央室擬似分布體積為多少 L？",
+      "options": {
+        "A": "12.5",
+        "B": "17",
+        "C": "125",
+        "D": "170"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 50,
+      "stem": "有關藥品擬似分布體積的敘述，下列何者正確？ ①為體內藥量和藥品血中濃度的特定數學關係 ②是個人血 液體積的測量值 ③是個人身體體積的大小 ④可用來估算合理的速效劑量",
+      "options": {
+        "A": "②④",
+        "B": "①③",
+        "C": "①④",
+        "D": "②③"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 51,
+      "stem": "下列何項物質是用於測定有效腎血漿流速（ effective renal plasma flow ）？",
+      "options": {
+        "A": "insulin",
+        "B": "inulin",
+        "C": "creatinine",
+        "D": "p-aminohippuric acid"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 52,
+      "stem": "某藥物在體內之藥物動力學遵循二室分室模式，已知該藥的排除速率常數（ elimination rate constant ）k=0.4 h - 1，該藥的中央室分布體積（ Vp）是 5 L ，而擬似分布體積（ VD）是 40 L ，則該藥的清除率是多少 L/h ？",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 53,
+      "stem": "由文獻得知一藥靜脈注射劑量 D0後的體內動力學符合上述模室理論。藥品血中濃度公式為Cp=Ae -at + Be -bt + Ce -ct 。下列敘述何者錯誤？",
+      "options": {
+        "A": "採樣排除相的兩點血中濃度，所得的速率常數 為k",
+        "B": "",
+        "C": "",
+        "D": "若採樣的血液樣本僅在排除相，無法準確計算 Vp"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 54,
+      "stem": "下圖是同時給與不同之速效劑量（ loading dose ，DL）與不同靜脈輸注速率組合之血漿中藥物濃度對時間之關 係圖，若藥物輸注速率是 R，藥物之排除速率常數是 k，排除相之排除速率常數以 β表示，則下列那一曲線可 能是以 DL=（R/β）與靜脈輸注之結果？（ Css 表示穩定狀態下之血中藥物濃度）",
+      "options": {
+        "A": "只有 b",
+        "B": "只有 c",
+        "C": "b與c",
+        "D": "c與d"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 55,
+      "stem": "傳統速放錠劑遇水裂成小顆粒的現象稱為：",
+      "options": {
+        "A": "吸收（ absorption ）",
+        "B": "崩散（ disintegration ）",
+        "C": "溶離（ dissolution ）",
+        "D": "水合（ hydration ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 56,
+      "stem": "某藥的半衰期為6小時，以 50 mg/h 的靜脈連續輸注速率給藥，可達穩定濃度 10 mg/L ，若要立即達穩定濃度則 應給與若干速效劑量（ DL , mg ）？",
+      "options": {
+        "A": "300",
+        "B": "433",
+        "C": "500",
+        "D": "578"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 57,
+      "stem": "生理藥動學模式（ physiologic pharmacokinetic model ）常應用在何種領域？",
+      "options": {
+        "A": "套合指數方程式求藥動學參數",
+        "B": "藥物生體可用率之計算",
+        "C": "探討不同物種間之藥物分布特性",
+        "D": "體外與活體試驗之相關性"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 58,
+      "stem": "同一病人分別以 0.5D 、1D 、2D 劑量靜脈注射某藥品後，均呈現一室式藥動學特性，則其血中濃度對數值與時 間圖將呈現下列何種模式？",
+      "options": {
+        "A": "三條線相交於橫作標上",
+        "B": "三條線相交於縱作標上",
+        "C": "三條線呈直線且互相平行",
+        "D": "三條線呈曲線且互相交錯"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 59,
+      "stem": "下列何者常用來增加藥品之經皮吸收的程度？ ①ultrasound ②iontophoresis ③ethanol ④PEG400",
+      "options": {
+        "A": "①③④",
+        "B": "②③④",
+        "C": "①②③",
+        "D": "①②④"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 60,
+      "stem": "對於具有 BCS class 2 特性原料藥的口服製劑而言，顯著增加下列何種賦形劑的比例，將會延長其藥品達到血 中最高濃度的時間（ Tmax ）？",
+      "options": {
+        "A": "starch",
+        "B": "magnesium stearate",
+        "C": "microcrystalline cellulose",
+        "D": "lactose"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 61,
+      "stem": "下列藥品與其 CYP 代謝酵素配對，何者正確？",
+      "options": {
+        "A": "antipyrine －CYP2D6",
+        "B": "fluvoxamine －CYP1A2",
+        "C": "dextromethorphan －CYP3A4",
+        "D": "vindesine －CYP2C9"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 62,
+      "stem": "有關藥物基因多型性的敘述，下列何者錯誤？",
+      "options": {
+        "A": "族群間發生小於 1% 之基因排序上的變異",
+        "B": "變異常發生在基因單一的核 苷酸鹼對基上",
+        "C": "經特定 酶代謝的藥物，族群間有不同的半衰期",
+        "D": "經特定 酶代謝的藥物，族群間有不同的清除率"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 63,
+      "stem": "下列何種口服製劑之賦形劑可增加其吸收速率常數（ ka）？",
+      "options": {
+        "A": "microcrystalline cellulose",
+        "B": "hydrogenated vegetable oil",
+        "C": "magnesium stearate",
+        "D": "ethylcellulose"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 64,
+      "stem": "下列敘述何者最正確？",
+      "options": {
+        "A": "ampicillin anhydrate 的溶解度較 ampicillin trihydrate 為差",
+        "B": "erythromycin anhydrate 的吸收較 erythromycin dihydrate 為佳",
+        "C": "一般非結晶型態藥物的溶離速率較其結晶型態 為佳",
+        "D": "加入過量的界面活性劑有助於藥物的溶離"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 65,
+      "stem": "在評估生體可用率時，下列何項藥動參數最常用於評估藥物吸收速率？",
+      "options": {
+        "A": "排除半衰期（ t1/2 ）",
+        "B": "平均滯留時間（ MRT ）",
+        "C": "血中最高藥物濃度（ Cmax ）",
+        "D": "藥物 清除率（ Cl ）"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 66,
+      "stem": "某抗生素 50 mg 經靜脈注射後其血中濃度對時間曲線下面積（ AUC ）為25 µg．h/mL ，若口服此抗生素 300 mg 錠劑後，其 AUC 為90 µg．h/mL ，則其 absolute bioavailability 為何？",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "60%",
+        "D": "90%"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 67,
+      "stem": "以digoxin 治療心衰竭，每日口服一次達穩定狀態後，最適當之採血時間為何？",
+      "options": {
+        "A": "服藥後立即",
+        "B": "服藥後 2小時",
+        "C": "服藥前 30 分鐘內",
+        "D": "服藥後任一時間"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 68,
+      "stem": "KM是Michaelis constant ；Vmax 是代謝酵素最大排除速率。已知酒精生體可用率為100% ，KM是0.01g% （100 mg/L ）， Vmax 是10g/h （12.8 mL/h ）。若啤酒的濃度為5% ，每小時最少喝多少 mL 啤酒，血中酒精濃度會持續 累增，無法達穩定狀態濃度？",
+      "options": {
+        "A": "100",
+        "B": "200",
+        "C": "260",
+        "D": "660"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 69,
+      "stem": "某48 歲氣喘病人體重 80 公斤，有長期嚴重菸癮。以 aminophylline 0.75 mg/kg/h 靜脈輸注治療達穩定狀態後，評 估發現病人的療效不佳，故欲將 theophylline 濃度由 6 μg/mL 調高至 10 μg/mL 。在穩定狀態此病人 theophylline 清 除率為若干 L/h ？（已知 aminophylline 含80% 的theophylline 擬似分布體積為0.45 L/kg ，清除率為0.65 mL/min/kg ）",
+      "options": {
+        "A": "8.0",
+        "B": "6.5",
+        "C": "5",
+        "D": "3.1"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 70,
+      "stem": "某男性病人 52 歲，身高 163 公分，體重 103 公斤。 Gentamicin sulfate 對腎功能正常的成人，以靜脈注射多次投與 劑量為每隔8小時 1 mg/kg 。Gentamicin sulfate 製劑濃度為40 mg/mL ，其包裝為每小瓶（vial ）2mL 。估算在此 病人每隔8小時所需給與的劑量，相當於約多少 mL ？",
+      "options": {
+        "A": "2.5",
+        "B": "2",
+        "C": "1.5",
+        "D": "1"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 71,
+      "stem": "當ketoconazole 局部用產品須進行生體相等性評估時，下列何者為最適當之依據？",
+      "options": {
+        "A": "血中濃度曲線下面積",
+        "B": "最終累積尿液中藥物量",
+        "C": "尖峰藥效之作用",
+        "D": "臨床效能評估"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 72,
+      "stem": "對於代謝速率（ V）遵循 Michaelis-Menten equation 的藥物， C為藥物濃度， KM為藥物與代謝酵素的親合常 數， Vmax 為最大代謝速率。以作圖法（ V為Y軸， V/C 為X軸）預測 KM或Vmax ，下圖 Y軸的截距為何？",
+      "options": {
+        "A": "1/V max",
+        "B": "Vmax",
+        "C": "Vmax /K M",
+        "D": "KM/V max"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 73,
+      "stem": "下列敘述何者正確？",
+      "options": {
+        "A": "吸菸會增加 theophylline 的清除率",
+        "B": "高蛋白質食物會增加 theophylline 的排除半衰期",
+        "C": "葡萄柚會增加 terfenadine 的代謝",
+        "D": "葡萄柚會增加 cyclosporine 的代謝"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 74,
+      "stem": "下列四種藥品，其輸注速率及相關之藥動學參數如下，就「達穩定濃度最高」、「達穩定濃度需時最久」及 「分布體積最大」三選項，何藥品具備其中二項特性？",
+      "options": {
+        "A": "甲",
+        "B": "乙",
+        "C": "丙",
+        "D": "丁"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 75,
+      "stem": "有關基因多型性（ genetic polymorphism ）對藥動學影響之敘述，下列何者正確？",
+      "options": {
+        "A": "CYP2C9 之基因多型性會顯著影響 phenytoin 之代謝",
+        "B": "CYP2C19 之基因多型性會顯著影響 propranolol 之代謝",
+        "C": "CYP2D6 之基因多型性會顯著影響 omeprazole 之藥動學性質",
+        "D": "CYP1A2 之基因多型性會顯著影響 codeine 之代謝"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 76,
+      "stem": "線性動力學二室模式藥物，經靜脈注射 300 mg 後，其血中藥物濃度經時變化如下圖，分布相與排除相之速率 常數分別為1.90 與0.22 。代表此藥物血中濃度經時變化的關係式 : Cp =Ae -αt +Be -βt，依據圖文資訊 A、α、B、β 之數值為何?（Y軸： μg/mL ；X軸： h）",
+      "options": {
+        "A": "15 、1.90 、48 、0.22",
+        "B": "15 、0.22 、48 、1.90",
+        "C": "50 、1.90 、15 、0.22",
+        "D": "50 、0.22 、15 、1.90"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 77,
+      "stem": "承上題，則該藥物血中濃度－時間曲線下面積為多少 mg ．h/L ？",
+      "options": {
+        "A": "189",
+        "B": "94.5",
+        "C": "0.10",
+        "D": "0.05"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    },
+    {
+      "number": 1,
+      "stem": "此藥品以靜脈注射重複給藥之最大給藥間隔（ maximum possible dosage interval ）約為多少小時？",
+      "options": {
+        "A": "16",
+        "B": "8",
+        "C": "4",
+        "D": "2 79. 2. 每次投與的劑量為多少 mg ？"
+      },
+      "referenceGroupId": "pharmaceutics-biopharmaceutics",
+      "unitCitation": "Unit 1 / Pharmaceutics and Biopharmaceutics"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 15
+  },
+  "referenceGroupId": "pharmaceutics-biopharmaceutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\109020_33_pharmaceutics-biopharmaceutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\pharmaceutics-biopharmaceutics\\109020_33_pharmaceutics-biopharmaceutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}

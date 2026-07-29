@@ -1,0 +1,486 @@
+{
+  "setId": "106020_55_therapeutics",
+  "unitId": "unit2",
+  "unitTitle": "Unit 2",
+  "subjectId": "therapeutics",
+  "subjectTitle": "Therapeutics",
+  "questionPdf": "D:\\exeam\\question-bank\\unit2\\therapeutics\\106020_q55_therapeutics.pdf",
+  "answerPdfs": [
+    "D:\\exeam\\question-bank\\unit2\\therapeutics\\106020_ans55_therapeutics.pdf"
+  ],
+  "questionCount": 35,
+  "answerCount": 35,
+  "parseWarnings": [
+    "Question 2: Could not parse options for question 2",
+    "Question 3: Could not parse options for question 3",
+    "Question 4: Could not parse options for question 4",
+    "Question 7: Could not parse options for question 7",
+    "Question 8: Could not parse options for question 8",
+    "Question 9: Could not parse options for question 9",
+    "Question 10: Could not parse options for question 10",
+    "Question 13: Could not parse options for question 13",
+    "Question 16: Could not parse options for question 16",
+    "Question 18: Could not parse options for question 18",
+    "Question 19: Could not parse options for question 19",
+    "Question 20: Could not parse options for question 20",
+    "Question 21: Could not parse options for question 21",
+    "Question 22: Could not parse options for question 22",
+    "Question 26: Could not parse options for question 26",
+    "Question 28: Could not parse options for question 28",
+    "Question 37: Could not parse options for question 37",
+    "Question 39: Could not parse options for question 39",
+    "Question 40: Could not parse options for question 40",
+    "Question 41: Could not parse options for question 41",
+    "Question 43: Could not parse options for question 43",
+    "Question 45: Could not parse options for question 45",
+    "Question 48: Could not parse options for question 48",
+    "Question 49: Could not parse options for question 49",
+    "Question 52: Could not parse options for question 52",
+    "Question 53: Could not parse options for question 53",
+    "Question 57: Could not parse options for question 57",
+    "Question 58: Could not parse options for question 58",
+    "Question 59: Could not parse options for question 59",
+    "Question 61: Could not parse options for question 61",
+    "Question 62: Could not parse options for question 62",
+    "Question 66: Could not parse options for question 66",
+    "Question 67: Could not parse options for question 67",
+    "Question 68: Could not parse options for question 68",
+    "Question 69: Could not parse options for question 69",
+    "Question 70: Could not parse options for question 70",
+    "Question 71: Could not parse options for question 71",
+    "Question 75: Could not parse options for question 75",
+    "Question 77: Could not parse options for question 77",
+    "Question 78: Could not parse options for question 78",
+    "Question 80: Could not parse options for question 80"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "李同學 14 歲，有輕微氣喘 6年，1年來無須長期使用氣喘控制藥品，平均每3個月因有自覺症狀使用 inhaled albuterol 。他決定參 加籃球隊時，他的醫師改開立了 inhaled salmeterol 及inhaled beclomethasone 。最適當的建議為何？",
+      "options": {
+        "A": "建議醫師把 inhaled beclomethasone 改成 montelukast",
+        "B": "建議醫師把 inhaled salmeterol 改成 inhaled ipratropium",
+        "C": "建議李同學於運動前 30 分鐘使用 salmeterol",
+        "D": "建議李同學於運動前 10 分鐘使用 salmeterol"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 5,
+      "stem": "使用 vancomycin 治療 MRSA （methicillin-resistant Staphylococcus aureus ）引起之成人心內膜炎，下列敘述何者正確？",
+      "options": {
+        "A": "vancomycin 給藥前 trough 濃度應低於 10 mg/L 以避免發生毒性",
+        "B": "為增加 vancomycin 之殺菌作用，其給藥輸注時間應小於 30 分鐘",
+        "C": "vancomycin 具有 concentration-dependent 殺菌作用",
+        "D": "治療 MRSA 感染，應根據 vancomycin 給藥前 trough 血中濃度調整劑量 6. 36 歲懷孕婦女無特殊病史，下列何者是其流行性感冒之首選治療方式？"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 11,
+      "stem": "下列抗生素治療與不良反應的配對，何者錯誤？",
+      "options": {
+        "A": "ciprofloxacin －QT prolongation",
+        "B": "piperacillin/tazobactam －bleeding disorders",
+        "C": "daptomycin －tongue discoloration",
+        "D": "amphotericin B －infusion-related hyperpyrexia"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 12,
+      "stem": "下列何種情況不須進行心內膜炎（endocarditis ）的預防治療？",
+      "options": {
+        "A": "裝有人工瓣膜的病人接受植牙手術",
+        "B": "裝有人工瓣膜的病人接受胃鏡檢查",
+        "C": "僧帽瓣脫垂（mitral valve prolapse ）伴隨血液迴流的病人接受齲齒治療",
+        "D": "有心內膜炎病史的病人接受氣管鏡檢查"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 14,
+      "stem": "下列敘述何者最正確？",
+      "options": {
+        "A": "budesonide nebulizing suspension 應搭配 ultrasonic nebulizer 使用",
+        "B": "nebulizer 比metered-dose inhaler （MDI ）便宜",
+        "C": "dry powder inhaler 搭配 spacer 可增加藥品在肺部沉積比例",
+        "D": "metered-dose inhaler （MDI ）應緩慢深呼吸才能達到較佳效果"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 15,
+      "stem": "有關慢性阻塞性肺疾（COPD ）之敘述，下列何者最正確？",
+      "options": {
+        "A": "可以經由治療恢復到完全正常肺功能",
+        "B": "COPD 以類固醇治療，效果極佳",
+        "C": "抽菸是COPD 最主要的危險因子",
+        "D": "依GOLD 指引，任何階段都應考慮使用吸入型類固醇進行治療"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 17,
+      "stem": "在輕度症狀持續性氣喘（persistent asthma ）病人，下列何者是維持治療之首選？",
+      "options": {
+        "A": "吸入性 cromolyn",
+        "B": "吸入性 corticosteroid",
+        "C": "口服緩釋劑型 theophylline",
+        "D": "吸入性長效 β2-agonist"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 23,
+      "stem": "有關 digoxin 之敘述，下列何者正確？",
+      "options": {
+        "A": "半衰期約 6～8小時，服藥後 3天會達到穩定狀態",
+        "B": "心衰竭的治療濃度為0.5 ～3 ng/mL",
+        "C": "絕對不可與 amiodarone 併用，因有交互作用產生",
+        "D": "中毒時可能會有黃綠視覺模糊以及腸胃道不適之症狀"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 24,
+      "stem": "下列那些藥品和 digoxin 併用時，會增加 digoxin 之血中濃度？①quinidine ②hydralazine ③cyclosporine ④aspirin",
+      "options": {
+        "A": "①②",
+        "B": "①③",
+        "C": "③④",
+        "D": "②④ 25. 70 歲女性有高血壓病史， 現因連續幾天有心悸的現象，經診斷為心房纖維顫動（atrial fibrillation ），須施行心臟復律 （cardioversion ）。有關心臟復律前之藥物治療，下列敘述何者正確？"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 27,
+      "stem": "有關慢性穩定性心絞痛病人的治療原則，下列何者錯誤？",
+      "options": {
+        "A": "應隨身攜帶nitroglycerin SL tablets",
+        "B": "應規律服用 antiplatelet agent",
+        "C": "應規律服用 anticoagulant",
+        "D": "應優先使用 β-blocker 來平衡心肌的氧氣供應及耗用"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 29,
+      "stem": "張女士 60 歲，長期服用 amlodipine 5 mg qd, magnesium oxide 500 mg bid, enalapril 5 mg bid 。因急性腸胃炎及腹瀉，醫師處 方kaolin-pectin suspension 30 mL PO prn 與loperamide 2 mg PO prn 。有關張女士腹瀉的治療，下列敘述何者錯誤？",
+      "options": {
+        "A": "loperamide 主要作用為抗分泌、黏膜保護與腸道抗菌，另須提醒病人使用後可能有黑便的情況",
+        "B": "magnesium oxide 可能加重腹瀉，應詢問病人使用原因，可建議暫時停止使用",
+        "C": "kaolin-pectin 為吸附性止瀉劑，建議應與病人平日的用藥分開服藥",
+        "D": "治療 48 小時後，若症狀沒有緩解，或出現糞便有血、發燒等症狀，則應再度就醫"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 30,
+      "stem": "有關胃食道逆流的治療藥品，下列敘述何者正確？",
+      "options": {
+        "A": "含鋁的antacid 在腎衰竭病人容易造成腹瀉與中樞神經毒性，須謹慎使用",
+        "B": "omeprazole 為CYP2C19 抑制劑，可能增加 clopidogrel 的血中濃度，而增加血小板抑制造成的出血風險",
+        "C": "H2 blocker 可降低胃酸，因而增加 ketoconazole 的吸收",
+        "D": "與含鈣、鎂、鋁的antacid 併服時，ciprofloxacin 之吸收可能因 chelating reaction 降低 50% 以上"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 31,
+      "stem": "嚴重低血鉀病人（serum potassium < 2.5 mEq/L ）需要立即補充鉀離子，下列敘述何者正確？",
+      "options": {
+        "A": "KCl IV infusion 應以 dextrose injection 為稀釋液",
+        "B": "KCl 20 mEq 在100 mL 的稀釋液中，可以經由周邊血管，於15 分鐘內完成 IV infusion",
+        "C": "KCl solution IV infusion rate 可為15 mEq/hr ，必須有心電圖的持續監測",
+        "D": "血鉀之檢測，可以在 KCl solution IV infusion 完成後 15 鐘內進行抽血"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 32,
+      "stem": "有關急性腎損傷（acute kidney injury, AKI ）的敘述，下列何者正確？",
+      "options": {
+        "A": "良性攝護腺肥大、腎結石、泌尿道腫瘤或 anticholinergic drugs 可能引起 prerenal AKI",
+        "B": "大量失血、嚴重燒燙傷或休克可能引起 intrinsic AKI",
+        "C": "腎絲球損傷、腎小管損傷或腎間質損傷可能引起 postrenal AKI",
+        "D": "BUN/S Cr ＞20 與FE Na ＜1% 常見於 prerenal AKI 的病人 33. 68 歲女性，身高 155 cm ，體重 51 kg ，半年來腎功能穩定，BUN 36.0 mg/dL ，serum creatinine 1.7 mg/dL ，依照 Cockcroft- Gault equation 計算之肌酸酐清除率（Cl Cr ）為何？"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 34,
+      "stem": "有關慢性腎臟病（CKD ）病人之用藥，下列敘述何者正確？",
+      "options": {
+        "A": "metformin 可安心使用於 CKD 病人，惟病人 GFR ＜10 mL/min/1.73 m 2時，須減量使用，以避免低血糖",
+        "B": "在CKD 病人，digoxin 的分布體積會明顯上升，其劑量須高於腎功能正常者",
+        "C": "接受透析之末期腎臟病（ESRD ）病人，藥品劑量與腎功能正常的人相同，不須調整",
+        "D": "CKD 病人為NSAIDs 引發急性腎損傷之高危險群，使用時應採最低有效劑量，並定期監測腎功能"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 35,
+      "stem": "高山症屬於下列何種酸鹼平衡異常，且其治療首選為何？",
+      "options": {
+        "A": "代謝性酸中毒，ammonium chloride",
+        "B": "代謝性鹼中毒，ammonium chloride",
+        "C": "呼吸性酸中毒，oxygen",
+        "D": "呼吸性鹼中毒，oxygen 36. 70 歲男性，有慢性阻塞性肺疾（COPD ），因急性呼吸衰竭送至急診。其動脈血檢查結果如下，病人有何種酸鹼異常？pH ： 7.32 （7.35 ～7.45 ）； ： 69 mmHg （80 ～100 mmHg ）； ： 78% （100% ）； ： 65 mmHg （35 ～45 mmHg ）； HCO 3 -：20 mEq/L （22 ～26 mEq/L ）。註：（）內為正常值。"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 38,
+      "stem": "有關 L-dopa 製劑藥品交互作用之敘述，下列何者正確？",
+      "options": {
+        "A": "phenothiazines 會加強L-dopa 製劑之作用",
+        "B": "metoclopramide 會加強L-dopa 製劑之作用",
+        "C": "ferrous sulfate 會降低 L-dopa 製劑之口服吸收率",
+        "D": "phenytoin 會加強L-dopa 製劑之作用"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 42,
+      "stem": "相較於 typical antipsychotics ，atypical antipsychotics 之優點不包括下列何者？",
+      "options": {
+        "A": "較無 weight gain",
+        "B": "較不易有 tardive dyskinesia",
+        "C": "較少 extrapyramidal side effects",
+        "D": "較能改善 negative symptoms"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 44,
+      "stem": "Lithium 用於治療急性狂躁期（acute manic episode ）時，血中濃度範圍為：",
+      "options": {
+        "A": "0.6 ～1.2 mEq/L",
+        "B": "0.6 ～1.2 mEq/mL",
+        "C": "0.6 ～1.2 mEq/dL",
+        "D": "0.6 ～1.2 Eq/dL"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 46,
+      "stem": "有關鴉片類藥品成癮者使用 methadone 替代治療的敘述，下列何者正確？",
+      "options": {
+        "A": "methadone 的作用時間與 heroin 類似，所以需一天服用 3次",
+        "B": "懷孕的鴉片類藥癮者亦可使用 methadone 替代治療",
+        "C": "methadone 不經由 CYP450 代謝，所以不會與可能抑制或誘發 CYP450 的藥品產生交互作用",
+        "D": "methadone 是相對安全的藥品，可以讓病人帶回家自行服用"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 47,
+      "stem": "有關使蒂諾斯 ®的敘述，下列何者正確？",
+      "options": {
+        "A": "成分為zaleplon",
+        "B": "對於清晨過早清醒有很好的改善效果",
+        "C": "服藥後可能發生夢遊",
+        "D": "沒有成癮性"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 50,
+      "stem": "下列何種糖尿病病人適合服用 sulfonylurea 類的藥品？",
+      "options": {
+        "A": "授乳的母親",
+        "B": "BMI ＞35 的卡車司機",
+        "C": "85 歲、接受血液透析治療的男性",
+        "D": "已接受 metformin 治療，HbA 1C 8% 的第二型糖尿病病人"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 51,
+      "stem": "陳小姐 20 歲，因第一型糖尿病接受 insulin injection 治療，包括 insulin aspart 5 units SC tid ac 與insulin glargine 14 units SC hs 。最近血糖控制良好，惟常有夜間盜汗，作噩夢，睡醒後嚴重頭痛問題，以下是她最近血糖監測結果，其後續治療的建議為 何？ 7 AM 140 ～240 mg/dL Noon 120 ～150 mg/dL 5 PM 90 ～130 mg/dL 11 PM 90 ～120 mg/dL 3 AM 60 ～90 mg/dL",
+      "options": {
+        "A": "提高早餐前 insulin aspart 劑量",
+        "B": "提高三餐前 insulin aspart 劑量",
+        "C": "減少每晚insulin glargine 劑量",
+        "D": "治療情況良好，無須調整劑量"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 54,
+      "stem": "下列何者為治療異位性皮膚炎的首選？",
+      "options": {
+        "A": "光治療法（phototherapy ）",
+        "B": "全身性類固醇（systemic corticosteroids ）",
+        "C": "局部用類固醇（topical corticosteroids ）",
+        "D": "局部用 calcineurin 抑制劑"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 55,
+      "stem": "有關 drug reaction with eosinophilia and systemic symptoms（DRESS ）之敘述，下列何者正確？",
+      "options": {
+        "A": "所有病人都會發生嗜伊紅性白血球增加",
+        "B": "症狀後期可進展到內臟功能破壞，肝、腎生化指數升高",
+        "C": "病人常發生多重器官衰竭，死亡率高達 80%",
+        "D": "一旦停止使用造成 DRESS 的藥物，症狀可立即緩解"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 56,
+      "stem": "下列何者為anti-TNF agents 之副作用？",
+      "options": {
+        "A": "增加肺結核之感染率",
+        "B": "引發糖尿病",
+        "C": "高血脂",
+        "D": "腎毒性"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 60,
+      "stem": "方先生因痛風發作至急診，此時他的治療目標應為何？",
+      "options": {
+        "A": "增加尿酸排除率",
+        "B": "降低血中尿酸值至7 mg/dL 以下",
+        "C": "降低血中尿酸值至6 mg/dL 以下",
+        "D": "減低疼痛"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 63,
+      "stem": "有關 platinum 類化療藥品之敘述，下列何者最適當？",
+      "options": {
+        "A": "cisplatin 的適應症與其他 platinum derivatives 完全不同",
+        "B": "cisplatin 劑量是用 Calvert formula 估算",
+        "C": "carboplatin 比cisplatin 有較低的腎毒性",
+        "D": "oxaliplatin 的腎毒性最大"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 64,
+      "stem": "下列敘述何者最適當？",
+      "options": {
+        "A": "epidermal growth factor receptor （EGFR ）inhibitor 皮膚反應越嚴重，可預測其治療效果越好",
+        "B": "pertuzumab 不可與 trastuzumab 併用於乳癌的治療",
+        "C": "bevacizumab 應在大腸癌手術後儘快給與，以提高其療效",
+        "D": "omalizumab 可用於治療大腸癌"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 65,
+      "stem": "下列何者可以抑制血管新生？①interleukin-2 ②bevacizumab ③bendamustine ④sorafenib ⑤exemestane ⑥lenalidomide",
+      "options": {
+        "A": "①②③",
+        "B": "④⑤⑥",
+        "C": "①③⑤",
+        "D": "②④⑥"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 72,
+      "stem": "檢查結果發現詹先生有 H. pylori 的感染，醫師要處方以 PPI–based 的三合一療法，有關此療法的敘述，下列何者錯誤？",
+      "options": {
+        "A": "該療法為PPI 加上 amoxicillin 與clarithromycin",
+        "B": "在penicillin 過敏的病人，可用 metronidazole 取代 amoxicillin",
+        "C": "此療法的最佳治療期間為7天",
+        "D": "此療法不會另加H2 blocker"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 73,
+      "stem": "詹先生已經連續服用 diclofenac 50 mg tid 兩週，有關 NSAIDs 與胃潰瘍之敘述，下列何者錯誤？",
+      "options": {
+        "A": "治療 NSAIDs 造成的胃潰瘍，PPI 對於患部癒合與症狀緩解之效果優於 H2 blocker",
+        "B": "詹先生如暫停使用 diclofenac 或改用腸溶微粒劑型的 NSAIDs 就不會造成胃潰瘍",
+        "C": "misoprostol 可預防 NSAIDs 造成的消化道潰瘍，但孕婦不可使用",
+        "D": "使用 COX-2 selective NSAIDs 可以降低發生胃潰瘍的機率"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 74,
+      "stem": "陳先生之癲癇症一向以 phenytoin 控制良好，近日因罹患肺結核新增 rifampin 處方，導致癲癇發作，推測最可能是下列何種狀況 所致？",
+      "options": {
+        "A": "phenytoin 代謝加速，血中濃度 1～5 mg/L",
+        "B": "phenytoin 代謝加速，血中濃度 10 ～20 mg/L",
+        "C": "phenytoin 代謝延緩，血中濃度 1～5 mg/L",
+        "D": "phenytoin 代謝延緩，血中濃度 10 ～20 mg/L"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 76,
+      "stem": "陳小姐因甲狀腺功能亢進長期使用 propylthiouracil ，她應定期監測下列何者，以及早發現藥品不良反應？",
+      "options": {
+        "A": "肝功能",
+        "B": "血中尿酸值",
+        "C": "眼底檢查",
+        "D": "聽力檢查"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    },
+    {
+      "number": 79,
+      "stem": "有關郭先生所接受的異體幹細胞移植，下列敘述何者正確？",
+      "options": {
+        "A": "提供移植組織抗白血病（graft-versus-leukemia ）之效果，達到治癒的可能性",
+        "B": "高劑量化療以後造成嚴重的骨髓抑制因此可以恢復",
+        "C": "年齡必須限制在 60 歲以上的病人",
+        "D": "幹細胞的來源只有骨髓抽取的才適合"
+      },
+      "referenceGroupId": "therapeutics",
+      "unitCitation": "Unit 2 / Therapeutics"
+    }
+  ],
+  "source": {
+    "method": "pypdf-text-extraction",
+    "pages": 8
+  },
+  "referenceGroupId": "therapeutics",
+  "questionJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\106020_55_therapeutics.questions.json",
+  "answerJson": "D:\\exeam\\exam-platform\\data\\sets\\therapeutics\\106020_55_therapeutics.answers.json",
+  "answerHiddenBeforeSubmit": true
+}
